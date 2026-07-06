@@ -1,0 +1,8 @@
+{
+  "name": "hairline-24",
+  "spec": {
+    "stroke": 1,
+    "size": 24,
+    "radius": 2
+  }
+}

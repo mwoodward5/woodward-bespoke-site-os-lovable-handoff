@@ -1,0 +1,7 @@
+{
+  "static_assets": "1y",
+  "html": "5m",
+  "api_public_read": "60s",
+  "ai_completions": "none",
+  "tts_repeat": "forever"
+}

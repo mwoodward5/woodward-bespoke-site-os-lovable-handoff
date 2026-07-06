@@ -1,0 +1,142 @@
+[
+  {
+    "business": "Landscape Connection, Inc.",
+    "route": "/",
+    "status": 200,
+    "bytes": 15062,
+    "hasV4": true
+  },
+  {
+    "business": "Landscape Connection, Inc.",
+    "route": "/quote/",
+    "status": 200,
+    "bytes": 5638,
+    "hasV4": true
+  },
+  {
+    "business": "Landscape Connection, Inc.",
+    "route": "/service-areas/",
+    "status": 200,
+    "bytes": 5780,
+    "hasV4": true
+  },
+  {
+    "business": "Landscape Connection, Inc.",
+    "route": "/gallery/",
+    "status": 200,
+    "bytes": 4014,
+    "hasV4": true
+  },
+  {
+    "business": "AJP LANDSCAPE INC",
+    "route": "/",
+    "status": 200,
+    "bytes": 15160,
+    "hasV4": true
+  },
+  {
+    "business": "AJP LANDSCAPE INC",
+    "route": "/quote/",
+    "status": 200,
+    "bytes": 5590,
+    "hasV4": true
+  },
+  {
+    "business": "AJP LANDSCAPE INC",
+    "route": "/service-areas/",
+    "status": 200,
+    "bytes": 5789,
+    "hasV4": true
+  },
+  {
+    "business": "AJP LANDSCAPE INC",
+    "route": "/gallery/",
+    "status": 200,
+    "bytes": 4115,
+    "hasV4": true
+  },
+  {
+    "business": "Barriga Landscaping",
+    "route": "/",
+    "status": 200,
+    "bytes": 15786,
+    "hasV4": true
+  },
+  {
+    "business": "Barriga Landscaping",
+    "route": "/quote/",
+    "status": 200,
+    "bytes": 5597,
+    "hasV4": true
+  },
+  {
+    "business": "Barriga Landscaping",
+    "route": "/service-areas/",
+    "status": 200,
+    "bytes": 5801,
+    "hasV4": true
+  },
+  {
+    "business": "Barriga Landscaping",
+    "route": "/gallery/",
+    "status": 200,
+    "bytes": 4166,
+    "hasV4": true
+  },
+  {
+    "business": "Signature Landscape",
+    "route": "/",
+    "status": 200,
+    "bytes": 14891,
+    "hasV4": true
+  },
+  {
+    "business": "Signature Landscape",
+    "route": "/quote/",
+    "status": 200,
+    "bytes": 5533,
+    "hasV4": true
+  },
+  {
+    "business": "Signature Landscape",
+    "route": "/service-areas/",
+    "status": 200,
+    "bytes": 5825,
+    "hasV4": true
+  },
+  {
+    "business": "Signature Landscape",
+    "route": "/gallery/",
+    "status": 200,
+    "bytes": 4108,
+    "hasV4": true
+  },
+  {
+    "business": "Richard Diaz Landscape",
+    "route": "/",
+    "status": 200,
+    "bytes": 14632,
+    "hasV4": true
+  },
+  {
+    "business": "Richard Diaz Landscape",
+    "route": "/quote/",
+    "status": 200,
+    "bytes": 5532,
+    "hasV4": true
+  },
+  {
+    "business": "Richard Diaz Landscape",
+    "route": "/service-areas/",
+    "status": 200,
+    "bytes": 5817,
+    "hasV4": true
+  },
+  {
+    "business": "Richard Diaz Landscape",
+    "route": "/gallery/",
+    "status": 200,
+    "bytes": 3989,
+    "hasV4": true
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "signature_header": "x-webhook-signature",
+  "algo": "sha256"
+}

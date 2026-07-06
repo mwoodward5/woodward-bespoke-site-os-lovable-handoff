@@ -1,0 +1,376 @@
+# A+ META PROMPT — v4 Handoff Kitchen
+
+> Paste this whole file into Codex/Lovable at the top of any new build session.
+> This document is the always-on ruleset. Every rule is numbered. When you
+> reject a rule you must cite the number and the reason.
+
+---
+
+## 0. Prime directive
+
+C+ output is a failure. If you cannot ship A+, STOP and ask before shipping.
+"A+" is defined in §13 (Done-definition). Any site that fails a §13 check
+is not shipped, is not linked, is not called done.
+
+The reference implementation for every rule below is the KNK Excavation
+Hero at `src/components/site/Hero.tsx` in the sibling project. When a rule
+is unclear, open that file and match its layer count, motion register, and
+widget density.
+
+---
+
+## 1. The build loop (7 steps, in order, every time)
+
+1. Load `polish-rules-v4.json` — apply every rule where `unprompted: true`.
+2. Run `asset-pipeline/*` on every client-supplied asset before it touches a
+   component: dedup, upscale, remove-bg on logos, harmonize gallery aspect,
+   extract poster frames from every video.
+3. Pick `hero_model` and `section_pattern` from `generator-queue-v4.schema.json`.
+   Enforce anatomy variance (§3): no two sites in the same batch share a
+   `hero_model`.
+4. Compose the hero from `hero-anatomies/<hero_model>.tsx`. It MUST have
+   ≥ 6 layers (§2). Do not simplify the reference.
+5. Compose the page from `section-library/` — minimum 8 sections, no more
+   than 2 of the same type, at least one of: before/after slider, project
+   storytelling, material lab, service-map, or configurator.
+6. Rewrite every string of copy through `copy-voice/rewrite-prompts/*`.
+   Ban-list scan (§6) MUST return zero hits.
+7. Run `qc-audit/qc.mjs`. Every check green or the site is not shipped.
+
+---
+
+## 2. The 8-layer hero contract (mandatory)
+
+Every hero MUST include, at minimum:
+
+1. **Background plane** — video (autoplay muted loop playsinline, poster set,
+   ≤ 8MB, WebM+MP4) OR full-bleed photo with subtle ken-burns.
+2. **Gradient veil** — radial + linear stacked, tuned so text hits AA contrast
+   over any frame of the video.
+3. **Grain/texture layer** — SVG `feTurbulence` at ≤ 30% opacity, mix-blend
+   overlay. Not optional. This is what stops the hero from looking flat.
+4. **Parallax motif overlay** — trade-specific SVG that drifts on scroll at a
+   different rate than the background. Landscape = botanical schematic.
+   Excavation = survey grid. Roofing = slope diagram. Restaurant = plated
+   composition. Never a generic dot grid.
+5. **Kinetic headline** — per-word or per-line reveal with staggered easing,
+   one word using outline or accent color, italic optional. Never a single
+   `<h1>` that fades in as a block.
+6. **Live widget** — an interactive element in the hero itself: yardage
+   estimator, quote configurator, availability checker, region picker,
+   material calculator, before/after slider. NOT a "Get Quote" button.
+7. **Count-ups** — 3 stats with animated numeric reveal on scroll into view.
+   Real numbers pulled from the business, not lorem.
+8. **Marquee** — bottom ribbon with service names + service-area cities,
+   scrolling at ≤ 40px/s.
+
+Reduced-motion path (§7.4) MUST kill parallax, kinetic reveal, marquee,
+count-up, and video autoplay. Every layer keeps its static composition.
+
+---
+
+## 3. Anatomy variance (batches)
+
+When generating multiple sites in one batch, each site MUST pick a different
+`hero_model` from this menu:
+
+| ID | File | Best for |
+|---|---|---|
+| `cinematic-video` | HeroCinematicVideo.tsx | Trades with drone footage |
+| `split-editorial` | HeroSplitEditorial.tsx | Design-build studios, editorial brands |
+| `service-map` | HeroServiceMap.tsx | Multi-city service businesses |
+| `material-lab` | HeroMaterialLab.tsx | Stone, tile, wood, paint |
+| `magazine-letter` | HeroMagazineLetter.tsx | Owner-operator, storytelling |
+| `atlas-grid` | HeroAtlasGrid.tsx | Portfolio-heavy, project index |
+
+Enforcement: the QC gate reads the batch manifest, groups by `hero_model`,
+and fails if any duplicates within a batch of ≤ 6.
+
+Section-pattern variance applies too: no batch may ship two sites with the
+same first four section IDs in the same order.
+
+---
+
+## 4. Section library (12 authored patterns)
+
+Card-grid dependency is banned. Every page mixes these:
+
+1. `zigzag` — alternating photo/text rows, sticky captions
+2. `story` — long-form project story with pull-quote and 3-image rhythm
+3. `swatch-lab` — material swatches with hover-zoom detail
+4. `before-after` — draggable comparison slider
+5. `service-map` — SVG map with clickable pins, list mirrors map
+6. `configurator` — homeowner input builds a scoped estimate
+7. `trust-ledger` — real review excerpts, star breakdown, source badges
+8. `faq-speakable` — Q&A with Speakable schema, voice-agent ready
+9. `process-timeline` — horizontal-scroll or vertical stepped timeline
+10. `team-portrait` — square portraits + role + one-line bio
+11. `journal` — short excerpt with generous margins (owner voice)
+12. `contact-strip` — inline map, hours, phone, sms, form on one row
+
+Every route MUST render ≥ 6 sections OR redirect to a home anchor. 3KB
+stubs are banned.
+
+---
+
+## 5. Route depth contract
+
+- `/` — 8 to 12 sections
+- `/services` — 6+ sections, one per service with real depth
+- `/services/[slug]` — 6+ sections, hero for that service, gallery, FAQ,
+  process, related, CTA
+- `/work` or `/gallery` — filterable, lightbox, before/after where possible
+- `/work/[project]` — case study: brief, photos, materials list, timeline,
+  outcome, quote from owner
+- `/about` — story, team, values, service area, journal
+- `/contact` — configurator + map + hours + form + sms + call
+- `/journal` — index of posts (if present)
+
+No route is allowed to be a hero + 3 cards + footer.
+
+---
+
+## 6. Copy voice rules
+
+### Ban-list (fails QC if any appear on public pages)
+
+"presented with", "crisp explanation", "visual cue", "premium preview",
+"a real local business site", "generator", "kitchen", "razzle", "superpowers",
+"master-glue", "leadminer", "woodward", "ghost agency", "proof board",
+"proposed brand assets", "styled deck", "product shell", "leverage",
+"seamless", "cutting-edge", "one-stop shop", "state of the art",
+"unmatched", "unparalleled", "best-in-class", "world-class",
+"passionate about", "dedicated to providing", "we pride ourselves",
+"our mission is", "let us help you", "look no further", "at [Business]",
+"your one-stop", "peace of mind", "attention to detail", "wide range of",
+"vast array", "plethora", "lorem ipsum", "click here", "learn more"
+
+### Positive rules
+
+- First-person plural for the business ("We grade the site so…")
+- Second-person for the reader ("You get one crew, one phone number.")
+- Active verbs, concrete nouns. Numbers beat adjectives.
+- Every service description opens with what the homeowner *sees* after
+  the work, not what the business "provides."
+- Every headline earns its size. If it can be smaller and still land, it's
+  too big.
+- Owner voice snippets pulled from Firecrawl review text when available,
+  quoted verbatim with attribution.
+
+---
+
+## 7. Unprompted quality bar (the 110 checkpoints)
+
+Full list in `polish-rules-v4.json`. High-level categories:
+
+### 7.1 Assets (18 checks)
+Dedup within site, dedup within batch, upscale to 2×, remove-bg on all
+logos, WebP + fallback, poster frames for every video, gallery aspect
+harmonization, alt text on every image, no stock in hero when source
+photos exist, no image over 400KB after optimize, favicons at 16/32/180/512
++ maskable + monochrome, apple-touch-icon, OG image dynamically generated
+per route (never shared across routes), Twitter card image, no proposed
+logo on public page without owner sign-off metadata.
+
+### 7.2 SEO / AEO / GEO (16 checks)
+Title < 60, description < 160, single H1, semantic HTML, canonical on leaf
+routes only, og:url self-referencing, sitemap.xml with lastmod, robots.txt,
+llms.txt with company summary, JSON-LD LocalBusiness + Service +
+BreadcrumbList + FAQPage + Speakable, hreflang if multi-region,
+Google Business Profile link, review schema, opening hours in schema
+and visible, service-area schema, NAP consistency across every page.
+
+### 7.3 Performance (14 checks)
+LCP < 2.5s mobile, CLS < 0.1, INP < 200ms, hero image preloaded, video
+lazyloaded with poster, fonts self-hosted or preconnect + font-display swap,
+critical CSS inlined, no render-blocking JS, images sized with width/height,
+WebP served where supported, no more than 2 font families, no more than
+6 font weights total, JS bundle < 200KB gzipped for the landing route,
+Lighthouse Perf ≥ 90 mobile.
+
+### 7.4 Accessibility (18 checks)
+WCAG 2.2 AA, contrast ≥ 4.5:1 body / ≥ 3:1 large text, single `<main>`,
+skip-link, focus-visible ring on every interactive element, aria-label on
+every icon-only button, form labels connected, error messages announced,
+reduced-motion path for every animation, prefers-color-scheme respected
+if dark mode exists, keyboard reachable in DOM order, no keyboard trap,
+video captions or transcript if audio, alt text descriptive not "image",
+landmarks (header/nav/main/footer), heading order not skipped,
+tap targets ≥ 44×44, no autoplay audio.
+
+### 7.5 UX polish (16 checks)
+No horizontal overflow at 320px, 40px scroll anchor for anchor links,
+smooth-scroll with reduced-motion respected, brand-tokened 404,
+brand-tokened offline page (if PWA), print stylesheet, cookie/consent
+banner if analytics loaded, GDPR/CCPA link in footer, phone/email/sms
+links work on mobile, external links open in new tab with rel=noopener,
+loading states on every async action, empty states everywhere a list
+can be empty, error states everywhere a fetch can fail, back button works,
+scroll-restoration on route change, no layout shift on font load.
+
+### 7.6 Content depth (10 checks)
+≥ 6 sections per route, ≥ 3 real customer quotes with attribution,
+≥ 1 process timeline, ≥ 1 project case study, ≥ 5 gallery images per
+service, real hours, real service area cities, real years-in-business,
+real license/insurance numbers if applicable, FAQ ≥ 6 questions
+covering price, timeline, warranty, service area, materials, contact.
+
+### 7.7 Security / privacy (8 checks)
+No secrets in client bundle, HTTPS only, CSP header, referrer-policy,
+X-Content-Type-Options, X-Frame-Options or frame-ancestors, forms have
+CSRF or origin check on server, no PII in URL parameters.
+
+### 7.8 Motion / delight (10 checks)
+Every meaningful section has ≥ 1 motion beat, motion is under 400ms
+default, easing is cubic-bezier not linear, hover states on every card,
+cursor light or magnetic buttons in premium tier, scroll-triggered reveals
+with IntersectionObserver not scroll listeners, no `mousemove` at 60fps
+without RAF throttle, no CSS animation on layout properties (transform +
+opacity only), video crossfade on section change (premium tier),
+Lottie or SVG animation in at least one non-hero section.
+
+---
+
+## 8. Refusal + override rules
+
+- If a client asset fails asset-pipeline (unrecoverable), STOP and ask
+  before shipping stock. Never silently ship stock in a hero.
+- If a copy rewrite still trips ban-list after 2 passes, STOP and ask the
+  owner for their voice.
+- If a route cannot reach 6 sections with authored content, MERGE it into
+  its parent or REMOVE it. Never ship a stub.
+- If Lighthouse fails after 2 optimization passes, STOP and report; don't
+  ship < 90.
+
+---
+
+## 9. Stack rules (TanStack Start)
+
+- App-internal server logic: `createServerFn` from `@tanstack/react-start`.
+- External callers (webhooks, cron): server routes under `src/routes/api/public/*`.
+- Data: Lovable Cloud (Supabase). RLS on every public-schema table.
+  GRANT block after every CREATE TABLE. Roles in a separate `user_roles`
+  table with `has_role()` SECURITY DEFINER.
+- AI: Lovable AI Gateway by default (chat, TTS, STT, embeddings, images).
+- Head metadata per route via `head()` in `createFileRoute`. Canonical on
+  leaves only. `og:image` on leaves only.
+- Route architecture: separate routes per shareable section, never
+  hash-anchors as primary nav.
+
+---
+
+## 10. Security + secrets checklist
+
+- No secrets in client bundle (`import.meta.env.VITE_*` is public).
+- `process.env.*` server-only. Read inside `.handler()`, not at module scope.
+- `supabaseAdmin` only in `.server.ts` or dynamic-imported inside handler.
+- Every privileged server fn checks `requireSupabaseAuth` + role.
+- Webhooks verify signature with `timingSafeEqual`.
+- Rate-limit every public form.
+
+---
+
+## 11. Cost + performance budget
+
+- Image gen: `fast` tier by default. `premium` only for hero, OG, and
+  images with text.
+- Video gen: 5s default, 10s only if a specific scene demands it.
+- LLM calls: Gemini Flash for rewrites, Pro only for hero copy and long-form.
+- CWV budget: LCP < 2.5s, INP < 200ms, CLS < 0.1, TBT < 200ms.
+- JS budget: 200KB gzipped for landing.
+
+---
+
+## 12. Failure playbook
+
+- Recipe collision → pick the more specific one, log the choice.
+- Pipeline failure → retry once, then STOP + report.
+- QC flag Codex can't autofix → open a `qc-report.html` in the deliverable,
+  do not mark done.
+- Duplicate hero_model in batch → regenerate with next unused model.
+- Ban-list hit after rewrite → escalate to human copy pass.
+
+---
+
+## 13. Done-definition (sign off before saying done)
+
+- [ ] Hero has all 8 layers, reduced-motion path verified
+- [ ] `hero_model` is unique in the batch
+- [ ] ≥ 8 sections on `/`, ≥ 6 on every other route
+- [ ] Zero ban-list hits on any public page
+- [ ] Zero duplicate images within site
+- [ ] Every image has alt text
+- [ ] Every video has poster + captions or transcript
+- [ ] Lighthouse mobile: Perf ≥ 90, A11y = 100, SEO = 100, BP = 100
+- [ ] pa11y-ci: zero errors
+- [ ] JSON-LD validates (LocalBusiness + Service + FAQPage + BreadcrumbList)
+- [ ] OG image renders correctly in Twitter Card + Facebook debugger
+- [ ] No horizontal overflow at 320px / 768px / 1440px
+- [ ] Favicon set complete (16/32/180/512 + maskable)
+- [ ] Sitemap.xml + robots.txt + llms.txt present and correct
+- [ ] Print stylesheet renders cleanly
+- [ ] 404 uses brand tokens
+- [ ] Owner sign-off if any `proposed: true` assets ship
+
+If any box is unchecked, the site is not done. Say "blocked on §13.X"
+and stop.
+
+---
+
+## 14. Operator prompts (copy-paste)
+
+See `operator-prompts/` for 6 ready-to-paste prompts:
+- `new-batch-of-sites.md`
+- `repair-existing-site.md`
+- `regenerate-hero-only.md`
+- `rewrite-copy-only.md`
+- `run-qc-only.md`
+- `content-rescue-only.md`
+
+---
+
+## 15. Machine-readable appendix
+
+```json
+{
+  "kitchen_version": "v4",
+  "reference_impl": "src/components/site/Hero.tsx (KNK Excavation project)",
+  "manifests": {
+    "polish": "polish-rules-v4.json",
+    "queue_schema": "generator-queue-v4.schema.json",
+    "ban_list": "copy-voice/ban-list.json"
+  },
+  "hero_models": [
+    "cinematic-video",
+    "split-editorial",
+    "service-map",
+    "material-lab",
+    "magazine-letter",
+    "atlas-grid"
+  ],
+  "section_ids": [
+    "zigzag","story","swatch-lab","before-after","service-map",
+    "configurator","trust-ledger","faq-speakable","process-timeline",
+    "team-portrait","journal","contact-strip"
+  ],
+  "min_hero_layers": 6,
+  "min_sections_home": 8,
+  "min_sections_route": 6,
+  "min_gallery_per_service": 5,
+  "min_faq": 6,
+  "min_reviews": 3,
+  "lighthouse_min": { "perf": 90, "a11y": 100, "seo": 100, "bp": 100 },
+  "qc_command": "node qc-audit/qc.mjs <site-dir>"
+}
+```
+
+---
+
+## 16. Bootstrap prompt (paste this into Codex first)
+
+> You are the build agent. Read `A_PLUS_META_PROMPT.md` end-to-end and
+> treat it as always-on rules. Confirm you can see `polish-rules-v4.json`,
+> `hero-anatomies/`, `section-library/`, `copy-voice/`, `asset-pipeline/`,
+> and `qc-audit/`. Then wait for my build request. On every request, follow
+> §1 (build loop) and sign off against §13 (done-definition) before saying
+> done. If any §13 box is unchecked, say "blocked on §13.X" and stop.

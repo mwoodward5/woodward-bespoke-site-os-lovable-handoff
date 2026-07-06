@@ -1,0 +1,12 @@
+{
+  "name": "neon-tokyo",
+  "colors": {
+    "c0": "#0a0616",
+    "c1": "#1a0f2e",
+    "c2": "#f6f0ff",
+    "c3": "#ff2d95",
+    "c4": "#00e5ff",
+    "c5": "#a06bff"
+  },
+  "css": ":root{--neon-tokyo-c0:#0a0616;--neon-tokyo-c1:#1a0f2e;--neon-tokyo-c2:#f6f0ff;--neon-tokyo-c3:#ff2d95;--neon-tokyo-c4:#00e5ff;--neon-tokyo-c5:#a06bff}"
+}

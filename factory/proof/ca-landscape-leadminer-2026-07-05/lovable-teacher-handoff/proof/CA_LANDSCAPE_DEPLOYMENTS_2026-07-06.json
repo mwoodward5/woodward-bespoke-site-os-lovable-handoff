@@ -1,0 +1,32 @@
+[
+  {
+    "project": "wss-ca-landscape-landscape-connection-inc",
+    "deployment": "https://wss-ca-landscape-landscape-connection-r43vemaws-rocketsites.vercel.app",
+    "alias": "https://wss-ca-landscape-landscape-connection-inc.vercel.app",
+    "aliasOutput": "> Assigning alias wss-ca-landscape-landscape-connection-inc.vercel.app to deployment wss-ca-landscape-landscape-connection-r43vemaws-rocketsites.vercel.app\nCreating alias\n> Success! https://wss-ca-landscape-landscape-connection-inc.vercel.app now points to https://wss-ca-landscape-landscape-connection-r43vemaws-rocketsites.vercel.app [708ms]"
+  },
+  {
+    "project": "wss-ca-landscape-ajp-landscape-inc",
+    "deployment": "https://wss-ca-landscape-ajp-landscape-d9n8xf1e5-rocketsites.vercel.app",
+    "alias": "https://wss-ca-landscape-ajp-landscape-inc.vercel.app",
+    "aliasOutput": "> Assigning alias wss-ca-landscape-ajp-landscape-inc.vercel.app to deployment wss-ca-landscape-ajp-landscape-d9n8xf1e5-rocketsites.vercel.app\nCreating alias\n> Success! https://wss-ca-landscape-ajp-landscape-inc.vercel.app now points to https://wss-ca-landscape-ajp-landscape-d9n8xf1e5-rocketsites.vercel.app [592ms]"
+  },
+  {
+    "project": "wss-ca-landscape-barriga-landscaping",
+    "deployment": "https://wss-ca-landscape-barriga-landscaping-65i4nyang-rocketsites.vercel.app",
+    "alias": "https://wss-ca-landscape-barriga-landscaping.vercel.app",
+    "aliasOutput": "> Assigning alias wss-ca-landscape-barriga-landscaping.vercel.app to deployment wss-ca-landscape-barriga-landscaping-65i4nyang-rocketsites.vercel.app\nCreating alias\n> Success! https://wss-ca-landscape-barriga-landscaping.vercel.app now points to https://wss-ca-landscape-barriga-landscaping-65i4nyang-rocketsites.vercel.app [758ms]"
+  },
+  {
+    "project": "wss-ca-landscape-signature-landscape",
+    "deployment": "https://wss-ca-landscape-signature-landscape-dpxwa344h-rocketsites.vercel.app",
+    "alias": "https://wss-ca-landscape-signature-landscape.vercel.app",
+    "aliasOutput": "> Assigning alias wss-ca-landscape-signature-landscape.vercel.app to deployment wss-ca-landscape-signature-landscape-dpxwa344h-rocketsites.vercel.app\nCreating alias\n> Success! https://wss-ca-landscape-signature-landscape.vercel.app now points to https://wss-ca-landscape-signature-landscape-dpxwa344h-rocketsites.vercel.app [721ms]"
+  },
+  {
+    "project": "wss-ca-landscape-richard-diaz-landscape",
+    "deployment": "https://wss-ca-landscape-richard-diaz-landscape-bldu6d5hr-rocketsites.vercel.app",
+    "alias": "https://wss-ca-landscape-richard-diaz-landscape.vercel.app",
+    "aliasOutput": "> Assigning alias wss-ca-landscape-richard-diaz-landscape.vercel.app to deployment wss-ca-landscape-richard-diaz-landscape-bldu6d5hr-rocketsites.vercel.app\nCreating alias\n> Success! https://wss-ca-landscape-richard-diaz-landscape.vercel.app now points to https://wss-ca-landscape-richard-diaz-landscape-bldu6d5hr-rocketsites.vercel.app [686ms]"
+  }
+]

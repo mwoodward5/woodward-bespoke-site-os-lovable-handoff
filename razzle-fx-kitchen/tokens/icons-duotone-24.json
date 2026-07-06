@@ -1,0 +1,9 @@
+{
+  "name": "duotone-24",
+  "spec": {
+    "stroke": 1.5,
+    "size": 24,
+    "radius": 2,
+    "style": "duotone"
+  }
+}

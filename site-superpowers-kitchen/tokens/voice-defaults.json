@@ -1,0 +1,6 @@
+{
+  "voice": "alloy",
+  "format": "pcm",
+  "sample_rate": 24000,
+  "chunk_max_words": 400
+}

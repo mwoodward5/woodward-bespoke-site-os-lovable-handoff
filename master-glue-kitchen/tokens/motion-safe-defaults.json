@@ -1,0 +1,5 @@
+{
+  "duration_ms": 300,
+  "easing": "cubic-bezier(.22,1,.36,1)",
+  "respect_reduced_motion": true
+}

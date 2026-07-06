@@ -1,0 +1,12 @@
+{
+  "name": "court-legal",
+  "colors": {
+    "c0": "#0e1a2b",
+    "c1": "#1c3357",
+    "c2": "#eaf0f7",
+    "c3": "#b89b58",
+    "c4": "#c9b37e",
+    "c5": "#7d8ba1"
+  },
+  "css": ":root{--court-legal-c0:#0e1a2b;--court-legal-c1:#1c3357;--court-legal-c2:#eaf0f7;--court-legal-c3:#b89b58;--court-legal-c4:#c9b37e;--court-legal-c5:#7d8ba1}"
+}

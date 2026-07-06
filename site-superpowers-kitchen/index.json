@@ -1,0 +1,2132 @@
+{
+  "name": "site-superpowers-kitchen",
+  "version": "1.0.0",
+  "counts": {
+    "recipes": 416,
+    "apps": 24,
+    "tokens": 32,
+    "prompts": 200,
+    "phrases": 1000
+  },
+  "categories": {
+    "ai": 80,
+    "voice": 48,
+    "media": 40,
+    "ux": 64,
+    "realtime": 32,
+    "auth": 24,
+    "payments": 20,
+    "data": 32,
+    "backend": 32,
+    "a11y-seo": 24,
+    "perf": 20
+  },
+  "recipes": [
+    {
+      "category": "ai",
+      "slug": "chat-support-bot",
+      "path": "recipes/ai/chat-support-bot"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-sales-bot",
+      "path": "recipes/ai/chat-sales-bot"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-docs-qa",
+      "path": "recipes/ai/chat-docs-qa"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-rag-basic",
+      "path": "recipes/ai/chat-rag-basic"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-rag-hybrid",
+      "path": "recipes/ai/chat-rag-hybrid"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-agent-tools",
+      "path": "recipes/ai/chat-agent-tools"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-agent-mcp",
+      "path": "recipes/ai/chat-agent-mcp"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-voice-first",
+      "path": "recipes/ai/chat-voice-first"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-multilingual",
+      "path": "recipes/ai/chat-multilingual"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-persona-swap",
+      "path": "recipes/ai/chat-persona-swap"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-with-memory",
+      "path": "recipes/ai/chat-with-memory"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-with-citations",
+      "path": "recipes/ai/chat-with-citations"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-with-attachments",
+      "path": "recipes/ai/chat-with-attachments"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-with-images",
+      "path": "recipes/ai/chat-with-images"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-with-pdf",
+      "path": "recipes/ai/chat-with-pdf"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-with-audio",
+      "path": "recipes/ai/chat-with-audio"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-with-video",
+      "path": "recipes/ai/chat-with-video"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-stream-sse",
+      "path": "recipes/ai/chat-stream-sse"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-stream-tokens",
+      "path": "recipes/ai/chat-stream-tokens"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-resume-stream",
+      "path": "recipes/ai/chat-resume-stream"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-cancel-stream",
+      "path": "recipes/ai/chat-cancel-stream"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-cost-meter",
+      "path": "recipes/ai/chat-cost-meter"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-guardrails",
+      "path": "recipes/ai/chat-guardrails"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-moderation",
+      "path": "recipes/ai/chat-moderation"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-toxicity-filter",
+      "path": "recipes/ai/chat-toxicity-filter"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-pii-redact",
+      "path": "recipes/ai/chat-pii-redact"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-tone-shifter",
+      "path": "recipes/ai/chat-tone-shifter"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-translator",
+      "path": "recipes/ai/chat-translator"
+    },
+    {
+      "category": "ai",
+      "slug": "chat-summarizer",
+      "path": "recipes/ai/chat-summarizer"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-oneshot",
+      "path": "recipes/ai/completion-oneshot"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-json",
+      "path": "recipes/ai/completion-json"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-structured",
+      "path": "recipes/ai/completion-structured"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-classify",
+      "path": "recipes/ai/completion-classify"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-extract",
+      "path": "recipes/ai/completion-extract"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-rewrite",
+      "path": "recipes/ai/completion-rewrite"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-code-review",
+      "path": "recipes/ai/completion-code-review"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-code-explain",
+      "path": "recipes/ai/completion-code-explain"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-code-refactor",
+      "path": "recipes/ai/completion-code-refactor"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-code-tests",
+      "path": "recipes/ai/completion-code-tests"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-sql-write",
+      "path": "recipes/ai/completion-sql-write"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-regex-write",
+      "path": "recipes/ai/completion-regex-write"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-title-suggest",
+      "path": "recipes/ai/completion-title-suggest"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-slug-suggest",
+      "path": "recipes/ai/completion-slug-suggest"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-alt-text",
+      "path": "recipes/ai/completion-alt-text"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-meta-tags",
+      "path": "recipes/ai/completion-meta-tags"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-og-image-copy",
+      "path": "recipes/ai/completion-og-image-copy"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-changelog",
+      "path": "recipes/ai/completion-changelog"
+    },
+    {
+      "category": "ai",
+      "slug": "completion-release-notes",
+      "path": "recipes/ai/completion-release-notes"
+    },
+    {
+      "category": "ai",
+      "slug": "embed-text",
+      "path": "recipes/ai/embed-text"
+    },
+    {
+      "category": "ai",
+      "slug": "embed-multimodal",
+      "path": "recipes/ai/embed-multimodal"
+    },
+    {
+      "category": "ai",
+      "slug": "embed-image",
+      "path": "recipes/ai/embed-image"
+    },
+    {
+      "category": "ai",
+      "slug": "search-semantic",
+      "path": "recipes/ai/search-semantic"
+    },
+    {
+      "category": "ai",
+      "slug": "search-hybrid",
+      "path": "recipes/ai/search-hybrid"
+    },
+    {
+      "category": "ai",
+      "slug": "search-facets",
+      "path": "recipes/ai/search-facets"
+    },
+    {
+      "category": "ai",
+      "slug": "search-typo-tolerant",
+      "path": "recipes/ai/search-typo-tolerant"
+    },
+    {
+      "category": "ai",
+      "slug": "rag-web-scrape",
+      "path": "recipes/ai/rag-web-scrape"
+    },
+    {
+      "category": "ai",
+      "slug": "rag-doc-loader",
+      "path": "recipes/ai/rag-doc-loader"
+    },
+    {
+      "category": "ai",
+      "slug": "rag-chunker",
+      "path": "recipes/ai/rag-chunker"
+    },
+    {
+      "category": "ai",
+      "slug": "rag-reranker",
+      "path": "recipes/ai/rag-reranker"
+    },
+    {
+      "category": "ai",
+      "slug": "rag-context-window-guard",
+      "path": "recipes/ai/rag-context-window-guard"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-loop-basic",
+      "path": "recipes/ai/agent-loop-basic"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-planner",
+      "path": "recipes/ai/agent-planner"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-critic",
+      "path": "recipes/ai/agent-critic"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-tools-registry",
+      "path": "recipes/ai/agent-tools-registry"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-tool-deferral",
+      "path": "recipes/ai/agent-tool-deferral"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-mcp-oauth",
+      "path": "recipes/ai/agent-mcp-oauth"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-approval-gate",
+      "path": "recipes/ai/agent-approval-gate"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-cost-cap",
+      "path": "recipes/ai/agent-cost-cap"
+    },
+    {
+      "category": "ai",
+      "slug": "agent-timeout",
+      "path": "recipes/ai/agent-timeout"
+    },
+    {
+      "category": "ai",
+      "slug": "classify-intent",
+      "path": "recipes/ai/classify-intent"
+    },
+    {
+      "category": "ai",
+      "slug": "classify-sentiment",
+      "path": "recipes/ai/classify-sentiment"
+    },
+    {
+      "category": "ai",
+      "slug": "classify-lang",
+      "path": "recipes/ai/classify-lang"
+    },
+    {
+      "category": "ai",
+      "slug": "classify-toxicity",
+      "path": "recipes/ai/classify-toxicity"
+    },
+    {
+      "category": "ai",
+      "slug": "extract-entities",
+      "path": "recipes/ai/extract-entities"
+    },
+    {
+      "category": "ai",
+      "slug": "extract-invoice",
+      "path": "recipes/ai/extract-invoice"
+    },
+    {
+      "category": "ai",
+      "slug": "extract-resume",
+      "path": "recipes/ai/extract-resume"
+    },
+    {
+      "category": "ai",
+      "slug": "extract-form",
+      "path": "recipes/ai/extract-form"
+    },
+    {
+      "category": "ai",
+      "slug": "moderation-inbound",
+      "path": "recipes/ai/moderation-inbound"
+    },
+    {
+      "category": "ai",
+      "slug": "moderation-outbound",
+      "path": "recipes/ai/moderation-outbound"
+    },
+    {
+      "category": "ai",
+      "slug": "prompt-injection-guard",
+      "path": "recipes/ai/prompt-injection-guard"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-narrate-article",
+      "path": "recipes/voice/tts-narrate-article"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-narrate-paragraph",
+      "path": "recipes/voice/tts-narrate-paragraph"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-floating-player",
+      "path": "recipes/voice/tts-floating-player"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-chapter-markers",
+      "path": "recipes/voice/tts-chapter-markers"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-read-aloud-toggle",
+      "path": "recipes/voice/tts-read-aloud-toggle"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-multivoice-dialogue",
+      "path": "recipes/voice/tts-multivoice-dialogue"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-accessible-audio",
+      "path": "recipes/voice/tts-accessible-audio"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-language-switch",
+      "path": "recipes/voice/tts-language-switch"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-speed-control",
+      "path": "recipes/voice/tts-speed-control"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-download-mp3",
+      "path": "recipes/voice/tts-download-mp3"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-chunker",
+      "path": "recipes/voice/tts-chunker"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-realtime-lowlatency",
+      "path": "recipes/voice/tts-realtime-lowlatency"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-cache-repeats",
+      "path": "recipes/voice/tts-cache-repeats"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-voice-picker",
+      "path": "recipes/voice/tts-voice-picker"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-cost-guard",
+      "path": "recipes/voice/tts-cost-guard"
+    },
+    {
+      "category": "voice",
+      "slug": "tts-cancel",
+      "path": "recipes/voice/tts-cancel"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-dictation-basic",
+      "path": "recipes/voice/stt-dictation-basic"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-push-to-talk",
+      "path": "recipes/voice/stt-push-to-talk"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-live-transcript",
+      "path": "recipes/voice/stt-live-transcript"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-live-caption",
+      "path": "recipes/voice/stt-live-caption"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-meeting-notes",
+      "path": "recipes/voice/stt-meeting-notes"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-language-detect",
+      "path": "recipes/voice/stt-language-detect"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-word-timestamps",
+      "path": "recipes/voice/stt-word-timestamps"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-punctuation",
+      "path": "recipes/voice/stt-punctuation"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-diarize",
+      "path": "recipes/voice/stt-diarize"
+    },
+    {
+      "category": "voice",
+      "slug": "stt-realtime-stream",
+      "path": "recipes/voice/stt-realtime-stream"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-loop-chat",
+      "path": "recipes/voice/voice-loop-chat"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-loop-agent",
+      "path": "recipes/voice/voice-loop-agent"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-wake-word",
+      "path": "recipes/voice/voice-wake-word"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-vad",
+      "path": "recipes/voice/voice-vad"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-noise-suppress",
+      "path": "recipes/voice/voice-noise-suppress"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-echo-cancel",
+      "path": "recipes/voice/voice-echo-cancel"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-barge-in",
+      "path": "recipes/voice/voice-barge-in"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-mute-toggle",
+      "path": "recipes/voice/voice-mute-toggle"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-mic-picker",
+      "path": "recipes/voice/voice-mic-picker"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-visualizer-bars",
+      "path": "recipes/voice/voice-visualizer-bars"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-visualizer-wave",
+      "path": "recipes/voice/voice-visualizer-wave"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-visualizer-orb",
+      "path": "recipes/voice/voice-visualizer-orb"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-translate-live",
+      "path": "recipes/voice/voice-translate-live"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-translate-podcast",
+      "path": "recipes/voice/voice-translate-podcast"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-clone-consent",
+      "path": "recipes/voice/voice-clone-consent"
+    },
+    {
+      "category": "voice",
+      "slug": "voice-clone-preview",
+      "path": "recipes/voice/voice-clone-preview"
+    },
+    {
+      "category": "voice",
+      "slug": "audio-ambient-loop",
+      "path": "recipes/voice/audio-ambient-loop"
+    },
+    {
+      "category": "voice",
+      "slug": "audio-ui-sfx",
+      "path": "recipes/voice/audio-ui-sfx"
+    },
+    {
+      "category": "voice",
+      "slug": "audio-notification-cues",
+      "path": "recipes/voice/audio-notification-cues"
+    },
+    {
+      "category": "voice",
+      "slug": "audio-cinemagraph",
+      "path": "recipes/voice/audio-cinemagraph"
+    },
+    {
+      "category": "voice",
+      "slug": "audio-timeline-scrub",
+      "path": "recipes/voice/audio-timeline-scrub"
+    },
+    {
+      "category": "voice",
+      "slug": "audio-waveform-poster",
+      "path": "recipes/voice/audio-waveform-poster"
+    },
+    {
+      "category": "media",
+      "slug": "image-gen-button",
+      "path": "recipes/media/image-gen-button"
+    },
+    {
+      "category": "media",
+      "slug": "image-gen-hero",
+      "path": "recipes/media/image-gen-hero"
+    },
+    {
+      "category": "media",
+      "slug": "image-gen-og",
+      "path": "recipes/media/image-gen-og"
+    },
+    {
+      "category": "media",
+      "slug": "image-edit-inpaint",
+      "path": "recipes/media/image-edit-inpaint"
+    },
+    {
+      "category": "media",
+      "slug": "image-edit-outpaint",
+      "path": "recipes/media/image-edit-outpaint"
+    },
+    {
+      "category": "media",
+      "slug": "image-restyle",
+      "path": "recipes/media/image-restyle"
+    },
+    {
+      "category": "media",
+      "slug": "image-upscale",
+      "path": "recipes/media/image-upscale"
+    },
+    {
+      "category": "media",
+      "slug": "image-bg-remove",
+      "path": "recipes/media/image-bg-remove"
+    },
+    {
+      "category": "media",
+      "slug": "image-alt-text-ai",
+      "path": "recipes/media/image-alt-text-ai"
+    },
+    {
+      "category": "media",
+      "slug": "image-caption-ai",
+      "path": "recipes/media/image-caption-ai"
+    },
+    {
+      "category": "media",
+      "slug": "image-avatar-gen",
+      "path": "recipes/media/image-avatar-gen"
+    },
+    {
+      "category": "media",
+      "slug": "image-avatar-consent",
+      "path": "recipes/media/image-avatar-consent"
+    },
+    {
+      "category": "media",
+      "slug": "image-face-swap-guard",
+      "path": "recipes/media/image-face-swap-guard"
+    },
+    {
+      "category": "media",
+      "slug": "image-ocr",
+      "path": "recipes/media/image-ocr"
+    },
+    {
+      "category": "media",
+      "slug": "image-doc-scan",
+      "path": "recipes/media/image-doc-scan"
+    },
+    {
+      "category": "media",
+      "slug": "image-object-detect",
+      "path": "recipes/media/image-object-detect"
+    },
+    {
+      "category": "media",
+      "slug": "image-color-extract",
+      "path": "recipes/media/image-color-extract"
+    },
+    {
+      "category": "media",
+      "slug": "image-nudity-filter",
+      "path": "recipes/media/image-nudity-filter"
+    },
+    {
+      "category": "media",
+      "slug": "image-watermark",
+      "path": "recipes/media/image-watermark"
+    },
+    {
+      "category": "media",
+      "slug": "image-download-safeguard",
+      "path": "recipes/media/image-download-safeguard"
+    },
+    {
+      "category": "media",
+      "slug": "video-gen-heygen",
+      "path": "recipes/media/video-gen-heygen"
+    },
+    {
+      "category": "media",
+      "slug": "video-lipsync",
+      "path": "recipes/media/video-lipsync"
+    },
+    {
+      "category": "media",
+      "slug": "video-translation",
+      "path": "recipes/media/video-translation"
+    },
+    {
+      "category": "media",
+      "slug": "video-thumbnail-ai",
+      "path": "recipes/media/video-thumbnail-ai"
+    },
+    {
+      "category": "media",
+      "slug": "video-clip-summarize",
+      "path": "recipes/media/video-clip-summarize"
+    },
+    {
+      "category": "media",
+      "slug": "video-chapters-ai",
+      "path": "recipes/media/video-chapters-ai"
+    },
+    {
+      "category": "media",
+      "slug": "video-hero-loop",
+      "path": "recipes/media/video-hero-loop"
+    },
+    {
+      "category": "media",
+      "slug": "video-parallax-cover",
+      "path": "recipes/media/video-parallax-cover"
+    },
+    {
+      "category": "media",
+      "slug": "video-tilt-cover",
+      "path": "recipes/media/video-tilt-cover"
+    },
+    {
+      "category": "media",
+      "slug": "cinemagraph-loop",
+      "path": "recipes/media/cinemagraph-loop"
+    },
+    {
+      "category": "media",
+      "slug": "camera-live-filter",
+      "path": "recipes/media/camera-live-filter"
+    },
+    {
+      "category": "media",
+      "slug": "camera-photobooth",
+      "path": "recipes/media/camera-photobooth"
+    },
+    {
+      "category": "media",
+      "slug": "camera-qr-scan",
+      "path": "recipes/media/camera-qr-scan"
+    },
+    {
+      "category": "media",
+      "slug": "camera-barcode-scan",
+      "path": "recipes/media/camera-barcode-scan"
+    },
+    {
+      "category": "media",
+      "slug": "doc-to-summary",
+      "path": "recipes/media/doc-to-summary"
+    },
+    {
+      "category": "media",
+      "slug": "doc-to-outline",
+      "path": "recipes/media/doc-to-outline"
+    },
+    {
+      "category": "media",
+      "slug": "doc-to-flashcards",
+      "path": "recipes/media/doc-to-flashcards"
+    },
+    {
+      "category": "media",
+      "slug": "doc-translate",
+      "path": "recipes/media/doc-translate"
+    },
+    {
+      "category": "media",
+      "slug": "doc-highlight-key",
+      "path": "recipes/media/doc-highlight-key"
+    },
+    {
+      "category": "media",
+      "slug": "doc-answer-questions",
+      "path": "recipes/media/doc-answer-questions"
+    },
+    {
+      "category": "ux",
+      "slug": "cmdk-palette",
+      "path": "recipes/ux/cmdk-palette"
+    },
+    {
+      "category": "ux",
+      "slug": "cmdk-ai-search",
+      "path": "recipes/ux/cmdk-ai-search"
+    },
+    {
+      "category": "ux",
+      "slug": "cmdk-actions",
+      "path": "recipes/ux/cmdk-actions"
+    },
+    {
+      "category": "ux",
+      "slug": "cmdk-recent",
+      "path": "recipes/ux/cmdk-recent"
+    },
+    {
+      "category": "ux",
+      "slug": "autocomplete-ai",
+      "path": "recipes/ux/autocomplete-ai"
+    },
+    {
+      "category": "ux",
+      "slug": "autocomplete-basic",
+      "path": "recipes/ux/autocomplete-basic"
+    },
+    {
+      "category": "ux",
+      "slug": "form-smart-validate",
+      "path": "recipes/ux/form-smart-validate"
+    },
+    {
+      "category": "ux",
+      "slug": "form-ai-fill",
+      "path": "recipes/ux/form-ai-fill"
+    },
+    {
+      "category": "ux",
+      "slug": "form-multistep",
+      "path": "recipes/ux/form-multistep"
+    },
+    {
+      "category": "ux",
+      "slug": "form-save-progress",
+      "path": "recipes/ux/form-save-progress"
+    },
+    {
+      "category": "ux",
+      "slug": "form-conditional",
+      "path": "recipes/ux/form-conditional"
+    },
+    {
+      "category": "ux",
+      "slug": "form-inline-errors",
+      "path": "recipes/ux/form-inline-errors"
+    },
+    {
+      "category": "ux",
+      "slug": "form-file-upload",
+      "path": "recipes/ux/form-file-upload"
+    },
+    {
+      "category": "ux",
+      "slug": "form-image-crop",
+      "path": "recipes/ux/form-image-crop"
+    },
+    {
+      "category": "ux",
+      "slug": "form-signature-pad",
+      "path": "recipes/ux/form-signature-pad"
+    },
+    {
+      "category": "ux",
+      "slug": "form-otp",
+      "path": "recipes/ux/form-otp"
+    },
+    {
+      "category": "ux",
+      "slug": "form-address-autocomplete",
+      "path": "recipes/ux/form-address-autocomplete"
+    },
+    {
+      "category": "ux",
+      "slug": "form-phone-intl",
+      "path": "recipes/ux/form-phone-intl"
+    },
+    {
+      "category": "ux",
+      "slug": "dashboard-drag",
+      "path": "recipes/ux/dashboard-drag"
+    },
+    {
+      "category": "ux",
+      "slug": "dashboard-widget-registry",
+      "path": "recipes/ux/dashboard-widget-registry"
+    },
+    {
+      "category": "ux",
+      "slug": "dashboard-resize-grid",
+      "path": "recipes/ux/dashboard-resize-grid"
+    },
+    {
+      "category": "ux",
+      "slug": "kanban-board",
+      "path": "recipes/ux/kanban-board"
+    },
+    {
+      "category": "ux",
+      "slug": "kanban-swimlanes",
+      "path": "recipes/ux/kanban-swimlanes"
+    },
+    {
+      "category": "ux",
+      "slug": "calendar-month",
+      "path": "recipes/ux/calendar-month"
+    },
+    {
+      "category": "ux",
+      "slug": "calendar-week",
+      "path": "recipes/ux/calendar-week"
+    },
+    {
+      "category": "ux",
+      "slug": "calendar-scheduler",
+      "path": "recipes/ux/calendar-scheduler"
+    },
+    {
+      "category": "ux",
+      "slug": "calendar-agenda",
+      "path": "recipes/ux/calendar-agenda"
+    },
+    {
+      "category": "ux",
+      "slug": "calendar-ics-export",
+      "path": "recipes/ux/calendar-ics-export"
+    },
+    {
+      "category": "ux",
+      "slug": "comments-thread",
+      "path": "recipes/ux/comments-thread"
+    },
+    {
+      "category": "ux",
+      "slug": "comments-mentions",
+      "path": "recipes/ux/comments-mentions"
+    },
+    {
+      "category": "ux",
+      "slug": "comments-reactions",
+      "path": "recipes/ux/comments-reactions"
+    },
+    {
+      "category": "ux",
+      "slug": "comments-resolve",
+      "path": "recipes/ux/comments-resolve"
+    },
+    {
+      "category": "ux",
+      "slug": "presence-avatars",
+      "path": "recipes/ux/presence-avatars"
+    },
+    {
+      "category": "ux",
+      "slug": "presence-cursors",
+      "path": "recipes/ux/presence-cursors"
+    },
+    {
+      "category": "ux",
+      "slug": "presence-typing",
+      "path": "recipes/ux/presence-typing"
+    },
+    {
+      "category": "ux",
+      "slug": "onboarding-tour",
+      "path": "recipes/ux/onboarding-tour"
+    },
+    {
+      "category": "ux",
+      "slug": "onboarding-checklist",
+      "path": "recipes/ux/onboarding-checklist"
+    },
+    {
+      "category": "ux",
+      "slug": "onboarding-progress",
+      "path": "recipes/ux/onboarding-progress"
+    },
+    {
+      "category": "ux",
+      "slug": "onboarding-empty-states",
+      "path": "recipes/ux/onboarding-empty-states"
+    },
+    {
+      "category": "ux",
+      "slug": "toast-center",
+      "path": "recipes/ux/toast-center"
+    },
+    {
+      "category": "ux",
+      "slug": "toast-undoable",
+      "path": "recipes/ux/toast-undoable"
+    },
+    {
+      "category": "ux",
+      "slug": "modal-scale",
+      "path": "recipes/ux/modal-scale"
+    },
+    {
+      "category": "ux",
+      "slug": "drawer-push",
+      "path": "recipes/ux/drawer-push"
+    },
+    {
+      "category": "ux",
+      "slug": "popover-lift",
+      "path": "recipes/ux/popover-lift"
+    },
+    {
+      "category": "ux",
+      "slug": "tooltip-morph",
+      "path": "recipes/ux/tooltip-morph"
+    },
+    {
+      "category": "ux",
+      "slug": "menu-context",
+      "path": "recipes/ux/menu-context"
+    },
+    {
+      "category": "ux",
+      "slug": "menu-mega",
+      "path": "recipes/ux/menu-mega"
+    },
+    {
+      "category": "ux",
+      "slug": "tabs-underline",
+      "path": "recipes/ux/tabs-underline"
+    },
+    {
+      "category": "ux",
+      "slug": "tabs-pills",
+      "path": "recipes/ux/tabs-pills"
+    },
+    {
+      "category": "ux",
+      "slug": "stepper-linear",
+      "path": "recipes/ux/stepper-linear"
+    },
+    {
+      "category": "ux",
+      "slug": "stepper-branch",
+      "path": "recipes/ux/stepper-branch"
+    },
+    {
+      "category": "ux",
+      "slug": "hotkey-registry",
+      "path": "recipes/ux/hotkey-registry"
+    },
+    {
+      "category": "ux",
+      "slug": "hotkey-hint-badges",
+      "path": "recipes/ux/hotkey-hint-badges"
+    },
+    {
+      "category": "ux",
+      "slug": "copy-inline",
+      "path": "recipes/ux/copy-inline"
+    },
+    {
+      "category": "ux",
+      "slug": "share-menu",
+      "path": "recipes/ux/share-menu"
+    },
+    {
+      "category": "ux",
+      "slug": "sticky-cta",
+      "path": "recipes/ux/sticky-cta"
+    },
+    {
+      "category": "ux",
+      "slug": "floating-cta",
+      "path": "recipes/ux/floating-cta"
+    },
+    {
+      "category": "ux",
+      "slug": "chat-bubble-launcher",
+      "path": "recipes/ux/chat-bubble-launcher"
+    },
+    {
+      "category": "ux",
+      "slug": "help-center-widget",
+      "path": "recipes/ux/help-center-widget"
+    },
+    {
+      "category": "ux",
+      "slug": "feedback-widget",
+      "path": "recipes/ux/feedback-widget"
+    },
+    {
+      "category": "ux",
+      "slug": "nps-widget",
+      "path": "recipes/ux/nps-widget"
+    },
+    {
+      "category": "ux",
+      "slug": "upvote-widget",
+      "path": "recipes/ux/upvote-widget"
+    },
+    {
+      "category": "ux",
+      "slug": "poll-widget",
+      "path": "recipes/ux/poll-widget"
+    },
+    {
+      "category": "ux",
+      "slug": "reactions-widget",
+      "path": "recipes/ux/reactions-widget"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-presence",
+      "path": "recipes/realtime/ws-presence"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-cursors",
+      "path": "recipes/realtime/ws-cursors"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-typing",
+      "path": "recipes/realtime/ws-typing"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-live-counter",
+      "path": "recipes/realtime/ws-live-counter"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-live-comments",
+      "path": "recipes/realtime/ws-live-comments"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-live-polls",
+      "path": "recipes/realtime/ws-live-polls"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-live-auctions",
+      "path": "recipes/realtime/ws-live-auctions"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-live-bids",
+      "path": "recipes/realtime/ws-live-bids"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-sports-ticker",
+      "path": "recipes/realtime/ws-sports-ticker"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-stock-ticker",
+      "path": "recipes/realtime/ws-stock-ticker"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-weather-tick",
+      "path": "recipes/realtime/ws-weather-tick"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-map-vehicles",
+      "path": "recipes/realtime/ws-map-vehicles"
+    },
+    {
+      "category": "realtime",
+      "slug": "ws-whiteboard-scaffold",
+      "path": "recipes/realtime/ws-whiteboard-scaffold"
+    },
+    {
+      "category": "realtime",
+      "slug": "sse-broadcast",
+      "path": "recipes/realtime/sse-broadcast"
+    },
+    {
+      "category": "realtime",
+      "slug": "sse-notifications",
+      "path": "recipes/realtime/sse-notifications"
+    },
+    {
+      "category": "realtime",
+      "slug": "sse-progress-bar",
+      "path": "recipes/realtime/sse-progress-bar"
+    },
+    {
+      "category": "realtime",
+      "slug": "sse-log-tail",
+      "path": "recipes/realtime/sse-log-tail"
+    },
+    {
+      "category": "realtime",
+      "slug": "sse-build-status",
+      "path": "recipes/realtime/sse-build-status"
+    },
+    {
+      "category": "realtime",
+      "slug": "optimistic-mutations",
+      "path": "recipes/realtime/optimistic-mutations"
+    },
+    {
+      "category": "realtime",
+      "slug": "optimistic-rollback",
+      "path": "recipes/realtime/optimistic-rollback"
+    },
+    {
+      "category": "realtime",
+      "slug": "realtime-supabase-channel",
+      "path": "recipes/realtime/realtime-supabase-channel"
+    },
+    {
+      "category": "realtime",
+      "slug": "realtime-supabase-postgres",
+      "path": "recipes/realtime/realtime-supabase-postgres"
+    },
+    {
+      "category": "realtime",
+      "slug": "realtime-supabase-presence",
+      "path": "recipes/realtime/realtime-supabase-presence"
+    },
+    {
+      "category": "realtime",
+      "slug": "collab-doc-yjs-scaffold",
+      "path": "recipes/realtime/collab-doc-yjs-scaffold"
+    },
+    {
+      "category": "realtime",
+      "slug": "collab-crdt-notes",
+      "path": "recipes/realtime/collab-crdt-notes"
+    },
+    {
+      "category": "realtime",
+      "slug": "collab-cursors-color",
+      "path": "recipes/realtime/collab-cursors-color"
+    },
+    {
+      "category": "realtime",
+      "slug": "live-viewer-count",
+      "path": "recipes/realtime/live-viewer-count"
+    },
+    {
+      "category": "realtime",
+      "slug": "live-reactions-float",
+      "path": "recipes/realtime/live-reactions-float"
+    },
+    {
+      "category": "realtime",
+      "slug": "live-chat-room",
+      "path": "recipes/realtime/live-chat-room"
+    },
+    {
+      "category": "realtime",
+      "slug": "live-typing-dots",
+      "path": "recipes/realtime/live-typing-dots"
+    },
+    {
+      "category": "realtime",
+      "slug": "live-heartbeat",
+      "path": "recipes/realtime/live-heartbeat"
+    },
+    {
+      "category": "realtime",
+      "slug": "live-status-badge",
+      "path": "recipes/realtime/live-status-badge"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-magic-link",
+      "path": "recipes/auth/auth-magic-link"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-oauth-google",
+      "path": "recipes/auth/auth-oauth-google"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-oauth-github",
+      "path": "recipes/auth/auth-oauth-github"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-oauth-apple",
+      "path": "recipes/auth/auth-oauth-apple"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-oauth-discord",
+      "path": "recipes/auth/auth-oauth-discord"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-passkeys",
+      "path": "recipes/auth/auth-passkeys"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-2fa-totp",
+      "path": "recipes/auth/auth-2fa-totp"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-sso-stub",
+      "path": "recipes/auth/auth-sso-stub"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-rbac-gate",
+      "path": "recipes/auth/auth-rbac-gate"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-role-check",
+      "path": "recipes/auth/auth-role-check"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-invite-flow",
+      "path": "recipes/auth/auth-invite-flow"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-org-switcher",
+      "path": "recipes/auth/auth-org-switcher"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-team-invite",
+      "path": "recipes/auth/auth-team-invite"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-session-list",
+      "path": "recipes/auth/auth-session-list"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-jwt-refresh",
+      "path": "recipes/auth/auth-jwt-refresh"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-signout-all",
+      "path": "recipes/auth/auth-signout-all"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-email-verify",
+      "path": "recipes/auth/auth-email-verify"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-password-reset",
+      "path": "recipes/auth/auth-password-reset"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-account-delete",
+      "path": "recipes/auth/auth-account-delete"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-anonymous-guard",
+      "path": "recipes/auth/auth-anonymous-guard"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-rate-limit",
+      "path": "recipes/auth/auth-rate-limit"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-brute-force-guard",
+      "path": "recipes/auth/auth-brute-force-guard"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-audit-log",
+      "path": "recipes/auth/auth-audit-log"
+    },
+    {
+      "category": "auth",
+      "slug": "auth-privacy-export",
+      "path": "recipes/auth/auth-privacy-export"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-stripe-checkout",
+      "path": "recipes/payments/pay-stripe-checkout"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-stripe-subscription",
+      "path": "recipes/payments/pay-stripe-subscription"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-stripe-metered",
+      "path": "recipes/payments/pay-stripe-metered"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-stripe-oneshot",
+      "path": "recipes/payments/pay-stripe-oneshot"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-stripe-tipping",
+      "path": "recipes/payments/pay-stripe-tipping"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-stripe-marketplace",
+      "path": "recipes/payments/pay-stripe-marketplace"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-paddle-checkout",
+      "path": "recipes/payments/pay-paddle-checkout"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-coupon-ui",
+      "path": "recipes/payments/pay-coupon-ui"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-discount-code",
+      "path": "recipes/payments/pay-discount-code"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-upgrade-cta",
+      "path": "recipes/payments/pay-upgrade-cta"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-paywall-gate",
+      "path": "recipes/payments/pay-paywall-gate"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-usage-meter",
+      "path": "recipes/payments/pay-usage-meter"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-invoice-history",
+      "path": "recipes/payments/pay-invoice-history"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-refund-request",
+      "path": "recipes/payments/pay-refund-request"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-cancel-flow",
+      "path": "recipes/payments/pay-cancel-flow"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-webhook-verify",
+      "path": "recipes/payments/pay-webhook-verify"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-price-table",
+      "path": "recipes/payments/pay-price-table"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-trial-banner",
+      "path": "recipes/payments/pay-trial-banner"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-billing-portal",
+      "path": "recipes/payments/pay-billing-portal"
+    },
+    {
+      "category": "payments",
+      "slug": "pay-plan-compare",
+      "path": "recipes/payments/pay-plan-compare"
+    },
+    {
+      "category": "data",
+      "slug": "search-fulltext",
+      "path": "recipes/data/search-fulltext"
+    },
+    {
+      "category": "data",
+      "slug": "search-vector",
+      "path": "recipes/data/search-vector"
+    },
+    {
+      "category": "data",
+      "slug": "search-hybrid-app",
+      "path": "recipes/data/search-hybrid-app"
+    },
+    {
+      "category": "data",
+      "slug": "filter-facets",
+      "path": "recipes/data/filter-facets"
+    },
+    {
+      "category": "data",
+      "slug": "pagination-cursor",
+      "path": "recipes/data/pagination-cursor"
+    },
+    {
+      "category": "data",
+      "slug": "pagination-offset",
+      "path": "recipes/data/pagination-offset"
+    },
+    {
+      "category": "data",
+      "slug": "virtual-list-10k",
+      "path": "recipes/data/virtual-list-10k"
+    },
+    {
+      "category": "data",
+      "slug": "infinite-scroll",
+      "path": "recipes/data/infinite-scroll"
+    },
+    {
+      "category": "data",
+      "slug": "csv-export",
+      "path": "recipes/data/csv-export"
+    },
+    {
+      "category": "data",
+      "slug": "csv-import",
+      "path": "recipes/data/csv-import"
+    },
+    {
+      "category": "data",
+      "slug": "pdf-export",
+      "path": "recipes/data/pdf-export"
+    },
+    {
+      "category": "data",
+      "slug": "pdf-generate",
+      "path": "recipes/data/pdf-generate"
+    },
+    {
+      "category": "data",
+      "slug": "xlsx-export",
+      "path": "recipes/data/xlsx-export"
+    },
+    {
+      "category": "data",
+      "slug": "json-export",
+      "path": "recipes/data/json-export"
+    },
+    {
+      "category": "data",
+      "slug": "chart-line",
+      "path": "recipes/data/chart-line"
+    },
+    {
+      "category": "data",
+      "slug": "chart-bar",
+      "path": "recipes/data/chart-bar"
+    },
+    {
+      "category": "data",
+      "slug": "chart-pie",
+      "path": "recipes/data/chart-pie"
+    },
+    {
+      "category": "data",
+      "slug": "chart-area",
+      "path": "recipes/data/chart-area"
+    },
+    {
+      "category": "data",
+      "slug": "chart-heatmap",
+      "path": "recipes/data/chart-heatmap"
+    },
+    {
+      "category": "data",
+      "slug": "chart-sparkline",
+      "path": "recipes/data/chart-sparkline"
+    },
+    {
+      "category": "data",
+      "slug": "chart-realtime",
+      "path": "recipes/data/chart-realtime"
+    },
+    {
+      "category": "data",
+      "slug": "analytics-events",
+      "path": "recipes/data/analytics-events"
+    },
+    {
+      "category": "data",
+      "slug": "analytics-funnel",
+      "path": "recipes/data/analytics-funnel"
+    },
+    {
+      "category": "data",
+      "slug": "analytics-retention",
+      "path": "recipes/data/analytics-retention"
+    },
+    {
+      "category": "data",
+      "slug": "segment-server-events",
+      "path": "recipes/data/segment-server-events"
+    },
+    {
+      "category": "data",
+      "slug": "posthog-server-events",
+      "path": "recipes/data/posthog-server-events"
+    },
+    {
+      "category": "data",
+      "slug": "plausible-events",
+      "path": "recipes/data/plausible-events"
+    },
+    {
+      "category": "data",
+      "slug": "audit-log-table",
+      "path": "recipes/data/audit-log-table"
+    },
+    {
+      "category": "data",
+      "slug": "soft-delete",
+      "path": "recipes/data/soft-delete"
+    },
+    {
+      "category": "data",
+      "slug": "undo-redo",
+      "path": "recipes/data/undo-redo"
+    },
+    {
+      "category": "data",
+      "slug": "versioned-rows",
+      "path": "recipes/data/versioned-rows"
+    },
+    {
+      "category": "data",
+      "slug": "diff-viewer",
+      "path": "recipes/data/diff-viewer"
+    },
+    {
+      "category": "backend",
+      "slug": "serverfn-basic",
+      "path": "recipes/backend/serverfn-basic"
+    },
+    {
+      "category": "backend",
+      "slug": "serverfn-auth",
+      "path": "recipes/backend/serverfn-auth"
+    },
+    {
+      "category": "backend",
+      "slug": "serverfn-admin",
+      "path": "recipes/backend/serverfn-admin"
+    },
+    {
+      "category": "backend",
+      "slug": "serverfn-cache",
+      "path": "recipes/backend/serverfn-cache"
+    },
+    {
+      "category": "backend",
+      "slug": "route-api-public",
+      "path": "recipes/backend/route-api-public"
+    },
+    {
+      "category": "backend",
+      "slug": "route-api-signed",
+      "path": "recipes/backend/route-api-signed"
+    },
+    {
+      "category": "backend",
+      "slug": "webhook-stripe",
+      "path": "recipes/backend/webhook-stripe"
+    },
+    {
+      "category": "backend",
+      "slug": "webhook-github",
+      "path": "recipes/backend/webhook-github"
+    },
+    {
+      "category": "backend",
+      "slug": "webhook-generic-hmac",
+      "path": "recipes/backend/webhook-generic-hmac"
+    },
+    {
+      "category": "backend",
+      "slug": "cron-daily",
+      "path": "recipes/backend/cron-daily"
+    },
+    {
+      "category": "backend",
+      "slug": "cron-hourly",
+      "path": "recipes/backend/cron-hourly"
+    },
+    {
+      "category": "backend",
+      "slug": "cron-pg-cron",
+      "path": "recipes/backend/cron-pg-cron"
+    },
+    {
+      "category": "backend",
+      "slug": "queue-simple",
+      "path": "recipes/backend/queue-simple"
+    },
+    {
+      "category": "backend",
+      "slug": "queue-retry",
+      "path": "recipes/backend/queue-retry"
+    },
+    {
+      "category": "backend",
+      "slug": "queue-dlq",
+      "path": "recipes/backend/queue-dlq"
+    },
+    {
+      "category": "backend",
+      "slug": "rate-limit-ip",
+      "path": "recipes/backend/rate-limit-ip"
+    },
+    {
+      "category": "backend",
+      "slug": "rate-limit-user",
+      "path": "recipes/backend/rate-limit-user"
+    },
+    {
+      "category": "backend",
+      "slug": "idempotency-keys",
+      "path": "recipes/backend/idempotency-keys"
+    },
+    {
+      "category": "backend",
+      "slug": "feature-flags",
+      "path": "recipes/backend/feature-flags"
+    },
+    {
+      "category": "backend",
+      "slug": "ab-tests",
+      "path": "recipes/backend/ab-tests"
+    },
+    {
+      "category": "backend",
+      "slug": "edge-cache-headers",
+      "path": "recipes/backend/edge-cache-headers"
+    },
+    {
+      "category": "backend",
+      "slug": "image-optim-loader",
+      "path": "recipes/backend/image-optim-loader"
+    },
+    {
+      "category": "backend",
+      "slug": "sitemap-xml",
+      "path": "recipes/backend/sitemap-xml"
+    },
+    {
+      "category": "backend",
+      "slug": "robots-txt",
+      "path": "recipes/backend/robots-txt"
+    },
+    {
+      "category": "backend",
+      "slug": "rss-feed",
+      "path": "recipes/backend/rss-feed"
+    },
+    {
+      "category": "backend",
+      "slug": "atom-feed",
+      "path": "recipes/backend/atom-feed"
+    },
+    {
+      "category": "backend",
+      "slug": "llms-txt",
+      "path": "recipes/backend/llms-txt"
+    },
+    {
+      "category": "backend",
+      "slug": "well-known-oauth-client",
+      "path": "recipes/backend/well-known-oauth-client"
+    },
+    {
+      "category": "backend",
+      "slug": "health-check",
+      "path": "recipes/backend/health-check"
+    },
+    {
+      "category": "backend",
+      "slug": "ready-check",
+      "path": "recipes/backend/ready-check"
+    },
+    {
+      "category": "backend",
+      "slug": "version-endpoint",
+      "path": "recipes/backend/version-endpoint"
+    },
+    {
+      "category": "backend",
+      "slug": "structured-logs",
+      "path": "recipes/backend/structured-logs"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "a11y-reduced-motion",
+      "path": "recipes/a11y-seo/a11y-reduced-motion"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "a11y-focus-trap",
+      "path": "recipes/a11y-seo/a11y-focus-trap"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "a11y-skip-link",
+      "path": "recipes/a11y-seo/a11y-skip-link"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "a11y-aria-live",
+      "path": "recipes/a11y-seo/a11y-aria-live"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "a11y-sr-only",
+      "path": "recipes/a11y-seo/a11y-sr-only"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "a11y-contrast-check",
+      "path": "recipes/a11y-seo/a11y-contrast-check"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "a11y-lang-attr",
+      "path": "recipes/a11y-seo/a11y-lang-attr"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "a11y-keyboard-nav",
+      "path": "recipes/a11y-seo/a11y-keyboard-nav"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-title-desc",
+      "path": "recipes/a11y-seo/seo-title-desc"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-og-image",
+      "path": "recipes/a11y-seo/seo-og-image"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-twitter-card",
+      "path": "recipes/a11y-seo/seo-twitter-card"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-canonical",
+      "path": "recipes/a11y-seo/seo-canonical"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-hreflang",
+      "path": "recipes/a11y-seo/seo-hreflang"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-jsonld-product",
+      "path": "recipes/a11y-seo/seo-jsonld-product"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-jsonld-article",
+      "path": "recipes/a11y-seo/seo-jsonld-article"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-jsonld-faq",
+      "path": "recipes/a11y-seo/seo-jsonld-faq"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-jsonld-org",
+      "path": "recipes/a11y-seo/seo-jsonld-org"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-jsonld-breadcrumb",
+      "path": "recipes/a11y-seo/seo-jsonld-breadcrumb"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-jsonld-howto",
+      "path": "recipes/a11y-seo/seo-jsonld-howto"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-jsonld-video",
+      "path": "recipes/a11y-seo/seo-jsonld-video"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-sitemap-index",
+      "path": "recipes/a11y-seo/seo-sitemap-index"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-robots-directives",
+      "path": "recipes/a11y-seo/seo-robots-directives"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-breadcrumb-ui",
+      "path": "recipes/a11y-seo/seo-breadcrumb-ui"
+    },
+    {
+      "category": "a11y-seo",
+      "slug": "seo-share-preview",
+      "path": "recipes/a11y-seo/seo-share-preview"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-lazy-image",
+      "path": "recipes/perf/perf-lazy-image"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-image-natural-guard",
+      "path": "recipes/perf/perf-image-natural-guard"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-code-split",
+      "path": "recipes/perf/perf-code-split"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-prefetch",
+      "path": "recipes/perf/perf-prefetch"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-service-worker",
+      "path": "recipes/perf/perf-service-worker"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-offline-shell",
+      "path": "recipes/perf/perf-offline-shell"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-pwa-install",
+      "path": "recipes/perf/perf-pwa-install"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-http-cache",
+      "path": "recipes/perf/perf-http-cache"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-resource-hints",
+      "path": "recipes/perf/perf-resource-hints"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-cwv-monitor",
+      "path": "recipes/perf/perf-cwv-monitor"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-lighthouse-badge",
+      "path": "recipes/perf/perf-lighthouse-badge"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-critical-css",
+      "path": "recipes/perf/perf-critical-css"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-font-swap",
+      "path": "recipes/perf/perf-font-swap"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-font-subset",
+      "path": "recipes/perf/perf-font-subset"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-defer-scripts",
+      "path": "recipes/perf/perf-defer-scripts"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-bundle-analyze",
+      "path": "recipes/perf/perf-bundle-analyze"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-preload-hero",
+      "path": "recipes/perf/perf-preload-hero"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-inline-svg",
+      "path": "recipes/perf/perf-inline-svg"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-noise-cheap",
+      "path": "recipes/perf/perf-noise-cheap"
+    },
+    {
+      "category": "perf",
+      "slug": "perf-heavy-anim-gate",
+      "path": "recipes/perf/perf-heavy-anim-gate"
+    }
+  ],
+  "apps": [
+    "ai-support-chat",
+    "rag-doc-qa",
+    "voice-narrated-blog",
+    "ai-photo-studio",
+    "live-dashboard",
+    "marketplace-starter",
+    "saas-subscription",
+    "kanban-team",
+    "comments-thread",
+    "live-poll",
+    "transcription-app",
+    "translation-studio",
+    "voice-agent",
+    "command-palette",
+    "scheduling-app",
+    "onboarding-flow",
+    "changelog-generator",
+    "code-review-bot",
+    "mcp-agent-console",
+    "semantic-search",
+    "stripe-paywall",
+    "passkey-login",
+    "sitemap-seo",
+    "pwa-offline-shell"
+  ]
+}

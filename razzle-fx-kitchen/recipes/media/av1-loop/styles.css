@@ -1,0 +1,8 @@
+/* av1-loop — media */
+.rfx-av1-loop{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,hsl(140 90% 55%),hsl(320 85% 45%));color:#fff;padding:2rem;border-radius:1rem}
+.rfx-av1-loop::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);mix-blend-mode:overlay;pointer-events:none}
+.rfx-av1-loop__inner{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .rfx-av1-loop{animation:rfx-av1-loop-a 8s ease-in-out infinite alternate}
+}
+@keyframes rfx-av1-loop-a{from{background-position:0 0}to{background-position:100% 100%}}

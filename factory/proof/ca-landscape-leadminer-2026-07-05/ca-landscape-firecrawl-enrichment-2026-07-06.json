@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-07-06T07:19:02.320Z",
+  "firecrawlConfigured": true,
+  "sourceQueuePath": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\ca-landscape-build-queue.json",
+  "enrichedQueuePath": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\ca-landscape-build-queue-enriched.json",
+  "businesses": [
+    {
+      "name": "Landscape Connection, Inc.",
+      "website": "http://landscapeconnection.org/",
+      "selectedUrl": "http://landscapeconnection.org/",
+      "logoCandidates": 3,
+      "imageCandidates": 9,
+      "brandColors": [
+        "#008000",
+        "#935734",
+        "#87be49",
+        "#6d973b",
+        "#dd9933",
+        "#f5f5f5",
+        "#17a8e3",
+        "#1999cd"
+      ],
+      "attempts": [
+        {
+          "url": "http://landscapeconnection.org/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Landscape Connection | Best in Fresno Landscape Design",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 9,
+          "colorCount": 5
+        },
+        {
+          "url": "https://landscapeconnection.org/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Landscape Connection | Best in Fresno Landscape Design",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 9,
+          "colorCount": 5
+        }
+      ]
+    },
+    {
+      "name": "AJP LANDSCAPE INC",
+      "website": "http://www.ajplandscape.com/",
+      "selectedUrl": "http://www.ajplandscape.com/",
+      "logoCandidates": 2,
+      "imageCandidates": 1,
+      "brandColors": [
+        "#fb7d33",
+        "#0000ee"
+      ],
+      "attempts": [
+        {
+          "url": "http://www.ajplandscape.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Error",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 1,
+          "imageCount": 1,
+          "colorCount": 2
+        },
+        {
+          "url": "https://www.ajplandscape.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Error",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 1,
+          "imageCount": 1,
+          "colorCount": 2
+        }
+      ]
+    },
+    {
+      "name": "Barriga Landscaping",
+      "website": "",
+      "selectedUrl": "",
+      "logoCandidates": 0,
+      "imageCandidates": 0,
+      "brandColors": [],
+      "attempts": []
+    },
+    {
+      "name": "Signature Landscape",
+      "website": "https://www.signaturelandscape.com/",
+      "selectedUrl": "https://www.signaturelandscape.com/",
+      "logoCandidates": 3,
+      "imageCandidates": 24,
+      "brandColors": [
+        "#5e5e5e",
+        "#0074db",
+        "#002768",
+        "#8c0909",
+        "#f9f9f9"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.signaturelandscape.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Signature Landscape | OC Landscaping & Hardscaping",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 24,
+          "colorCount": 5
+        }
+      ]
+    },
+    {
+      "name": "Richard Diaz Landscape",
+      "website": "https://richarddiazlandscaping.com/",
+      "selectedUrl": "https://richarddiazlandscaping.com/",
+      "logoCandidates": 3,
+      "imageCandidates": 24,
+      "brandColors": [
+        "#f6821f",
+        "#fbad41",
+        "#efe2cf",
+        "#e4d3bb",
+        "#2575fc"
+      ],
+      "attempts": [
+        {
+          "url": "https://richarddiazlandscaping.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Richard Diaz Landscape Design & Masonry – Orange, CA Experts",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 24,
+          "colorCount": 5
+        }
+      ]
+    }
+  ]
+}

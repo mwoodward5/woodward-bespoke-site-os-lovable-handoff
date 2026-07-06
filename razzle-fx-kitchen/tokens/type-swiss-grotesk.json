@@ -1,0 +1,7 @@
+{
+  "name": "swiss-grotesk",
+  "stacks": {
+    "heading": "'Neue Haas Grotesk','Helvetica Neue',Arial",
+    "body": "Inter, system-ui"
+  }
+}

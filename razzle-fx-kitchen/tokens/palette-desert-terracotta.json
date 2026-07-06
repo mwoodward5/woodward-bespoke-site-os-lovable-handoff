@@ -1,0 +1,12 @@
+{
+  "name": "desert-terracotta",
+  "colors": {
+    "c0": "#2b1a12",
+    "c1": "#5b3324",
+    "c2": "#f2e7d5",
+    "c3": "#c86a3b",
+    "c4": "#e5a15a",
+    "c5": "#8b6a4a"
+  },
+  "css": ":root{--desert-terracotta-c0:#2b1a12;--desert-terracotta-c1:#5b3324;--desert-terracotta-c2:#f2e7d5;--desert-terracotta-c3:#c86a3b;--desert-terracotta-c4:#e5a15a;--desert-terracotta-c5:#8b6a4a}"
+}

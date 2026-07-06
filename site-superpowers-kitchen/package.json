@@ -1,0 +1,17 @@
+{
+  "name": "site-superpowers-kitchen",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Functional ingredients library: AI, voice, realtime, auth, payments, and modern site behaviors.",
+  "sideEffects": false,
+  "keywords": [
+    "ai",
+    "chatbot",
+    "tts",
+    "voice",
+    "realtime",
+    "tanstack",
+    "supabase",
+    "lovable"
+  ]
+}

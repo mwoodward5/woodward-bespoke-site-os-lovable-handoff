@@ -1,0 +1,14 @@
+{
+  "categories": [
+    "hate",
+    "sexual",
+    "violence",
+    "self-harm",
+    "weapons",
+    "illicit-drugs",
+    "pii-leak",
+    "prompt-injection"
+  ],
+  "inbound_threshold": "strict",
+  "outbound_threshold": "medium"
+}

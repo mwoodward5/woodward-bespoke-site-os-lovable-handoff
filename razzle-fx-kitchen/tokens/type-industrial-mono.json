@@ -1,0 +1,7 @@
+{
+  "name": "industrial-mono",
+  "stacks": {
+    "heading": "'Space Grotesk', ui-sans-serif",
+    "body": "'JetBrains Mono', ui-monospace"
+  }
+}

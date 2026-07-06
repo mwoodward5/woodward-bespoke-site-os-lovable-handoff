@@ -1,0 +1,16 @@
+{
+  "name": "Barriga Landscaping Preview",
+  "short_name": "Barriga Landscaping",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff1d7",
+  "theme_color": "#fff1d7",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

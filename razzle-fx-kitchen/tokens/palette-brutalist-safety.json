@@ -1,0 +1,12 @@
+{
+  "name": "brutalist-safety",
+  "colors": {
+    "c0": "#000000",
+    "c1": "#ffffff",
+    "c2": "#ffe500",
+    "c3": "#ff3b30",
+    "c4": "#0055ff",
+    "c5": "#606060"
+  },
+  "css": ":root{--brutalist-safety-c0:#000000;--brutalist-safety-c1:#ffffff;--brutalist-safety-c2:#ffe500;--brutalist-safety-c3:#ff3b30;--brutalist-safety-c4:#0055ff;--brutalist-safety-c5:#606060}"
+}

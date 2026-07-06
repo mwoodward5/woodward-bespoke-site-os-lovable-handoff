@@ -1,0 +1,7 @@
+{
+  "name": "humanist-warm",
+  "stacks": {
+    "heading": "Fraunces, Georgia, serif",
+    "body": "'Source Sans 3', system-ui"
+  }
+}

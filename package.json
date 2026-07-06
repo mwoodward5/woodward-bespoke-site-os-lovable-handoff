@@ -1,0 +1,14 @@
+{
+  "name": "woodward-bespoke-site-os-lovable-handoff",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bespoke Site OS handoff repo: prompt-driven local business site builder engine, three-kitchen design stack, generated examples, and proof artifacts for Lovable review.",
+  "scripts": {
+    "build:ca-landscape": "node factory/build-ca-landscape-aplus-sites.mjs",
+    "gate:kitchens": "node scripts/three-kitchen-gate.mjs --strict",
+    "smoke:ca-landscape": "node factory/smoke-ca-landscape-sites.mjs",
+    "capture:ca-landscape": "node factory/capture-ca-landscape-sites.mjs"
+  }
+}
+

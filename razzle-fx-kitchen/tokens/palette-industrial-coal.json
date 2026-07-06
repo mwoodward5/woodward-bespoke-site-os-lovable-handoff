@@ -1,0 +1,12 @@
+{
+  "name": "industrial-coal",
+  "colors": {
+    "c0": "#161311",
+    "c1": "#2a2622",
+    "c2": "#f5efe4",
+    "c3": "#e8b64a",
+    "c4": "#c8631e",
+    "c5": "#8a8079"
+  },
+  "css": ":root{--industrial-coal-c0:#161311;--industrial-coal-c1:#2a2622;--industrial-coal-c2:#f5efe4;--industrial-coal-c3:#e8b64a;--industrial-coal-c4:#c8631e;--industrial-coal-c5:#8a8079}"
+}

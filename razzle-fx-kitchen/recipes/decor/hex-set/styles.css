@@ -1,0 +1,8 @@
+/* hex-set — decor */
+.rfx-hex-set{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,hsl(109 90% 55%),hsl(289 85% 45%));color:#fff;padding:2rem;border-radius:1rem}
+.rfx-hex-set::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);mix-blend-mode:overlay;pointer-events:none}
+.rfx-hex-set__inner{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .rfx-hex-set{animation:rfx-hex-set-a 8s ease-in-out infinite alternate}
+}
+@keyframes rfx-hex-set-a{from{background-position:0 0}to{background-position:100% 100%}}

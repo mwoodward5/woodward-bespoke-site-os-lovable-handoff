@@ -1,0 +1,4 @@
+{
+  "idle_timeout_min": 30,
+  "refresh_leeway_sec": 60
+}

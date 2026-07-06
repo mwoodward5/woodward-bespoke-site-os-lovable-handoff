@@ -1,0 +1,8 @@
+{
+  "name": "brutal",
+  "easings": {
+    "cut": "steps(1,end)",
+    "chunk": "steps(4,end)",
+    "stab": "cubic-bezier(1,0,1,0)"
+  }
+}

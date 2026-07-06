@@ -1,0 +1,31 @@
+# Always Bg Remove Logo If Needed
+
+**Category:** `polish-rules`  **Perf tier:** free  **Cost tier:** cheap  **Applies unprompted:** yes
+
+## What it does
+Rules the agent applies unprompted on every new site. See `polish-rules.json` for the machine-readable set.
+
+## Files
+- `README.md` — this file
+- `pipeline.md` — AI pipeline (for content-rescue/extraction/polish recipes)
+- `component.tsx` — React drop-in (where applicable)
+- `functions.ts` — server fn (where applicable)
+- `snippet.html` — vanilla fallback
+- `variants.md`
+- `preview.png`
+
+## Natural-language triggers
+- "always always bg remove logo if needed"
+- "never always bg remove logo if needed"
+- "polish: always bg remove logo if needed"
+- "auto-apply always bg remove logo if needed"
+- "always bg remove logo if needed"
+
+## Cross-kitchen references
+- Visual layer: see `razzle-fx-kitchen/recipes/backgrounds/*`
+- Functional layer: see `site-superpowers-kitchen/recipes/ai/*`
+
+## Refuse when
+- User explicitly overrides via phrase: `skip always bg remove logo if needed`
+- Regulated verticals without human review
+- Content includes minors' faces without consent

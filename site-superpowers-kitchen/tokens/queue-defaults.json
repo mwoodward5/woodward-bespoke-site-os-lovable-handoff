@@ -1,0 +1,5 @@
+{
+  "max_retries": 5,
+  "backoff": "exponential",
+  "dlq": true
+}

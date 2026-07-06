@@ -1,0 +1,27 @@
+{
+  "editorial": {
+    "bg": "paper",
+    "type": "serif",
+    "layout": "quote-first"
+  },
+  "brutalist": {
+    "bg": "black",
+    "type": "grotesk-heavy",
+    "layout": "headline-shout"
+  },
+  "cinematic": {
+    "bg": "gradient-mesh",
+    "type": "grotesk",
+    "layout": "cover-photo-overlay"
+  },
+  "industrial": {
+    "bg": "coal",
+    "type": "grotesk-condensed",
+    "layout": "logo-mark-plus-title"
+  },
+  "boutique": {
+    "bg": "bone",
+    "type": "serif",
+    "layout": "centered-monogram"
+  }
+}

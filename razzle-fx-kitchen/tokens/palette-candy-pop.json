@@ -1,0 +1,12 @@
+{
+  "name": "candy-pop",
+  "colors": {
+    "c0": "#1a0a1a",
+    "c1": "#ff5ea8",
+    "c2": "#ffd166",
+    "c3": "#66d7ee",
+    "c4": "#a06bff",
+    "c5": "#f4f4ff"
+  },
+  "css": ":root{--candy-pop-c0:#1a0a1a;--candy-pop-c1:#ff5ea8;--candy-pop-c2:#ffd166;--candy-pop-c3:#66d7ee;--candy-pop-c4:#a06bff;--candy-pop-c5:#f4f4ff}"
+}

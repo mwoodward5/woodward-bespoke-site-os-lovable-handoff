@@ -1,0 +1,4805 @@
+{
+  "count": 1200,
+  "mappings": [
+    {
+      "phrase": "pair industrial mono",
+      "path": "recipes/typography/pair-industrial-mono"
+    },
+    {
+      "phrase": "cite-friendly article with citations",
+      "path": "recipes/geo-aeo/article-with-citations"
+    },
+    {
+      "phrase": "service area local appointment schema",
+      "path": "recipes/local-seo/local-appointment-schema"
+    },
+    {
+      "phrase": "remaster the photo lqip generate",
+      "path": "recipes/content-rescue/photo-lqip-generate"
+    },
+    {
+      "phrase": "immersive: liquid mesh anim",
+      "path": "recipes/immersive/liquid-mesh-anim"
+    },
+    {
+      "phrase": "QC dead end route",
+      "path": "recipes/qc-audit/dead-end-route"
+    },
+    {
+      "phrase": "AEO: breadcrumb schema",
+      "path": "recipes/geo-aeo/breadcrumb-schema"
+    },
+    {
+      "phrase": "layout: bento 2x2",
+      "path": "recipes/layouts/bento-2x2"
+    },
+    {
+      "phrase": "wow me with shader oil paint",
+      "path": "recipes/immersive/shader-oil-paint"
+    },
+    {
+      "phrase": "changelog generator",
+      "path": "recipes/deploy/changelog-generator"
+    },
+    {
+      "phrase": "font pair scale major third",
+      "path": "recipes/typography/scale-major-third"
+    },
+    {
+      "phrase": "lay it out as bento broken",
+      "path": "recipes/layouts/bento-broken"
+    },
+    {
+      "phrase": "remaster the photo restore fade",
+      "path": "recipes/content-rescue/photo-restore-fade"
+    },
+    {
+      "phrase": "post launch analytics",
+      "path": "recipes/deploy/post-launch-analytics"
+    },
+    {
+      "phrase": "validate missing og",
+      "path": "recipes/qc-audit/missing-og"
+    },
+    {
+      "phrase": "integrate with currency auto convert",
+      "path": "recipes/glue/currency-auto-convert"
+    },
+    {
+      "phrase": "use the zigzag alt",
+      "path": "recipes/layouts/zigzag-alt"
+    },
+    {
+      "phrase": "make gorgeous: photo de yellow",
+      "path": "recipes/content-rescue/photo-de-yellow"
+    },
+    {
+      "phrase": "novel effect: genart flow field",
+      "path": "recipes/immersive/genart-flow-field"
+    },
+    {
+      "phrase": "auto-apply always focus ring",
+      "path": "recipes/polish-rules/always-focus-ring"
+    },
+    {
+      "phrase": "AEO: first party data block",
+      "path": "recipes/geo-aeo/first-party-data-block"
+    },
+    {
+      "phrase": "validate print view check",
+      "path": "recipes/qc-audit/print-view-check"
+    },
+    {
+      "phrase": "blog share card",
+      "path": "recipes/social-preview/blog-share-card"
+    },
+    {
+      "phrase": "typographic system: pair variable width",
+      "path": "recipes/typography/pair-variable-width"
+    },
+    {
+      "phrase": "privacy consent banner dpdp",
+      "path": "recipes/legal/consent-banner-dpdp"
+    },
+    {
+      "phrase": "fix the realestate lawn boost",
+      "path": "recipes/content-rescue/realestate-lawn-boost"
+    },
+    {
+      "phrase": "rescue the brand color extract",
+      "path": "recipes/content-rescue/brand-color-extract"
+    },
+    {
+      "phrase": "manifesto page",
+      "path": "recipes/layouts/manifesto-page"
+    },
+    {
+      "phrase": "social preview: linkedin preview",
+      "path": "recipes/social-preview/linkedin-preview"
+    },
+    {
+      "phrase": "make gorgeous: logo reverse variant",
+      "path": "recipes/content-rescue/logo-reverse-variant"
+    },
+    {
+      "phrase": "build a page from testimonial quote extract",
+      "path": "recipes/content-extraction/testimonial-quote-extract"
+    },
+    {
+      "phrase": "check broken link crawler",
+      "path": "recipes/qc-audit/broken-link-crawler"
+    },
+    {
+      "phrase": "make gorgeous: photo outpaint hero",
+      "path": "recipes/content-rescue/photo-outpaint-hero"
+    },
+    {
+      "phrase": "make gorgeous: gallery order optimize",
+      "path": "recipes/content-rescue/gallery-order-optimize"
+    },
+    {
+      "phrase": "novel effect: gyroscope tilt",
+      "path": "recipes/immersive/gyroscope-tilt"
+    },
+    {
+      "phrase": "set typography to pair script plus neutral",
+      "path": "recipes/typography/pair-script-plus-neutral"
+    },
+    {
+      "phrase": "QC wcag 22 aa sweep",
+      "path": "recipes/qc-audit/wcag-22-aa-sweep"
+    },
+    {
+      "phrase": "validate font loading audit",
+      "path": "recipes/qc-audit/font-loading-audit"
+    },
+    {
+      "phrase": "pdf to case study",
+      "path": "recipes/content-extraction/pdf-to-case-study"
+    },
+    {
+      "phrase": "add schema for llms txt extended",
+      "path": "recipes/geo-aeo/llms-txt-extended"
+    },
+    {
+      "phrase": "mesh warp hover",
+      "path": "recipes/immersive/mesh-warp-hover"
+    },
+    {
+      "phrase": "typographic system: pair brutal display",
+      "path": "recipes/typography/pair-brutal-display"
+    },
+    {
+      "phrase": "use the kinetic wave",
+      "path": "recipes/typography/kinetic-wave"
+    },
+    {
+      "phrase": "localbusiness schema",
+      "path": "recipes/local-seo/localbusiness-schema"
+    },
+    {
+      "phrase": "AEO: citation page structure",
+      "path": "recipes/geo-aeo/citation-page-structure"
+    },
+    {
+      "phrase": "polish: always humans txt",
+      "path": "recipes/polish-rules/always-humans-txt"
+    },
+    {
+      "phrase": "gbp sync helper",
+      "path": "recipes/local-seo/gbp-sync-helper"
+    },
+    {
+      "phrase": "consent eula",
+      "path": "recipes/legal/eula"
+    },
+    {
+      "phrase": "set typography to kinetic shuffle",
+      "path": "recipes/typography/kinetic-shuffle"
+    },
+    {
+      "phrase": "build a page from spreadsheet to pricing",
+      "path": "recipes/content-extraction/spreadsheet-to-pricing"
+    },
+    {
+      "phrase": "extract competitor positioning brief",
+      "path": "recipes/content-extraction/competitor-positioning-brief"
+    },
+    {
+      "phrase": "privacy security txt",
+      "path": "recipes/legal/security-txt"
+    },
+    {
+      "phrase": "rtl flip check",
+      "path": "recipes/qc-audit/rtl-flip-check"
+    },
+    {
+      "phrase": "consent imprint ch",
+      "path": "recipes/legal/imprint-ch"
+    },
+    {
+      "phrase": "generate site copy from brand tone matrix",
+      "path": "recipes/content-extraction/brand-tone-matrix"
+    },
+    {
+      "phrase": "kinetic typewriter",
+      "path": "recipes/typography/kinetic-typewriter"
+    },
+    {
+      "phrase": "QC social preview lint",
+      "path": "recipes/qc-audit/social-preview-lint"
+    },
+    {
+      "phrase": "never-seen-before custom cursor",
+      "path": "recipes/immersive/custom-cursor"
+    },
+    {
+      "phrase": "remaster the photo metadata strip",
+      "path": "recipes/content-rescue/photo-metadata-strip"
+    },
+    {
+      "phrase": "AEO: article with citations",
+      "path": "recipes/geo-aeo/article-with-citations"
+    },
+    {
+      "phrase": "build a page from brand dna from logo and paragraph",
+      "path": "recipes/content-extraction/brand-dna-from-logo-and-paragraph"
+    },
+    {
+      "phrase": "never always cookie banner",
+      "path": "recipes/polish-rules/always-cookie-banner"
+    },
+    {
+      "phrase": "brand tone matrix",
+      "path": "recipes/content-extraction/brand-tone-matrix"
+    },
+    {
+      "phrase": "tiktok thumbnail",
+      "path": "recipes/social-preview/tiktok-thumbnail"
+    },
+    {
+      "phrase": "email: custom domain checklist",
+      "path": "recipes/deploy/custom-domain-checklist"
+    },
+    {
+      "phrase": "rescue the brand color palette",
+      "path": "recipes/content-rescue/brand-color-palette"
+    },
+    {
+      "phrase": "pair all caps display",
+      "path": "recipes/typography/pair-all-caps-display"
+    },
+    {
+      "phrase": "alt text auditor",
+      "path": "recipes/qc-audit/alt-text-auditor"
+    },
+    {
+      "phrase": "novel effect: view transitions",
+      "path": "recipes/immersive/view-transitions"
+    },
+    {
+      "phrase": "novel effect: lightning bolt shader",
+      "path": "recipes/immersive/lightning-bolt-shader"
+    },
+    {
+      "phrase": "immersive: depth cursor parallax",
+      "path": "recipes/immersive/depth-cursor-parallax"
+    },
+    {
+      "phrase": "integrate with qr generator",
+      "path": "recipes/glue/qr-generator"
+    },
+    {
+      "phrase": "embed countdown timer",
+      "path": "recipes/glue/countdown-timer"
+    },
+    {
+      "phrase": "share card: twitter card",
+      "path": "recipes/social-preview/twitter-card"
+    },
+    {
+      "phrase": "add legal consent banner gdpr",
+      "path": "recipes/legal/consent-banner-gdpr"
+    },
+    {
+      "phrase": "kinetic morph",
+      "path": "recipes/typography/kinetic-morph"
+    },
+    {
+      "phrase": "extract testimonial quote extract",
+      "path": "recipes/content-extraction/testimonial-quote-extract"
+    },
+    {
+      "phrase": "add legal imprint at",
+      "path": "recipes/legal/imprint-at"
+    },
+    {
+      "phrase": "layout: magazine spread",
+      "path": "recipes/layouts/magazine-spread"
+    },
+    {
+      "phrase": "crm webhook",
+      "path": "recipes/glue/crm-webhook"
+    },
+    {
+      "phrase": "always always og url self",
+      "path": "recipes/polish-rules/always-og-url-self"
+    },
+    {
+      "phrase": "AEO: podcast schema",
+      "path": "recipes/geo-aeo/podcast-schema"
+    },
+    {
+      "phrase": "rich link: linkedin preview",
+      "path": "recipes/social-preview/linkedin-preview"
+    },
+    {
+      "phrase": "AEO: claimreview schema",
+      "path": "recipes/geo-aeo/claimreview-schema"
+    },
+    {
+      "phrase": "auto-apply always og image",
+      "path": "recipes/polish-rules/always-og-image"
+    },
+    {
+      "phrase": "view transitions",
+      "path": "recipes/immersive/view-transitions"
+    },
+    {
+      "phrase": "typographic system: kinetic marquee",
+      "path": "recipes/typography/kinetic-marquee"
+    },
+    {
+      "phrase": "generate site copy from service page rewrite",
+      "path": "recipes/content-extraction/service-page-rewrite"
+    },
+    {
+      "phrase": "realestate lawn boost",
+      "path": "recipes/content-rescue/realestate-lawn-boost"
+    },
+    {
+      "phrase": "fix the photo color grade editorial",
+      "path": "recipes/content-rescue/photo-color-grade-editorial"
+    },
+    {
+      "phrase": "set typography to pair small caps editorial",
+      "path": "recipes/typography/pair-small-caps-editorial"
+    },
+    {
+      "phrase": "never always humans txt",
+      "path": "recipes/polish-rules/always-humans-txt"
+    },
+    {
+      "phrase": "share card: press share card",
+      "path": "recipes/social-preview/press-share-card"
+    },
+    {
+      "phrase": "make gorgeous: photo webp avif convert",
+      "path": "recipes/content-rescue/photo-webp-avif-convert"
+    },
+    {
+      "phrase": "always always offline shell",
+      "path": "recipes/polish-rules/always-offline-shell"
+    },
+    {
+      "phrase": "make gorgeous: headshot lighting match",
+      "path": "recipes/content-rescue/headshot-lighting-match"
+    },
+    {
+      "phrase": "compliance: third party disclosure",
+      "path": "recipes/legal/third-party-disclosure"
+    },
+    {
+      "phrase": "social preview: og audio",
+      "path": "recipes/social-preview/og-audio"
+    },
+    {
+      "phrase": "grid: hero centered",
+      "path": "recipes/layouts/hero-centered"
+    },
+    {
+      "phrase": "extract case study outline",
+      "path": "recipes/content-extraction/case-study-outline"
+    },
+    {
+      "phrase": "generate site copy from faq mine from tickets",
+      "path": "recipes/content-extraction/faq-mine-from-tickets"
+    },
+    {
+      "phrase": "fix the brand mood extract",
+      "path": "recipes/content-rescue/brand-mood-extract"
+    },
+    {
+      "phrase": "share card: stats share card",
+      "path": "recipes/social-preview/stats-share-card"
+    },
+    {
+      "phrase": "wow me with weather reactive palette",
+      "path": "recipes/immersive/weather-reactive-palette"
+    },
+    {
+      "phrase": "typographic system: opentype tabular nums",
+      "path": "recipes/typography/opentype-tabular-nums"
+    },
+    {
+      "phrase": "privacy privacy policy gen",
+      "path": "recipes/legal/privacy-policy-gen"
+    },
+    {
+      "phrase": "never always web share api",
+      "path": "recipes/polish-rules/always-web-share-api"
+    },
+    {
+      "phrase": "ics calendar export",
+      "path": "recipes/glue/ics-calendar-export"
+    },
+    {
+      "phrase": "connect voice first qa",
+      "path": "recipes/glue/voice-first-qa"
+    },
+    {
+      "phrase": "always print stylesheet",
+      "path": "recipes/polish-rules/always-print-stylesheet"
+    },
+    {
+      "phrase": "consent banner gdpr",
+      "path": "recipes/legal/consent-banner-gdpr"
+    },
+    {
+      "phrase": "use the pair humanist warm",
+      "path": "recipes/typography/pair-humanist-warm"
+    },
+    {
+      "phrase": "add schema for aggregatereview schema",
+      "path": "recipes/geo-aeo/aggregatereview-schema"
+    },
+    {
+      "phrase": "remaster the testimonial photo normalize",
+      "path": "recipes/content-rescue/testimonial-photo-normalize"
+    },
+    {
+      "phrase": "gallery cover pick",
+      "path": "recipes/content-rescue/gallery-cover-pick"
+    },
+    {
+      "phrase": "layout: feature matrix",
+      "path": "recipes/layouts/feature-matrix"
+    },
+    {
+      "phrase": "turn this into case study writeup",
+      "path": "recipes/content-extraction/case-study-writeup"
+    },
+    {
+      "phrase": "audit touch target mobile",
+      "path": "recipes/qc-audit/touch-target-mobile"
+    },
+    {
+      "phrase": "rich link: tiktok thumbnail",
+      "path": "recipes/social-preview/tiktok-thumbnail"
+    },
+    {
+      "phrase": "immersive: shader oil paint",
+      "path": "recipes/immersive/shader-oil-paint"
+    },
+    {
+      "phrase": "social preview: og seasonal rotator",
+      "path": "recipes/social-preview/og-seasonal-rotator"
+    },
+    {
+      "phrase": "build a page from pdf to blog",
+      "path": "recipes/content-extraction/pdf-to-blog"
+    },
+    {
+      "phrase": "email: post launch analytics",
+      "path": "recipes/deploy/post-launch-analytics"
+    },
+    {
+      "phrase": "use the bento 3x3",
+      "path": "recipes/layouts/bento-3x3"
+    },
+    {
+      "phrase": "upgrade the photo smart crop thirds",
+      "path": "recipes/content-rescue/photo-smart-crop-thirds"
+    },
+    {
+      "phrase": "layout: portfolio split",
+      "path": "recipes/layouts/portfolio-split"
+    },
+    {
+      "phrase": "pdf to blog",
+      "path": "recipes/content-extraction/pdf-to-blog"
+    },
+    {
+      "phrase": "wow me with scroll audio triggers",
+      "path": "recipes/immersive/scroll-audio-triggers"
+    },
+    {
+      "phrase": "set typography to pair variable weight",
+      "path": "recipes/typography/pair-variable-weight"
+    },
+    {
+      "phrase": "add schema for website schema",
+      "path": "recipes/geo-aeo/website-schema"
+    },
+    {
+      "phrase": "set typography to pair swiss grotesk",
+      "path": "recipes/typography/pair-swiss-grotesk"
+    },
+    {
+      "phrase": "rescue the logo vectorize",
+      "path": "recipes/content-rescue/logo-vectorize"
+    },
+    {
+      "phrase": "build a page from json ld suggest",
+      "path": "recipes/content-extraction/json-ld-suggest"
+    },
+    {
+      "phrase": "cdn cache strategy",
+      "path": "recipes/deploy/cdn-cache-strategy"
+    },
+    {
+      "phrase": "use the hero video bg",
+      "path": "recipes/layouts/hero-video-bg"
+    },
+    {
+      "phrase": "turn this into sitemap suggest",
+      "path": "recipes/content-extraction/sitemap-suggest"
+    },
+    {
+      "phrase": "check missing manifest",
+      "path": "recipes/qc-audit/missing-manifest"
+    },
+    {
+      "phrase": "upgrade the before after slider",
+      "path": "recipes/content-rescue/before-after-slider"
+    },
+    {
+      "phrase": "missing manifest",
+      "path": "recipes/qc-audit/missing-manifest"
+    },
+    {
+      "phrase": "integrate with crm webhook",
+      "path": "recipes/glue/crm-webhook"
+    },
+    {
+      "phrase": "typographic system: kinetic split flap",
+      "path": "recipes/typography/kinetic-split-flap"
+    },
+    {
+      "phrase": "upgrade the noise to hero",
+      "path": "recipes/content-rescue/noise-to-hero"
+    },
+    {
+      "phrase": "set typography to pair expressive display",
+      "path": "recipes/typography/pair-expressive-display"
+    },
+    {
+      "phrase": "local seo currency by geo",
+      "path": "recipes/local-seo/currency-by-geo"
+    },
+    {
+      "phrase": "use the pair all caps display",
+      "path": "recipes/typography/pair-all-caps-display"
+    },
+    {
+      "phrase": "wire vcard export",
+      "path": "recipes/glue/vcard-export"
+    },
+    {
+      "phrase": "never always privacy stub",
+      "path": "recipes/polish-rules/always-privacy-stub"
+    },
+    {
+      "phrase": "add schema for event schema",
+      "path": "recipes/geo-aeo/event-schema"
+    },
+    {
+      "phrase": "cite-friendly claimreview schema",
+      "path": "recipes/geo-aeo/claimreview-schema"
+    },
+    {
+      "phrase": "use the masonry normalize",
+      "path": "recipes/layouts/masonry-normalize"
+    },
+    {
+      "phrase": "fix the headshot bg cleanup",
+      "path": "recipes/content-rescue/headshot-bg-cleanup"
+    },
+    {
+      "phrase": "rescue the gallery poster generate",
+      "path": "recipes/content-rescue/gallery-poster-generate"
+    },
+    {
+      "phrase": "immersive: procedural pattern",
+      "path": "recipes/immersive/procedural-pattern"
+    },
+    {
+      "phrase": "optimize for AI search recipe schema",
+      "path": "recipes/geo-aeo/recipe-schema"
+    },
+    {
+      "phrase": "auto-apply always web share api",
+      "path": "recipes/polish-rules/always-web-share-api"
+    },
+    {
+      "phrase": "upgrade the photo lqip generate",
+      "path": "recipes/content-rescue/photo-lqip-generate"
+    },
+    {
+      "phrase": "immersive: webxr button",
+      "path": "recipes/immersive/webxr-button"
+    },
+    {
+      "phrase": "headshot restyle editorial",
+      "path": "recipes/content-rescue/headshot-restyle-editorial"
+    },
+    {
+      "phrase": "remaster the brand color palette",
+      "path": "recipes/content-rescue/brand-color-palette"
+    },
+    {
+      "phrase": "integrate with timezone aware content",
+      "path": "recipes/glue/timezone-aware-content"
+    },
+    {
+      "phrase": "use the sticky side story",
+      "path": "recipes/layouts/sticky-side-story"
+    },
+    {
+      "phrase": "font pair pair condensed news",
+      "path": "recipes/typography/pair-condensed-news"
+    },
+    {
+      "phrase": "paragraph to cta set",
+      "path": "recipes/content-extraction/paragraph-to-cta-set"
+    },
+    {
+      "phrase": "embed hubspot adapter",
+      "path": "recipes/glue/hubspot-adapter"
+    },
+    {
+      "phrase": "wire print menu css",
+      "path": "recipes/glue/print-menu-css"
+    },
+    {
+      "phrase": "polish: always 404 page",
+      "path": "recipes/polish-rules/always-404-page"
+    },
+    {
+      "phrase": "grid: press logo strip",
+      "path": "recipes/layouts/press-logo-strip"
+    },
+    {
+      "phrase": "polish: always security txt",
+      "path": "recipes/polish-rules/always-security-txt"
+    },
+    {
+      "phrase": "add schema for speakable schema",
+      "path": "recipes/geo-aeo/speakable-schema"
+    },
+    {
+      "phrase": "quote to image",
+      "path": "recipes/social-preview/quote-to-image"
+    },
+    {
+      "phrase": "remaster the logo reverse variant",
+      "path": "recipes/content-rescue/logo-reverse-variant"
+    },
+    {
+      "phrase": "validate https canonical redirect",
+      "path": "recipes/qc-audit/https-canonical-redirect"
+    },
+    {
+      "phrase": "status: email transactional welcome",
+      "path": "recipes/deploy/email-transactional-welcome"
+    },
+    {
+      "phrase": "generate site copy from sitemap suggest",
+      "path": "recipes/content-extraction/sitemap-suggest"
+    },
+    {
+      "phrase": "extract paragraph to faq",
+      "path": "recipes/content-extraction/paragraph-to-faq"
+    },
+    {
+      "phrase": "turn this into team bios normalize",
+      "path": "recipes/content-extraction/team-bios-normalize"
+    },
+    {
+      "phrase": "wire ics calendar export",
+      "path": "recipes/glue/ics-calendar-export"
+    },
+    {
+      "phrase": "cite-friendly product schema",
+      "path": "recipes/geo-aeo/product-schema"
+    },
+    {
+      "phrase": "connect newsletter double optin",
+      "path": "recipes/glue/newsletter-double-optin"
+    },
+    {
+      "phrase": "build a page from style guide md",
+      "path": "recipes/content-extraction/style-guide-md"
+    },
+    {
+      "phrase": "add schema for qapage schema",
+      "path": "recipes/geo-aeo/qapage-schema"
+    },
+    {
+      "phrase": "social preview: tiktok thumbnail",
+      "path": "recipes/social-preview/tiktok-thumbnail"
+    },
+    {
+      "phrase": "dropout logo float shader",
+      "path": "recipes/immersive/dropout-logo-float-shader"
+    },
+    {
+      "phrase": "map: local menu schema",
+      "path": "recipes/local-seo/local-menu-schema"
+    },
+    {
+      "phrase": "remaster the realestate sky replace",
+      "path": "recipes/content-rescue/realestate-sky-replace"
+    },
+    {
+      "phrase": "consent security txt",
+      "path": "recipes/legal/security-txt"
+    },
+    {
+      "phrase": "immersive: particle orbit",
+      "path": "recipes/immersive/particle-orbit"
+    },
+    {
+      "phrase": "layout: above fold matrix",
+      "path": "recipes/layouts/above-fold-matrix"
+    },
+    {
+      "phrase": "local seo city service generator",
+      "path": "recipes/local-seo/city-service-generator"
+    },
+    {
+      "phrase": "use the asymmetric broken",
+      "path": "recipes/layouts/asymmetric-broken"
+    },
+    {
+      "phrase": "validate social preview lint",
+      "path": "recipes/qc-audit/social-preview-lint"
+    },
+    {
+      "phrase": "dmca takedown",
+      "path": "recipes/legal/dmca-takedown"
+    },
+    {
+      "phrase": "build a page from competitor positioning brief",
+      "path": "recipes/content-extraction/competitor-positioning-brief"
+    },
+    {
+      "phrase": "set typography to pair industrial mono",
+      "path": "recipes/typography/pair-industrial-mono"
+    },
+    {
+      "phrase": "typographic system: pair cyber mono",
+      "path": "recipes/typography/pair-cyber-mono"
+    },
+    {
+      "phrase": "embed ics calendar export",
+      "path": "recipes/glue/ics-calendar-export"
+    },
+    {
+      "phrase": "lightning bolt shader",
+      "path": "recipes/immersive/lightning-bolt-shader"
+    },
+    {
+      "phrase": "pair condensed news",
+      "path": "recipes/typography/pair-condensed-news"
+    },
+    {
+      "phrase": "fix the press logo harmonize",
+      "path": "recipes/content-rescue/press-logo-harmonize"
+    },
+    {
+      "phrase": "integrate with framer adapter",
+      "path": "recipes/glue/framer-adapter"
+    },
+    {
+      "phrase": "testimonial quote extract",
+      "path": "recipes/content-extraction/testimonial-quote-extract"
+    },
+    {
+      "phrase": "always harmonize gallery",
+      "path": "recipes/polish-rules/always-harmonize-gallery"
+    },
+    {
+      "phrase": "make gorgeous: logo stacked lockup",
+      "path": "recipes/content-rescue/logo-stacked-lockup"
+    },
+    {
+      "phrase": "set typography to pair boutique",
+      "path": "recipes/typography/pair-boutique"
+    },
+    {
+      "phrase": "wire qr generator",
+      "path": "recipes/glue/qr-generator"
+    },
+    {
+      "phrase": "validate sitemap validator",
+      "path": "recipes/qc-audit/sitemap-validator"
+    },
+    {
+      "phrase": "status: release notes auto",
+      "path": "recipes/deploy/release-notes-auto"
+    },
+    {
+      "phrase": "og: mastodon preview",
+      "path": "recipes/social-preview/mastodon-preview"
+    },
+    {
+      "phrase": "rescue the logo reverse variant",
+      "path": "recipes/content-rescue/logo-reverse-variant"
+    },
+    {
+      "phrase": "turn this into launch plan",
+      "path": "recipes/content-extraction/launch-plan"
+    },
+    {
+      "phrase": "og: og dynamic generator",
+      "path": "recipes/social-preview/og-dynamic-generator"
+    },
+    {
+      "phrase": "liquid mesh anim",
+      "path": "recipes/immersive/liquid-mesh-anim"
+    },
+    {
+      "phrase": "font pair scale golden",
+      "path": "recipes/typography/scale-golden"
+    },
+    {
+      "phrase": "local seo near me page",
+      "path": "recipes/local-seo/near-me-page"
+    },
+    {
+      "phrase": "double opt in flow",
+      "path": "recipes/deploy/double-opt-in-flow"
+    },
+    {
+      "phrase": "uptime monitor",
+      "path": "recipes/deploy/uptime-monitor"
+    },
+    {
+      "phrase": "dead end route",
+      "path": "recipes/qc-audit/dead-end-route"
+    },
+    {
+      "phrase": "og: share quote card",
+      "path": "recipes/social-preview/share-quote-card"
+    },
+    {
+      "phrase": "use the opentype stylistic sets",
+      "path": "recipes/typography/opentype-stylistic-sets"
+    },
+    {
+      "phrase": "AEO: aggregatereview schema",
+      "path": "recipes/geo-aeo/aggregatereview-schema"
+    },
+    {
+      "phrase": "grid: card fan",
+      "path": "recipes/layouts/card-fan"
+    },
+    {
+      "phrase": "auto-apply always humans txt",
+      "path": "recipes/polish-rules/always-humans-txt"
+    },
+    {
+      "phrase": "novel effect: fireworks canvas",
+      "path": "recipes/immersive/fireworks-canvas"
+    },
+    {
+      "phrase": "drop cap illuminated",
+      "path": "recipes/typography/drop-cap-illuminated"
+    },
+    {
+      "phrase": "auto-apply always og url self",
+      "path": "recipes/polish-rules/always-og-url-self"
+    },
+    {
+      "phrase": "make gorgeous: photo to loop video",
+      "path": "recipes/content-rescue/photo-to-loop-video"
+    },
+    {
+      "phrase": "AEO: website schema",
+      "path": "recipes/geo-aeo/website-schema"
+    },
+    {
+      "phrase": "audit social preview lint",
+      "path": "recipes/qc-audit/social-preview-lint"
+    },
+    {
+      "phrase": "social preview: imessage rich link",
+      "path": "recipes/social-preview/imessage-rich-link"
+    },
+    {
+      "phrase": "always always og image",
+      "path": "recipes/polish-rules/always-og-image"
+    },
+    {
+      "phrase": "make gorgeous: photo dedupe perceptual",
+      "path": "recipes/content-rescue/photo-dedupe-perceptual"
+    },
+    {
+      "phrase": "rich link: quote to image",
+      "path": "recipes/social-preview/quote-to-image"
+    },
+    {
+      "phrase": "consent banner dpdp",
+      "path": "recipes/legal/consent-banner-dpdp"
+    },
+    {
+      "phrase": "set typography to pair cyber mono",
+      "path": "recipes/typography/pair-cyber-mono"
+    },
+    {
+      "phrase": "lay it out as testimonial wall",
+      "path": "recipes/layouts/testimonial-wall"
+    },
+    {
+      "phrase": "upgrade the hero generate from brief",
+      "path": "recipes/content-rescue/hero-generate-from-brief"
+    },
+    {
+      "phrase": "integrate with vcard export",
+      "path": "recipes/glue/vcard-export"
+    },
+    {
+      "phrase": "rescue the hero generate from brief",
+      "path": "recipes/content-rescue/hero-generate-from-brief"
+    },
+    {
+      "phrase": "dns: dkim spf dmarc",
+      "path": "recipes/deploy/dkim-spf-dmarc"
+    },
+    {
+      "phrase": "novel effect: shimmer logo shader",
+      "path": "recipes/immersive/shimmer-logo-shader"
+    },
+    {
+      "phrase": "connect ics calendar export",
+      "path": "recipes/glue/ics-calendar-export"
+    },
+    {
+      "phrase": "QC jsonld validator",
+      "path": "recipes/qc-audit/jsonld-validator"
+    },
+    {
+      "phrase": "service area local nap consistency",
+      "path": "recipes/local-seo/local-nap-consistency"
+    },
+    {
+      "phrase": "bio to hero",
+      "path": "recipes/content-extraction/bio-to-hero"
+    },
+    {
+      "phrase": "rich link: og video",
+      "path": "recipes/social-preview/og-video"
+    },
+    {
+      "phrase": "cite-friendly event schema",
+      "path": "recipes/geo-aeo/event-schema"
+    },
+    {
+      "phrase": "nav inline",
+      "path": "recipes/layouts/nav-inline"
+    },
+    {
+      "phrase": "pair swiss grotesk",
+      "path": "recipes/typography/pair-swiss-grotesk"
+    },
+    {
+      "phrase": "social preview: podcast share card",
+      "path": "recipes/social-preview/podcast-share-card"
+    },
+    {
+      "phrase": "make gorgeous: gallery poster generate",
+      "path": "recipes/content-rescue/gallery-poster-generate"
+    },
+    {
+      "phrase": "polish: always app icons full",
+      "path": "recipes/polish-rules/always-app-icons-full"
+    },
+    {
+      "phrase": "shipping policy",
+      "path": "recipes/legal/shipping-policy"
+    },
+    {
+      "phrase": "auto-apply always cookie banner",
+      "path": "recipes/polish-rules/always-cookie-banner"
+    },
+    {
+      "phrase": "validate rtl flip check",
+      "path": "recipes/qc-audit/rtl-flip-check"
+    },
+    {
+      "phrase": "never-seen-before houdini paint",
+      "path": "recipes/immersive/houdini-paint"
+    },
+    {
+      "phrase": "always always splash screens",
+      "path": "recipes/polish-rules/always-splash-screens"
+    },
+    {
+      "phrase": "visual regression baseline",
+      "path": "recipes/qc-audit/visual-regression-baseline"
+    },
+    {
+      "phrase": "social preview: og video",
+      "path": "recipes/social-preview/og-video"
+    },
+    {
+      "phrase": "build a page from email drip plan",
+      "path": "recipes/content-extraction/email-drip-plan"
+    },
+    {
+      "phrase": "wow me with depth cursor parallax",
+      "path": "recipes/immersive/depth-cursor-parallax"
+    },
+    {
+      "phrase": "set typography to pair pull quote signature",
+      "path": "recipes/typography/pair-pull-quote-signature"
+    },
+    {
+      "phrase": "generate site copy from csv to service pages",
+      "path": "recipes/content-extraction/csv-to-service-pages"
+    },
+    {
+      "phrase": "extract bio to full page",
+      "path": "recipes/content-extraction/bio-to-full-page"
+    },
+    {
+      "phrase": "upgrade the photo dedupe perceptual",
+      "path": "recipes/content-rescue/photo-dedupe-perceptual"
+    },
+    {
+      "phrase": "auto-apply always offline shell",
+      "path": "recipes/polish-rules/always-offline-shell"
+    },
+    {
+      "phrase": "auto-apply always app icons full",
+      "path": "recipes/polish-rules/always-app-icons-full"
+    },
+    {
+      "phrase": "pair hairline plus slab",
+      "path": "recipes/typography/pair-hairline-plus-slab"
+    },
+    {
+      "phrase": "add legal subprocessor list",
+      "path": "recipes/legal/subprocessor-list"
+    },
+    {
+      "phrase": "immersive: dropout logo float shader",
+      "path": "recipes/immersive/dropout-logo-float-shader"
+    },
+    {
+      "phrase": "check dark mode contrast",
+      "path": "recipes/qc-audit/dark-mode-contrast"
+    },
+    {
+      "phrase": "humans txt",
+      "path": "recipes/legal/humans-txt"
+    },
+    {
+      "phrase": "never always scroll restore",
+      "path": "recipes/polish-rules/always-scroll-restore"
+    },
+    {
+      "phrase": "map: location landing generator",
+      "path": "recipes/local-seo/location-landing-generator"
+    },
+    {
+      "phrase": "auto-apply always manifest",
+      "path": "recipes/polish-rules/always-manifest"
+    },
+    {
+      "phrase": "headshot lighting match",
+      "path": "recipes/content-rescue/headshot-lighting-match"
+    },
+    {
+      "phrase": "instagram feed",
+      "path": "recipes/glue/instagram-feed"
+    },
+    {
+      "phrase": "set typography to pair drop cap illuminated",
+      "path": "recipes/typography/pair-drop-cap-illuminated"
+    },
+    {
+      "phrase": "make gorgeous: logo padding normalize",
+      "path": "recipes/content-rescue/logo-padding-normalize"
+    },
+    {
+      "phrase": "wire app links universal",
+      "path": "recipes/glue/app-links-universal"
+    },
+    {
+      "phrase": "share card: blog share card",
+      "path": "recipes/social-preview/blog-share-card"
+    },
+    {
+      "phrase": "use the opentype fractions",
+      "path": "recipes/typography/opentype-fractions"
+    },
+    {
+      "phrase": "rescue the photo subject focal",
+      "path": "recipes/content-rescue/photo-subject-focal"
+    },
+    {
+      "phrase": "logo vectorize",
+      "path": "recipes/content-rescue/logo-vectorize"
+    },
+    {
+      "phrase": "extract brand dna from logo and paragraph",
+      "path": "recipes/content-extraction/brand-dna-from-logo-and-paragraph"
+    },
+    {
+      "phrase": "morphing svg",
+      "path": "recipes/immersive/morphing-svg"
+    },
+    {
+      "phrase": "font pair pair variable weight",
+      "path": "recipes/typography/pair-variable-weight"
+    },
+    {
+      "phrase": "remaster the logo horizontal lockup",
+      "path": "recipes/content-rescue/logo-horizontal-lockup"
+    },
+    {
+      "phrase": "deploy: uptime monitor",
+      "path": "recipes/deploy/uptime-monitor"
+    },
+    {
+      "phrase": "AEO: howto schema",
+      "path": "recipes/geo-aeo/howto-schema"
+    },
+    {
+      "phrase": "always never broken image guard",
+      "path": "recipes/polish-rules/never-broken-image-guard"
+    },
+    {
+      "phrase": "check form validation audit",
+      "path": "recipes/qc-audit/form-validation-audit"
+    },
+    {
+      "phrase": "integrate with voice first qa",
+      "path": "recipes/glue/voice-first-qa"
+    },
+    {
+      "phrase": "embed rive adapter",
+      "path": "recipes/glue/rive-adapter"
+    },
+    {
+      "phrase": "imprint at",
+      "path": "recipes/legal/imprint-at"
+    },
+    {
+      "phrase": "deploy: post launch analytics",
+      "path": "recipes/deploy/post-launch-analytics"
+    },
+    {
+      "phrase": "always always focus first",
+      "path": "recipes/polish-rules/always-focus-first"
+    },
+    {
+      "phrase": "near me gbp sync helper",
+      "path": "recipes/local-seo/gbp-sync-helper"
+    },
+    {
+      "phrase": "always always web share api",
+      "path": "recipes/polish-rules/always-web-share-api"
+    },
+    {
+      "phrase": "wow me with camera parallax",
+      "path": "recipes/immersive/camera-parallax"
+    },
+    {
+      "phrase": "lay it out as longscroll storyline",
+      "path": "recipes/layouts/longscroll-storyline"
+    },
+    {
+      "phrase": "connect glb viewer",
+      "path": "recipes/glue/glb-viewer"
+    },
+    {
+      "phrase": "novel effect: easter konami",
+      "path": "recipes/immersive/easter-konami"
+    },
+    {
+      "phrase": "dkim spf dmarc",
+      "path": "recipes/deploy/dkim-spf-dmarc"
+    },
+    {
+      "phrase": "compliance: cookie inventory",
+      "path": "recipes/legal/cookie-inventory"
+    },
+    {
+      "phrase": "email: roadmap page",
+      "path": "recipes/deploy/roadmap-page"
+    },
+    {
+      "phrase": "wire countdown timer",
+      "path": "recipes/glue/countdown-timer"
+    },
+    {
+      "phrase": "service area city service generator",
+      "path": "recipes/local-seo/city-service-generator"
+    },
+    {
+      "phrase": "make gorgeous: press logo harmonize",
+      "path": "recipes/content-rescue/press-logo-harmonize"
+    },
+    {
+      "phrase": "font pair pair small caps editorial",
+      "path": "recipes/typography/pair-small-caps-editorial"
+    },
+    {
+      "phrase": "typographic system: pair variable weight",
+      "path": "recipes/typography/pair-variable-weight"
+    },
+    {
+      "phrase": "immersive: shimmer logo shader",
+      "path": "recipes/immersive/shimmer-logo-shader"
+    },
+    {
+      "phrase": "auto-apply always viewport meta",
+      "path": "recipes/polish-rules/always-viewport-meta"
+    },
+    {
+      "phrase": "lay it out as footer mini",
+      "path": "recipes/layouts/footer-mini"
+    },
+    {
+      "phrase": "team photo normalize",
+      "path": "recipes/content-rescue/team-photo-normalize"
+    },
+    {
+      "phrase": "make gorgeous: logo animated 3frame",
+      "path": "recipes/content-rescue/logo-animated-3frame"
+    },
+    {
+      "phrase": "QC missing manifest",
+      "path": "recipes/qc-audit/missing-manifest"
+    },
+    {
+      "phrase": "rescue the product shot plate",
+      "path": "recipes/content-rescue/product-shot-plate"
+    },
+    {
+      "phrase": "local seo store locator",
+      "path": "recipes/local-seo/store-locator"
+    },
+    {
+      "phrase": "wire print ticket css",
+      "path": "recipes/glue/print-ticket-css"
+    },
+    {
+      "phrase": "immersive: shader halftone",
+      "path": "recipes/immersive/shader-halftone"
+    },
+    {
+      "phrase": "dns records",
+      "path": "recipes/deploy/dns-records"
+    },
+    {
+      "phrase": "add legal accessibility statement",
+      "path": "recipes/legal/accessibility-statement"
+    },
+    {
+      "phrase": "extract internal links suggest",
+      "path": "recipes/content-extraction/internal-links-suggest"
+    },
+    {
+      "phrase": "privacy subprocessor list",
+      "path": "recipes/legal/subprocessor-list"
+    },
+    {
+      "phrase": "use the nav sidebar",
+      "path": "recipes/layouts/nav-sidebar"
+    },
+    {
+      "phrase": "near me local reservation schema",
+      "path": "recipes/local-seo/local-reservation-schema"
+    },
+    {
+      "phrase": "immersive: weather reactive palette",
+      "path": "recipes/immersive/weather-reactive-palette"
+    },
+    {
+      "phrase": "integrate with google reviews import",
+      "path": "recipes/glue/google-reviews-import"
+    },
+    {
+      "phrase": "never-seen-before shimmer logo shader",
+      "path": "recipes/immersive/shimmer-logo-shader"
+    },
+    {
+      "phrase": "grid: hero 3d scene",
+      "path": "recipes/layouts/hero-3d-scene"
+    },
+    {
+      "phrase": "integrate with glb viewer",
+      "path": "recipes/glue/glb-viewer"
+    },
+    {
+      "phrase": "fix the photo to cinemagraph",
+      "path": "recipes/content-rescue/photo-to-cinemagraph"
+    },
+    {
+      "phrase": "build a page from brand tone matrix",
+      "path": "recipes/content-extraction/brand-tone-matrix"
+    },
+    {
+      "phrase": "font pair pair mono serif hybrid",
+      "path": "recipes/typography/pair-mono-serif-hybrid"
+    },
+    {
+      "phrase": "service area geo coordinates",
+      "path": "recipes/local-seo/geo-coordinates"
+    },
+    {
+      "phrase": "fix the photo to 5sec video",
+      "path": "recipes/content-rescue/photo-to-5sec-video"
+    },
+    {
+      "phrase": "embed ai human handoff",
+      "path": "recipes/glue/ai-human-handoff"
+    },
+    {
+      "phrase": "validate error state coverage",
+      "path": "recipes/qc-audit/error-state-coverage"
+    },
+    {
+      "phrase": "local seo multilocation template",
+      "path": "recipes/local-seo/multilocation-template"
+    },
+    {
+      "phrase": "never always 404 page",
+      "path": "recipes/polish-rules/always-404-page"
+    },
+    {
+      "phrase": "deploy: double opt in flow",
+      "path": "recipes/deploy/double-opt-in-flow"
+    },
+    {
+      "phrase": "novel effect: genart perlin",
+      "path": "recipes/immersive/genart-perlin"
+    },
+    {
+      "phrase": "make gorgeous: photo bg remove if needed",
+      "path": "recipes/content-rescue/photo-bg-remove-if-needed"
+    },
+    {
+      "phrase": "dns: incident template",
+      "path": "recipes/deploy/incident-template"
+    },
+    {
+      "phrase": "og: linkedin preview",
+      "path": "recipes/social-preview/linkedin-preview"
+    },
+    {
+      "phrase": "consent consent mode v2",
+      "path": "recipes/legal/consent-mode-v2"
+    },
+    {
+      "phrase": "typographic system: pull quote frame",
+      "path": "recipes/typography/pull-quote-frame"
+    },
+    {
+      "phrase": "optimize for AI search article with citations",
+      "path": "recipes/geo-aeo/article-with-citations"
+    },
+    {
+      "phrase": "always dedupe photos",
+      "path": "recipes/polish-rules/always-dedupe-photos"
+    },
+    {
+      "phrase": "scroll driven css",
+      "path": "recipes/immersive/scroll-driven-css"
+    },
+    {
+      "phrase": "always manifest",
+      "path": "recipes/polish-rules/always-manifest"
+    },
+    {
+      "phrase": "near me hreflang matrix",
+      "path": "recipes/local-seo/hreflang-matrix"
+    },
+    {
+      "phrase": "grid: hero video bg",
+      "path": "recipes/layouts/hero-video-bg"
+    },
+    {
+      "phrase": "generate site copy from brand dna from logo and paragraph",
+      "path": "recipes/content-extraction/brand-dna-from-logo-and-paragraph"
+    },
+    {
+      "phrase": "rescue the team photo normalize",
+      "path": "recipes/content-rescue/team-photo-normalize"
+    },
+    {
+      "phrase": "validate contrast auditor",
+      "path": "recipes/qc-audit/contrast-auditor"
+    },
+    {
+      "phrase": "glb viewer",
+      "path": "recipes/glue/glb-viewer"
+    },
+    {
+      "phrase": "nav mega",
+      "path": "recipes/layouts/nav-mega"
+    },
+    {
+      "phrase": "rich link: press share card",
+      "path": "recipes/social-preview/press-share-card"
+    },
+    {
+      "phrase": "pull quote frame",
+      "path": "recipes/typography/pull-quote-frame"
+    },
+    {
+      "phrase": "always copy link fallback",
+      "path": "recipes/polish-rules/always-copy-link-fallback"
+    },
+    {
+      "phrase": "voice of customer mine",
+      "path": "recipes/content-extraction/voice-of-customer-mine"
+    },
+    {
+      "phrase": "upgrade the photo restore scratches",
+      "path": "recipes/content-rescue/photo-restore-scratches"
+    },
+    {
+      "phrase": "novel effect: houdini paint",
+      "path": "recipes/immersive/houdini-paint"
+    },
+    {
+      "phrase": "always always error state",
+      "path": "recipes/polish-rules/always-error-state"
+    },
+    {
+      "phrase": "generate site copy from brand dna from url",
+      "path": "recipes/content-extraction/brand-dna-from-url"
+    },
+    {
+      "phrase": "optimize for AI search entity graph jsonld",
+      "path": "recipes/geo-aeo/entity-graph-jsonld"
+    },
+    {
+      "phrase": "near me local appointment schema",
+      "path": "recipes/local-seo/local-appointment-schema"
+    },
+    {
+      "phrase": "editorial 12col",
+      "path": "recipes/layouts/editorial-12col"
+    },
+    {
+      "phrase": "social preview: launch share card",
+      "path": "recipes/social-preview/launch-share-card"
+    },
+    {
+      "phrase": "pair expressive display",
+      "path": "recipes/typography/pair-expressive-display"
+    },
+    {
+      "phrase": "AEO: glossary definition page",
+      "path": "recipes/geo-aeo/glossary-definition-page"
+    },
+    {
+      "phrase": "use the pair industrial mono",
+      "path": "recipes/typography/pair-industrial-mono"
+    },
+    {
+      "phrase": "always always bg remove logo if needed",
+      "path": "recipes/polish-rules/always-bg-remove-logo-if-needed"
+    },
+    {
+      "phrase": "dns: status page",
+      "path": "recipes/deploy/status-page"
+    },
+    {
+      "phrase": "optimize for AI search podcast schema",
+      "path": "recipes/geo-aeo/podcast-schema"
+    },
+    {
+      "phrase": "audit print view check",
+      "path": "recipes/qc-audit/print-view-check"
+    },
+    {
+      "phrase": "never always manifest",
+      "path": "recipes/polish-rules/always-manifest"
+    },
+    {
+      "phrase": "add legal cookie inventory",
+      "path": "recipes/legal/cookie-inventory"
+    },
+    {
+      "phrase": "share card: og per language",
+      "path": "recipes/social-preview/og-per-language"
+    },
+    {
+      "phrase": "font pair drop cap illuminated",
+      "path": "recipes/typography/drop-cap-illuminated"
+    },
+    {
+      "phrase": "always og image",
+      "path": "recipes/polish-rules/always-og-image"
+    },
+    {
+      "phrase": "email: headers cloudflare",
+      "path": "recipes/deploy/headers-cloudflare"
+    },
+    {
+      "phrase": "bento 4x3",
+      "path": "recipes/layouts/bento-4x3"
+    },
+    {
+      "phrase": "wire currency auto convert",
+      "path": "recipes/glue/currency-auto-convert"
+    },
+    {
+      "phrase": "service area language auto detect",
+      "path": "recipes/local-seo/language-auto-detect"
+    },
+    {
+      "phrase": "wow me with scroll pinning",
+      "path": "recipes/immersive/scroll-pinning"
+    },
+    {
+      "phrase": "never-seen-before glass refraction",
+      "path": "recipes/immersive/glass-refraction"
+    },
+    {
+      "phrase": "generate site copy from meta tags suggest",
+      "path": "recipes/content-extraction/meta-tags-suggest"
+    },
+    {
+      "phrase": "brand mood extract",
+      "path": "recipes/content-rescue/brand-mood-extract"
+    },
+    {
+      "phrase": "set typography to pair mono serif hybrid",
+      "path": "recipes/typography/pair-mono-serif-hybrid"
+    },
+    {
+      "phrase": "upgrade the headshot bg cleanup",
+      "path": "recipes/content-rescue/headshot-bg-cleanup"
+    },
+    {
+      "phrase": "validate legal links check",
+      "path": "recipes/qc-audit/legal-links-check"
+    },
+    {
+      "phrase": "share card: shorts preview",
+      "path": "recipes/social-preview/shorts-preview"
+    },
+    {
+      "phrase": "depth cursor parallax",
+      "path": "recipes/immersive/depth-cursor-parallax"
+    },
+    {
+      "phrase": "map: multilocation template",
+      "path": "recipes/local-seo/multilocation-template"
+    },
+    {
+      "phrase": "build a page from press release",
+      "path": "recipes/content-extraction/press-release"
+    },
+    {
+      "phrase": "use the scale golden",
+      "path": "recipes/typography/scale-golden"
+    },
+    {
+      "phrase": "photo metadata strip",
+      "path": "recipes/content-rescue/photo-metadata-strip"
+    },
+    {
+      "phrase": "always always contrast audit",
+      "path": "recipes/polish-rules/always-contrast-audit"
+    },
+    {
+      "phrase": "never always theme color",
+      "path": "recipes/polish-rules/always-theme-color"
+    },
+    {
+      "phrase": "grid: editorial 12col",
+      "path": "recipes/layouts/editorial-12col"
+    },
+    {
+      "phrase": "faq mine from tickets",
+      "path": "recipes/content-extraction/faq-mine-from-tickets"
+    },
+    {
+      "phrase": "use the footer mini",
+      "path": "recipes/layouts/footer-mini"
+    },
+    {
+      "phrase": "consent brand guidelines legal",
+      "path": "recipes/legal/brand-guidelines-legal"
+    },
+    {
+      "phrase": "typographic system: pair cjk safe",
+      "path": "recipes/typography/pair-cjk-safe"
+    },
+    {
+      "phrase": "fix the brand color extract",
+      "path": "recipes/content-rescue/brand-color-extract"
+    },
+    {
+      "phrase": "rescue the photo metadata strip",
+      "path": "recipes/content-rescue/photo-metadata-strip"
+    },
+    {
+      "phrase": "immersive: mesh warp hover",
+      "path": "recipes/immersive/mesh-warp-hover"
+    },
+    {
+      "phrase": "font pair opentype stylistic sets",
+      "path": "recipes/typography/opentype-stylistic-sets"
+    },
+    {
+      "phrase": "pair mono serif hybrid",
+      "path": "recipes/typography/pair-mono-serif-hybrid"
+    },
+    {
+      "phrase": "immersive: haptic mobile",
+      "path": "recipes/immersive/haptic-mobile"
+    },
+    {
+      "phrase": "app links universal",
+      "path": "recipes/glue/app-links-universal"
+    },
+    {
+      "phrase": "generate site copy from pdf to case study",
+      "path": "recipes/content-extraction/pdf-to-case-study"
+    },
+    {
+      "phrase": "AEO: entity graph jsonld",
+      "path": "recipes/geo-aeo/entity-graph-jsonld"
+    },
+    {
+      "phrase": "security txt",
+      "path": "recipes/legal/security-txt"
+    },
+    {
+      "phrase": "competitor scan",
+      "path": "recipes/content-extraction/competitor-scan"
+    },
+    {
+      "phrase": "fix the photo outpaint hero",
+      "path": "recipes/content-rescue/photo-outpaint-hero"
+    },
+    {
+      "phrase": "og: product share card",
+      "path": "recipes/social-preview/product-share-card"
+    },
+    {
+      "phrase": "generate site copy from team bios normalize",
+      "path": "recipes/content-extraction/team-bios-normalize"
+    },
+    {
+      "phrase": "integrate with yelp widget",
+      "path": "recipes/glue/yelp-widget"
+    },
+    {
+      "phrase": "always sitemap",
+      "path": "recipes/polish-rules/always-sitemap"
+    },
+    {
+      "phrase": "fix the food color boost",
+      "path": "recipes/content-rescue/food-color-boost"
+    },
+    {
+      "phrase": "og: twitter card",
+      "path": "recipes/social-preview/twitter-card"
+    },
+    {
+      "phrase": "grid: hero split",
+      "path": "recipes/layouts/hero-split"
+    },
+    {
+      "phrase": "near me service area schema",
+      "path": "recipes/local-seo/service-area-schema"
+    },
+    {
+      "phrase": "status: email transactional reset",
+      "path": "recipes/deploy/email-transactional-reset"
+    },
+    {
+      "phrase": "check keyboard only nav",
+      "path": "recipes/qc-audit/keyboard-only-nav"
+    },
+    {
+      "phrase": "opentype ligatures",
+      "path": "recipes/typography/opentype-ligatures"
+    },
+    {
+      "phrase": "rescue the photo outpaint hero",
+      "path": "recipes/content-rescue/photo-outpaint-hero"
+    },
+    {
+      "phrase": "use the pair boutique",
+      "path": "recipes/typography/pair-boutique"
+    },
+    {
+      "phrase": "polish: always manifest",
+      "path": "recipes/polish-rules/always-manifest"
+    },
+    {
+      "phrase": "never always skip link",
+      "path": "recipes/polish-rules/always-skip-link"
+    },
+    {
+      "phrase": "rich link: discord embed",
+      "path": "recipes/social-preview/discord-embed"
+    },
+    {
+      "phrase": "make gorgeous: photo to cinemagraph",
+      "path": "recipes/content-rescue/photo-to-cinemagraph"
+    },
+    {
+      "phrase": "consent subprocessor list",
+      "path": "recipes/legal/subprocessor-list"
+    },
+    {
+      "phrase": "rescue the headshot lighting match",
+      "path": "recipes/content-rescue/headshot-lighting-match"
+    },
+    {
+      "phrase": "generate site copy from pdf to outline",
+      "path": "recipes/content-extraction/pdf-to-outline"
+    },
+    {
+      "phrase": "fix the brand color palette",
+      "path": "recipes/content-rescue/brand-color-palette"
+    },
+    {
+      "phrase": "lay it out as bento 3x3",
+      "path": "recipes/layouts/bento-3x3"
+    },
+    {
+      "phrase": "social preview: pinterest rich pin",
+      "path": "recipes/social-preview/pinterest-rich-pin"
+    },
+    {
+      "phrase": "always empty state",
+      "path": "recipes/polish-rules/always-empty-state"
+    },
+    {
+      "phrase": "connect currency auto convert",
+      "path": "recipes/glue/currency-auto-convert"
+    },
+    {
+      "phrase": "font pair pair editorial serif",
+      "path": "recipes/typography/pair-editorial-serif"
+    },
+    {
+      "phrase": "remaster the avatar illustrated",
+      "path": "recipes/content-rescue/avatar-illustrated"
+    },
+    {
+      "phrase": "make gorgeous: team photo normalize",
+      "path": "recipes/content-rescue/team-photo-normalize"
+    },
+    {
+      "phrase": "connect calcom wiring",
+      "path": "recipes/glue/calcom-wiring"
+    },
+    {
+      "phrase": "rescue the avatar illustrated",
+      "path": "recipes/content-rescue/avatar-illustrated"
+    },
+    {
+      "phrase": "add schema for dataset schema",
+      "path": "recipes/geo-aeo/dataset-schema"
+    },
+    {
+      "phrase": "upgrade the logo vectorize",
+      "path": "recipes/content-rescue/logo-vectorize"
+    },
+    {
+      "phrase": "pair cjk safe",
+      "path": "recipes/typography/pair-cjk-safe"
+    },
+    {
+      "phrase": "wow me with dropout logo float shader",
+      "path": "recipes/immersive/dropout-logo-float-shader"
+    },
+    {
+      "phrase": "particle orbit",
+      "path": "recipes/immersive/particle-orbit"
+    },
+    {
+      "phrase": "upgrade the photo outpaint hero",
+      "path": "recipes/content-rescue/photo-outpaint-hero"
+    },
+    {
+      "phrase": "food color boost",
+      "path": "recipes/content-rescue/food-color-boost"
+    },
+    {
+      "phrase": "email drip plan",
+      "path": "recipes/content-extraction/email-drip-plan"
+    },
+    {
+      "phrase": "turn this into spreadsheet to pricing",
+      "path": "recipes/content-extraction/spreadsheet-to-pricing"
+    },
+    {
+      "phrase": "og: discord embed",
+      "path": "recipes/social-preview/discord-embed"
+    },
+    {
+      "phrase": "rescue the before after slider",
+      "path": "recipes/content-rescue/before-after-slider"
+    },
+    {
+      "phrase": "build a page from voice of customer mine",
+      "path": "recipes/content-extraction/voice-of-customer-mine"
+    },
+    {
+      "phrase": "share card: threads preview",
+      "path": "recipes/social-preview/threads-preview"
+    },
+    {
+      "phrase": "rescue the logo mono variant",
+      "path": "recipes/content-rescue/logo-mono-variant"
+    },
+    {
+      "phrase": "integrate with calendly wiring",
+      "path": "recipes/glue/calendly-wiring"
+    },
+    {
+      "phrase": "check gallery consistency",
+      "path": "recipes/qc-audit/gallery-consistency"
+    },
+    {
+      "phrase": "grid: timeline horizontal",
+      "path": "recipes/layouts/timeline-horizontal"
+    },
+    {
+      "phrase": "first party data block",
+      "path": "recipes/geo-aeo/first-party-data-block"
+    },
+    {
+      "phrase": "about us rewrite",
+      "path": "recipes/content-extraction/about-us-rewrite"
+    },
+    {
+      "phrase": "typographic system: pair optical size",
+      "path": "recipes/typography/pair-optical-size"
+    },
+    {
+      "phrase": "og: tiktok thumbnail",
+      "path": "recipes/social-preview/tiktok-thumbnail"
+    },
+    {
+      "phrase": "fix the photo webp avif convert",
+      "path": "recipes/content-rescue/photo-webp-avif-convert"
+    },
+    {
+      "phrase": "compliance: age gate",
+      "path": "recipes/legal/age-gate"
+    },
+    {
+      "phrase": "press logo strip",
+      "path": "recipes/layouts/press-logo-strip"
+    },
+    {
+      "phrase": "email: incident template",
+      "path": "recipes/deploy/incident-template"
+    },
+    {
+      "phrase": "social preview: mastodon preview",
+      "path": "recipes/social-preview/mastodon-preview"
+    },
+    {
+      "phrase": "service area gbp sync helper",
+      "path": "recipes/local-seo/gbp-sync-helper"
+    },
+    {
+      "phrase": "pdf to outline",
+      "path": "recipes/content-extraction/pdf-to-outline"
+    },
+    {
+      "phrase": "auto-apply always reduced motion",
+      "path": "recipes/polish-rules/always-reduced-motion"
+    },
+    {
+      "phrase": "wow me with fireworks canvas",
+      "path": "recipes/immersive/fireworks-canvas"
+    },
+    {
+      "phrase": "never-seen-before cursor trails",
+      "path": "recipes/immersive/cursor-trails"
+    },
+    {
+      "phrase": "make gorgeous: photo restore scratches",
+      "path": "recipes/content-rescue/photo-restore-scratches"
+    },
+    {
+      "phrase": "add schema for recipe schema",
+      "path": "recipes/geo-aeo/recipe-schema"
+    },
+    {
+      "phrase": "framer adapter",
+      "path": "recipes/glue/framer-adapter"
+    },
+    {
+      "phrase": "spreadsheet to features",
+      "path": "recipes/content-extraction/spreadsheet-to-features"
+    },
+    {
+      "phrase": "use the opentype small caps",
+      "path": "recipes/typography/opentype-small-caps"
+    },
+    {
+      "phrase": "add legal terms gen",
+      "path": "recipes/legal/terms-gen"
+    },
+    {
+      "phrase": "tiktok feed",
+      "path": "recipes/glue/tiktok-feed"
+    },
+    {
+      "phrase": "make gorgeous: photo upscale",
+      "path": "recipes/content-rescue/photo-upscale"
+    },
+    {
+      "phrase": "set typography to pair humanist warm",
+      "path": "recipes/typography/pair-humanist-warm"
+    },
+    {
+      "phrase": "video schema",
+      "path": "recipes/geo-aeo/video-schema"
+    },
+    {
+      "phrase": "rescue the photo dedupe perceptual",
+      "path": "recipes/content-rescue/photo-dedupe-perceptual"
+    },
+    {
+      "phrase": "rescue the logo horizontal lockup",
+      "path": "recipes/content-rescue/logo-horizontal-lockup"
+    },
+    {
+      "phrase": "compliance: brand guidelines legal",
+      "path": "recipes/legal/brand-guidelines-legal"
+    },
+    {
+      "phrase": "driving directions block",
+      "path": "recipes/local-seo/driving-directions-block"
+    },
+    {
+      "phrase": "QC alt text auditor",
+      "path": "recipes/qc-audit/alt-text-auditor"
+    },
+    {
+      "phrase": "never-seen-before genart reaction diffusion",
+      "path": "recipes/immersive/genart-reaction-diffusion"
+    },
+    {
+      "phrase": "add legal aup",
+      "path": "recipes/legal/aup"
+    },
+    {
+      "phrase": "share card: team share card",
+      "path": "recipes/social-preview/team-share-card"
+    },
+    {
+      "phrase": "build a page from founder story shape",
+      "path": "recipes/content-extraction/founder-story-shape"
+    },
+    {
+      "phrase": "add legal brand guidelines legal",
+      "path": "recipes/legal/brand-guidelines-legal"
+    },
+    {
+      "phrase": "font pair pair cjk safe",
+      "path": "recipes/typography/pair-cjk-safe"
+    },
+    {
+      "phrase": "social preview: threads preview",
+      "path": "recipes/social-preview/threads-preview"
+    },
+    {
+      "phrase": "integrate with lottie player",
+      "path": "recipes/glue/lottie-player"
+    },
+    {
+      "phrase": "dns: redirects cloudflare",
+      "path": "recipes/deploy/redirects-cloudflare"
+    },
+    {
+      "phrase": "remaster the photo to 5sec video",
+      "path": "recipes/content-rescue/photo-to-5sec-video"
+    },
+    {
+      "phrase": "validate keyboard only nav",
+      "path": "recipes/qc-audit/keyboard-only-nav"
+    },
+    {
+      "phrase": "service area location landing generator",
+      "path": "recipes/local-seo/location-landing-generator"
+    },
+    {
+      "phrase": "refund policy",
+      "path": "recipes/legal/refund-policy"
+    },
+    {
+      "phrase": "product share card",
+      "path": "recipes/social-preview/product-share-card"
+    },
+    {
+      "phrase": "remaster the photo blur face privacy",
+      "path": "recipes/content-rescue/photo-blur-face-privacy"
+    },
+    {
+      "phrase": "service page rewrite",
+      "path": "recipes/content-extraction/service-page-rewrite"
+    },
+    {
+      "phrase": "case study cover",
+      "path": "recipes/content-rescue/case-study-cover"
+    },
+    {
+      "phrase": "immersive: cursor trails",
+      "path": "recipes/immersive/cursor-trails"
+    },
+    {
+      "phrase": "use the card fan",
+      "path": "recipes/layouts/card-fan"
+    },
+    {
+      "phrase": "auto-apply always empty state",
+      "path": "recipes/polish-rules/always-empty-state"
+    },
+    {
+      "phrase": "hubspot adapter",
+      "path": "recipes/glue/hubspot-adapter"
+    },
+    {
+      "phrase": "extract csv to service pages",
+      "path": "recipes/content-extraction/csv-to-service-pages"
+    },
+    {
+      "phrase": "kinetic marquee",
+      "path": "recipes/typography/kinetic-marquee"
+    },
+    {
+      "phrase": "embed segment adapter",
+      "path": "recipes/glue/segment-adapter"
+    },
+    {
+      "phrase": "remaster the logo mono variant",
+      "path": "recipes/content-rescue/logo-mono-variant"
+    },
+    {
+      "phrase": "build a page from competitor scan",
+      "path": "recipes/content-extraction/competitor-scan"
+    },
+    {
+      "phrase": "layout: pricing toggle annual",
+      "path": "recipes/layouts/pricing-toggle-annual"
+    },
+    {
+      "phrase": "validate missing favicon",
+      "path": "recipes/qc-audit/missing-favicon"
+    },
+    {
+      "phrase": "spreadsheet to pricing",
+      "path": "recipes/content-extraction/spreadsheet-to-pricing"
+    },
+    {
+      "phrase": "wow me with webxr button",
+      "path": "recipes/immersive/webxr-button"
+    },
+    {
+      "phrase": "generate site copy from case study writeup",
+      "path": "recipes/content-extraction/case-study-writeup"
+    },
+    {
+      "phrase": "layout: brutalist grid",
+      "path": "recipes/layouts/brutalist-grid"
+    },
+    {
+      "phrase": "layout: nav mega",
+      "path": "recipes/layouts/nav-mega"
+    },
+    {
+      "phrase": "use the brutalist grid",
+      "path": "recipes/layouts/brutalist-grid"
+    },
+    {
+      "phrase": "immersive: morphing svg",
+      "path": "recipes/immersive/morphing-svg"
+    },
+    {
+      "phrase": "AEO: compared to x page",
+      "path": "recipes/geo-aeo/compared-to-x-page"
+    },
+    {
+      "phrase": "optimize for AI search course schema",
+      "path": "recipes/geo-aeo/course-schema"
+    },
+    {
+      "phrase": "add legal eula",
+      "path": "recipes/legal/eula"
+    },
+    {
+      "phrase": "add schema for statistics with citations",
+      "path": "recipes/geo-aeo/statistics-with-citations"
+    },
+    {
+      "phrase": "always always cookie banner",
+      "path": "recipes/polish-rules/always-cookie-banner"
+    },
+    {
+      "phrase": "cwv runner",
+      "path": "recipes/qc-audit/cwv-runner"
+    },
+    {
+      "phrase": "make gorgeous: avatar generate consented",
+      "path": "recipes/content-rescue/avatar-generate-consented"
+    },
+    {
+      "phrase": "AEO: short answer summary",
+      "path": "recipes/geo-aeo/short-answer-summary"
+    },
+    {
+      "phrase": "set typography to kinetic marquee",
+      "path": "recipes/typography/kinetic-marquee"
+    },
+    {
+      "phrase": "turn this into glossary mine",
+      "path": "recipes/content-extraction/glossary-mine"
+    },
+    {
+      "phrase": "remaster the logo padding normalize",
+      "path": "recipes/content-rescue/logo-padding-normalize"
+    },
+    {
+      "phrase": "never-seen-before webxr button",
+      "path": "recipes/immersive/webxr-button"
+    },
+    {
+      "phrase": "wire timezone aware content",
+      "path": "recipes/glue/timezone-aware-content"
+    },
+    {
+      "phrase": "always focus first",
+      "path": "recipes/polish-rules/always-focus-first"
+    },
+    {
+      "phrase": "always 404 page",
+      "path": "recipes/polish-rules/always-404-page"
+    },
+    {
+      "phrase": "use the pricing 3tier",
+      "path": "recipes/layouts/pricing-3tier"
+    },
+    {
+      "phrase": "generate site copy from testimonial shaper",
+      "path": "recipes/content-extraction/testimonial-shaper"
+    },
+    {
+      "phrase": "optimize for AI search citation page structure",
+      "path": "recipes/geo-aeo/citation-page-structure"
+    },
+    {
+      "phrase": "near me review aggregation",
+      "path": "recipes/local-seo/review-aggregation"
+    },
+    {
+      "phrase": "make gorgeous: photo metadata strip",
+      "path": "recipes/content-rescue/photo-metadata-strip"
+    },
+    {
+      "phrase": "avatar generate consented",
+      "path": "recipes/content-rescue/avatar-generate-consented"
+    },
+    {
+      "phrase": "share card: reels preview",
+      "path": "recipes/social-preview/reels-preview"
+    },
+    {
+      "phrase": "novel effect: sound cue system",
+      "path": "recipes/immersive/sound-cue-system"
+    },
+    {
+      "phrase": "privacy humans txt",
+      "path": "recipes/legal/humans-txt"
+    },
+    {
+      "phrase": "audit dark mode contrast",
+      "path": "recipes/qc-audit/dark-mode-contrast"
+    },
+    {
+      "phrase": "connect lottie player",
+      "path": "recipes/glue/lottie-player"
+    },
+    {
+      "phrase": "always reduced motion",
+      "path": "recipes/polish-rules/always-reduced-motion"
+    },
+    {
+      "phrase": "always always sitemap",
+      "path": "recipes/polish-rules/always-sitemap"
+    },
+    {
+      "phrase": "use the pricing 2tier",
+      "path": "recipes/layouts/pricing-2tier"
+    },
+    {
+      "phrase": "typographic system: kinetic parallax",
+      "path": "recipes/typography/kinetic-parallax"
+    },
+    {
+      "phrase": "rescue the avatar generate consented",
+      "path": "recipes/content-rescue/avatar-generate-consented"
+    },
+    {
+      "phrase": "lay it out as hero 3d scene",
+      "path": "recipes/layouts/hero-3d-scene"
+    },
+    {
+      "phrase": "never-seen-before confetti celebration",
+      "path": "recipes/immersive/confetti-celebration"
+    },
+    {
+      "phrase": "never always canonical self",
+      "path": "recipes/polish-rules/always-canonical-self"
+    },
+    {
+      "phrase": "optimize for AI search comparison table aiquote",
+      "path": "recipes/geo-aeo/comparison-table-aiquote"
+    },
+    {
+      "phrase": "grid: feature matrix",
+      "path": "recipes/layouts/feature-matrix"
+    },
+    {
+      "phrase": "local seo local appointment schema",
+      "path": "recipes/local-seo/local-appointment-schema"
+    },
+    {
+      "phrase": "lay it out as card stack peek",
+      "path": "recipes/layouts/card-stack-peek"
+    },
+    {
+      "phrase": "font loading audit",
+      "path": "recipes/qc-audit/font-loading-audit"
+    },
+    {
+      "phrase": "rescue the photo to loop video",
+      "path": "recipes/content-rescue/photo-to-loop-video"
+    },
+    {
+      "phrase": "immersive: fireworks canvas",
+      "path": "recipes/immersive/fireworks-canvas"
+    },
+    {
+      "phrase": "team bios normalize",
+      "path": "recipes/content-extraction/team-bios-normalize"
+    },
+    {
+      "phrase": "integrate with ics calendar export",
+      "path": "recipes/glue/ics-calendar-export"
+    },
+    {
+      "phrase": "never-seen-before scroll pinning",
+      "path": "recipes/immersive/scroll-pinning"
+    },
+    {
+      "phrase": "print ticket css",
+      "path": "recipes/glue/print-ticket-css"
+    },
+    {
+      "phrase": "rich link: event share card",
+      "path": "recipes/social-preview/event-share-card"
+    },
+    {
+      "phrase": "QC sitemap validator",
+      "path": "recipes/qc-audit/sitemap-validator"
+    },
+    {
+      "phrase": "deploy: changelog generator",
+      "path": "recipes/deploy/changelog-generator"
+    },
+    {
+      "phrase": "voice first qa",
+      "path": "recipes/glue/voice-first-qa"
+    },
+    {
+      "phrase": "polish: always reduced motion",
+      "path": "recipes/polish-rules/always-reduced-motion"
+    },
+    {
+      "phrase": "AEO: person eeat",
+      "path": "recipes/geo-aeo/person-eeat"
+    },
+    {
+      "phrase": "paragraph to faq",
+      "path": "recipes/content-extraction/paragraph-to-faq"
+    },
+    {
+      "phrase": "use the press logo strip",
+      "path": "recipes/layouts/press-logo-strip"
+    },
+    {
+      "phrase": "typographic system: fluid type generator",
+      "path": "recipes/typography/fluid-type-generator"
+    },
+    {
+      "phrase": "connect pdf brochure from site",
+      "path": "recipes/glue/pdf-brochure-from-site"
+    },
+    {
+      "phrase": "build a page from csv to services table",
+      "path": "recipes/content-extraction/csv-to-services-table"
+    },
+    {
+      "phrase": "local nap consistency",
+      "path": "recipes/local-seo/local-nap-consistency"
+    },
+    {
+      "phrase": "add schema for first party data block",
+      "path": "recipes/geo-aeo/first-party-data-block"
+    },
+    {
+      "phrase": "never always sitemap",
+      "path": "recipes/polish-rules/always-sitemap"
+    },
+    {
+      "phrase": "website schema",
+      "path": "recipes/geo-aeo/website-schema"
+    },
+    {
+      "phrase": "error state coverage",
+      "path": "recipes/qc-audit/error-state-coverage"
+    },
+    {
+      "phrase": "AEO: well known ai txt",
+      "path": "recipes/geo-aeo/well-known-ai-txt"
+    },
+    {
+      "phrase": "always always skip link",
+      "path": "recipes/polish-rules/always-skip-link"
+    },
+    {
+      "phrase": "statistics with citations",
+      "path": "recipes/geo-aeo/statistics-with-citations"
+    },
+    {
+      "phrase": "og: milestone share card",
+      "path": "recipes/social-preview/milestone-share-card"
+    },
+    {
+      "phrase": "web push setup",
+      "path": "recipes/glue/web-push-setup"
+    },
+    {
+      "phrase": "ai plugin json",
+      "path": "recipes/geo-aeo/ai-plugin-json"
+    },
+    {
+      "phrase": "accessibility statement",
+      "path": "recipes/legal/accessibility-statement"
+    },
+    {
+      "phrase": "immersive: camera parallax",
+      "path": "recipes/immersive/camera-parallax"
+    },
+    {
+      "phrase": "product shot shadow add",
+      "path": "recipes/content-rescue/product-shot-shadow-add"
+    },
+    {
+      "phrase": "review aggregation",
+      "path": "recipes/local-seo/review-aggregation"
+    },
+    {
+      "phrase": "build a page from paragraph to faq",
+      "path": "recipes/content-extraction/paragraph-to-faq"
+    },
+    {
+      "phrase": "incident template",
+      "path": "recipes/deploy/incident-template"
+    },
+    {
+      "phrase": "podcast schema",
+      "path": "recipes/geo-aeo/podcast-schema"
+    },
+    {
+      "phrase": "csv to service pages",
+      "path": "recipes/content-extraction/csv-to-service-pages"
+    },
+    {
+      "phrase": "cite-friendly speakable schema",
+      "path": "recipes/geo-aeo/speakable-schema"
+    },
+    {
+      "phrase": "glossary mine",
+      "path": "recipes/content-extraction/glossary-mine"
+    },
+    {
+      "phrase": "typographic system: pair editorial serif",
+      "path": "recipes/typography/pair-editorial-serif"
+    },
+    {
+      "phrase": "cite-friendly course schema",
+      "path": "recipes/geo-aeo/course-schema"
+    },
+    {
+      "phrase": "cite-friendly recipe schema",
+      "path": "recipes/geo-aeo/recipe-schema"
+    },
+    {
+      "phrase": "consent terms gen",
+      "path": "recipes/legal/terms-gen"
+    },
+    {
+      "phrase": "grid: masonry normalize",
+      "path": "recipes/layouts/masonry-normalize"
+    },
+    {
+      "phrase": "gallery order optimize",
+      "path": "recipes/content-rescue/gallery-order-optimize"
+    },
+    {
+      "phrase": "rich link: team share card",
+      "path": "recipes/social-preview/team-share-card"
+    },
+    {
+      "phrase": "consent cookie audit",
+      "path": "recipes/qc-audit/consent-cookie-audit"
+    },
+    {
+      "phrase": "use the fluid type generator",
+      "path": "recipes/typography/fluid-type-generator"
+    },
+    {
+      "phrase": "always terms stub",
+      "path": "recipes/polish-rules/always-terms-stub"
+    },
+    {
+      "phrase": "rescue the photo to 5sec video",
+      "path": "recipes/content-rescue/photo-to-5sec-video"
+    },
+    {
+      "phrase": "always always security txt",
+      "path": "recipes/polish-rules/always-security-txt"
+    },
+    {
+      "phrase": "deploy: email transactional welcome",
+      "path": "recipes/deploy/email-transactional-welcome"
+    },
+    {
+      "phrase": "integrate with referral generator",
+      "path": "recipes/glue/referral-generator"
+    },
+    {
+      "phrase": "set typography to pair arabic rtl",
+      "path": "recipes/typography/pair-arabic-rtl"
+    },
+    {
+      "phrase": "photo to cinemagraph",
+      "path": "recipes/content-rescue/photo-to-cinemagraph"
+    },
+    {
+      "phrase": "novel effect: liquid mesh anim",
+      "path": "recipes/immersive/liquid-mesh-anim"
+    },
+    {
+      "phrase": "pair humanist workhorse",
+      "path": "recipes/typography/pair-humanist-workhorse"
+    },
+    {
+      "phrase": "grid: footer mega",
+      "path": "recipes/layouts/footer-mega"
+    },
+    {
+      "phrase": "consent aup",
+      "path": "recipes/legal/aup"
+    },
+    {
+      "phrase": "extract press release",
+      "path": "recipes/content-extraction/press-release"
+    },
+    {
+      "phrase": "make gorgeous: case study cover",
+      "path": "recipes/content-rescue/case-study-cover"
+    },
+    {
+      "phrase": "keyboard only nav",
+      "path": "recipes/qc-audit/keyboard-only-nav"
+    },
+    {
+      "phrase": "validate form validation audit",
+      "path": "recipes/qc-audit/form-validation-audit"
+    },
+    {
+      "phrase": "map: timezone aware",
+      "path": "recipes/local-seo/timezone-aware"
+    },
+    {
+      "phrase": "always always humans txt",
+      "path": "recipes/polish-rules/always-humans-txt"
+    },
+    {
+      "phrase": "make gorgeous: realestate lawn boost",
+      "path": "recipes/content-rescue/realestate-lawn-boost"
+    },
+    {
+      "phrase": "pair devanagari",
+      "path": "recipes/typography/pair-devanagari"
+    },
+    {
+      "phrase": "wcag 22 aa sweep",
+      "path": "recipes/qc-audit/wcag-22-aa-sweep"
+    },
+    {
+      "phrase": "launch plan",
+      "path": "recipes/content-extraction/launch-plan"
+    },
+    {
+      "phrase": "upgrade the food plate reshoot",
+      "path": "recipes/content-rescue/food-plate-reshoot"
+    },
+    {
+      "phrase": "use the vertical rhythm baseline",
+      "path": "recipes/typography/vertical-rhythm-baseline"
+    },
+    {
+      "phrase": "lay it out as nav inline",
+      "path": "recipes/layouts/nav-inline"
+    },
+    {
+      "phrase": "rich link: imessage rich link",
+      "path": "recipes/social-preview/imessage-rich-link"
+    },
+    {
+      "phrase": "bento broken",
+      "path": "recipes/layouts/bento-broken"
+    },
+    {
+      "phrase": "rich link: pinterest rich pin",
+      "path": "recipes/social-preview/pinterest-rich-pin"
+    },
+    {
+      "phrase": "wire pdf brochure from site",
+      "path": "recipes/glue/pdf-brochure-from-site"
+    },
+    {
+      "phrase": "rescue the gallery cover pick",
+      "path": "recipes/content-rescue/gallery-cover-pick"
+    },
+    {
+      "phrase": "connect countdown timer",
+      "path": "recipes/glue/countdown-timer"
+    },
+    {
+      "phrase": "make gorgeous: photo blur face privacy",
+      "path": "recipes/content-rescue/photo-blur-face-privacy"
+    },
+    {
+      "phrase": "typographic system: pair expressive display",
+      "path": "recipes/typography/pair-expressive-display"
+    },
+    {
+      "phrase": "social preview: press share card",
+      "path": "recipes/social-preview/press-share-card"
+    },
+    {
+      "phrase": "upgrade the avatar generate consented",
+      "path": "recipes/content-rescue/avatar-generate-consented"
+    },
+    {
+      "phrase": "make gorgeous: logo horizontal lockup",
+      "path": "recipes/content-rescue/logo-horizontal-lockup"
+    },
+    {
+      "phrase": "embed newsletter double optin",
+      "path": "recipes/glue/newsletter-double-optin"
+    },
+    {
+      "phrase": "turn this into spreadsheet to features",
+      "path": "recipes/content-extraction/spreadsheet-to-features"
+    },
+    {
+      "phrase": "lay it out as footer mega",
+      "path": "recipes/layouts/footer-mega"
+    },
+    {
+      "phrase": "og: whatsapp preview",
+      "path": "recipes/social-preview/whatsapp-preview"
+    },
+    {
+      "phrase": "extract bio to hero",
+      "path": "recipes/content-extraction/bio-to-hero"
+    },
+    {
+      "phrase": "never always reduced motion",
+      "path": "recipes/polish-rules/always-reduced-motion"
+    },
+    {
+      "phrase": "use the pair cyber mono",
+      "path": "recipes/typography/pair-cyber-mono"
+    },
+    {
+      "phrase": "generate site copy from json ld suggest",
+      "path": "recipes/content-extraction/json-ld-suggest"
+    },
+    {
+      "phrase": "set typography to kinetic wave",
+      "path": "recipes/typography/kinetic-wave"
+    },
+    {
+      "phrase": "og per language",
+      "path": "recipes/social-preview/og-per-language"
+    },
+    {
+      "phrase": "rescue the photo blur plate privacy",
+      "path": "recipes/content-rescue/photo-blur-plate-privacy"
+    },
+    {
+      "phrase": "brand color extract",
+      "path": "recipes/content-rescue/brand-color-extract"
+    },
+    {
+      "phrase": "auto-apply always lang attr",
+      "path": "recipes/polish-rules/always-lang-attr"
+    },
+    {
+      "phrase": "add legal dmca takedown",
+      "path": "recipes/legal/dmca-takedown"
+    },
+    {
+      "phrase": "wow me with live sketch render",
+      "path": "recipes/immersive/live-sketch-render"
+    },
+    {
+      "phrase": "logo mono variant",
+      "path": "recipes/content-rescue/logo-mono-variant"
+    },
+    {
+      "phrase": "opentype small caps",
+      "path": "recipes/typography/opentype-small-caps"
+    },
+    {
+      "phrase": "status: custom domain checklist",
+      "path": "recipes/deploy/custom-domain-checklist"
+    },
+    {
+      "phrase": "make gorgeous: testimonial photo normalize",
+      "path": "recipes/content-rescue/testimonial-photo-normalize"
+    },
+    {
+      "phrase": "always always terms stub",
+      "path": "recipes/polish-rules/always-terms-stub"
+    },
+    {
+      "phrase": "build a page from csv to service pages",
+      "path": "recipes/content-extraction/csv-to-service-pages"
+    },
+    {
+      "phrase": "cite-friendly entity graph jsonld",
+      "path": "recipes/geo-aeo/entity-graph-jsonld"
+    },
+    {
+      "phrase": "extract voice of customer mine",
+      "path": "recipes/content-extraction/voice-of-customer-mine"
+    },
+    {
+      "phrase": "scroll pinning",
+      "path": "recipes/immersive/scroll-pinning"
+    },
+    {
+      "phrase": "wow me with glass refraction",
+      "path": "recipes/immersive/glass-refraction"
+    },
+    {
+      "phrase": "rich link: youtube share card",
+      "path": "recipes/social-preview/youtube-share-card"
+    },
+    {
+      "phrase": "AEO: statistics with citations",
+      "path": "recipes/geo-aeo/statistics-with-citations"
+    },
+    {
+      "phrase": "upgrade the brand mood extract",
+      "path": "recipes/content-rescue/brand-mood-extract"
+    },
+    {
+      "phrase": "immersive: easter konami",
+      "path": "recipes/immersive/easter-konami"
+    },
+    {
+      "phrase": "AEO: llms txt extended",
+      "path": "recipes/geo-aeo/llms-txt-extended"
+    },
+    {
+      "phrase": "share card: whatsapp preview",
+      "path": "recipes/social-preview/whatsapp-preview"
+    },
+    {
+      "phrase": "optimize for AI search first party data block",
+      "path": "recipes/geo-aeo/first-party-data-block"
+    },
+    {
+      "phrase": "social preview: team share card",
+      "path": "recipes/social-preview/team-share-card"
+    },
+    {
+      "phrase": "extract pdf to case study",
+      "path": "recipes/content-extraction/pdf-to-case-study"
+    },
+    {
+      "phrase": "use the pair editorial serif",
+      "path": "recipes/typography/pair-editorial-serif"
+    },
+    {
+      "phrase": "fix the photo restore scratches",
+      "path": "recipes/content-rescue/photo-restore-scratches"
+    },
+    {
+      "phrase": "check image size audit",
+      "path": "recipes/qc-audit/image-size-audit"
+    },
+    {
+      "phrase": "email transactional welcome",
+      "path": "recipes/deploy/email-transactional-welcome"
+    },
+    {
+      "phrase": "entity graph jsonld",
+      "path": "recipes/geo-aeo/entity-graph-jsonld"
+    },
+    {
+      "phrase": "audit sweep 404",
+      "path": "recipes/qc-audit/sweep-404"
+    },
+    {
+      "phrase": "generate site copy from pdf to sections",
+      "path": "recipes/content-extraction/pdf-to-sections"
+    },
+    {
+      "phrase": "QC rtl flip check",
+      "path": "recipes/qc-audit/rtl-flip-check"
+    },
+    {
+      "phrase": "google reviews import",
+      "path": "recipes/glue/google-reviews-import"
+    },
+    {
+      "phrase": "never-seen-before gyroscope tilt",
+      "path": "recipes/immersive/gyroscope-tilt"
+    },
+    {
+      "phrase": "near me local citations list",
+      "path": "recipes/local-seo/local-citations-list"
+    },
+    {
+      "phrase": "connect trustpilot widget",
+      "path": "recipes/glue/trustpilot-widget"
+    },
+    {
+      "phrase": "add legal consent banner dpdp",
+      "path": "recipes/legal/consent-banner-dpdp"
+    },
+    {
+      "phrase": "testimonial photo normalize",
+      "path": "recipes/content-rescue/testimonial-photo-normalize"
+    },
+    {
+      "phrase": "novel effect: aurora shader",
+      "path": "recipes/immersive/aurora-shader"
+    },
+    {
+      "phrase": "duplicate photo detector",
+      "path": "recipes/qc-audit/duplicate-photo-detector"
+    },
+    {
+      "phrase": "remaster the team photo normalize",
+      "path": "recipes/content-rescue/team-photo-normalize"
+    },
+    {
+      "phrase": "add schema for faqpage schema",
+      "path": "recipes/geo-aeo/faqpage-schema"
+    },
+    {
+      "phrase": "add legal consent mode v2",
+      "path": "recipes/legal/consent-mode-v2"
+    },
+    {
+      "phrase": "typographic system: opentype small caps",
+      "path": "recipes/typography/opentype-small-caps"
+    },
+    {
+      "phrase": "font pair pull quote frame",
+      "path": "recipes/typography/pull-quote-frame"
+    },
+    {
+      "phrase": "imessage rich link",
+      "path": "recipes/social-preview/imessage-rich-link"
+    },
+    {
+      "phrase": "add legal dpa template",
+      "path": "recipes/legal/dpa-template"
+    },
+    {
+      "phrase": "font pair pair humanist warm",
+      "path": "recipes/typography/pair-humanist-warm"
+    },
+    {
+      "phrase": "generate site copy from moodboard generate",
+      "path": "recipes/content-extraction/moodboard-generate"
+    },
+    {
+      "phrase": "optimize for AI search website schema",
+      "path": "recipes/geo-aeo/website-schema"
+    },
+    {
+      "phrase": "never-seen-before lenis smooth scroll",
+      "path": "recipes/immersive/lenis-smooth-scroll"
+    },
+    {
+      "phrase": "AEO: dataset schema",
+      "path": "recipes/geo-aeo/dataset-schema"
+    },
+    {
+      "phrase": "rescue the press logo mono",
+      "path": "recipes/content-rescue/press-logo-mono"
+    },
+    {
+      "phrase": "milestone share card",
+      "path": "recipes/social-preview/milestone-share-card"
+    },
+    {
+      "phrase": "status: headers cloudflare",
+      "path": "recipes/deploy/headers-cloudflare"
+    },
+    {
+      "phrase": "check jsonld validator",
+      "path": "recipes/qc-audit/jsonld-validator"
+    },
+    {
+      "phrase": "layout: bento broken",
+      "path": "recipes/layouts/bento-broken"
+    },
+    {
+      "phrase": "photo to 5sec video",
+      "path": "recipes/content-rescue/photo-to-5sec-video"
+    },
+    {
+      "phrase": "fix the hero generate from brief",
+      "path": "recipes/content-rescue/hero-generate-from-brief"
+    },
+    {
+      "phrase": "polish: always web share api",
+      "path": "recipes/polish-rules/always-web-share-api"
+    },
+    {
+      "phrase": "rescue the press logo harmonize",
+      "path": "recipes/content-rescue/press-logo-harmonize"
+    },
+    {
+      "phrase": "kinetic shuffle",
+      "path": "recipes/typography/kinetic-shuffle"
+    },
+    {
+      "phrase": "rescue the logo mark only",
+      "path": "recipes/content-rescue/logo-mark-only"
+    },
+    {
+      "phrase": "status: edge locations guide",
+      "path": "recipes/deploy/edge-locations-guide"
+    },
+    {
+      "phrase": "integrate with calcom wiring",
+      "path": "recipes/glue/calcom-wiring"
+    },
+    {
+      "phrase": "grid: nav sidebar",
+      "path": "recipes/layouts/nav-sidebar"
+    },
+    {
+      "phrase": "share card: og dynamic generator",
+      "path": "recipes/social-preview/og-dynamic-generator"
+    },
+    {
+      "phrase": "headshot bg cleanup",
+      "path": "recipes/content-rescue/headshot-bg-cleanup"
+    },
+    {
+      "phrase": "turn this into style guide md",
+      "path": "recipes/content-extraction/style-guide-md"
+    },
+    {
+      "phrase": "use the testimonial wall",
+      "path": "recipes/layouts/testimonial-wall"
+    },
+    {
+      "phrase": "third party disclosure",
+      "path": "recipes/legal/third-party-disclosure"
+    },
+    {
+      "phrase": "novel effect: scroll audio triggers",
+      "path": "recipes/immersive/scroll-audio-triggers"
+    },
+    {
+      "phrase": "status: cdn cache strategy",
+      "path": "recipes/deploy/cdn-cache-strategy"
+    },
+    {
+      "phrase": "add legal shipping policy",
+      "path": "recipes/legal/shipping-policy"
+    },
+    {
+      "phrase": "novel effect: particle orbit",
+      "path": "recipes/immersive/particle-orbit"
+    },
+    {
+      "phrase": "share card: tiktok thumbnail",
+      "path": "recipes/social-preview/tiktok-thumbnail"
+    },
+    {
+      "phrase": "turn this into sales one pager",
+      "path": "recipes/content-extraction/sales-one-pager"
+    },
+    {
+      "phrase": "wire trustpilot widget",
+      "path": "recipes/glue/trustpilot-widget"
+    },
+    {
+      "phrase": "novel effect: shader oil paint",
+      "path": "recipes/immersive/shader-oil-paint"
+    },
+    {
+      "phrase": "pair editorial serif v2",
+      "path": "recipes/typography/pair-editorial-serif-v2"
+    },
+    {
+      "phrase": "release notes auto",
+      "path": "recipes/deploy/release-notes-auto"
+    },
+    {
+      "phrase": "never always error state",
+      "path": "recipes/polish-rules/always-error-state"
+    },
+    {
+      "phrase": "layout: pricing 4tier",
+      "path": "recipes/layouts/pricing-4tier"
+    },
+    {
+      "phrase": "upgrade the logo stacked lockup",
+      "path": "recipes/content-rescue/logo-stacked-lockup"
+    },
+    {
+      "phrase": "build a page from faq mine from tickets",
+      "path": "recipes/content-extraction/faq-mine-from-tickets"
+    },
+    {
+      "phrase": "generate site copy from competitor positioning brief",
+      "path": "recipes/content-extraction/competitor-positioning-brief"
+    },
+    {
+      "phrase": "typographic system: pair condensed news",
+      "path": "recipes/typography/pair-condensed-news"
+    },
+    {
+      "phrase": "make gorgeous: brand color extract",
+      "path": "recipes/content-rescue/brand-color-extract"
+    },
+    {
+      "phrase": "add schema for comparison table aiquote",
+      "path": "recipes/geo-aeo/comparison-table-aiquote"
+    },
+    {
+      "phrase": "typographic system: pair swiss grotesk",
+      "path": "recipes/typography/pair-swiss-grotesk"
+    },
+    {
+      "phrase": "immersive: genart perlin",
+      "path": "recipes/immersive/genart-perlin"
+    },
+    {
+      "phrase": "photo webp avif convert",
+      "path": "recipes/content-rescue/photo-webp-avif-convert"
+    },
+    {
+      "phrase": "embed yelp widget",
+      "path": "recipes/glue/yelp-widget"
+    },
+    {
+      "phrase": "embed salesforce adapter",
+      "path": "recipes/glue/salesforce-adapter"
+    },
+    {
+      "phrase": "rescue the photo de yellow",
+      "path": "recipes/content-rescue/photo-de-yellow"
+    },
+    {
+      "phrase": "never-seen-before genart flow field",
+      "path": "recipes/immersive/genart-flow-field"
+    },
+    {
+      "phrase": "share card: launch share card",
+      "path": "recipes/social-preview/launch-share-card"
+    },
+    {
+      "phrase": "pair humanist warm",
+      "path": "recipes/typography/pair-humanist-warm"
+    },
+    {
+      "phrase": "realestate declutter",
+      "path": "recipes/content-rescue/realestate-declutter"
+    },
+    {
+      "phrase": "status: double opt in flow",
+      "path": "recipes/deploy/double-opt-in-flow"
+    },
+    {
+      "phrase": "consent humans txt",
+      "path": "recipes/legal/humans-txt"
+    },
+    {
+      "phrase": "audit form validation audit",
+      "path": "recipes/qc-audit/form-validation-audit"
+    },
+    {
+      "phrase": "og: launch share card",
+      "path": "recipes/social-preview/launch-share-card"
+    },
+    {
+      "phrase": "embed referral generator",
+      "path": "recipes/glue/referral-generator"
+    },
+    {
+      "phrase": "never always app icons full",
+      "path": "recipes/polish-rules/always-app-icons-full"
+    },
+    {
+      "phrase": "check dead end route",
+      "path": "recipes/qc-audit/dead-end-route"
+    },
+    {
+      "phrase": "faqpage schema",
+      "path": "recipes/geo-aeo/faqpage-schema"
+    },
+    {
+      "phrase": "lay it out as comparison table",
+      "path": "recipes/layouts/comparison-table"
+    },
+    {
+      "phrase": "grid: card stack peek",
+      "path": "recipes/layouts/card-stack-peek"
+    },
+    {
+      "phrase": "hours timezone",
+      "path": "recipes/local-seo/hours-timezone"
+    },
+    {
+      "phrase": "integrate with newsletter double optin",
+      "path": "recipes/glue/newsletter-double-optin"
+    },
+    {
+      "phrase": "grid: above fold matrix",
+      "path": "recipes/layouts/above-fold-matrix"
+    },
+    {
+      "phrase": "auto-apply always copy link fallback",
+      "path": "recipes/polish-rules/always-copy-link-fallback"
+    },
+    {
+      "phrase": "always always robots",
+      "path": "recipes/polish-rules/always-robots"
+    },
+    {
+      "phrase": "layout: footer mega",
+      "path": "recipes/layouts/footer-mega"
+    },
+    {
+      "phrase": "rescue the photo lqip generate",
+      "path": "recipes/content-rescue/photo-lqip-generate"
+    },
+    {
+      "phrase": "optimize for AI search faqpage schema",
+      "path": "recipes/geo-aeo/faqpage-schema"
+    },
+    {
+      "phrase": "connect ai human handoff",
+      "path": "recipes/glue/ai-human-handoff"
+    },
+    {
+      "phrase": "validate empty state coverage",
+      "path": "recipes/qc-audit/empty-state-coverage"
+    },
+    {
+      "phrase": "nav sidebar",
+      "path": "recipes/layouts/nav-sidebar"
+    },
+    {
+      "phrase": "layout: gallery aspect harmonize layout",
+      "path": "recipes/layouts/gallery-aspect-harmonize-layout"
+    },
+    {
+      "phrase": "testimonial share card",
+      "path": "recipes/social-preview/testimonial-share-card"
+    },
+    {
+      "phrase": "privacy terms gen",
+      "path": "recipes/legal/terms-gen"
+    },
+    {
+      "phrase": "wow me with haptic mobile",
+      "path": "recipes/immersive/haptic-mobile"
+    },
+    {
+      "phrase": "lenis smooth scroll",
+      "path": "recipes/immersive/lenis-smooth-scroll"
+    },
+    {
+      "phrase": "integrate with trustpilot widget",
+      "path": "recipes/glue/trustpilot-widget"
+    },
+    {
+      "phrase": "og: shorts preview",
+      "path": "recipes/social-preview/shorts-preview"
+    },
+    {
+      "phrase": "privacy aup",
+      "path": "recipes/legal/aup"
+    },
+    {
+      "phrase": "wow me with genart worley",
+      "path": "recipes/immersive/genart-worley"
+    },
+    {
+      "phrase": "qr generator",
+      "path": "recipes/glue/qr-generator"
+    },
+    {
+      "phrase": "upgrade the logo mono variant",
+      "path": "recipes/content-rescue/logo-mono-variant"
+    },
+    {
+      "phrase": "auto-apply always share target",
+      "path": "recipes/polish-rules/always-share-target"
+    },
+    {
+      "phrase": "polish: always empty state",
+      "path": "recipes/polish-rules/always-empty-state"
+    },
+    {
+      "phrase": "social preview: youtube share card",
+      "path": "recipes/social-preview/youtube-share-card"
+    },
+    {
+      "phrase": "remaster the noise to hero",
+      "path": "recipes/content-rescue/noise-to-hero"
+    },
+    {
+      "phrase": "auto-apply always canonical self",
+      "path": "recipes/polish-rules/always-canonical-self"
+    },
+    {
+      "phrase": "immersive: glass refraction",
+      "path": "recipes/immersive/glass-refraction"
+    },
+    {
+      "phrase": "local seo gbp sync helper",
+      "path": "recipes/local-seo/gbp-sync-helper"
+    },
+    {
+      "phrase": "local seo localbusiness schema",
+      "path": "recipes/local-seo/localbusiness-schema"
+    },
+    {
+      "phrase": "rescue the realestate lawn boost",
+      "path": "recipes/content-rescue/realestate-lawn-boost"
+    },
+    {
+      "phrase": "build a page from pdf to sections",
+      "path": "recipes/content-extraction/pdf-to-sections"
+    },
+    {
+      "phrase": "og: blog share card",
+      "path": "recipes/social-preview/blog-share-card"
+    },
+    {
+      "phrase": "extract launch plan",
+      "path": "recipes/content-extraction/launch-plan"
+    },
+    {
+      "phrase": "scroll audio triggers",
+      "path": "recipes/immersive/scroll-audio-triggers"
+    },
+    {
+      "phrase": "generate site copy from bio to full page",
+      "path": "recipes/content-extraction/bio-to-full-page"
+    },
+    {
+      "phrase": "dns: uptime monitor",
+      "path": "recipes/deploy/uptime-monitor"
+    },
+    {
+      "phrase": "near me page",
+      "path": "recipes/local-seo/near-me-page"
+    },
+    {
+      "phrase": "wow me with view transitions",
+      "path": "recipes/immersive/view-transitions"
+    },
+    {
+      "phrase": "rescue the testimonial photo normalize",
+      "path": "recipes/content-rescue/testimonial-photo-normalize"
+    },
+    {
+      "phrase": "og: og seasonal rotator",
+      "path": "recipes/social-preview/og-seasonal-rotator"
+    },
+    {
+      "phrase": "webxr button",
+      "path": "recipes/immersive/webxr-button"
+    },
+    {
+      "phrase": "set typography to pull quote frame",
+      "path": "recipes/typography/pull-quote-frame"
+    },
+    {
+      "phrase": "turn this into tone of voice profile",
+      "path": "recipes/content-extraction/tone-of-voice-profile"
+    },
+    {
+      "phrase": "polish: always dedupe photos",
+      "path": "recipes/polish-rules/always-dedupe-photos"
+    },
+    {
+      "phrase": "privacy cookie inventory",
+      "path": "recipes/legal/cookie-inventory"
+    },
+    {
+      "phrase": "rescue the logo stacked lockup",
+      "path": "recipes/content-rescue/logo-stacked-lockup"
+    },
+    {
+      "phrase": "upgrade the logo padding normalize",
+      "path": "recipes/content-rescue/logo-padding-normalize"
+    },
+    {
+      "phrase": "email transactional verify",
+      "path": "recipes/deploy/email-transactional-verify"
+    },
+    {
+      "phrase": "custom domain checklist",
+      "path": "recipes/deploy/custom-domain-checklist"
+    },
+    {
+      "phrase": "AEO: faqpage schema",
+      "path": "recipes/geo-aeo/faqpage-schema"
+    },
+    {
+      "phrase": "build a page from glossary mine",
+      "path": "recipes/content-extraction/glossary-mine"
+    },
+    {
+      "phrase": "generate site copy from email drip plan",
+      "path": "recipes/content-extraction/email-drip-plan"
+    },
+    {
+      "phrase": "build a page from brand dna from url",
+      "path": "recipes/content-extraction/brand-dna-from-url"
+    },
+    {
+      "phrase": "share card: og video",
+      "path": "recipes/social-preview/og-video"
+    },
+    {
+      "phrase": "typographic system: kinetic typewriter",
+      "path": "recipes/typography/kinetic-typewriter"
+    },
+    {
+      "phrase": "fix the gallery poster generate",
+      "path": "recipes/content-rescue/gallery-poster-generate"
+    },
+    {
+      "phrase": "imprint de",
+      "path": "recipes/legal/imprint-de"
+    },
+    {
+      "phrase": "validate text scaling 200",
+      "path": "recipes/qc-audit/text-scaling-200"
+    },
+    {
+      "phrase": "pair brutal display",
+      "path": "recipes/typography/pair-brutal-display"
+    },
+    {
+      "phrase": "embed framer adapter",
+      "path": "recipes/glue/framer-adapter"
+    },
+    {
+      "phrase": "connect coupon widget",
+      "path": "recipes/glue/coupon-widget"
+    },
+    {
+      "phrase": "remaster the photo color grade editorial",
+      "path": "recipes/content-rescue/photo-color-grade-editorial"
+    },
+    {
+      "phrase": "status: redirects cloudflare",
+      "path": "recipes/deploy/redirects-cloudflare"
+    },
+    {
+      "phrase": "extract testimonial shaper",
+      "path": "recipes/content-extraction/testimonial-shaper"
+    },
+    {
+      "phrase": "validate touch target mobile",
+      "path": "recipes/qc-audit/touch-target-mobile"
+    },
+    {
+      "phrase": "wire yelp widget",
+      "path": "recipes/glue/yelp-widget"
+    },
+    {
+      "phrase": "polish: always robots",
+      "path": "recipes/polish-rules/always-robots"
+    },
+    {
+      "phrase": "upgrade the photo denoise",
+      "path": "recipes/content-rescue/photo-denoise"
+    },
+    {
+      "phrase": "font pair pair expressive display",
+      "path": "recipes/typography/pair-expressive-display"
+    },
+    {
+      "phrase": "use the hero split",
+      "path": "recipes/layouts/hero-split"
+    },
+    {
+      "phrase": "near me local events schema",
+      "path": "recipes/local-seo/local-events-schema"
+    },
+    {
+      "phrase": "wow me with secret pages",
+      "path": "recipes/immersive/secret-pages"
+    },
+    {
+      "phrase": "immersive: scroll driven css",
+      "path": "recipes/immersive/scroll-driven-css"
+    },
+    {
+      "phrase": "use the swiss grid",
+      "path": "recipes/layouts/swiss-grid"
+    },
+    {
+      "phrase": "vcard export",
+      "path": "recipes/glue/vcard-export"
+    },
+    {
+      "phrase": "turn this into pdf to sections",
+      "path": "recipes/content-extraction/pdf-to-sections"
+    },
+    {
+      "phrase": "immersive: magnetic buttons",
+      "path": "recipes/immersive/magnetic-buttons"
+    },
+    {
+      "phrase": "review schema",
+      "path": "recipes/geo-aeo/review-schema"
+    },
+    {
+      "phrase": "set typography to pair editorial serif",
+      "path": "recipes/typography/pair-editorial-serif"
+    },
+    {
+      "phrase": "validate broken link crawler",
+      "path": "recipes/qc-audit/broken-link-crawler"
+    },
+    {
+      "phrase": "cite-friendly person eeat",
+      "path": "recipes/geo-aeo/person-eeat"
+    },
+    {
+      "phrase": "check empty state coverage",
+      "path": "recipes/qc-audit/empty-state-coverage"
+    },
+    {
+      "phrase": "privacy age gate",
+      "path": "recipes/legal/age-gate"
+    },
+    {
+      "phrase": "fix the noise to hero",
+      "path": "recipes/content-rescue/noise-to-hero"
+    },
+    {
+      "phrase": "brand dna from logo and paragraph",
+      "path": "recipes/content-extraction/brand-dna-from-logo-and-paragraph"
+    },
+    {
+      "phrase": "map: local citations list",
+      "path": "recipes/local-seo/local-citations-list"
+    },
+    {
+      "phrase": "compliance: subprocessor list",
+      "path": "recipes/legal/subprocessor-list"
+    },
+    {
+      "phrase": "novel effect: scroll driven css",
+      "path": "recipes/immersive/scroll-driven-css"
+    },
+    {
+      "phrase": "novel effect: live sketch render",
+      "path": "recipes/immersive/live-sketch-render"
+    },
+    {
+      "phrase": "pricing 2tier",
+      "path": "recipes/layouts/pricing-2tier"
+    },
+    {
+      "phrase": "polish: always skip link",
+      "path": "recipes/polish-rules/always-skip-link"
+    },
+    {
+      "phrase": "layout: press logo strip",
+      "path": "recipes/layouts/press-logo-strip"
+    },
+    {
+      "phrase": "immersive: genart reaction diffusion",
+      "path": "recipes/immersive/genart-reaction-diffusion"
+    },
+    {
+      "phrase": "grid: zigzag alt",
+      "path": "recipes/layouts/zigzag-alt"
+    },
+    {
+      "phrase": "set typography to pair optical size",
+      "path": "recipes/typography/pair-optical-size"
+    },
+    {
+      "phrase": "before after share card",
+      "path": "recipes/social-preview/before-after-share-card"
+    },
+    {
+      "phrase": "remaster the food plate reshoot",
+      "path": "recipes/content-rescue/food-plate-reshoot"
+    },
+    {
+      "phrase": "add schema for citation page structure",
+      "path": "recipes/geo-aeo/citation-page-structure"
+    },
+    {
+      "phrase": "service area localbusiness schema",
+      "path": "recipes/local-seo/localbusiness-schema"
+    },
+    {
+      "phrase": "integrate with segment adapter",
+      "path": "recipes/glue/segment-adapter"
+    },
+    {
+      "phrase": "cite-friendly first party data block",
+      "path": "recipes/geo-aeo/first-party-data-block"
+    },
+    {
+      "phrase": "connect print qr css",
+      "path": "recipes/glue/print-qr-css"
+    },
+    {
+      "phrase": "service area local events schema",
+      "path": "recipes/local-seo/local-events-schema"
+    },
+    {
+      "phrase": "remaster the gallery order optimize",
+      "path": "recipes/content-rescue/gallery-order-optimize"
+    },
+    {
+      "phrase": "rich link: share quote card",
+      "path": "recipes/social-preview/share-quote-card"
+    },
+    {
+      "phrase": "rescue the case study cover",
+      "path": "recipes/content-rescue/case-study-cover"
+    },
+    {
+      "phrase": "embed print qr css",
+      "path": "recipes/glue/print-qr-css"
+    },
+    {
+      "phrase": "turn this into competitor scan",
+      "path": "recipes/content-extraction/competitor-scan"
+    },
+    {
+      "phrase": "generate site copy from paragraph to cta set",
+      "path": "recipes/content-extraction/paragraph-to-cta-set"
+    },
+    {
+      "phrase": "always never placeholder title",
+      "path": "recipes/polish-rules/never-placeholder-title"
+    },
+    {
+      "phrase": "bluesky preview",
+      "path": "recipes/social-preview/bluesky-preview"
+    },
+    {
+      "phrase": "never placeholder title",
+      "path": "recipes/polish-rules/never-placeholder-title"
+    },
+    {
+      "phrase": "use the pair variable weight",
+      "path": "recipes/typography/pair-variable-weight"
+    },
+    {
+      "phrase": "audit empty state coverage",
+      "path": "recipes/qc-audit/empty-state-coverage"
+    },
+    {
+      "phrase": "fix the gallery order optimize",
+      "path": "recipes/content-rescue/gallery-order-optimize"
+    },
+    {
+      "phrase": "add schema for well known ai txt",
+      "path": "recipes/geo-aeo/well-known-ai-txt"
+    },
+    {
+      "phrase": "connect referral generator",
+      "path": "recipes/glue/referral-generator"
+    },
+    {
+      "phrase": "use the nav mega",
+      "path": "recipes/layouts/nav-mega"
+    },
+    {
+      "phrase": "sweep 404",
+      "path": "recipes/qc-audit/sweep-404"
+    },
+    {
+      "phrase": "dns: headers netlify",
+      "path": "recipes/deploy/headers-netlify"
+    },
+    {
+      "phrase": "never always dedupe photos",
+      "path": "recipes/polish-rules/always-dedupe-photos"
+    },
+    {
+      "phrase": "haptic mobile",
+      "path": "recipes/immersive/haptic-mobile"
+    },
+    {
+      "phrase": "integrate with app links universal",
+      "path": "recipes/glue/app-links-universal"
+    },
+    {
+      "phrase": "set typography to pair magazine",
+      "path": "recipes/typography/pair-magazine"
+    },
+    {
+      "phrase": "podcast share card",
+      "path": "recipes/social-preview/podcast-share-card"
+    },
+    {
+      "phrase": "rescue the food plate reshoot",
+      "path": "recipes/content-rescue/food-plate-reshoot"
+    },
+    {
+      "phrase": "check orphan page detector",
+      "path": "recipes/qc-audit/orphan-page-detector"
+    },
+    {
+      "phrase": "remaster the photo blur plate privacy",
+      "path": "recipes/content-rescue/photo-blur-plate-privacy"
+    },
+    {
+      "phrase": "salesforce adapter",
+      "path": "recipes/glue/salesforce-adapter"
+    },
+    {
+      "phrase": "polish: always terms stub",
+      "path": "recipes/polish-rules/always-terms-stub"
+    },
+    {
+      "phrase": "upgrade the photo subject focal",
+      "path": "recipes/content-rescue/photo-subject-focal"
+    },
+    {
+      "phrase": "audit https canonical redirect",
+      "path": "recipes/qc-audit/https-canonical-redirect"
+    },
+    {
+      "phrase": "extract service page rewrite",
+      "path": "recipes/content-extraction/service-page-rewrite"
+    },
+    {
+      "phrase": "integrate with rive adapter",
+      "path": "recipes/glue/rive-adapter"
+    },
+    {
+      "phrase": "lay it out as asymmetric broken",
+      "path": "recipes/layouts/asymmetric-broken"
+    },
+    {
+      "phrase": "mastodon preview",
+      "path": "recipes/social-preview/mastodon-preview"
+    },
+    {
+      "phrase": "lay it out as sticky side story",
+      "path": "recipes/layouts/sticky-side-story"
+    },
+    {
+      "phrase": "never always share target",
+      "path": "recipes/polish-rules/always-share-target"
+    },
+    {
+      "phrase": "add schema for review schema",
+      "path": "recipes/geo-aeo/review-schema"
+    },
+    {
+      "phrase": "fix the logo animated 3frame",
+      "path": "recipes/content-rescue/logo-animated-3frame"
+    },
+    {
+      "phrase": "polish: always alt text ai",
+      "path": "recipes/polish-rules/always-alt-text-ai"
+    },
+    {
+      "phrase": "camera parallax",
+      "path": "recipes/immersive/camera-parallax"
+    },
+    {
+      "phrase": "lay it out as card fan",
+      "path": "recipes/layouts/card-fan"
+    },
+    {
+      "phrase": "remaster the food color boost",
+      "path": "recipes/content-rescue/food-color-boost"
+    },
+    {
+      "phrase": "grid: sticky side story",
+      "path": "recipes/layouts/sticky-side-story"
+    },
+    {
+      "phrase": "grid: nav inline",
+      "path": "recipes/layouts/nav-inline"
+    },
+    {
+      "phrase": "set typography to kinetic parallax",
+      "path": "recipes/typography/kinetic-parallax"
+    },
+    {
+      "phrase": "QC sweep 404",
+      "path": "recipes/qc-audit/sweep-404"
+    },
+    {
+      "phrase": "connect rive adapter",
+      "path": "recipes/glue/rive-adapter"
+    },
+    {
+      "phrase": "fix the product shot shadow add",
+      "path": "recipes/content-rescue/product-shot-shadow-add"
+    },
+    {
+      "phrase": "lay it out as masonry normalize",
+      "path": "recipes/layouts/masonry-normalize"
+    },
+    {
+      "phrase": "always skip link",
+      "path": "recipes/polish-rules/always-skip-link"
+    },
+    {
+      "phrase": "AEO: softwareapp schema",
+      "path": "recipes/geo-aeo/softwareapp-schema"
+    },
+    {
+      "phrase": "multilocation template",
+      "path": "recipes/local-seo/multilocation-template"
+    },
+    {
+      "phrase": "layout: bento 3x2",
+      "path": "recipes/layouts/bento-3x2"
+    },
+    {
+      "phrase": "lay it out as hero video bg",
+      "path": "recipes/layouts/hero-video-bg"
+    },
+    {
+      "phrase": "rescue the brand mood extract",
+      "path": "recipes/content-rescue/brand-mood-extract"
+    },
+    {
+      "phrase": "QC legal links check",
+      "path": "recipes/qc-audit/legal-links-check"
+    },
+    {
+      "phrase": "extract case study writeup",
+      "path": "recipes/content-extraction/case-study-writeup"
+    },
+    {
+      "phrase": "lay it out as timeline horizontal",
+      "path": "recipes/layouts/timeline-horizontal"
+    },
+    {
+      "phrase": "event share card",
+      "path": "recipes/social-preview/event-share-card"
+    },
+    {
+      "phrase": "embed crm webhook",
+      "path": "recipes/glue/crm-webhook"
+    },
+    {
+      "phrase": "competitor differentiator list",
+      "path": "recipes/content-extraction/competitor-differentiator-list"
+    },
+    {
+      "phrase": "polish: always og image",
+      "path": "recipes/polish-rules/always-og-image"
+    },
+    {
+      "phrase": "wow me with genart flow field",
+      "path": "recipes/immersive/genart-flow-field"
+    },
+    {
+      "phrase": "upgrade the photo blur face privacy",
+      "path": "recipes/content-rescue/photo-blur-face-privacy"
+    },
+    {
+      "phrase": "rescue the photo to cinemagraph",
+      "path": "recipes/content-rescue/photo-to-cinemagraph"
+    },
+    {
+      "phrase": "wire lottie player",
+      "path": "recipes/glue/lottie-player"
+    },
+    {
+      "phrase": "pair boutique",
+      "path": "recipes/typography/pair-boutique"
+    },
+    {
+      "phrase": "typographic system: kinetic morph",
+      "path": "recipes/typography/kinetic-morph"
+    },
+    {
+      "phrase": "fix the photo to loop video",
+      "path": "recipes/content-rescue/photo-to-loop-video"
+    },
+    {
+      "phrase": "layout: editorial 12col",
+      "path": "recipes/layouts/editorial-12col"
+    },
+    {
+      "phrase": "add schema for breadcrumb schema",
+      "path": "recipes/geo-aeo/breadcrumb-schema"
+    },
+    {
+      "phrase": "local seo local events schema",
+      "path": "recipes/local-seo/local-events-schema"
+    },
+    {
+      "phrase": "event schema",
+      "path": "recipes/geo-aeo/event-schema"
+    },
+    {
+      "phrase": "og: slack unfurl",
+      "path": "recipes/social-preview/slack-unfurl"
+    },
+    {
+      "phrase": "never-seen-before shader halftone",
+      "path": "recipes/immersive/shader-halftone"
+    },
+    {
+      "phrase": "grid: footer mini",
+      "path": "recipes/layouts/footer-mini"
+    },
+    {
+      "phrase": "fix the food plate reshoot",
+      "path": "recipes/content-rescue/food-plate-reshoot"
+    },
+    {
+      "phrase": "typographic system: pair pull quote signature",
+      "path": "recipes/typography/pair-pull-quote-signature"
+    },
+    {
+      "phrase": "wire tiktok feed",
+      "path": "recipes/glue/tiktok-feed"
+    },
+    {
+      "phrase": "social preview lint",
+      "path": "recipes/qc-audit/social-preview-lint"
+    },
+    {
+      "phrase": "extract meta tags suggest",
+      "path": "recipes/content-extraction/meta-tags-suggest"
+    },
+    {
+      "phrase": "noise to hero",
+      "path": "recipes/content-rescue/noise-to-hero"
+    },
+    {
+      "phrase": "comparison table aiquote",
+      "path": "recipes/geo-aeo/comparison-table-aiquote"
+    },
+    {
+      "phrase": "novel effect: threejs hero",
+      "path": "recipes/immersive/threejs-hero"
+    },
+    {
+      "phrase": "validate consent cookie audit",
+      "path": "recipes/qc-audit/consent-cookie-audit"
+    },
+    {
+      "phrase": "use the bento 2x2",
+      "path": "recipes/layouts/bento-2x2"
+    },
+    {
+      "phrase": "layout: card fan",
+      "path": "recipes/layouts/card-fan"
+    },
+    {
+      "phrase": "check error state coverage",
+      "path": "recipes/qc-audit/error-state-coverage"
+    },
+    {
+      "phrase": "build a page from spreadsheet to features",
+      "path": "recipes/content-extraction/spreadsheet-to-features"
+    },
+    {
+      "phrase": "font pair pair humanist workhorse",
+      "path": "recipes/typography/pair-humanist-workhorse"
+    },
+    {
+      "phrase": "never-seen-before shader oil paint",
+      "path": "recipes/immersive/shader-oil-paint"
+    },
+    {
+      "phrase": "lay it out as brutalist grid",
+      "path": "recipes/layouts/brutalist-grid"
+    },
+    {
+      "phrase": "remaster the product shot plate",
+      "path": "recipes/content-rescue/product-shot-plate"
+    },
+    {
+      "phrase": "audit keyboard only nav",
+      "path": "recipes/qc-audit/keyboard-only-nav"
+    },
+    {
+      "phrase": "rescue the photo smart crop thirds",
+      "path": "recipes/content-rescue/photo-smart-crop-thirds"
+    },
+    {
+      "phrase": "status page",
+      "path": "recipes/deploy/status-page"
+    },
+    {
+      "phrase": "embed qr generator",
+      "path": "recipes/glue/qr-generator"
+    },
+    {
+      "phrase": "rescue the headshot bg cleanup",
+      "path": "recipes/content-rescue/headshot-bg-cleanup"
+    },
+    {
+      "phrase": "local seo language auto detect",
+      "path": "recipes/local-seo/language-auto-detect"
+    },
+    {
+      "phrase": "auto-apply always security txt",
+      "path": "recipes/polish-rules/always-security-txt"
+    },
+    {
+      "phrase": "QC font loading audit",
+      "path": "recipes/qc-audit/font-loading-audit"
+    },
+    {
+      "phrase": "swiss grid",
+      "path": "recipes/layouts/swiss-grid"
+    },
+    {
+      "phrase": "upgrade the gallery aspect harmonize",
+      "path": "recipes/content-rescue/gallery-aspect-harmonize"
+    },
+    {
+      "phrase": "fix the logo vectorize",
+      "path": "recipes/content-rescue/logo-vectorize"
+    },
+    {
+      "phrase": "AEO: event schema",
+      "path": "recipes/geo-aeo/event-schema"
+    },
+    {
+      "phrase": "set typography to kinetic morph",
+      "path": "recipes/typography/kinetic-morph"
+    },
+    {
+      "phrase": "turn this into moodboard generate",
+      "path": "recipes/content-extraction/moodboard-generate"
+    },
+    {
+      "phrase": "threejs hero",
+      "path": "recipes/immersive/threejs-hero"
+    },
+    {
+      "phrase": "linkedin preview",
+      "path": "recipes/social-preview/linkedin-preview"
+    },
+    {
+      "phrase": "use the pair monospace multiplex",
+      "path": "recipes/typography/pair-monospace-multiplex"
+    },
+    {
+      "phrase": "typographic system: pair small caps editorial",
+      "path": "recipes/typography/pair-small-caps-editorial"
+    },
+    {
+      "phrase": "always always scroll restore",
+      "path": "recipes/polish-rules/always-scroll-restore"
+    },
+    {
+      "phrase": "never never broken image guard",
+      "path": "recipes/polish-rules/never-broken-image-guard"
+    },
+    {
+      "phrase": "photo outpaint hero",
+      "path": "recipes/content-rescue/photo-outpaint-hero"
+    },
+    {
+      "phrase": "layout: testimonial wall",
+      "path": "recipes/layouts/testimonial-wall"
+    },
+    {
+      "phrase": "fix the photo smart crop thirds",
+      "path": "recipes/content-rescue/photo-smart-crop-thirds"
+    },
+    {
+      "phrase": "typographic system: vertical rhythm baseline",
+      "path": "recipes/typography/vertical-rhythm-baseline"
+    },
+    {
+      "phrase": "remaster the headshot restyle editorial",
+      "path": "recipes/content-rescue/headshot-restyle-editorial"
+    },
+    {
+      "phrase": "upgrade the avatar illustrated",
+      "path": "recipes/content-rescue/avatar-illustrated"
+    },
+    {
+      "phrase": "optimize for AI search review schema",
+      "path": "recipes/geo-aeo/review-schema"
+    },
+    {
+      "phrase": "email: email transactional verify",
+      "path": "recipes/deploy/email-transactional-verify"
+    },
+    {
+      "phrase": "upgrade the case study cover",
+      "path": "recipes/content-rescue/case-study-cover"
+    },
+    {
+      "phrase": "wow me with genart reaction diffusion",
+      "path": "recipes/immersive/genart-reaction-diffusion"
+    },
+    {
+      "phrase": "email: email transactional receipt",
+      "path": "recipes/deploy/email-transactional-receipt"
+    },
+    {
+      "phrase": "always splash screens",
+      "path": "recipes/polish-rules/always-splash-screens"
+    },
+    {
+      "phrase": "fix the logo mark only",
+      "path": "recipes/content-rescue/logo-mark-only"
+    },
+    {
+      "phrase": "polish: always bg remove logo if needed",
+      "path": "recipes/polish-rules/always-bg-remove-logo-if-needed"
+    },
+    {
+      "phrase": "typographic system: pair monospace multiplex",
+      "path": "recipes/typography/pair-monospace-multiplex"
+    },
+    {
+      "phrase": "redirects netlify",
+      "path": "recipes/deploy/redirects-netlify"
+    },
+    {
+      "phrase": "AEO: pullquote quoteworthy",
+      "path": "recipes/geo-aeo/pullquote-quoteworthy"
+    },
+    {
+      "phrase": "set typography to pair editorial serif v2",
+      "path": "recipes/typography/pair-editorial-serif-v2"
+    },
+    {
+      "phrase": "novel effect: genart reaction diffusion",
+      "path": "recipes/immersive/genart-reaction-diffusion"
+    },
+    {
+      "phrase": "layout: bento 3x3",
+      "path": "recipes/layouts/bento-3x3"
+    },
+    {
+      "phrase": "share card: mastodon preview",
+      "path": "recipes/social-preview/mastodon-preview"
+    },
+    {
+      "phrase": "photo dedupe perceptual",
+      "path": "recipes/content-rescue/photo-dedupe-perceptual"
+    },
+    {
+      "phrase": "remaster the logo mark only",
+      "path": "recipes/content-rescue/logo-mark-only"
+    },
+    {
+      "phrase": "upgrade the photo to cinemagraph",
+      "path": "recipes/content-rescue/photo-to-cinemagraph"
+    },
+    {
+      "phrase": "set typography to pair all caps display",
+      "path": "recipes/typography/pair-all-caps-display"
+    },
+    {
+      "phrase": "audit missing favicon",
+      "path": "recipes/qc-audit/missing-favicon"
+    },
+    {
+      "phrase": "map: store locator",
+      "path": "recipes/local-seo/store-locator"
+    },
+    {
+      "phrase": "never-seen-before particle orbit",
+      "path": "recipes/immersive/particle-orbit"
+    },
+    {
+      "phrase": "check missing og",
+      "path": "recipes/qc-audit/missing-og"
+    },
+    {
+      "phrase": "remaster the product shot shadow add",
+      "path": "recipes/content-rescue/product-shot-shadow-add"
+    },
+    {
+      "phrase": "turn this into testimonial quote extract",
+      "path": "recipes/content-extraction/testimonial-quote-extract"
+    },
+    {
+      "phrase": "AEO: video schema",
+      "path": "recipes/geo-aeo/video-schema"
+    },
+    {
+      "phrase": "never-seen-before sound cue system",
+      "path": "recipes/immersive/sound-cue-system"
+    },
+    {
+      "phrase": "og: team share card",
+      "path": "recipes/social-preview/team-share-card"
+    },
+    {
+      "phrase": "product shot plate",
+      "path": "recipes/content-rescue/product-shot-plate"
+    },
+    {
+      "phrase": "near me location landing generator",
+      "path": "recipes/local-seo/location-landing-generator"
+    },
+    {
+      "phrase": "calendly wiring",
+      "path": "recipes/glue/calendly-wiring"
+    },
+    {
+      "phrase": "twitter card",
+      "path": "recipes/social-preview/twitter-card"
+    },
+    {
+      "phrase": "auto-apply always alt text ai",
+      "path": "recipes/polish-rules/always-alt-text-ai"
+    },
+    {
+      "phrase": "og: og audio",
+      "path": "recipes/social-preview/og-audio"
+    },
+    {
+      "phrase": "grid: bento 3x2",
+      "path": "recipes/layouts/bento-3x2"
+    },
+    {
+      "phrase": "before after slider",
+      "path": "recipes/content-rescue/before-after-slider"
+    },
+    {
+      "phrase": "rich link: twitter card",
+      "path": "recipes/social-preview/twitter-card"
+    },
+    {
+      "phrase": "social preview: stats share card",
+      "path": "recipes/social-preview/stats-share-card"
+    },
+    {
+      "phrase": "segment adapter",
+      "path": "recipes/glue/segment-adapter"
+    },
+    {
+      "phrase": "always lang attr",
+      "path": "recipes/polish-rules/always-lang-attr"
+    },
+    {
+      "phrase": "use the pricing 4tier",
+      "path": "recipes/layouts/pricing-4tier"
+    },
+    {
+      "phrase": "set typography to pair humanist workhorse",
+      "path": "recipes/typography/pair-humanist-workhorse"
+    },
+    {
+      "phrase": "grid: swiss grid",
+      "path": "recipes/layouts/swiss-grid"
+    },
+    {
+      "phrase": "make gorgeous: noise to hero",
+      "path": "recipes/content-rescue/noise-to-hero"
+    },
+    {
+      "phrase": "remaster the gallery cover pick",
+      "path": "recipes/content-rescue/gallery-cover-pick"
+    },
+    {
+      "phrase": "embed vcard export",
+      "path": "recipes/glue/vcard-export"
+    },
+    {
+      "phrase": "novel effect: glass refraction",
+      "path": "recipes/immersive/glass-refraction"
+    },
+    {
+      "phrase": "rich link: blog share card",
+      "path": "recipes/social-preview/blog-share-card"
+    },
+    {
+      "phrase": "auto-apply always contrast audit",
+      "path": "recipes/polish-rules/always-contrast-audit"
+    },
+    {
+      "phrase": "build a page from bio to hero",
+      "path": "recipes/content-extraction/bio-to-hero"
+    },
+    {
+      "phrase": "location landing generator",
+      "path": "recipes/local-seo/location-landing-generator"
+    },
+    {
+      "phrase": "og audio",
+      "path": "recipes/social-preview/og-audio"
+    },
+    {
+      "phrase": "check text scaling 200",
+      "path": "recipes/qc-audit/text-scaling-200"
+    },
+    {
+      "phrase": "local seo geo coordinates",
+      "path": "recipes/local-seo/geo-coordinates"
+    },
+    {
+      "phrase": "wow me with webgl shader bg",
+      "path": "recipes/immersive/webgl-shader-bg"
+    },
+    {
+      "phrase": "never-seen-before genart worley",
+      "path": "recipes/immersive/genart-worley"
+    },
+    {
+      "phrase": "never always splash screens",
+      "path": "recipes/polish-rules/always-splash-screens"
+    },
+    {
+      "phrase": "kinetic poster",
+      "path": "recipes/typography/kinetic-poster"
+    },
+    {
+      "phrase": "privacy shipping policy",
+      "path": "recipes/legal/shipping-policy"
+    },
+    {
+      "phrase": "generate site copy from tone of voice profile",
+      "path": "recipes/content-extraction/tone-of-voice-profile"
+    },
+    {
+      "phrase": "AEO: product schema",
+      "path": "recipes/geo-aeo/product-schema"
+    },
+    {
+      "phrase": "never-seen-before mesh warp hover",
+      "path": "recipes/immersive/mesh-warp-hover"
+    },
+    {
+      "phrase": "generate site copy from bio to hero",
+      "path": "recipes/content-extraction/bio-to-hero"
+    },
+    {
+      "phrase": "trust band",
+      "path": "recipes/layouts/trust-band"
+    },
+    {
+      "phrase": "make gorgeous: photo to 5sec video",
+      "path": "recipes/content-rescue/photo-to-5sec-video"
+    },
+    {
+      "phrase": "photo restore scratches",
+      "path": "recipes/content-rescue/photo-restore-scratches"
+    },
+    {
+      "phrase": "use the pair editorial serif v2",
+      "path": "recipes/typography/pair-editorial-serif-v2"
+    },
+    {
+      "phrase": "font pair kinetic wave",
+      "path": "recipes/typography/kinetic-wave"
+    },
+    {
+      "phrase": "make gorgeous: photo denoise",
+      "path": "recipes/content-rescue/photo-denoise"
+    },
+    {
+      "phrase": "typographic system: opentype stylistic sets",
+      "path": "recipes/typography/opentype-stylistic-sets"
+    },
+    {
+      "phrase": "privacy consent mode v2",
+      "path": "recipes/legal/consent-mode-v2"
+    },
+    {
+      "phrase": "upgrade the photo to loop video",
+      "path": "recipes/content-rescue/photo-to-loop-video"
+    },
+    {
+      "phrase": "fix the photo bg remove if needed",
+      "path": "recipes/content-rescue/photo-bg-remove-if-needed"
+    },
+    {
+      "phrase": "shader oil paint",
+      "path": "recipes/immersive/shader-oil-paint"
+    },
+    {
+      "phrase": "never always focus ring",
+      "path": "recipes/polish-rules/always-focus-ring"
+    },
+    {
+      "phrase": "dns: email transactional verify",
+      "path": "recipes/deploy/email-transactional-verify"
+    },
+    {
+      "phrase": "AEO: review schema",
+      "path": "recipes/geo-aeo/review-schema"
+    },
+    {
+      "phrase": "lay it out as pricing toggle annual",
+      "path": "recipes/layouts/pricing-toggle-annual"
+    },
+    {
+      "phrase": "novel effect: custom cursor",
+      "path": "recipes/immersive/custom-cursor"
+    },
+    {
+      "phrase": "integrate with salesforce adapter",
+      "path": "recipes/glue/salesforce-adapter"
+    },
+    {
+      "phrase": "deploy: email transactional verify",
+      "path": "recipes/deploy/email-transactional-verify"
+    },
+    {
+      "phrase": "optimize for AI search softwareapp schema",
+      "path": "recipes/geo-aeo/softwareapp-schema"
+    },
+    {
+      "phrase": "bento 3x2",
+      "path": "recipes/layouts/bento-3x2"
+    },
+    {
+      "phrase": "wow me with lightning bolt shader",
+      "path": "recipes/immersive/lightning-bolt-shader"
+    },
+    {
+      "phrase": "audit perf budget",
+      "path": "recipes/qc-audit/perf-budget"
+    },
+    {
+      "phrase": "deploy: release notes auto",
+      "path": "recipes/deploy/release-notes-auto"
+    },
+    {
+      "phrase": "layout: masonry normalize",
+      "path": "recipes/layouts/masonry-normalize"
+    },
+    {
+      "phrase": "rescue the photo hdr tone",
+      "path": "recipes/content-rescue/photo-hdr-tone"
+    },
+    {
+      "phrase": "embed trustpilot widget",
+      "path": "recipes/glue/trustpilot-widget"
+    },
+    {
+      "phrase": "gallery aspect harmonize layout",
+      "path": "recipes/layouts/gallery-aspect-harmonize-layout"
+    },
+    {
+      "phrase": "hero 3d scene",
+      "path": "recipes/layouts/hero-3d-scene"
+    },
+    {
+      "phrase": "og: imessage rich link",
+      "path": "recipes/social-preview/imessage-rich-link"
+    },
+    {
+      "phrase": "upgrade the brand color palette",
+      "path": "recipes/content-rescue/brand-color-palette"
+    },
+    {
+      "phrase": "near me localbusiness schema",
+      "path": "recipes/local-seo/localbusiness-schema"
+    },
+    {
+      "phrase": "font pair pair swiss grotesk",
+      "path": "recipes/typography/pair-swiss-grotesk"
+    },
+    {
+      "phrase": "grid: comparison table",
+      "path": "recipes/layouts/comparison-table"
+    },
+    {
+      "phrase": "realestate sky replace",
+      "path": "recipes/content-rescue/realestate-sky-replace"
+    },
+    {
+      "phrase": "immersive: houdini paint",
+      "path": "recipes/immersive/houdini-paint"
+    },
+    {
+      "phrase": "compliance: consent mode v2",
+      "path": "recipes/legal/consent-mode-v2"
+    },
+    {
+      "phrase": "footer mini",
+      "path": "recipes/layouts/footer-mini"
+    },
+    {
+      "phrase": "dns: headers cloudflare",
+      "path": "recipes/deploy/headers-cloudflare"
+    },
+    {
+      "phrase": "wow me with particle orbit",
+      "path": "recipes/immersive/particle-orbit"
+    },
+    {
+      "phrase": "cite-friendly howto schema",
+      "path": "recipes/geo-aeo/howto-schema"
+    },
+    {
+      "phrase": "scale perfect fourth",
+      "path": "recipes/typography/scale-perfect-fourth"
+    },
+    {
+      "phrase": "softwareapp schema",
+      "path": "recipes/geo-aeo/softwareapp-schema"
+    },
+    {
+      "phrase": "font pair pair cyber mono",
+      "path": "recipes/typography/pair-cyber-mono"
+    },
+    {
+      "phrase": "never always manifest shortcuts",
+      "path": "recipes/polish-rules/always-manifest-shortcuts"
+    },
+    {
+      "phrase": "press logo mono",
+      "path": "recipes/content-rescue/press-logo-mono"
+    },
+    {
+      "phrase": "font pair pair monospace multiplex",
+      "path": "recipes/typography/pair-monospace-multiplex"
+    },
+    {
+      "phrase": "audit broken link crawler",
+      "path": "recipes/qc-audit/broken-link-crawler"
+    },
+    {
+      "phrase": "optimize for AI search statistics with citations",
+      "path": "recipes/geo-aeo/statistics-with-citations"
+    },
+    {
+      "phrase": "service area driving directions block",
+      "path": "recipes/local-seo/driving-directions-block"
+    },
+    {
+      "phrase": "use the scale major third",
+      "path": "recipes/typography/scale-major-third"
+    },
+    {
+      "phrase": "email: email transactional reset",
+      "path": "recipes/deploy/email-transactional-reset"
+    },
+    {
+      "phrase": "remaster the photo hdr tone",
+      "path": "recipes/content-rescue/photo-hdr-tone"
+    },
+    {
+      "phrase": "auto-apply always manifest shortcuts",
+      "path": "recipes/polish-rules/always-manifest-shortcuts"
+    },
+    {
+      "phrase": "turn this into pdf to blog",
+      "path": "recipes/content-extraction/pdf-to-blog"
+    },
+    {
+      "phrase": "rich link: stats share card",
+      "path": "recipes/social-preview/stats-share-card"
+    },
+    {
+      "phrase": "fix the headshot restyle editorial",
+      "path": "recipes/content-rescue/headshot-restyle-editorial"
+    },
+    {
+      "phrase": "upgrade the gallery tone unify",
+      "path": "recipes/content-rescue/gallery-tone-unify"
+    },
+    {
+      "phrase": "gallery consistency",
+      "path": "recipes/qc-audit/gallery-consistency"
+    },
+    {
+      "phrase": "use the above fold matrix",
+      "path": "recipes/layouts/above-fold-matrix"
+    },
+    {
+      "phrase": "compliance: accessibility statement",
+      "path": "recipes/legal/accessibility-statement"
+    },
+    {
+      "phrase": "always share target",
+      "path": "recipes/polish-rules/always-share-target"
+    },
+    {
+      "phrase": "use the pair pull quote signature",
+      "path": "recipes/typography/pair-pull-quote-signature"
+    },
+    {
+      "phrase": "lay it out as hero centered",
+      "path": "recipes/layouts/hero-centered"
+    },
+    {
+      "phrase": "language auto detect",
+      "path": "recipes/local-seo/language-auto-detect"
+    },
+    {
+      "phrase": "grid: portfolio split",
+      "path": "recipes/layouts/portfolio-split"
+    },
+    {
+      "phrase": "set typography to scale perfect fourth",
+      "path": "recipes/typography/scale-perfect-fourth"
+    },
+    {
+      "phrase": "local seo hours timezone",
+      "path": "recipes/local-seo/hours-timezone"
+    },
+    {
+      "phrase": "social preview: product share card",
+      "path": "recipes/social-preview/product-share-card"
+    },
+    {
+      "phrase": "make gorgeous: product shot shadow add",
+      "path": "recipes/content-rescue/product-shot-shadow-add"
+    },
+    {
+      "phrase": "novel effect: confetti celebration",
+      "path": "recipes/immersive/confetti-celebration"
+    },
+    {
+      "phrase": "privacy dmca takedown",
+      "path": "recipes/legal/dmca-takedown"
+    },
+    {
+      "phrase": "privacy imprint at",
+      "path": "recipes/legal/imprint-at"
+    },
+    {
+      "phrase": "compliance: cookie scan",
+      "path": "recipes/legal/cookie-scan"
+    },
+    {
+      "phrase": "always always lang attr",
+      "path": "recipes/polish-rules/always-lang-attr"
+    },
+    {
+      "phrase": "upgrade the photo upscale",
+      "path": "recipes/content-rescue/photo-upscale"
+    },
+    {
+      "phrase": "make gorgeous: gallery cover pick",
+      "path": "recipes/content-rescue/gallery-cover-pick"
+    },
+    {
+      "phrase": "coupon widget",
+      "path": "recipes/glue/coupon-widget"
+    },
+    {
+      "phrase": "status: status page",
+      "path": "recipes/deploy/status-page"
+    },
+    {
+      "phrase": "rescue the gallery tone unify",
+      "path": "recipes/content-rescue/gallery-tone-unify"
+    },
+    {
+      "phrase": "local seo location landing generator",
+      "path": "recipes/local-seo/location-landing-generator"
+    },
+    {
+      "phrase": "remaster the realestate lawn boost",
+      "path": "recipes/content-rescue/realestate-lawn-boost"
+    },
+    {
+      "phrase": "dns: edge locations guide",
+      "path": "recipes/deploy/edge-locations-guide"
+    },
+    {
+      "phrase": "upgrade the photo de yellow",
+      "path": "recipes/content-rescue/photo-de-yellow"
+    },
+    {
+      "phrase": "check wcag 22 aa sweep",
+      "path": "recipes/qc-audit/wcag-22-aa-sweep"
+    },
+    {
+      "phrase": "never-seen-before genart perlin",
+      "path": "recipes/immersive/genart-perlin"
+    },
+    {
+      "phrase": "calcom wiring",
+      "path": "recipes/glue/calcom-wiring"
+    },
+    {
+      "phrase": "always always alt text ai",
+      "path": "recipes/polish-rules/always-alt-text-ai"
+    },
+    {
+      "phrase": "check perf budget",
+      "path": "recipes/qc-audit/perf-budget"
+    },
+    {
+      "phrase": "fix the photo dedupe perceptual",
+      "path": "recipes/content-rescue/photo-dedupe-perceptual"
+    },
+    {
+      "phrase": "share card: product share card",
+      "path": "recipes/social-preview/product-share-card"
+    },
+    {
+      "phrase": "make gorgeous: logo mono variant",
+      "path": "recipes/content-rescue/logo-mono-variant"
+    },
+    {
+      "phrase": "lay it out as editorial 12col",
+      "path": "recipes/layouts/editorial-12col"
+    },
+    {
+      "phrase": "status: email transactional verify",
+      "path": "recipes/deploy/email-transactional-verify"
+    },
+    {
+      "phrase": "always contrast audit",
+      "path": "recipes/polish-rules/always-contrast-audit"
+    },
+    {
+      "phrase": "use the pair wide poster",
+      "path": "recipes/typography/pair-wide-poster"
+    },
+    {
+      "phrase": "use the opentype ligatures",
+      "path": "recipes/typography/opentype-ligatures"
+    },
+    {
+      "phrase": "embed print ticket css",
+      "path": "recipes/glue/print-ticket-css"
+    },
+    {
+      "phrase": "cite-friendly podcast schema",
+      "path": "recipes/geo-aeo/podcast-schema"
+    },
+    {
+      "phrase": "social preview: before after share card",
+      "path": "recipes/social-preview/before-after-share-card"
+    },
+    {
+      "phrase": "connect framer adapter",
+      "path": "recipes/glue/framer-adapter"
+    },
+    {
+      "phrase": "validate image size audit",
+      "path": "recipes/qc-audit/image-size-audit"
+    },
+    {
+      "phrase": "set typography to scale custom",
+      "path": "recipes/typography/scale-custom"
+    },
+    {
+      "phrase": "orphan page detector",
+      "path": "recipes/qc-audit/orphan-page-detector"
+    },
+    {
+      "phrase": "embed web push setup",
+      "path": "recipes/glue/web-push-setup"
+    },
+    {
+      "phrase": "reels preview",
+      "path": "recipes/social-preview/reels-preview"
+    },
+    {
+      "phrase": "optimize for AI search publisher org",
+      "path": "recipes/geo-aeo/publisher-org"
+    },
+    {
+      "phrase": "extract email drip plan",
+      "path": "recipes/content-extraction/email-drip-plan"
+    },
+    {
+      "phrase": "remaster the photo smart crop thirds",
+      "path": "recipes/content-rescue/photo-smart-crop-thirds"
+    },
+    {
+      "phrase": "deploy: dns records",
+      "path": "recipes/deploy/dns-records"
+    },
+    {
+      "phrase": "wire ai human handoff",
+      "path": "recipes/glue/ai-human-handoff"
+    },
+    {
+      "phrase": "set typography to pair cjk safe",
+      "path": "recipes/typography/pair-cjk-safe"
+    },
+    {
+      "phrase": "remaster the realestate declutter",
+      "path": "recipes/content-rescue/realestate-declutter"
+    },
+    {
+      "phrase": "dns: email transactional reset",
+      "path": "recipes/deploy/email-transactional-reset"
+    },
+    {
+      "phrase": "share card: slack unfurl",
+      "path": "recipes/social-preview/slack-unfurl"
+    },
+    {
+      "phrase": "bento 2x2",
+      "path": "recipes/layouts/bento-2x2"
+    },
+    {
+      "phrase": "logo padding normalize",
+      "path": "recipes/content-rescue/logo-padding-normalize"
+    },
+    {
+      "phrase": "layout: hero centered",
+      "path": "recipes/layouts/hero-centered"
+    },
+    {
+      "phrase": "cite-friendly pullquote quoteworthy",
+      "path": "recipes/geo-aeo/pullquote-quoteworthy"
+    },
+    {
+      "phrase": "magazine spread",
+      "path": "recipes/layouts/magazine-spread"
+    },
+    {
+      "phrase": "never always robots",
+      "path": "recipes/polish-rules/always-robots"
+    },
+    {
+      "phrase": "make gorgeous: product shot plate",
+      "path": "recipes/content-rescue/product-shot-plate"
+    },
+    {
+      "phrase": "upgrade the press logo harmonize",
+      "path": "recipes/content-rescue/press-logo-harmonize"
+    },
+    {
+      "phrase": "integrate with tiktok feed",
+      "path": "recipes/glue/tiktok-feed"
+    },
+    {
+      "phrase": "use the kinetic morph",
+      "path": "recipes/typography/kinetic-morph"
+    },
+    {
+      "phrase": "genart worley",
+      "path": "recipes/immersive/genart-worley"
+    },
+    {
+      "phrase": "testimonial wall",
+      "path": "recipes/layouts/testimonial-wall"
+    },
+    {
+      "phrase": "fix the realestate declutter",
+      "path": "recipes/content-rescue/realestate-declutter"
+    },
+    {
+      "phrase": "QC duplicate photo detector",
+      "path": "recipes/qc-audit/duplicate-photo-detector"
+    },
+    {
+      "phrase": "build a page from competitor differentiator list",
+      "path": "recipes/content-extraction/competitor-differentiator-list"
+    },
+    {
+      "phrase": "validate jsonld validator",
+      "path": "recipes/qc-audit/jsonld-validator"
+    },
+    {
+      "phrase": "embed voice first qa",
+      "path": "recipes/glue/voice-first-qa"
+    },
+    {
+      "phrase": "always always app icons full",
+      "path": "recipes/polish-rules/always-app-icons-full"
+    },
+    {
+      "phrase": "use the pair cjk safe",
+      "path": "recipes/typography/pair-cjk-safe"
+    },
+    {
+      "phrase": "local seo local menu schema",
+      "path": "recipes/local-seo/local-menu-schema"
+    },
+    {
+      "phrase": "immersive: custom cursor",
+      "path": "recipes/immersive/custom-cursor"
+    },
+    {
+      "phrase": "add schema for article with citations",
+      "path": "recipes/geo-aeo/article-with-citations"
+    },
+    {
+      "phrase": "compliance: consent banner ccpa",
+      "path": "recipes/legal/consent-banner-ccpa"
+    },
+    {
+      "phrase": "QC form validation audit",
+      "path": "recipes/qc-audit/form-validation-audit"
+    },
+    {
+      "phrase": "sitemap validator",
+      "path": "recipes/qc-audit/sitemap-validator"
+    },
+    {
+      "phrase": "service area opening hours widget",
+      "path": "recipes/local-seo/opening-hours-widget"
+    },
+    {
+      "phrase": "audit contrast auditor",
+      "path": "recipes/qc-audit/contrast-auditor"
+    },
+    {
+      "phrase": "bento 3x3",
+      "path": "recipes/layouts/bento-3x3"
+    },
+    {
+      "phrase": "publisher org",
+      "path": "recipes/geo-aeo/publisher-org"
+    },
+    {
+      "phrase": "rich link: whatsapp preview",
+      "path": "recipes/social-preview/whatsapp-preview"
+    },
+    {
+      "phrase": "roadmap page",
+      "path": "recipes/deploy/roadmap-page"
+    },
+    {
+      "phrase": "turn this into bio to hero",
+      "path": "recipes/content-extraction/bio-to-hero"
+    }
+  ]
+}

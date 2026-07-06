@@ -1,0 +1,4 @@
+{
+  "heartbeat_ms": 15000,
+  "stale_after_ms": 45000
+}

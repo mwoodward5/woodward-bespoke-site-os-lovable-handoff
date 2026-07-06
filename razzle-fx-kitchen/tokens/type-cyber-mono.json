@@ -1,0 +1,7 @@
+{
+  "name": "cyber-mono",
+  "stacks": {
+    "heading": "'JetBrains Mono', ui-monospace",
+    "body": "'Space Grotesk', system-ui"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "chunk_size": 800,
+  "overlap": 120,
+  "top_k": 8,
+  "rerank": true
+}

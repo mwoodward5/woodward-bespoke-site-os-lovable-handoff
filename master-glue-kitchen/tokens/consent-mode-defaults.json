@@ -1,0 +1,10 @@
+{
+  "before_consent": {
+    "ad_storage": "denied",
+    "analytics_storage": "denied"
+  },
+  "after_consent": {
+    "ad_storage": "granted",
+    "analytics_storage": "granted"
+  }
+}

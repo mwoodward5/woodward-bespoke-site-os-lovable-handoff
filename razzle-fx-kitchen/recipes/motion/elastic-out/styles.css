@@ -1,0 +1,8 @@
+/* elastic-out — motion */
+.rfx-elastic-out{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,hsl(284 90% 55%),hsl(314 85% 45%));color:#fff;padding:2rem;border-radius:1rem}
+.rfx-elastic-out::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);mix-blend-mode:overlay;pointer-events:none}
+.rfx-elastic-out__inner{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .rfx-elastic-out{animation:rfx-elastic-out-a 8s ease-in-out infinite alternate}
+}
+@keyframes rfx-elastic-out-a{from{background-position:0 0}to{background-position:100% 100%}}

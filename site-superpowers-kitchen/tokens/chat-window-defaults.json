@@ -1,0 +1,5 @@
+{
+  "max_turns": 40,
+  "trim_to": 24,
+  "system_prompt": "support"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "organic",
+  "easings": {
+    "grow": "cubic-bezier(.25,1,.5,1)",
+    "breathe": "cubic-bezier(.4,0,.6,1)",
+    "sway": "cubic-bezier(.5,0,.5,1)"
+  }
+}

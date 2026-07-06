@@ -1,0 +1,20 @@
+{
+  "name": "master-glue-kitchen",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Glue kitchen: content rescue, GEO/AEO, local SEO, social preview, first-prompt polish, QC audit, immersive, legal, deploy.",
+  "companion_to": [
+    "razzle-fx-kitchen",
+    "site-superpowers-kitchen"
+  ],
+  "keywords": [
+    "content-rescue",
+    "aeo",
+    "geo",
+    "seo",
+    "tanstack",
+    "lovable",
+    "polish",
+    "qc"
+  ]
+}

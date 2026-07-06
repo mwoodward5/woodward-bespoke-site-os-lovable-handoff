@@ -1,0 +1,5 @@
+{
+  "sse": true,
+  "chunk_hint_ms": 50,
+  "cancel_on_unmount": true
+}

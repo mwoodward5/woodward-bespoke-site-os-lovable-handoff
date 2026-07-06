@@ -1,0 +1,8 @@
+/* ticker-tape — type */
+.rfx-ticker-tape{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,hsl(46 90% 55%),hsl(166 85% 45%));color:#fff;padding:2rem;border-radius:1rem}
+.rfx-ticker-tape::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);mix-blend-mode:overlay;pointer-events:none}
+.rfx-ticker-tape__inner{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .rfx-ticker-tape{animation:rfx-ticker-tape-a 8s ease-in-out infinite alternate}
+}
+@keyframes rfx-ticker-tape-a{from{background-position:0 0}to{background-position:100% 100%}}

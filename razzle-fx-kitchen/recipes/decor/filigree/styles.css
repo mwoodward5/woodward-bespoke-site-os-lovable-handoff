@@ -1,0 +1,8 @@
+/* filigree — decor */
+.rfx-filigree{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,hsl(178 90% 55%),hsl(298 85% 45%));color:#fff;padding:2rem;border-radius:1rem}
+.rfx-filigree::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);mix-blend-mode:overlay;pointer-events:none}
+.rfx-filigree__inner{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .rfx-filigree{animation:rfx-filigree-a 8s ease-in-out infinite alternate}
+}
+@keyframes rfx-filigree-a{from{background-position:0 0}to{background-position:100% 100%}}

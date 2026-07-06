@@ -1,0 +1,2710 @@
+{
+  "name": "master-glue-kitchen",
+  "version": "1.0.0",
+  "companion_to": [
+    "razzle-fx-kitchen",
+    "site-superpowers-kitchen"
+  ],
+  "counts": {
+    "recipes": 464,
+    "reference_sites": 24,
+    "tokens": 26,
+    "prompts": 240,
+    "polish_rules": 40
+  },
+  "categories": {
+    "content-rescue": 56,
+    "content-extraction": 40,
+    "typography": 48,
+    "layouts": 40,
+    "geo-aeo": 32,
+    "local-seo": 24,
+    "social-preview": 32,
+    "polish-rules": 40,
+    "qc-audit": 32,
+    "immersive": 40,
+    "legal": 24,
+    "deploy": 24,
+    "glue": 32
+  },
+  "recipes": [
+    {
+      "category": "content-rescue",
+      "slug": "photo-upscale",
+      "path": "recipes/content-rescue/photo-upscale"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-denoise",
+      "path": "recipes/content-rescue/photo-denoise"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-color-grade-editorial",
+      "path": "recipes/content-rescue/photo-color-grade-editorial"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-bg-remove-if-needed",
+      "path": "recipes/content-rescue/photo-bg-remove-if-needed"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-outpaint-hero",
+      "path": "recipes/content-rescue/photo-outpaint-hero"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-smart-crop-thirds",
+      "path": "recipes/content-rescue/photo-smart-crop-thirds"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-subject-focal",
+      "path": "recipes/content-rescue/photo-subject-focal"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-dedupe-perceptual",
+      "path": "recipes/content-rescue/photo-dedupe-perceptual"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "gallery-aspect-harmonize",
+      "path": "recipes/content-rescue/gallery-aspect-harmonize"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "gallery-tone-unify",
+      "path": "recipes/content-rescue/gallery-tone-unify"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "gallery-order-optimize",
+      "path": "recipes/content-rescue/gallery-order-optimize"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "gallery-cover-pick",
+      "path": "recipes/content-rescue/gallery-cover-pick"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "logo-vectorize",
+      "path": "recipes/content-rescue/logo-vectorize"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "logo-padding-normalize",
+      "path": "recipes/content-rescue/logo-padding-normalize"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "logo-mono-variant",
+      "path": "recipes/content-rescue/logo-mono-variant"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "logo-reverse-variant",
+      "path": "recipes/content-rescue/logo-reverse-variant"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "logo-mark-only",
+      "path": "recipes/content-rescue/logo-mark-only"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "logo-horizontal-lockup",
+      "path": "recipes/content-rescue/logo-horizontal-lockup"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "logo-stacked-lockup",
+      "path": "recipes/content-rescue/logo-stacked-lockup"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "logo-animated-3frame",
+      "path": "recipes/content-rescue/logo-animated-3frame"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "headshot-restyle-editorial",
+      "path": "recipes/content-rescue/headshot-restyle-editorial"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "headshot-bg-cleanup",
+      "path": "recipes/content-rescue/headshot-bg-cleanup"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "headshot-lighting-match",
+      "path": "recipes/content-rescue/headshot-lighting-match"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "product-shot-plate",
+      "path": "recipes/content-rescue/product-shot-plate"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "product-shot-shadow-add",
+      "path": "recipes/content-rescue/product-shot-shadow-add"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "food-plate-reshoot",
+      "path": "recipes/content-rescue/food-plate-reshoot"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "food-color-boost",
+      "path": "recipes/content-rescue/food-color-boost"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "realestate-sky-replace",
+      "path": "recipes/content-rescue/realestate-sky-replace"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "realestate-lawn-boost",
+      "path": "recipes/content-rescue/realestate-lawn-boost"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "realestate-declutter",
+      "path": "recipes/content-rescue/realestate-declutter"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "brand-color-extract",
+      "path": "recipes/content-rescue/brand-color-extract"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "brand-color-palette",
+      "path": "recipes/content-rescue/brand-color-palette"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "brand-mood-extract",
+      "path": "recipes/content-rescue/brand-mood-extract"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "noise-to-hero",
+      "path": "recipes/content-rescue/noise-to-hero"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-to-cinemagraph",
+      "path": "recipes/content-rescue/photo-to-cinemagraph"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-to-5sec-video",
+      "path": "recipes/content-rescue/photo-to-5sec-video"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-to-loop-video",
+      "path": "recipes/content-rescue/photo-to-loop-video"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "testimonial-photo-normalize",
+      "path": "recipes/content-rescue/testimonial-photo-normalize"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "press-logo-harmonize",
+      "path": "recipes/content-rescue/press-logo-harmonize"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "press-logo-mono",
+      "path": "recipes/content-rescue/press-logo-mono"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "case-study-cover",
+      "path": "recipes/content-rescue/case-study-cover"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "avatar-generate-consented",
+      "path": "recipes/content-rescue/avatar-generate-consented"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "avatar-illustrated",
+      "path": "recipes/content-rescue/avatar-illustrated"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "team-photo-normalize",
+      "path": "recipes/content-rescue/team-photo-normalize"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "hero-generate-from-brief",
+      "path": "recipes/content-rescue/hero-generate-from-brief"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "before-after-slider",
+      "path": "recipes/content-rescue/before-after-slider"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "gallery-poster-generate",
+      "path": "recipes/content-rescue/gallery-poster-generate"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-restore-scratches",
+      "path": "recipes/content-rescue/photo-restore-scratches"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-restore-fade",
+      "path": "recipes/content-rescue/photo-restore-fade"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-de-yellow",
+      "path": "recipes/content-rescue/photo-de-yellow"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-hdr-tone",
+      "path": "recipes/content-rescue/photo-hdr-tone"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-blur-face-privacy",
+      "path": "recipes/content-rescue/photo-blur-face-privacy"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-blur-plate-privacy",
+      "path": "recipes/content-rescue/photo-blur-plate-privacy"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-metadata-strip",
+      "path": "recipes/content-rescue/photo-metadata-strip"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-webp-avif-convert",
+      "path": "recipes/content-rescue/photo-webp-avif-convert"
+    },
+    {
+      "category": "content-rescue",
+      "slug": "photo-lqip-generate",
+      "path": "recipes/content-rescue/photo-lqip-generate"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "bio-to-hero",
+      "path": "recipes/content-extraction/bio-to-hero"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "bio-to-full-page",
+      "path": "recipes/content-extraction/bio-to-full-page"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "paragraph-to-cta-set",
+      "path": "recipes/content-extraction/paragraph-to-cta-set"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "paragraph-to-faq",
+      "path": "recipes/content-extraction/paragraph-to-faq"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "pdf-to-outline",
+      "path": "recipes/content-extraction/pdf-to-outline"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "pdf-to-sections",
+      "path": "recipes/content-extraction/pdf-to-sections"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "pdf-to-case-study",
+      "path": "recipes/content-extraction/pdf-to-case-study"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "pdf-to-blog",
+      "path": "recipes/content-extraction/pdf-to-blog"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "csv-to-services-table",
+      "path": "recipes/content-extraction/csv-to-services-table"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "csv-to-service-pages",
+      "path": "recipes/content-extraction/csv-to-service-pages"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "spreadsheet-to-pricing",
+      "path": "recipes/content-extraction/spreadsheet-to-pricing"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "spreadsheet-to-features",
+      "path": "recipes/content-extraction/spreadsheet-to-features"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "brand-dna-from-logo-and-paragraph",
+      "path": "recipes/content-extraction/brand-dna-from-logo-and-paragraph"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "brand-dna-from-url",
+      "path": "recipes/content-extraction/brand-dna-from-url"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "brand-tone-matrix",
+      "path": "recipes/content-extraction/brand-tone-matrix"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "competitor-scan",
+      "path": "recipes/content-extraction/competitor-scan"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "competitor-positioning-brief",
+      "path": "recipes/content-extraction/competitor-positioning-brief"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "competitor-differentiator-list",
+      "path": "recipes/content-extraction/competitor-differentiator-list"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "voice-of-customer-mine",
+      "path": "recipes/content-extraction/voice-of-customer-mine"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "testimonial-shaper",
+      "path": "recipes/content-extraction/testimonial-shaper"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "testimonial-quote-extract",
+      "path": "recipes/content-extraction/testimonial-quote-extract"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "tone-of-voice-profile",
+      "path": "recipes/content-extraction/tone-of-voice-profile"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "style-guide-md",
+      "path": "recipes/content-extraction/style-guide-md"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "moodboard-generate",
+      "path": "recipes/content-extraction/moodboard-generate"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "about-us-rewrite",
+      "path": "recipes/content-extraction/about-us-rewrite"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "service-page-rewrite",
+      "path": "recipes/content-extraction/service-page-rewrite"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "founder-story-shape",
+      "path": "recipes/content-extraction/founder-story-shape"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "team-bios-normalize",
+      "path": "recipes/content-extraction/team-bios-normalize"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "faq-mine-from-tickets",
+      "path": "recipes/content-extraction/faq-mine-from-tickets"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "glossary-mine",
+      "path": "recipes/content-extraction/glossary-mine"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "case-study-outline",
+      "path": "recipes/content-extraction/case-study-outline"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "case-study-writeup",
+      "path": "recipes/content-extraction/case-study-writeup"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "email-drip-plan",
+      "path": "recipes/content-extraction/email-drip-plan"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "launch-plan",
+      "path": "recipes/content-extraction/launch-plan"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "press-release",
+      "path": "recipes/content-extraction/press-release"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "sales-one-pager",
+      "path": "recipes/content-extraction/sales-one-pager"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "meta-tags-suggest",
+      "path": "recipes/content-extraction/meta-tags-suggest"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "json-ld-suggest",
+      "path": "recipes/content-extraction/json-ld-suggest"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "sitemap-suggest",
+      "path": "recipes/content-extraction/sitemap-suggest"
+    },
+    {
+      "category": "content-extraction",
+      "slug": "internal-links-suggest",
+      "path": "recipes/content-extraction/internal-links-suggest"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-editorial-serif",
+      "path": "recipes/typography/pair-editorial-serif"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-industrial-mono",
+      "path": "recipes/typography/pair-industrial-mono"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-brutal-display",
+      "path": "recipes/typography/pair-brutal-display"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-magazine",
+      "path": "recipes/typography/pair-magazine"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-boutique",
+      "path": "recipes/typography/pair-boutique"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-cyber-mono",
+      "path": "recipes/typography/pair-cyber-mono"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-humanist-warm",
+      "path": "recipes/typography/pair-humanist-warm"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-swiss-grotesk",
+      "path": "recipes/typography/pair-swiss-grotesk"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-humanist-workhorse",
+      "path": "recipes/typography/pair-humanist-workhorse"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-expressive-display",
+      "path": "recipes/typography/pair-expressive-display"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-condensed-news",
+      "path": "recipes/typography/pair-condensed-news"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-wide-poster",
+      "path": "recipes/typography/pair-wide-poster"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-mono-serif-hybrid",
+      "path": "recipes/typography/pair-mono-serif-hybrid"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-script-plus-neutral",
+      "path": "recipes/typography/pair-script-plus-neutral"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-hairline-plus-slab",
+      "path": "recipes/typography/pair-hairline-plus-slab"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-variable-weight",
+      "path": "recipes/typography/pair-variable-weight"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-variable-width",
+      "path": "recipes/typography/pair-variable-width"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-optical-size",
+      "path": "recipes/typography/pair-optical-size"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-all-caps-display",
+      "path": "recipes/typography/pair-all-caps-display"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-small-caps-editorial",
+      "path": "recipes/typography/pair-small-caps-editorial"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-drop-cap-illuminated",
+      "path": "recipes/typography/pair-drop-cap-illuminated"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-pull-quote-signature",
+      "path": "recipes/typography/pair-pull-quote-signature"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-cjk-safe",
+      "path": "recipes/typography/pair-cjk-safe"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-arabic-rtl",
+      "path": "recipes/typography/pair-arabic-rtl"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-devanagari",
+      "path": "recipes/typography/pair-devanagari"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-monospace-multiplex",
+      "path": "recipes/typography/pair-monospace-multiplex"
+    },
+    {
+      "category": "typography",
+      "slug": "scale-major-third",
+      "path": "recipes/typography/scale-major-third"
+    },
+    {
+      "category": "typography",
+      "slug": "scale-perfect-fourth",
+      "path": "recipes/typography/scale-perfect-fourth"
+    },
+    {
+      "category": "typography",
+      "slug": "scale-golden",
+      "path": "recipes/typography/scale-golden"
+    },
+    {
+      "category": "typography",
+      "slug": "scale-custom",
+      "path": "recipes/typography/scale-custom"
+    },
+    {
+      "category": "typography",
+      "slug": "fluid-type-generator",
+      "path": "recipes/typography/fluid-type-generator"
+    },
+    {
+      "category": "typography",
+      "slug": "vertical-rhythm-baseline",
+      "path": "recipes/typography/vertical-rhythm-baseline"
+    },
+    {
+      "category": "typography",
+      "slug": "opentype-ligatures",
+      "path": "recipes/typography/opentype-ligatures"
+    },
+    {
+      "category": "typography",
+      "slug": "opentype-tabular-nums",
+      "path": "recipes/typography/opentype-tabular-nums"
+    },
+    {
+      "category": "typography",
+      "slug": "opentype-small-caps",
+      "path": "recipes/typography/opentype-small-caps"
+    },
+    {
+      "category": "typography",
+      "slug": "opentype-stylistic-sets",
+      "path": "recipes/typography/opentype-stylistic-sets"
+    },
+    {
+      "category": "typography",
+      "slug": "opentype-fractions",
+      "path": "recipes/typography/opentype-fractions"
+    },
+    {
+      "category": "typography",
+      "slug": "kinetic-poster",
+      "path": "recipes/typography/kinetic-poster"
+    },
+    {
+      "category": "typography",
+      "slug": "kinetic-marquee",
+      "path": "recipes/typography/kinetic-marquee"
+    },
+    {
+      "category": "typography",
+      "slug": "kinetic-split-flap",
+      "path": "recipes/typography/kinetic-split-flap"
+    },
+    {
+      "category": "typography",
+      "slug": "kinetic-typewriter",
+      "path": "recipes/typography/kinetic-typewriter"
+    },
+    {
+      "category": "typography",
+      "slug": "kinetic-shuffle",
+      "path": "recipes/typography/kinetic-shuffle"
+    },
+    {
+      "category": "typography",
+      "slug": "kinetic-morph",
+      "path": "recipes/typography/kinetic-morph"
+    },
+    {
+      "category": "typography",
+      "slug": "kinetic-wave",
+      "path": "recipes/typography/kinetic-wave"
+    },
+    {
+      "category": "typography",
+      "slug": "kinetic-parallax",
+      "path": "recipes/typography/kinetic-parallax"
+    },
+    {
+      "category": "typography",
+      "slug": "drop-cap-illuminated",
+      "path": "recipes/typography/drop-cap-illuminated"
+    },
+    {
+      "category": "typography",
+      "slug": "pull-quote-frame",
+      "path": "recipes/typography/pull-quote-frame"
+    },
+    {
+      "category": "typography",
+      "slug": "pair-editorial-serif-v2",
+      "path": "recipes/typography/pair-editorial-serif-v2"
+    },
+    {
+      "category": "layouts",
+      "slug": "bento-2x2",
+      "path": "recipes/layouts/bento-2x2"
+    },
+    {
+      "category": "layouts",
+      "slug": "bento-3x2",
+      "path": "recipes/layouts/bento-3x2"
+    },
+    {
+      "category": "layouts",
+      "slug": "bento-3x3",
+      "path": "recipes/layouts/bento-3x3"
+    },
+    {
+      "category": "layouts",
+      "slug": "bento-4x3",
+      "path": "recipes/layouts/bento-4x3"
+    },
+    {
+      "category": "layouts",
+      "slug": "bento-broken",
+      "path": "recipes/layouts/bento-broken"
+    },
+    {
+      "category": "layouts",
+      "slug": "magazine-spread",
+      "path": "recipes/layouts/magazine-spread"
+    },
+    {
+      "category": "layouts",
+      "slug": "editorial-12col",
+      "path": "recipes/layouts/editorial-12col"
+    },
+    {
+      "category": "layouts",
+      "slug": "swiss-grid",
+      "path": "recipes/layouts/swiss-grid"
+    },
+    {
+      "category": "layouts",
+      "slug": "brutalist-grid",
+      "path": "recipes/layouts/brutalist-grid"
+    },
+    {
+      "category": "layouts",
+      "slug": "asymmetric-broken",
+      "path": "recipes/layouts/asymmetric-broken"
+    },
+    {
+      "category": "layouts",
+      "slug": "masonry-normalize",
+      "path": "recipes/layouts/masonry-normalize"
+    },
+    {
+      "category": "layouts",
+      "slug": "gallery-aspect-harmonize-layout",
+      "path": "recipes/layouts/gallery-aspect-harmonize-layout"
+    },
+    {
+      "category": "layouts",
+      "slug": "portfolio-split",
+      "path": "recipes/layouts/portfolio-split"
+    },
+    {
+      "category": "layouts",
+      "slug": "zigzag-alt",
+      "path": "recipes/layouts/zigzag-alt"
+    },
+    {
+      "category": "layouts",
+      "slug": "longscroll-storyline",
+      "path": "recipes/layouts/longscroll-storyline"
+    },
+    {
+      "category": "layouts",
+      "slug": "sticky-side-story",
+      "path": "recipes/layouts/sticky-side-story"
+    },
+    {
+      "category": "layouts",
+      "slug": "card-fan",
+      "path": "recipes/layouts/card-fan"
+    },
+    {
+      "category": "layouts",
+      "slug": "card-stack-peek",
+      "path": "recipes/layouts/card-stack-peek"
+    },
+    {
+      "category": "layouts",
+      "slug": "timeline-vertical",
+      "path": "recipes/layouts/timeline-vertical"
+    },
+    {
+      "category": "layouts",
+      "slug": "timeline-horizontal",
+      "path": "recipes/layouts/timeline-horizontal"
+    },
+    {
+      "category": "layouts",
+      "slug": "manifesto-page",
+      "path": "recipes/layouts/manifesto-page"
+    },
+    {
+      "category": "layouts",
+      "slug": "pricing-2tier",
+      "path": "recipes/layouts/pricing-2tier"
+    },
+    {
+      "category": "layouts",
+      "slug": "pricing-3tier",
+      "path": "recipes/layouts/pricing-3tier"
+    },
+    {
+      "category": "layouts",
+      "slug": "pricing-4tier",
+      "path": "recipes/layouts/pricing-4tier"
+    },
+    {
+      "category": "layouts",
+      "slug": "pricing-toggle-annual",
+      "path": "recipes/layouts/pricing-toggle-annual"
+    },
+    {
+      "category": "layouts",
+      "slug": "comparison-table",
+      "path": "recipes/layouts/comparison-table"
+    },
+    {
+      "category": "layouts",
+      "slug": "feature-matrix",
+      "path": "recipes/layouts/feature-matrix"
+    },
+    {
+      "category": "layouts",
+      "slug": "testimonial-wall",
+      "path": "recipes/layouts/testimonial-wall"
+    },
+    {
+      "category": "layouts",
+      "slug": "press-logo-strip",
+      "path": "recipes/layouts/press-logo-strip"
+    },
+    {
+      "category": "layouts",
+      "slug": "trust-band",
+      "path": "recipes/layouts/trust-band"
+    },
+    {
+      "category": "layouts",
+      "slug": "above-fold-matrix",
+      "path": "recipes/layouts/above-fold-matrix"
+    },
+    {
+      "category": "layouts",
+      "slug": "hero-split",
+      "path": "recipes/layouts/hero-split"
+    },
+    {
+      "category": "layouts",
+      "slug": "hero-centered",
+      "path": "recipes/layouts/hero-centered"
+    },
+    {
+      "category": "layouts",
+      "slug": "hero-video-bg",
+      "path": "recipes/layouts/hero-video-bg"
+    },
+    {
+      "category": "layouts",
+      "slug": "hero-3d-scene",
+      "path": "recipes/layouts/hero-3d-scene"
+    },
+    {
+      "category": "layouts",
+      "slug": "footer-mega",
+      "path": "recipes/layouts/footer-mega"
+    },
+    {
+      "category": "layouts",
+      "slug": "footer-mini",
+      "path": "recipes/layouts/footer-mini"
+    },
+    {
+      "category": "layouts",
+      "slug": "nav-mega",
+      "path": "recipes/layouts/nav-mega"
+    },
+    {
+      "category": "layouts",
+      "slug": "nav-inline",
+      "path": "recipes/layouts/nav-inline"
+    },
+    {
+      "category": "layouts",
+      "slug": "nav-sidebar",
+      "path": "recipes/layouts/nav-sidebar"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "llms-txt-extended",
+      "path": "recipes/geo-aeo/llms-txt-extended"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "ai-plugin-json",
+      "path": "recipes/geo-aeo/ai-plugin-json"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "well-known-ai-txt",
+      "path": "recipes/geo-aeo/well-known-ai-txt"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "citation-page-structure",
+      "path": "recipes/geo-aeo/citation-page-structure"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "entity-graph-jsonld",
+      "path": "recipes/geo-aeo/entity-graph-jsonld"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "speakable-schema",
+      "path": "recipes/geo-aeo/speakable-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "faqpage-schema",
+      "path": "recipes/geo-aeo/faqpage-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "howto-schema",
+      "path": "recipes/geo-aeo/howto-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "qapage-schema",
+      "path": "recipes/geo-aeo/qapage-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "article-with-citations",
+      "path": "recipes/geo-aeo/article-with-citations"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "person-eeat",
+      "path": "recipes/geo-aeo/person-eeat"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "publisher-org",
+      "path": "recipes/geo-aeo/publisher-org"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "first-party-data-block",
+      "path": "recipes/geo-aeo/first-party-data-block"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "short-answer-summary",
+      "path": "recipes/geo-aeo/short-answer-summary"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "comparison-table-aiquote",
+      "path": "recipes/geo-aeo/comparison-table-aiquote"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "compared-to-x-page",
+      "path": "recipes/geo-aeo/compared-to-x-page"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "glossary-definition-page",
+      "path": "recipes/geo-aeo/glossary-definition-page"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "statistics-with-citations",
+      "path": "recipes/geo-aeo/statistics-with-citations"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "pullquote-quoteworthy",
+      "path": "recipes/geo-aeo/pullquote-quoteworthy"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "claimreview-schema",
+      "path": "recipes/geo-aeo/claimreview-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "dataset-schema",
+      "path": "recipes/geo-aeo/dataset-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "softwareapp-schema",
+      "path": "recipes/geo-aeo/softwareapp-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "course-schema",
+      "path": "recipes/geo-aeo/course-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "recipe-schema",
+      "path": "recipes/geo-aeo/recipe-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "event-schema",
+      "path": "recipes/geo-aeo/event-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "product-schema",
+      "path": "recipes/geo-aeo/product-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "review-schema",
+      "path": "recipes/geo-aeo/review-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "aggregatereview-schema",
+      "path": "recipes/geo-aeo/aggregatereview-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "video-schema",
+      "path": "recipes/geo-aeo/video-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "podcast-schema",
+      "path": "recipes/geo-aeo/podcast-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "breadcrumb-schema",
+      "path": "recipes/geo-aeo/breadcrumb-schema"
+    },
+    {
+      "category": "geo-aeo",
+      "slug": "website-schema",
+      "path": "recipes/geo-aeo/website-schema"
+    },
+    {
+      "category": "local-seo",
+      "slug": "localbusiness-schema",
+      "path": "recipes/local-seo/localbusiness-schema"
+    },
+    {
+      "category": "local-seo",
+      "slug": "geo-coordinates",
+      "path": "recipes/local-seo/geo-coordinates"
+    },
+    {
+      "category": "local-seo",
+      "slug": "service-area-schema",
+      "path": "recipes/local-seo/service-area-schema"
+    },
+    {
+      "category": "local-seo",
+      "slug": "multilocation-template",
+      "path": "recipes/local-seo/multilocation-template"
+    },
+    {
+      "category": "local-seo",
+      "slug": "location-landing-generator",
+      "path": "recipes/local-seo/location-landing-generator"
+    },
+    {
+      "category": "local-seo",
+      "slug": "gbp-sync-helper",
+      "path": "recipes/local-seo/gbp-sync-helper"
+    },
+    {
+      "category": "local-seo",
+      "slug": "review-aggregation",
+      "path": "recipes/local-seo/review-aggregation"
+    },
+    {
+      "category": "local-seo",
+      "slug": "opening-hours-widget",
+      "path": "recipes/local-seo/opening-hours-widget"
+    },
+    {
+      "category": "local-seo",
+      "slug": "hours-timezone",
+      "path": "recipes/local-seo/hours-timezone"
+    },
+    {
+      "category": "local-seo",
+      "slug": "driving-directions-block",
+      "path": "recipes/local-seo/driving-directions-block"
+    },
+    {
+      "category": "local-seo",
+      "slug": "map-embed-custom",
+      "path": "recipes/local-seo/map-embed-custom"
+    },
+    {
+      "category": "local-seo",
+      "slug": "hreflang-matrix",
+      "path": "recipes/local-seo/hreflang-matrix"
+    },
+    {
+      "category": "local-seo",
+      "slug": "currency-by-geo",
+      "path": "recipes/local-seo/currency-by-geo"
+    },
+    {
+      "category": "local-seo",
+      "slug": "timezone-aware",
+      "path": "recipes/local-seo/timezone-aware"
+    },
+    {
+      "category": "local-seo",
+      "slug": "language-auto-detect",
+      "path": "recipes/local-seo/language-auto-detect"
+    },
+    {
+      "category": "local-seo",
+      "slug": "near-me-page",
+      "path": "recipes/local-seo/near-me-page"
+    },
+    {
+      "category": "local-seo",
+      "slug": "city-service-generator",
+      "path": "recipes/local-seo/city-service-generator"
+    },
+    {
+      "category": "local-seo",
+      "slug": "store-locator",
+      "path": "recipes/local-seo/store-locator"
+    },
+    {
+      "category": "local-seo",
+      "slug": "local-events-schema",
+      "path": "recipes/local-seo/local-events-schema"
+    },
+    {
+      "category": "local-seo",
+      "slug": "local-menu-schema",
+      "path": "recipes/local-seo/local-menu-schema"
+    },
+    {
+      "category": "local-seo",
+      "slug": "local-reservation-schema",
+      "path": "recipes/local-seo/local-reservation-schema"
+    },
+    {
+      "category": "local-seo",
+      "slug": "local-appointment-schema",
+      "path": "recipes/local-seo/local-appointment-schema"
+    },
+    {
+      "category": "local-seo",
+      "slug": "local-nap-consistency",
+      "path": "recipes/local-seo/local-nap-consistency"
+    },
+    {
+      "category": "local-seo",
+      "slug": "local-citations-list",
+      "path": "recipes/local-seo/local-citations-list"
+    },
+    {
+      "category": "social-preview",
+      "slug": "og-dynamic-generator",
+      "path": "recipes/social-preview/og-dynamic-generator"
+    },
+    {
+      "category": "social-preview",
+      "slug": "og-per-language",
+      "path": "recipes/social-preview/og-per-language"
+    },
+    {
+      "category": "social-preview",
+      "slug": "og-seasonal-rotator",
+      "path": "recipes/social-preview/og-seasonal-rotator"
+    },
+    {
+      "category": "social-preview",
+      "slug": "twitter-card",
+      "path": "recipes/social-preview/twitter-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "linkedin-preview",
+      "path": "recipes/social-preview/linkedin-preview"
+    },
+    {
+      "category": "social-preview",
+      "slug": "pinterest-rich-pin",
+      "path": "recipes/social-preview/pinterest-rich-pin"
+    },
+    {
+      "category": "social-preview",
+      "slug": "whatsapp-preview",
+      "path": "recipes/social-preview/whatsapp-preview"
+    },
+    {
+      "category": "social-preview",
+      "slug": "imessage-rich-link",
+      "path": "recipes/social-preview/imessage-rich-link"
+    },
+    {
+      "category": "social-preview",
+      "slug": "discord-embed",
+      "path": "recipes/social-preview/discord-embed"
+    },
+    {
+      "category": "social-preview",
+      "slug": "slack-unfurl",
+      "path": "recipes/social-preview/slack-unfurl"
+    },
+    {
+      "category": "social-preview",
+      "slug": "threads-preview",
+      "path": "recipes/social-preview/threads-preview"
+    },
+    {
+      "category": "social-preview",
+      "slug": "bluesky-preview",
+      "path": "recipes/social-preview/bluesky-preview"
+    },
+    {
+      "category": "social-preview",
+      "slug": "mastodon-preview",
+      "path": "recipes/social-preview/mastodon-preview"
+    },
+    {
+      "category": "social-preview",
+      "slug": "tiktok-thumbnail",
+      "path": "recipes/social-preview/tiktok-thumbnail"
+    },
+    {
+      "category": "social-preview",
+      "slug": "youtube-share-card",
+      "path": "recipes/social-preview/youtube-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "reels-preview",
+      "path": "recipes/social-preview/reels-preview"
+    },
+    {
+      "category": "social-preview",
+      "slug": "shorts-preview",
+      "path": "recipes/social-preview/shorts-preview"
+    },
+    {
+      "category": "social-preview",
+      "slug": "og-video",
+      "path": "recipes/social-preview/og-video"
+    },
+    {
+      "category": "social-preview",
+      "slug": "og-audio",
+      "path": "recipes/social-preview/og-audio"
+    },
+    {
+      "category": "social-preview",
+      "slug": "share-quote-card",
+      "path": "recipes/social-preview/share-quote-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "testimonial-share-card",
+      "path": "recipes/social-preview/testimonial-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "quote-to-image",
+      "path": "recipes/social-preview/quote-to-image"
+    },
+    {
+      "category": "social-preview",
+      "slug": "stats-share-card",
+      "path": "recipes/social-preview/stats-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "product-share-card",
+      "path": "recipes/social-preview/product-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "team-share-card",
+      "path": "recipes/social-preview/team-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "event-share-card",
+      "path": "recipes/social-preview/event-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "podcast-share-card",
+      "path": "recipes/social-preview/podcast-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "blog-share-card",
+      "path": "recipes/social-preview/blog-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "before-after-share-card",
+      "path": "recipes/social-preview/before-after-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "milestone-share-card",
+      "path": "recipes/social-preview/milestone-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "launch-share-card",
+      "path": "recipes/social-preview/launch-share-card"
+    },
+    {
+      "category": "social-preview",
+      "slug": "press-share-card",
+      "path": "recipes/social-preview/press-share-card"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "never-placeholder-title",
+      "path": "recipes/polish-rules/never-placeholder-title"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-og-image",
+      "path": "recipes/polish-rules/always-og-image"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-favicon-full-set",
+      "path": "recipes/polish-rules/always-favicon-full-set"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-manifest",
+      "path": "recipes/polish-rules/always-manifest"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-splash-screens",
+      "path": "recipes/polish-rules/always-splash-screens"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-sitemap",
+      "path": "recipes/polish-rules/always-sitemap"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-robots",
+      "path": "recipes/polish-rules/always-robots"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-security-txt",
+      "path": "recipes/polish-rules/always-security-txt"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-humans-txt",
+      "path": "recipes/polish-rules/always-humans-txt"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "never-broken-image-guard",
+      "path": "recipes/polish-rules/never-broken-image-guard"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-alt-text-ai",
+      "path": "recipes/polish-rules/always-alt-text-ai"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-contrast-audit",
+      "path": "recipes/polish-rules/always-contrast-audit"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-harmonize-gallery",
+      "path": "recipes/polish-rules/always-harmonize-gallery"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-dedupe-photos",
+      "path": "recipes/polish-rules/always-dedupe-photos"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-bg-remove-logo-if-needed",
+      "path": "recipes/polish-rules/always-bg-remove-logo-if-needed"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-reduced-motion",
+      "path": "recipes/polish-rules/always-reduced-motion"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-skip-link",
+      "path": "recipes/polish-rules/always-skip-link"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-focus-ring",
+      "path": "recipes/polish-rules/always-focus-ring"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-404-page",
+      "path": "recipes/polish-rules/always-404-page"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-offline-shell",
+      "path": "recipes/polish-rules/always-offline-shell"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-loading-per-route",
+      "path": "recipes/polish-rules/always-loading-per-route"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-empty-state",
+      "path": "recipes/polish-rules/always-empty-state"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-error-state",
+      "path": "recipes/polish-rules/always-error-state"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-print-stylesheet",
+      "path": "recipes/polish-rules/always-print-stylesheet"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-app-icons-full",
+      "path": "recipes/polish-rules/always-app-icons-full"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-cookie-banner",
+      "path": "recipes/polish-rules/always-cookie-banner"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-privacy-stub",
+      "path": "recipes/polish-rules/always-privacy-stub"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-terms-stub",
+      "path": "recipes/polish-rules/always-terms-stub"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-canonical-self",
+      "path": "recipes/polish-rules/always-canonical-self"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-og-url-self",
+      "path": "recipes/polish-rules/always-og-url-self"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-viewport-meta",
+      "path": "recipes/polish-rules/always-viewport-meta"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-lang-attr",
+      "path": "recipes/polish-rules/always-lang-attr"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-theme-color",
+      "path": "recipes/polish-rules/always-theme-color"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-manifest-shortcuts",
+      "path": "recipes/polish-rules/always-manifest-shortcuts"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-share-target",
+      "path": "recipes/polish-rules/always-share-target"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-web-share-api",
+      "path": "recipes/polish-rules/always-web-share-api"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-copy-link-fallback",
+      "path": "recipes/polish-rules/always-copy-link-fallback"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-scroll-restore",
+      "path": "recipes/polish-rules/always-scroll-restore"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-focus-first",
+      "path": "recipes/polish-rules/always-focus-first"
+    },
+    {
+      "category": "polish-rules",
+      "slug": "always-tel-mailto-fallback",
+      "path": "recipes/polish-rules/always-tel-mailto-fallback"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "visual-regression-baseline",
+      "path": "recipes/qc-audit/visual-regression-baseline"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "duplicate-photo-detector",
+      "path": "recipes/qc-audit/duplicate-photo-detector"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "gallery-consistency",
+      "path": "recipes/qc-audit/gallery-consistency"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "contrast-auditor",
+      "path": "recipes/qc-audit/contrast-auditor"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "alt-text-auditor",
+      "path": "recipes/qc-audit/alt-text-auditor"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "broken-link-crawler",
+      "path": "recipes/qc-audit/broken-link-crawler"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "sweep-404",
+      "path": "recipes/qc-audit/sweep-404"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "sitemap-validator",
+      "path": "recipes/qc-audit/sitemap-validator"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "jsonld-validator",
+      "path": "recipes/qc-audit/jsonld-validator"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "cwv-runner",
+      "path": "recipes/qc-audit/cwv-runner"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "touch-target-mobile",
+      "path": "recipes/qc-audit/touch-target-mobile"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "form-validation-audit",
+      "path": "recipes/qc-audit/form-validation-audit"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "empty-state-coverage",
+      "path": "recipes/qc-audit/empty-state-coverage"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "error-state-coverage",
+      "path": "recipes/qc-audit/error-state-coverage"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "dead-end-route",
+      "path": "recipes/qc-audit/dead-end-route"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "missing-favicon",
+      "path": "recipes/qc-audit/missing-favicon"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "missing-og",
+      "path": "recipes/qc-audit/missing-og"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "missing-manifest",
+      "path": "recipes/qc-audit/missing-manifest"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "https-canonical-redirect",
+      "path": "recipes/qc-audit/https-canonical-redirect"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "perf-budget",
+      "path": "recipes/qc-audit/perf-budget"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "wcag-22-aa-sweep",
+      "path": "recipes/qc-audit/wcag-22-aa-sweep"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "text-scaling-200",
+      "path": "recipes/qc-audit/text-scaling-200"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "keyboard-only-nav",
+      "path": "recipes/qc-audit/keyboard-only-nav"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "rtl-flip-check",
+      "path": "recipes/qc-audit/rtl-flip-check"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "dark-mode-contrast",
+      "path": "recipes/qc-audit/dark-mode-contrast"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "print-view-check",
+      "path": "recipes/qc-audit/print-view-check"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "social-preview-lint",
+      "path": "recipes/qc-audit/social-preview-lint"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "orphan-page-detector",
+      "path": "recipes/qc-audit/orphan-page-detector"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "consent-cookie-audit",
+      "path": "recipes/qc-audit/consent-cookie-audit"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "legal-links-check",
+      "path": "recipes/qc-audit/legal-links-check"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "font-loading-audit",
+      "path": "recipes/qc-audit/font-loading-audit"
+    },
+    {
+      "category": "qc-audit",
+      "slug": "image-size-audit",
+      "path": "recipes/qc-audit/image-size-audit"
+    },
+    {
+      "category": "immersive",
+      "slug": "webgl-shader-bg",
+      "path": "recipes/immersive/webgl-shader-bg"
+    },
+    {
+      "category": "immersive",
+      "slug": "threejs-hero",
+      "path": "recipes/immersive/threejs-hero"
+    },
+    {
+      "category": "immersive",
+      "slug": "view-transitions",
+      "path": "recipes/immersive/view-transitions"
+    },
+    {
+      "category": "immersive",
+      "slug": "scroll-driven-css",
+      "path": "recipes/immersive/scroll-driven-css"
+    },
+    {
+      "category": "immersive",
+      "slug": "lenis-smooth-scroll",
+      "path": "recipes/immersive/lenis-smooth-scroll"
+    },
+    {
+      "category": "immersive",
+      "slug": "custom-cursor",
+      "path": "recipes/immersive/custom-cursor"
+    },
+    {
+      "category": "immersive",
+      "slug": "sound-cue-system",
+      "path": "recipes/immersive/sound-cue-system"
+    },
+    {
+      "category": "immersive",
+      "slug": "haptic-mobile",
+      "path": "recipes/immersive/haptic-mobile"
+    },
+    {
+      "category": "immersive",
+      "slug": "gyroscope-tilt",
+      "path": "recipes/immersive/gyroscope-tilt"
+    },
+    {
+      "category": "immersive",
+      "slug": "camera-parallax",
+      "path": "recipes/immersive/camera-parallax"
+    },
+    {
+      "category": "immersive",
+      "slug": "webxr-button",
+      "path": "recipes/immersive/webxr-button"
+    },
+    {
+      "category": "immersive",
+      "slug": "genart-perlin",
+      "path": "recipes/immersive/genart-perlin"
+    },
+    {
+      "category": "immersive",
+      "slug": "genart-flow-field",
+      "path": "recipes/immersive/genart-flow-field"
+    },
+    {
+      "category": "immersive",
+      "slug": "genart-worley",
+      "path": "recipes/immersive/genart-worley"
+    },
+    {
+      "category": "immersive",
+      "slug": "genart-reaction-diffusion",
+      "path": "recipes/immersive/genart-reaction-diffusion"
+    },
+    {
+      "category": "immersive",
+      "slug": "procedural-pattern",
+      "path": "recipes/immersive/procedural-pattern"
+    },
+    {
+      "category": "immersive",
+      "slug": "live-sketch-render",
+      "path": "recipes/immersive/live-sketch-render"
+    },
+    {
+      "category": "immersive",
+      "slug": "shader-oil-paint",
+      "path": "recipes/immersive/shader-oil-paint"
+    },
+    {
+      "category": "immersive",
+      "slug": "shader-halftone",
+      "path": "recipes/immersive/shader-halftone"
+    },
+    {
+      "category": "immersive",
+      "slug": "houdini-paint",
+      "path": "recipes/immersive/houdini-paint"
+    },
+    {
+      "category": "immersive",
+      "slug": "scroll-pinning",
+      "path": "recipes/immersive/scroll-pinning"
+    },
+    {
+      "category": "immersive",
+      "slug": "morphing-svg",
+      "path": "recipes/immersive/morphing-svg"
+    },
+    {
+      "category": "immersive",
+      "slug": "liquid-mesh-anim",
+      "path": "recipes/immersive/liquid-mesh-anim"
+    },
+    {
+      "category": "immersive",
+      "slug": "magnetic-buttons",
+      "path": "recipes/immersive/magnetic-buttons"
+    },
+    {
+      "category": "immersive",
+      "slug": "glass-refraction",
+      "path": "recipes/immersive/glass-refraction"
+    },
+    {
+      "category": "immersive",
+      "slug": "aurora-shader",
+      "path": "recipes/immersive/aurora-shader"
+    },
+    {
+      "category": "immersive",
+      "slug": "lightning-bolt-shader",
+      "path": "recipes/immersive/lightning-bolt-shader"
+    },
+    {
+      "category": "immersive",
+      "slug": "shimmer-logo-shader",
+      "path": "recipes/immersive/shimmer-logo-shader"
+    },
+    {
+      "category": "immersive",
+      "slug": "dropout-logo-float-shader",
+      "path": "recipes/immersive/dropout-logo-float-shader"
+    },
+    {
+      "category": "immersive",
+      "slug": "easter-konami",
+      "path": "recipes/immersive/easter-konami"
+    },
+    {
+      "category": "immersive",
+      "slug": "cursor-trails",
+      "path": "recipes/immersive/cursor-trails"
+    },
+    {
+      "category": "immersive",
+      "slug": "secret-pages",
+      "path": "recipes/immersive/secret-pages"
+    },
+    {
+      "category": "immersive",
+      "slug": "time-of-day-palette",
+      "path": "recipes/immersive/time-of-day-palette"
+    },
+    {
+      "category": "immersive",
+      "slug": "weather-reactive-palette",
+      "path": "recipes/immersive/weather-reactive-palette"
+    },
+    {
+      "category": "immersive",
+      "slug": "scroll-audio-triggers",
+      "path": "recipes/immersive/scroll-audio-triggers"
+    },
+    {
+      "category": "immersive",
+      "slug": "confetti-celebration",
+      "path": "recipes/immersive/confetti-celebration"
+    },
+    {
+      "category": "immersive",
+      "slug": "fireworks-canvas",
+      "path": "recipes/immersive/fireworks-canvas"
+    },
+    {
+      "category": "immersive",
+      "slug": "particle-orbit",
+      "path": "recipes/immersive/particle-orbit"
+    },
+    {
+      "category": "immersive",
+      "slug": "mesh-warp-hover",
+      "path": "recipes/immersive/mesh-warp-hover"
+    },
+    {
+      "category": "immersive",
+      "slug": "depth-cursor-parallax",
+      "path": "recipes/immersive/depth-cursor-parallax"
+    },
+    {
+      "category": "legal",
+      "slug": "consent-banner-gdpr",
+      "path": "recipes/legal/consent-banner-gdpr"
+    },
+    {
+      "category": "legal",
+      "slug": "consent-banner-ccpa",
+      "path": "recipes/legal/consent-banner-ccpa"
+    },
+    {
+      "category": "legal",
+      "slug": "consent-banner-dpdp",
+      "path": "recipes/legal/consent-banner-dpdp"
+    },
+    {
+      "category": "legal",
+      "slug": "consent-mode-v2",
+      "path": "recipes/legal/consent-mode-v2"
+    },
+    {
+      "category": "legal",
+      "slug": "privacy-policy-gen",
+      "path": "recipes/legal/privacy-policy-gen"
+    },
+    {
+      "category": "legal",
+      "slug": "terms-gen",
+      "path": "recipes/legal/terms-gen"
+    },
+    {
+      "category": "legal",
+      "slug": "dpa-template",
+      "path": "recipes/legal/dpa-template"
+    },
+    {
+      "category": "legal",
+      "slug": "security-txt",
+      "path": "recipes/legal/security-txt"
+    },
+    {
+      "category": "legal",
+      "slug": "humans-txt",
+      "path": "recipes/legal/humans-txt"
+    },
+    {
+      "category": "legal",
+      "slug": "imprint-de",
+      "path": "recipes/legal/imprint-de"
+    },
+    {
+      "category": "legal",
+      "slug": "imprint-at",
+      "path": "recipes/legal/imprint-at"
+    },
+    {
+      "category": "legal",
+      "slug": "imprint-ch",
+      "path": "recipes/legal/imprint-ch"
+    },
+    {
+      "category": "legal",
+      "slug": "dmca-takedown",
+      "path": "recipes/legal/dmca-takedown"
+    },
+    {
+      "category": "legal",
+      "slug": "accessibility-statement",
+      "path": "recipes/legal/accessibility-statement"
+    },
+    {
+      "category": "legal",
+      "slug": "cookie-inventory",
+      "path": "recipes/legal/cookie-inventory"
+    },
+    {
+      "category": "legal",
+      "slug": "cookie-scan",
+      "path": "recipes/legal/cookie-scan"
+    },
+    {
+      "category": "legal",
+      "slug": "third-party-disclosure",
+      "path": "recipes/legal/third-party-disclosure"
+    },
+    {
+      "category": "legal",
+      "slug": "subprocessor-list",
+      "path": "recipes/legal/subprocessor-list"
+    },
+    {
+      "category": "legal",
+      "slug": "age-gate",
+      "path": "recipes/legal/age-gate"
+    },
+    {
+      "category": "legal",
+      "slug": "refund-policy",
+      "path": "recipes/legal/refund-policy"
+    },
+    {
+      "category": "legal",
+      "slug": "shipping-policy",
+      "path": "recipes/legal/shipping-policy"
+    },
+    {
+      "category": "legal",
+      "slug": "eula",
+      "path": "recipes/legal/eula"
+    },
+    {
+      "category": "legal",
+      "slug": "aup",
+      "path": "recipes/legal/aup"
+    },
+    {
+      "category": "legal",
+      "slug": "brand-guidelines-legal",
+      "path": "recipes/legal/brand-guidelines-legal"
+    },
+    {
+      "category": "deploy",
+      "slug": "headers-cloudflare",
+      "path": "recipes/deploy/headers-cloudflare"
+    },
+    {
+      "category": "deploy",
+      "slug": "headers-vercel",
+      "path": "recipes/deploy/headers-vercel"
+    },
+    {
+      "category": "deploy",
+      "slug": "headers-netlify",
+      "path": "recipes/deploy/headers-netlify"
+    },
+    {
+      "category": "deploy",
+      "slug": "redirects-cloudflare",
+      "path": "recipes/deploy/redirects-cloudflare"
+    },
+    {
+      "category": "deploy",
+      "slug": "redirects-vercel",
+      "path": "recipes/deploy/redirects-vercel"
+    },
+    {
+      "category": "deploy",
+      "slug": "redirects-netlify",
+      "path": "recipes/deploy/redirects-netlify"
+    },
+    {
+      "category": "deploy",
+      "slug": "custom-domain-checklist",
+      "path": "recipes/deploy/custom-domain-checklist"
+    },
+    {
+      "category": "deploy",
+      "slug": "dns-records",
+      "path": "recipes/deploy/dns-records"
+    },
+    {
+      "category": "deploy",
+      "slug": "dkim-spf-dmarc",
+      "path": "recipes/deploy/dkim-spf-dmarc"
+    },
+    {
+      "category": "deploy",
+      "slug": "email-transactional-welcome",
+      "path": "recipes/deploy/email-transactional-welcome"
+    },
+    {
+      "category": "deploy",
+      "slug": "email-transactional-verify",
+      "path": "recipes/deploy/email-transactional-verify"
+    },
+    {
+      "category": "deploy",
+      "slug": "email-transactional-reset",
+      "path": "recipes/deploy/email-transactional-reset"
+    },
+    {
+      "category": "deploy",
+      "slug": "email-transactional-receipt",
+      "path": "recipes/deploy/email-transactional-receipt"
+    },
+    {
+      "category": "deploy",
+      "slug": "email-transactional-unsub",
+      "path": "recipes/deploy/email-transactional-unsub"
+    },
+    {
+      "category": "deploy",
+      "slug": "double-opt-in-flow",
+      "path": "recipes/deploy/double-opt-in-flow"
+    },
+    {
+      "category": "deploy",
+      "slug": "status-page",
+      "path": "recipes/deploy/status-page"
+    },
+    {
+      "category": "deploy",
+      "slug": "uptime-monitor",
+      "path": "recipes/deploy/uptime-monitor"
+    },
+    {
+      "category": "deploy",
+      "slug": "incident-template",
+      "path": "recipes/deploy/incident-template"
+    },
+    {
+      "category": "deploy",
+      "slug": "changelog-generator",
+      "path": "recipes/deploy/changelog-generator"
+    },
+    {
+      "category": "deploy",
+      "slug": "roadmap-page",
+      "path": "recipes/deploy/roadmap-page"
+    },
+    {
+      "category": "deploy",
+      "slug": "release-notes-auto",
+      "path": "recipes/deploy/release-notes-auto"
+    },
+    {
+      "category": "deploy",
+      "slug": "post-launch-analytics",
+      "path": "recipes/deploy/post-launch-analytics"
+    },
+    {
+      "category": "deploy",
+      "slug": "cdn-cache-strategy",
+      "path": "recipes/deploy/cdn-cache-strategy"
+    },
+    {
+      "category": "deploy",
+      "slug": "edge-locations-guide",
+      "path": "recipes/deploy/edge-locations-guide"
+    },
+    {
+      "category": "glue",
+      "slug": "calcom-wiring",
+      "path": "recipes/glue/calcom-wiring"
+    },
+    {
+      "category": "glue",
+      "slug": "calendly-wiring",
+      "path": "recipes/glue/calendly-wiring"
+    },
+    {
+      "category": "glue",
+      "slug": "google-reviews-import",
+      "path": "recipes/glue/google-reviews-import"
+    },
+    {
+      "category": "glue",
+      "slug": "yelp-widget",
+      "path": "recipes/glue/yelp-widget"
+    },
+    {
+      "category": "glue",
+      "slug": "trustpilot-widget",
+      "path": "recipes/glue/trustpilot-widget"
+    },
+    {
+      "category": "glue",
+      "slug": "instagram-feed",
+      "path": "recipes/glue/instagram-feed"
+    },
+    {
+      "category": "glue",
+      "slug": "tiktok-feed",
+      "path": "recipes/glue/tiktok-feed"
+    },
+    {
+      "category": "glue",
+      "slug": "newsletter-double-optin",
+      "path": "recipes/glue/newsletter-double-optin"
+    },
+    {
+      "category": "glue",
+      "slug": "referral-generator",
+      "path": "recipes/glue/referral-generator"
+    },
+    {
+      "category": "glue",
+      "slug": "coupon-widget",
+      "path": "recipes/glue/coupon-widget"
+    },
+    {
+      "category": "glue",
+      "slug": "countdown-timer",
+      "path": "recipes/glue/countdown-timer"
+    },
+    {
+      "category": "glue",
+      "slug": "vcard-export",
+      "path": "recipes/glue/vcard-export"
+    },
+    {
+      "category": "glue",
+      "slug": "ics-calendar-export",
+      "path": "recipes/glue/ics-calendar-export"
+    },
+    {
+      "category": "glue",
+      "slug": "qr-generator",
+      "path": "recipes/glue/qr-generator"
+    },
+    {
+      "category": "glue",
+      "slug": "print-menu-css",
+      "path": "recipes/glue/print-menu-css"
+    },
+    {
+      "category": "glue",
+      "slug": "print-ticket-css",
+      "path": "recipes/glue/print-ticket-css"
+    },
+    {
+      "category": "glue",
+      "slug": "print-qr-css",
+      "path": "recipes/glue/print-qr-css"
+    },
+    {
+      "category": "glue",
+      "slug": "pdf-brochure-from-site",
+      "path": "recipes/glue/pdf-brochure-from-site"
+    },
+    {
+      "category": "glue",
+      "slug": "app-links-universal",
+      "path": "recipes/glue/app-links-universal"
+    },
+    {
+      "category": "glue",
+      "slug": "web-push-setup",
+      "path": "recipes/glue/web-push-setup"
+    },
+    {
+      "category": "glue",
+      "slug": "timezone-aware-content",
+      "path": "recipes/glue/timezone-aware-content"
+    },
+    {
+      "category": "glue",
+      "slug": "currency-auto-convert",
+      "path": "recipes/glue/currency-auto-convert"
+    },
+    {
+      "category": "glue",
+      "slug": "framer-adapter",
+      "path": "recipes/glue/framer-adapter"
+    },
+    {
+      "category": "glue",
+      "slug": "rive-adapter",
+      "path": "recipes/glue/rive-adapter"
+    },
+    {
+      "category": "glue",
+      "slug": "lottie-player",
+      "path": "recipes/glue/lottie-player"
+    },
+    {
+      "category": "glue",
+      "slug": "glb-viewer",
+      "path": "recipes/glue/glb-viewer"
+    },
+    {
+      "category": "glue",
+      "slug": "voice-first-qa",
+      "path": "recipes/glue/voice-first-qa"
+    },
+    {
+      "category": "glue",
+      "slug": "ai-human-handoff",
+      "path": "recipes/glue/ai-human-handoff"
+    },
+    {
+      "category": "glue",
+      "slug": "crm-webhook",
+      "path": "recipes/glue/crm-webhook"
+    },
+    {
+      "category": "glue",
+      "slug": "hubspot-adapter",
+      "path": "recipes/glue/hubspot-adapter"
+    },
+    {
+      "category": "glue",
+      "slug": "salesforce-adapter",
+      "path": "recipes/glue/salesforce-adapter"
+    },
+    {
+      "category": "glue",
+      "slug": "segment-adapter",
+      "path": "recipes/glue/segment-adapter"
+    }
+  ],
+  "crossref": {
+    "fx": {
+      "recipes/content-rescue/photo-upscale": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-denoise": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-color-grade-editorial": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-bg-remove-if-needed": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-outpaint-hero": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-smart-crop-thirds": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-subject-focal": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-dedupe-perceptual": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/gallery-aspect-harmonize": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/gallery-tone-unify": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/gallery-order-optimize": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/gallery-cover-pick": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/logo-vectorize": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/logo-padding-normalize": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/logo-mono-variant": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/logo-reverse-variant": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/logo-mark-only": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/logo-horizontal-lockup": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/logo-stacked-lockup": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/logo-animated-3frame": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/headshot-restyle-editorial": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/headshot-bg-cleanup": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/headshot-lighting-match": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/product-shot-plate": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/product-shot-shadow-add": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/food-plate-reshoot": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/food-color-boost": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/realestate-sky-replace": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/realestate-lawn-boost": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/realestate-declutter": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/brand-color-extract": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/brand-color-palette": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/brand-mood-extract": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/noise-to-hero": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-to-cinemagraph": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-to-5sec-video": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-to-loop-video": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/testimonial-photo-normalize": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/press-logo-harmonize": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/press-logo-mono": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/case-study-cover": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/avatar-generate-consented": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/avatar-illustrated": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/team-photo-normalize": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/hero-generate-from-brief": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/before-after-slider": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/gallery-poster-generate": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-restore-scratches": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-restore-fade": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-de-yellow": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-hdr-tone": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-blur-face-privacy": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-blur-plate-privacy": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-metadata-strip": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-webp-avif-convert": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ],
+      "recipes/content-rescue/photo-lqip-generate": [
+        "fx-kitchen/recipes/media/hero-video-loop",
+        "fx-kitchen/recipes/surfaces/glass-frost"
+      ]
+    },
+    "ssk": {
+      "recipes/social-preview/og-dynamic-generator": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/og-per-language": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/og-seasonal-rotator": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/twitter-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/linkedin-preview": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/pinterest-rich-pin": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/whatsapp-preview": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/imessage-rich-link": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/discord-embed": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/slack-unfurl": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/threads-preview": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/bluesky-preview": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/mastodon-preview": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/tiktok-thumbnail": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/youtube-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/reels-preview": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/shorts-preview": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/og-video": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/og-audio": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/share-quote-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/testimonial-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/quote-to-image": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/stats-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/product-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/team-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/event-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/podcast-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/blog-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/before-after-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/milestone-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/launch-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ],
+      "recipes/social-preview/press-share-card": [
+        "ssk/recipes/backend/route-api-public",
+        "ssk/recipes/media/image-gen-og"
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-07-06T06:43:08.737Z",
+  "model": "veo-3.1-fast-generate-preview",
+  "docs": "https://ai.google.dev/gemini-api/docs/veo",
+  "results": [
+    {
+      "business": "Landscape Connection, Inc.",
+      "project": "wss-ca-landscape-landscape-connection-inc",
+      "status": "ready",
+      "operationName": "models/veo-3.1-fast-generate-preview/operations/54o6onjxkzi3",
+      "prompt": "Eight second cinematic website hero loop for Landscape Connection, Inc., a local landscape company in Clovis, California. Visual subject: quiet estate garden, shaded paths, clean beds, premium maintenance. Shot style: tasteful commercial web hero, slow parallax camera movement, shallow depth of field, natural light, polished but believable local business footage. Do not include readable text, fake logos, captions, people speaking, distorted tools, broken hands, or impossible landscaping. Make it loop-friendly: gentle motion, stable composition, enough negative space for website typography.",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/pb63a7hdi4l2:download?alt=media",
+      "outputPath": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\generated-videos\\wss-ca-landscape-landscape-connection-inc.mp4",
+      "skippedExisting": false
+    },
+    {
+      "business": "AJP LANDSCAPE INC",
+      "project": "wss-ca-landscape-ajp-landscape-inc",
+      "status": "ready",
+      "operationName": "models/veo-3.1-fast-generate-preview/operations/kd36ku3h4zpd",
+      "prompt": "Eight second cinematic website hero loop for AJP LANDSCAPE INC, a local landscape company in Los Angeles, California. Visual subject: modern Los Angeles design-build yard, precise hardscape, green planting and path lighting. Shot style: tasteful commercial web hero, slow parallax camera movement, shallow depth of field, natural light, polished but believable local business footage. Do not include readable text, fake logos, captions, people speaking, distorted tools, broken hands, or impossible landscaping. Make it loop-friendly: gentle motion, stable composition, enough negative space for website typography.",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/5s2g3xx4lq3n:download?alt=media",
+      "outputPath": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\generated-videos\\wss-ca-landscape-ajp-landscape-inc.mp4",
+      "skippedExisting": false
+    },
+    {
+      "business": "Barriga Landscaping",
+      "project": "wss-ca-landscape-barriga-landscaping",
+      "status": "ready",
+      "operationName": "models/veo-3.1-fast-generate-preview/operations/o27ao0fief58",
+      "prompt": "Eight second cinematic website hero loop for Barriga Landscaping, a local landscape company in Sacramento, California. Visual subject: warm neighborhood yard care, sprinkler water glints, lawn cleanup, friendly curb appeal. Shot style: tasteful commercial web hero, slow parallax camera movement, shallow depth of field, natural light, polished but believable local business footage. Do not include readable text, fake logos, captions, people speaking, distorted tools, broken hands, or impossible landscaping. Make it loop-friendly: gentle motion, stable composition, enough negative space for website typography.",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/bcu56qmjtf5o:download?alt=media",
+      "outputPath": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\generated-videos\\wss-ca-landscape-barriga-landscaping.mp4",
+      "skippedExisting": false
+    },
+    {
+      "business": "Signature Landscape",
+      "project": "wss-ca-landscape-signature-landscape",
+      "status": "ready",
+      "operationName": "models/veo-3.1-fast-generate-preview/operations/oo3s3i2kypcj",
+      "prompt": "Eight second cinematic website hero loop for Signature Landscape, a local landscape company in Mission Viejo, California. Visual subject: coastal outdoor room, soft wind through ornamental grasses, patio and garden flow. Shot style: tasteful commercial web hero, slow parallax camera movement, shallow depth of field, natural light, polished but believable local business footage. Do not include readable text, fake logos, captions, people speaking, distorted tools, broken hands, or impossible landscaping. Make it loop-friendly: gentle motion, stable composition, enough negative space for website typography.",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/wrpsc1jxkgc4:download?alt=media",
+      "outputPath": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\generated-videos\\wss-ca-landscape-signature-landscape.mp4",
+      "skippedExisting": false
+    },
+    {
+      "business": "Richard Diaz Landscape",
+      "project": "wss-ca-landscape-richard-diaz-landscape",
+      "status": "ready",
+      "operationName": "models/veo-3.1-fast-generate-preview/operations/rr2adoxvzzyn",
+      "prompt": "Eight second cinematic website hero loop for Richard Diaz Landscape, a local landscape company in Orange, California. Visual subject: Orange County hardscape, stone texture, shade structure, grading, patio detail. Shot style: tasteful commercial web hero, slow parallax camera movement, shallow depth of field, natural light, polished but believable local business footage. Do not include readable text, fake logos, captions, people speaking, distorted tools, broken hands, or impossible landscaping. Make it loop-friendly: gentle motion, stable composition, enough negative space for website typography.",
+      "videoUri": "https://generativelanguage.googleapis.com/v1beta/files/q09cwshzv9ac:download?alt=media",
+      "outputPath": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\generated-videos\\wss-ca-landscape-richard-diaz-landscape.mp4",
+      "skippedExisting": false
+    }
+  ]
+}

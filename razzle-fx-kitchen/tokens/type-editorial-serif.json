@@ -1,0 +1,7 @@
+{
+  "name": "editorial-serif",
+  "stacks": {
+    "heading": "Fraunces, ui-serif, Georgia, serif",
+    "body": "Inter, ui-sans-serif, system-ui"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "ok": true,
+  "generatedAt": "2026-07-06T11:08:14.542Z",
+  "build": "A+ production preview rebuild",
+  "queue": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\ca-landscape-build-queue-enriched.json",
+  "kitchenStack": {
+    "handoff": "CODEX_MASTER_HANDOFF.md §4 build loop + §13 signoff",
+    "glue": [
+      "master-glue-kitchen/FIRST_PROMPT_POLISH.md",
+      "master-glue-kitchen/polish-rules.json (40 unprompted rules)",
+      "master-glue-kitchen/recipes/content-rescue/logo-horizontal-lockup",
+      "master-glue-kitchen/recipes/content-rescue/brand-color-extract",
+      "master-glue-kitchen/recipes/layouts/magazine-spread",
+      "master-glue-kitchen/recipes/layouts/hero-video-bg",
+      "master-glue-kitchen/recipes/local-seo/*",
+      "master-glue-kitchen/recipes/social-preview/og-dynamic-generator"
+    ],
+    "fx": [
+      "razzle-fx-kitchen/recipes/media/hero-video-loop",
+      "razzle-fx-kitchen/recipes/media/liquid-mask",
+      "razzle-fx-kitchen/recipes/media/broken-grid-photos",
+      "razzle-fx-kitchen/recipes/backgrounds/topographic-lines",
+      "razzle-fx-kitchen/recipes/backgrounds/granite-flake",
+      "razzle-fx-kitchen/recipes/backgrounds/paper-fiber",
+      "razzle-fx-kitchen/recipes/motion/cascade-cards"
+    ],
+    "superpowers": [
+      "site-superpowers-kitchen/recipes/media/video-hero-loop",
+      "site-superpowers-kitchen/recipes/data/json-export",
+      "site-superpowers-kitchen/recipes/backend/health-check",
+      "site-superpowers-kitchen/recipes/backend/llms-txt"
+    ],
+    "source": "Firecrawl enrichment runs server-side only; static previews never receive API keys."
+  },
+  "manifest": [
+    {
+      "business": "Landscape Connection, Inc.",
+      "project": "wss-ca-landscape-landscape-connection-inc",
+      "url": "https://wss-ca-landscape-landscape-connection-inc.vercel.app",
+      "theme": "estate",
+      "lane": "single-page-cinematic",
+      "blueprint": "Estate Editorial",
+      "fontPair": "Cormorant Garamond + Manrope",
+      "heroVideo": "assets/hero-video.mp4",
+      "videoStatus": "ready",
+      "sourceStatus": 403,
+      "firecrawlSelectedUrl": "http://landscapeconnection.org/",
+      "logoMode": "source-recovered",
+      "sourceImageCount": 4,
+      "publicRoutes": [
+        "/",
+        "/services/",
+        "/gallery/",
+        "/quote/",
+        "/service-areas/",
+        "/faq/",
+        "/source/",
+        "/package/"
+      ]
+    },
+    {
+      "business": "AJP LANDSCAPE INC",
+      "project": "wss-ca-landscape-ajp-landscape-inc",
+      "url": "https://wss-ca-landscape-ajp-landscape-inc.vercel.app",
+      "theme": "architect",
+      "lane": "single-page-cinematic",
+      "blueprint": "Architect Grid",
+      "fontPair": "Space Grotesk + IBM Plex Sans",
+      "heroVideo": "assets/hero-video.mp4",
+      "videoStatus": "ready",
+      "sourceStatus": 404,
+      "firecrawlSelectedUrl": "http://www.ajplandscape.com/",
+      "logoMode": "proposed-lockup",
+      "sourceImageCount": 0,
+      "publicRoutes": [
+        "/",
+        "/services/",
+        "/gallery/",
+        "/quote/",
+        "/service-areas/",
+        "/faq/",
+        "/source/",
+        "/package/"
+      ]
+    },
+    {
+      "business": "Barriga Landscaping",
+      "project": "wss-ca-landscape-barriga-landscaping",
+      "url": "https://wss-ca-landscape-barriga-landscaping.vercel.app",
+      "theme": "warm",
+      "lane": "single-page-cinematic",
+      "blueprint": "Sunlit Neighborhood Letter",
+      "fontPair": "Fraunces + Nunito Sans",
+      "heroVideo": "assets/hero-video.mp4",
+      "videoStatus": "ready",
+      "sourceStatus": 0,
+      "firecrawlSelectedUrl": "",
+      "logoMode": "proposed-lockup",
+      "sourceImageCount": 0,
+      "publicRoutes": [
+        "/",
+        "/services/",
+        "/gallery/",
+        "/quote/",
+        "/service-areas/",
+        "/faq/",
+        "/source/",
+        "/package/"
+      ]
+    },
+    {
+      "business": "Signature Landscape",
+      "project": "wss-ca-landscape-signature-landscape",
+      "url": "https://wss-ca-landscape-signature-landscape.vercel.app",
+      "theme": "coastal",
+      "lane": "premier-multi-page",
+      "blueprint": "Coastal Atlas",
+      "fontPair": "Newsreader + DM Sans",
+      "heroVideo": "assets/hero-video.mp4",
+      "videoStatus": "ready",
+      "sourceStatus": 403,
+      "firecrawlSelectedUrl": "https://www.signaturelandscape.com/",
+      "logoMode": "source-recovered",
+      "sourceImageCount": 12,
+      "publicRoutes": [
+        "/",
+        "/services/",
+        "/gallery/",
+        "/quote/",
+        "/about/",
+        "/process/",
+        "/service-areas/",
+        "/faq/",
+        "/contact/",
+        "/source/",
+        "/package/"
+      ]
+    },
+    {
+      "business": "Richard Diaz Landscape",
+      "project": "wss-ca-landscape-richard-diaz-landscape",
+      "url": "https://wss-ca-landscape-richard-diaz-landscape.vercel.app",
+      "theme": "stone",
+      "lane": "premier-multi-page",
+      "blueprint": "Stone Material Lab",
+      "fontPair": "Bricolage Grotesque + Source Sans 3",
+      "heroVideo": "assets/hero-video.mp4",
+      "videoStatus": "ready",
+      "sourceStatus": 0,
+      "firecrawlSelectedUrl": "https://richarddiazlandscaping.com/",
+      "logoMode": "source-recovered",
+      "sourceImageCount": 23,
+      "publicRoutes": [
+        "/",
+        "/services/",
+        "/gallery/",
+        "/quote/",
+        "/about/",
+        "/process/",
+        "/service-areas/",
+        "/faq/",
+        "/contact/",
+        "/source/",
+        "/package/"
+      ]
+    }
+  ]
+}

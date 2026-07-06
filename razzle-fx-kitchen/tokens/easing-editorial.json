@@ -1,0 +1,8 @@
+{
+  "name": "editorial",
+  "easings": {
+    "open": "cubic-bezier(.19,1,.22,1)",
+    "close": "cubic-bezier(.55,.06,.68,.19)",
+    "hold": "cubic-bezier(.25,.1,.25,1)"
+  }
+}

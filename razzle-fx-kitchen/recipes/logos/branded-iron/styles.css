@@ -1,0 +1,8 @@
+/* branded-iron — logos */
+.rfx-branded-iron{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,hsl(192 90% 55%),hsl(12 85% 45%));color:#fff;padding:2rem;border-radius:1rem}
+.rfx-branded-iron::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);mix-blend-mode:overlay;pointer-events:none}
+.rfx-branded-iron__inner{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .rfx-branded-iron{animation:rfx-branded-iron-a 8s ease-in-out infinite alternate}
+}
+@keyframes rfx-branded-iron-a{from{background-position:0 0}to{background-position:100% 100%}}

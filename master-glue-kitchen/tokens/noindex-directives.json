@@ -1,0 +1,9 @@
+{
+  "disallow": [
+    "/admin",
+    "/api",
+    "/preview",
+    "/draft/*",
+    "/*?token="
+  ]
+}

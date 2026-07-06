@@ -1,0 +1,102 @@
+{
+  "kitchenStack": {
+    "handoff": "CODEX_MASTER_HANDOFF.md §4 build loop + §13 signoff",
+    "glue": [
+      "master-glue-kitchen/FIRST_PROMPT_POLISH.md",
+      "master-glue-kitchen/polish-rules.json (40 unprompted rules)",
+      "master-glue-kitchen/recipes/content-rescue/logo-horizontal-lockup",
+      "master-glue-kitchen/recipes/content-rescue/brand-color-extract",
+      "master-glue-kitchen/recipes/layouts/magazine-spread",
+      "master-glue-kitchen/recipes/layouts/hero-video-bg",
+      "master-glue-kitchen/recipes/local-seo/*",
+      "master-glue-kitchen/recipes/social-preview/og-dynamic-generator"
+    ],
+    "fx": [
+      "razzle-fx-kitchen/recipes/media/hero-video-loop",
+      "razzle-fx-kitchen/recipes/media/liquid-mask",
+      "razzle-fx-kitchen/recipes/media/broken-grid-photos",
+      "razzle-fx-kitchen/recipes/backgrounds/topographic-lines",
+      "razzle-fx-kitchen/recipes/backgrounds/granite-flake",
+      "razzle-fx-kitchen/recipes/backgrounds/paper-fiber",
+      "razzle-fx-kitchen/recipes/motion/cascade-cards"
+    ],
+    "superpowers": [
+      "site-superpowers-kitchen/recipes/media/video-hero-loop",
+      "site-superpowers-kitchen/recipes/data/json-export",
+      "site-superpowers-kitchen/recipes/backend/health-check",
+      "site-superpowers-kitchen/recipes/backend/llms-txt"
+    ],
+    "source": "Firecrawl enrichment runs server-side only; static previews never receive API keys."
+  },
+  "spec": {
+    "match": "Landscape Connection, Inc.",
+    "theme": "estate",
+    "blueprint": "Estate Editorial",
+    "display": "Cormorant Garamond",
+    "body": "Manrope",
+    "bg": "#f7f0de",
+    "ink": "#162114",
+    "muted": "#64725b",
+    "panel": "#fffaf0",
+    "accent": "#87be49",
+    "accent2": "#935734",
+    "soft": "#e8d7b6",
+    "kicker": "Clovis estate gardens",
+    "headline": "Garden care with a composed first impression.",
+    "subhead": "A refined web presence for planting, estate maintenance, irrigation checks, and commercial grounds that need to feel steady before the first walkthrough.",
+    "services": [
+      "Estate maintenance",
+      "Planting refresh",
+      "Commercial grounds",
+      "Irrigation checks",
+      "Seasonal color"
+    ],
+    "signature": "A botanical editorial layout with a crest lockup, arched media, topographic garden lines, and quiet luxury spacing."
+  },
+  "source": {
+    "logoUrl": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-1024x299.png",
+    "imageCount": 9,
+    "recoveredLogoCandidates": 3,
+    "recoveredImageCandidates": 9,
+    "firecrawl": {
+      "configured": true,
+      "search": {
+        "ok": true,
+        "reason": "",
+        "rows": []
+      },
+      "attempts": [
+        {
+          "url": "http://landscapeconnection.org/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Landscape Connection | Best in Fresno Landscape Design",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 9,
+          "colorCount": 5
+        },
+        {
+          "url": "https://landscapeconnection.org/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Landscape Connection | Best in Fresno Landscape Design",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 9,
+          "colorCount": 5
+        }
+      ],
+      "selectedUrl": "http://landscapeconnection.org/"
+    }
+  },
+  "video": {
+    "ready": true,
+    "src": "/assets/hero-video.mp4",
+    "prompt": "Create an 8 second premium local-business website hero loop for Landscape Connection, Inc. in Clovis, California. Direction: Estate Editorial; A botanical editorial layout with a crest lockup, arched media, topographic garden lines, and quiet luxury spacing. Natural light, outdoor craft, real materials, no visible text, no artificial logos, no talking people. Palette cue: #87be49, #935734, #f7f0de."
+  }
+}

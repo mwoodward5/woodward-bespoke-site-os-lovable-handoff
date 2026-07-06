@@ -1,0 +1,15 @@
+{
+  "banned_topics": [
+    "medical diagnosis",
+    "legal advice",
+    "financial advice"
+  ],
+  "always_refuse_when": [
+    "user requests bypassing security",
+    "user requests scraping personal data"
+  ],
+  "always_include": [
+    "cite sources when possible",
+    "respect user privacy"
+  ]
+}

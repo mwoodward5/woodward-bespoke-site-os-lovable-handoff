@@ -1,0 +1,9 @@
+{
+  "inbound": true,
+  "outbound": true,
+  "block_on": [
+    "hate",
+    "sexual",
+    "self-harm"
+  ]
+}

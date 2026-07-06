@@ -1,0 +1,478 @@
+# INDEX
+
+
+## ai (80)
+
+- `recipes/ai/chat-support-bot`
+- `recipes/ai/chat-sales-bot`
+- `recipes/ai/chat-docs-qa`
+- `recipes/ai/chat-rag-basic`
+- `recipes/ai/chat-rag-hybrid`
+- `recipes/ai/chat-agent-tools`
+- `recipes/ai/chat-agent-mcp`
+- `recipes/ai/chat-voice-first`
+- `recipes/ai/chat-multilingual`
+- `recipes/ai/chat-persona-swap`
+- `recipes/ai/chat-with-memory`
+- `recipes/ai/chat-with-citations`
+- `recipes/ai/chat-with-attachments`
+- `recipes/ai/chat-with-images`
+- `recipes/ai/chat-with-pdf`
+- `recipes/ai/chat-with-audio`
+- `recipes/ai/chat-with-video`
+- `recipes/ai/chat-stream-sse`
+- `recipes/ai/chat-stream-tokens`
+- `recipes/ai/chat-resume-stream`
+- `recipes/ai/chat-cancel-stream`
+- `recipes/ai/chat-cost-meter`
+- `recipes/ai/chat-guardrails`
+- `recipes/ai/chat-moderation`
+- `recipes/ai/chat-toxicity-filter`
+- `recipes/ai/chat-pii-redact`
+- `recipes/ai/chat-tone-shifter`
+- `recipes/ai/chat-translator`
+- `recipes/ai/chat-summarizer`
+- `recipes/ai/completion-oneshot`
+- `recipes/ai/completion-json`
+- `recipes/ai/completion-structured`
+- `recipes/ai/completion-classify`
+- `recipes/ai/completion-extract`
+- `recipes/ai/completion-rewrite`
+- `recipes/ai/completion-code-review`
+- `recipes/ai/completion-code-explain`
+- `recipes/ai/completion-code-refactor`
+- `recipes/ai/completion-code-tests`
+- `recipes/ai/completion-sql-write`
+- `recipes/ai/completion-regex-write`
+- `recipes/ai/completion-title-suggest`
+- `recipes/ai/completion-slug-suggest`
+- `recipes/ai/completion-alt-text`
+- `recipes/ai/completion-meta-tags`
+- `recipes/ai/completion-og-image-copy`
+- `recipes/ai/completion-changelog`
+- `recipes/ai/completion-release-notes`
+- `recipes/ai/embed-text`
+- `recipes/ai/embed-multimodal`
+- `recipes/ai/embed-image`
+- `recipes/ai/search-semantic`
+- `recipes/ai/search-hybrid`
+- `recipes/ai/search-facets`
+- `recipes/ai/search-typo-tolerant`
+- `recipes/ai/rag-web-scrape`
+- `recipes/ai/rag-doc-loader`
+- `recipes/ai/rag-chunker`
+- `recipes/ai/rag-reranker`
+- `recipes/ai/rag-context-window-guard`
+- `recipes/ai/agent-loop-basic`
+- `recipes/ai/agent-planner`
+- `recipes/ai/agent-critic`
+- `recipes/ai/agent-tools-registry`
+- `recipes/ai/agent-tool-deferral`
+- `recipes/ai/agent-mcp-oauth`
+- `recipes/ai/agent-approval-gate`
+- `recipes/ai/agent-cost-cap`
+- `recipes/ai/agent-timeout`
+- `recipes/ai/classify-intent`
+- `recipes/ai/classify-sentiment`
+- `recipes/ai/classify-lang`
+- `recipes/ai/classify-toxicity`
+- `recipes/ai/extract-entities`
+- `recipes/ai/extract-invoice`
+- `recipes/ai/extract-resume`
+- `recipes/ai/extract-form`
+- `recipes/ai/moderation-inbound`
+- `recipes/ai/moderation-outbound`
+- `recipes/ai/prompt-injection-guard`
+
+## voice (48)
+
+- `recipes/voice/tts-narrate-article`
+- `recipes/voice/tts-narrate-paragraph`
+- `recipes/voice/tts-floating-player`
+- `recipes/voice/tts-chapter-markers`
+- `recipes/voice/tts-read-aloud-toggle`
+- `recipes/voice/tts-multivoice-dialogue`
+- `recipes/voice/tts-accessible-audio`
+- `recipes/voice/tts-language-switch`
+- `recipes/voice/tts-speed-control`
+- `recipes/voice/tts-download-mp3`
+- `recipes/voice/tts-chunker`
+- `recipes/voice/tts-realtime-lowlatency`
+- `recipes/voice/tts-cache-repeats`
+- `recipes/voice/tts-voice-picker`
+- `recipes/voice/tts-cost-guard`
+- `recipes/voice/tts-cancel`
+- `recipes/voice/stt-dictation-basic`
+- `recipes/voice/stt-push-to-talk`
+- `recipes/voice/stt-live-transcript`
+- `recipes/voice/stt-live-caption`
+- `recipes/voice/stt-meeting-notes`
+- `recipes/voice/stt-language-detect`
+- `recipes/voice/stt-word-timestamps`
+- `recipes/voice/stt-punctuation`
+- `recipes/voice/stt-diarize`
+- `recipes/voice/stt-realtime-stream`
+- `recipes/voice/voice-loop-chat`
+- `recipes/voice/voice-loop-agent`
+- `recipes/voice/voice-wake-word`
+- `recipes/voice/voice-vad`
+- `recipes/voice/voice-noise-suppress`
+- `recipes/voice/voice-echo-cancel`
+- `recipes/voice/voice-barge-in`
+- `recipes/voice/voice-mute-toggle`
+- `recipes/voice/voice-mic-picker`
+- `recipes/voice/voice-visualizer-bars`
+- `recipes/voice/voice-visualizer-wave`
+- `recipes/voice/voice-visualizer-orb`
+- `recipes/voice/voice-translate-live`
+- `recipes/voice/voice-translate-podcast`
+- `recipes/voice/voice-clone-consent`
+- `recipes/voice/voice-clone-preview`
+- `recipes/voice/audio-ambient-loop`
+- `recipes/voice/audio-ui-sfx`
+- `recipes/voice/audio-notification-cues`
+- `recipes/voice/audio-cinemagraph`
+- `recipes/voice/audio-timeline-scrub`
+- `recipes/voice/audio-waveform-poster`
+
+## media (40)
+
+- `recipes/media/image-gen-button`
+- `recipes/media/image-gen-hero`
+- `recipes/media/image-gen-og`
+- `recipes/media/image-edit-inpaint`
+- `recipes/media/image-edit-outpaint`
+- `recipes/media/image-restyle`
+- `recipes/media/image-upscale`
+- `recipes/media/image-bg-remove`
+- `recipes/media/image-alt-text-ai`
+- `recipes/media/image-caption-ai`
+- `recipes/media/image-avatar-gen`
+- `recipes/media/image-avatar-consent`
+- `recipes/media/image-face-swap-guard`
+- `recipes/media/image-ocr`
+- `recipes/media/image-doc-scan`
+- `recipes/media/image-object-detect`
+- `recipes/media/image-color-extract`
+- `recipes/media/image-nudity-filter`
+- `recipes/media/image-watermark`
+- `recipes/media/image-download-safeguard`
+- `recipes/media/video-gen-heygen`
+- `recipes/media/video-lipsync`
+- `recipes/media/video-translation`
+- `recipes/media/video-thumbnail-ai`
+- `recipes/media/video-clip-summarize`
+- `recipes/media/video-chapters-ai`
+- `recipes/media/video-hero-loop`
+- `recipes/media/video-parallax-cover`
+- `recipes/media/video-tilt-cover`
+- `recipes/media/cinemagraph-loop`
+- `recipes/media/camera-live-filter`
+- `recipes/media/camera-photobooth`
+- `recipes/media/camera-qr-scan`
+- `recipes/media/camera-barcode-scan`
+- `recipes/media/doc-to-summary`
+- `recipes/media/doc-to-outline`
+- `recipes/media/doc-to-flashcards`
+- `recipes/media/doc-translate`
+- `recipes/media/doc-highlight-key`
+- `recipes/media/doc-answer-questions`
+
+## ux (64)
+
+- `recipes/ux/cmdk-palette`
+- `recipes/ux/cmdk-ai-search`
+- `recipes/ux/cmdk-actions`
+- `recipes/ux/cmdk-recent`
+- `recipes/ux/autocomplete-ai`
+- `recipes/ux/autocomplete-basic`
+- `recipes/ux/form-smart-validate`
+- `recipes/ux/form-ai-fill`
+- `recipes/ux/form-multistep`
+- `recipes/ux/form-save-progress`
+- `recipes/ux/form-conditional`
+- `recipes/ux/form-inline-errors`
+- `recipes/ux/form-file-upload`
+- `recipes/ux/form-image-crop`
+- `recipes/ux/form-signature-pad`
+- `recipes/ux/form-otp`
+- `recipes/ux/form-address-autocomplete`
+- `recipes/ux/form-phone-intl`
+- `recipes/ux/dashboard-drag`
+- `recipes/ux/dashboard-widget-registry`
+- `recipes/ux/dashboard-resize-grid`
+- `recipes/ux/kanban-board`
+- `recipes/ux/kanban-swimlanes`
+- `recipes/ux/calendar-month`
+- `recipes/ux/calendar-week`
+- `recipes/ux/calendar-scheduler`
+- `recipes/ux/calendar-agenda`
+- `recipes/ux/calendar-ics-export`
+- `recipes/ux/comments-thread`
+- `recipes/ux/comments-mentions`
+- `recipes/ux/comments-reactions`
+- `recipes/ux/comments-resolve`
+- `recipes/ux/presence-avatars`
+- `recipes/ux/presence-cursors`
+- `recipes/ux/presence-typing`
+- `recipes/ux/onboarding-tour`
+- `recipes/ux/onboarding-checklist`
+- `recipes/ux/onboarding-progress`
+- `recipes/ux/onboarding-empty-states`
+- `recipes/ux/toast-center`
+- `recipes/ux/toast-undoable`
+- `recipes/ux/modal-scale`
+- `recipes/ux/drawer-push`
+- `recipes/ux/popover-lift`
+- `recipes/ux/tooltip-morph`
+- `recipes/ux/menu-context`
+- `recipes/ux/menu-mega`
+- `recipes/ux/tabs-underline`
+- `recipes/ux/tabs-pills`
+- `recipes/ux/stepper-linear`
+- `recipes/ux/stepper-branch`
+- `recipes/ux/hotkey-registry`
+- `recipes/ux/hotkey-hint-badges`
+- `recipes/ux/copy-inline`
+- `recipes/ux/share-menu`
+- `recipes/ux/sticky-cta`
+- `recipes/ux/floating-cta`
+- `recipes/ux/chat-bubble-launcher`
+- `recipes/ux/help-center-widget`
+- `recipes/ux/feedback-widget`
+- `recipes/ux/nps-widget`
+- `recipes/ux/upvote-widget`
+- `recipes/ux/poll-widget`
+- `recipes/ux/reactions-widget`
+
+## realtime (32)
+
+- `recipes/realtime/ws-presence`
+- `recipes/realtime/ws-cursors`
+- `recipes/realtime/ws-typing`
+- `recipes/realtime/ws-live-counter`
+- `recipes/realtime/ws-live-comments`
+- `recipes/realtime/ws-live-polls`
+- `recipes/realtime/ws-live-auctions`
+- `recipes/realtime/ws-live-bids`
+- `recipes/realtime/ws-sports-ticker`
+- `recipes/realtime/ws-stock-ticker`
+- `recipes/realtime/ws-weather-tick`
+- `recipes/realtime/ws-map-vehicles`
+- `recipes/realtime/ws-whiteboard-scaffold`
+- `recipes/realtime/sse-broadcast`
+- `recipes/realtime/sse-notifications`
+- `recipes/realtime/sse-progress-bar`
+- `recipes/realtime/sse-log-tail`
+- `recipes/realtime/sse-build-status`
+- `recipes/realtime/optimistic-mutations`
+- `recipes/realtime/optimistic-rollback`
+- `recipes/realtime/realtime-supabase-channel`
+- `recipes/realtime/realtime-supabase-postgres`
+- `recipes/realtime/realtime-supabase-presence`
+- `recipes/realtime/collab-doc-yjs-scaffold`
+- `recipes/realtime/collab-crdt-notes`
+- `recipes/realtime/collab-cursors-color`
+- `recipes/realtime/live-viewer-count`
+- `recipes/realtime/live-reactions-float`
+- `recipes/realtime/live-chat-room`
+- `recipes/realtime/live-typing-dots`
+- `recipes/realtime/live-heartbeat`
+- `recipes/realtime/live-status-badge`
+
+## auth (24)
+
+- `recipes/auth/auth-magic-link`
+- `recipes/auth/auth-oauth-google`
+- `recipes/auth/auth-oauth-github`
+- `recipes/auth/auth-oauth-apple`
+- `recipes/auth/auth-oauth-discord`
+- `recipes/auth/auth-passkeys`
+- `recipes/auth/auth-2fa-totp`
+- `recipes/auth/auth-sso-stub`
+- `recipes/auth/auth-rbac-gate`
+- `recipes/auth/auth-role-check`
+- `recipes/auth/auth-invite-flow`
+- `recipes/auth/auth-org-switcher`
+- `recipes/auth/auth-team-invite`
+- `recipes/auth/auth-session-list`
+- `recipes/auth/auth-jwt-refresh`
+- `recipes/auth/auth-signout-all`
+- `recipes/auth/auth-email-verify`
+- `recipes/auth/auth-password-reset`
+- `recipes/auth/auth-account-delete`
+- `recipes/auth/auth-anonymous-guard`
+- `recipes/auth/auth-rate-limit`
+- `recipes/auth/auth-brute-force-guard`
+- `recipes/auth/auth-audit-log`
+- `recipes/auth/auth-privacy-export`
+
+## payments (20)
+
+- `recipes/payments/pay-stripe-checkout`
+- `recipes/payments/pay-stripe-subscription`
+- `recipes/payments/pay-stripe-metered`
+- `recipes/payments/pay-stripe-oneshot`
+- `recipes/payments/pay-stripe-tipping`
+- `recipes/payments/pay-stripe-marketplace`
+- `recipes/payments/pay-paddle-checkout`
+- `recipes/payments/pay-coupon-ui`
+- `recipes/payments/pay-discount-code`
+- `recipes/payments/pay-upgrade-cta`
+- `recipes/payments/pay-paywall-gate`
+- `recipes/payments/pay-usage-meter`
+- `recipes/payments/pay-invoice-history`
+- `recipes/payments/pay-refund-request`
+- `recipes/payments/pay-cancel-flow`
+- `recipes/payments/pay-webhook-verify`
+- `recipes/payments/pay-price-table`
+- `recipes/payments/pay-trial-banner`
+- `recipes/payments/pay-billing-portal`
+- `recipes/payments/pay-plan-compare`
+
+## data (32)
+
+- `recipes/data/search-fulltext`
+- `recipes/data/search-vector`
+- `recipes/data/search-hybrid-app`
+- `recipes/data/filter-facets`
+- `recipes/data/pagination-cursor`
+- `recipes/data/pagination-offset`
+- `recipes/data/virtual-list-10k`
+- `recipes/data/infinite-scroll`
+- `recipes/data/csv-export`
+- `recipes/data/csv-import`
+- `recipes/data/pdf-export`
+- `recipes/data/pdf-generate`
+- `recipes/data/xlsx-export`
+- `recipes/data/json-export`
+- `recipes/data/chart-line`
+- `recipes/data/chart-bar`
+- `recipes/data/chart-pie`
+- `recipes/data/chart-area`
+- `recipes/data/chart-heatmap`
+- `recipes/data/chart-sparkline`
+- `recipes/data/chart-realtime`
+- `recipes/data/analytics-events`
+- `recipes/data/analytics-funnel`
+- `recipes/data/analytics-retention`
+- `recipes/data/segment-server-events`
+- `recipes/data/posthog-server-events`
+- `recipes/data/plausible-events`
+- `recipes/data/audit-log-table`
+- `recipes/data/soft-delete`
+- `recipes/data/undo-redo`
+- `recipes/data/versioned-rows`
+- `recipes/data/diff-viewer`
+
+## backend (32)
+
+- `recipes/backend/serverfn-basic`
+- `recipes/backend/serverfn-auth`
+- `recipes/backend/serverfn-admin`
+- `recipes/backend/serverfn-cache`
+- `recipes/backend/route-api-public`
+- `recipes/backend/route-api-signed`
+- `recipes/backend/webhook-stripe`
+- `recipes/backend/webhook-github`
+- `recipes/backend/webhook-generic-hmac`
+- `recipes/backend/cron-daily`
+- `recipes/backend/cron-hourly`
+- `recipes/backend/cron-pg-cron`
+- `recipes/backend/queue-simple`
+- `recipes/backend/queue-retry`
+- `recipes/backend/queue-dlq`
+- `recipes/backend/rate-limit-ip`
+- `recipes/backend/rate-limit-user`
+- `recipes/backend/idempotency-keys`
+- `recipes/backend/feature-flags`
+- `recipes/backend/ab-tests`
+- `recipes/backend/edge-cache-headers`
+- `recipes/backend/image-optim-loader`
+- `recipes/backend/sitemap-xml`
+- `recipes/backend/robots-txt`
+- `recipes/backend/rss-feed`
+- `recipes/backend/atom-feed`
+- `recipes/backend/llms-txt`
+- `recipes/backend/well-known-oauth-client`
+- `recipes/backend/health-check`
+- `recipes/backend/ready-check`
+- `recipes/backend/version-endpoint`
+- `recipes/backend/structured-logs`
+
+## a11y-seo (24)
+
+- `recipes/a11y-seo/a11y-reduced-motion`
+- `recipes/a11y-seo/a11y-focus-trap`
+- `recipes/a11y-seo/a11y-skip-link`
+- `recipes/a11y-seo/a11y-aria-live`
+- `recipes/a11y-seo/a11y-sr-only`
+- `recipes/a11y-seo/a11y-contrast-check`
+- `recipes/a11y-seo/a11y-lang-attr`
+- `recipes/a11y-seo/a11y-keyboard-nav`
+- `recipes/a11y-seo/seo-title-desc`
+- `recipes/a11y-seo/seo-og-image`
+- `recipes/a11y-seo/seo-twitter-card`
+- `recipes/a11y-seo/seo-canonical`
+- `recipes/a11y-seo/seo-hreflang`
+- `recipes/a11y-seo/seo-jsonld-product`
+- `recipes/a11y-seo/seo-jsonld-article`
+- `recipes/a11y-seo/seo-jsonld-faq`
+- `recipes/a11y-seo/seo-jsonld-org`
+- `recipes/a11y-seo/seo-jsonld-breadcrumb`
+- `recipes/a11y-seo/seo-jsonld-howto`
+- `recipes/a11y-seo/seo-jsonld-video`
+- `recipes/a11y-seo/seo-sitemap-index`
+- `recipes/a11y-seo/seo-robots-directives`
+- `recipes/a11y-seo/seo-breadcrumb-ui`
+- `recipes/a11y-seo/seo-share-preview`
+
+## perf (20)
+
+- `recipes/perf/perf-lazy-image`
+- `recipes/perf/perf-image-natural-guard`
+- `recipes/perf/perf-code-split`
+- `recipes/perf/perf-prefetch`
+- `recipes/perf/perf-service-worker`
+- `recipes/perf/perf-offline-shell`
+- `recipes/perf/perf-pwa-install`
+- `recipes/perf/perf-http-cache`
+- `recipes/perf/perf-resource-hints`
+- `recipes/perf/perf-cwv-monitor`
+- `recipes/perf/perf-lighthouse-badge`
+- `recipes/perf/perf-critical-css`
+- `recipes/perf/perf-font-swap`
+- `recipes/perf/perf-font-subset`
+- `recipes/perf/perf-defer-scripts`
+- `recipes/perf/perf-bundle-analyze`
+- `recipes/perf/perf-preload-hero`
+- `recipes/perf/perf-inline-svg`
+- `recipes/perf/perf-noise-cheap`
+- `recipes/perf/perf-heavy-anim-gate`
+
+## Composed apps
+
+- `apps/ai-support-chat` — AI Support Chat → `recipes/ai/chat-support-bot`
+- `apps/rag-doc-qa` — RAG Doc Q&A → `recipes/ai/chat-rag-basic`
+- `apps/voice-narrated-blog` — Voice-Narrated Blog → `recipes/voice/tts-narrate-article`
+- `apps/ai-photo-studio` — AI Photo Studio → `recipes/media/image-gen-hero`
+- `apps/live-dashboard` — Live Dashboard → `recipes/realtime/ws-live-counter`
+- `apps/marketplace-starter` — Marketplace Starter → `recipes/payments/pay-stripe-marketplace`
+- `apps/saas-subscription` — SaaS Subscription Starter → `recipes/payments/pay-stripe-subscription`
+- `apps/kanban-team` — Kanban with Team Presence → `recipes/ux/kanban-board`
+- `apps/comments-thread` — Live Comments Thread → `recipes/ux/comments-thread`
+- `apps/live-poll` — Live Poll → `recipes/realtime/ws-live-polls`
+- `apps/transcription-app` — Transcription App → `recipes/voice/stt-live-transcript`
+- `apps/translation-studio` — Translation Studio → `recipes/ai/chat-translator`
+- `apps/voice-agent` — Voice Agent Loop → `recipes/voice/voice-loop-agent`
+- `apps/command-palette` — App with Command Palette → `recipes/ux/cmdk-palette`
+- `apps/scheduling-app` — Scheduling App → `recipes/ux/calendar-scheduler`
+- `apps/onboarding-flow` — Onboarding Flow → `recipes/ux/onboarding-checklist`
+- `apps/changelog-generator` — AI Changelog Generator → `recipes/ai/completion-changelog`
+- `apps/code-review-bot` — AI Code Review Bot → `recipes/ai/completion-code-review`
+- `apps/mcp-agent-console` — MCP Agent Console → `recipes/ai/chat-agent-mcp`
+- `apps/semantic-search` — Semantic Search → `recipes/ai/search-semantic`
+- `apps/stripe-paywall` — Stripe Paywall → `recipes/payments/pay-paywall-gate`
+- `apps/passkey-login` — Passkey Login → `recipes/auth/auth-passkeys`
+- `apps/sitemap-seo` — SEO + Sitemap App → `recipes/a11y-seo/seo-sitemap-index`
+- `apps/pwa-offline-shell` — PWA Offline Shell → `recipes/perf/perf-offline-shell`

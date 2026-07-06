@@ -1,0 +1,10 @@
+{
+  "openai/gpt-4o-mini-tts": {
+    "alloy": "neutral, clear narrator",
+    "echo": "warmer male narrator",
+    "fable": "storyteller",
+    "onyx": "deep male authority",
+    "nova": "bright female",
+    "shimmer": "soft female"
+  }
+}

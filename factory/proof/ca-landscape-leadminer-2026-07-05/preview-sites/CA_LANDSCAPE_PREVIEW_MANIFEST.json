@@ -1,0 +1,57 @@
+[
+  {
+    "project": "wss-ca-landscape-landscape-connection-inc",
+    "dir": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\dist-ca-landscape-sites\\wss-ca-landscape-landscape-connection-inc",
+    "url": "https://wss-ca-landscape-landscape-connection-inc.vercel.app",
+    "business": "Landscape Connection, Inc.",
+    "concept": "estateLedger",
+    "blueprint": "Estate Ledger",
+    "routeCount": 7,
+    "sourceStatus": 403,
+    "imageMode": "premium-fallback"
+  },
+  {
+    "project": "wss-ca-landscape-ajp-landscape-inc",
+    "dir": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\dist-ca-landscape-sites\\wss-ca-landscape-ajp-landscape-inc",
+    "url": "https://wss-ca-landscape-ajp-landscape-inc.vercel.app",
+    "business": "AJP LANDSCAPE INC",
+    "concept": "architectGrid",
+    "blueprint": "Architect Grid",
+    "routeCount": 7,
+    "sourceStatus": 404,
+    "imageMode": "premium-fallback"
+  },
+  {
+    "project": "wss-ca-landscape-barriga-landscaping",
+    "dir": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\dist-ca-landscape-sites\\wss-ca-landscape-barriga-landscaping",
+    "url": "https://wss-ca-landscape-barriga-landscaping.vercel.app",
+    "business": "Barriga Landscaping",
+    "concept": "sunlitLetter",
+    "blueprint": "Sunlit Letter",
+    "routeCount": 7,
+    "sourceStatus": 0,
+    "imageMode": "premium-fallback"
+  },
+  {
+    "project": "wss-ca-landscape-signature-landscape",
+    "dir": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\dist-ca-landscape-sites\\wss-ca-landscape-signature-landscape",
+    "url": "https://wss-ca-landscape-signature-landscape.vercel.app",
+    "business": "Signature Landscape",
+    "concept": "coastalAtlas",
+    "blueprint": "Coastal Atlas",
+    "routeCount": 7,
+    "sourceStatus": 403,
+    "imageMode": "premium-fallback"
+  },
+  {
+    "project": "wss-ca-landscape-richard-diaz-landscape",
+    "dir": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\dist-ca-landscape-sites\\wss-ca-landscape-richard-diaz-landscape",
+    "url": "https://wss-ca-landscape-richard-diaz-landscape.vercel.app",
+    "business": "Richard Diaz Landscape",
+    "concept": "stoneBlueprint",
+    "blueprint": "Stone Blueprint",
+    "routeCount": 7,
+    "sourceStatus": 0,
+    "imageMode": "premium-fallback"
+  }
+]

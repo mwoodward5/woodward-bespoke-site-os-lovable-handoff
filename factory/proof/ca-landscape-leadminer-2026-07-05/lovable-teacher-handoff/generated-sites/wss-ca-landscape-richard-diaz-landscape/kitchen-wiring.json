@@ -1,0 +1,90 @@
+{
+  "kitchenStack": {
+    "handoff": "CODEX_MASTER_HANDOFF.md §4 build loop + §13 signoff",
+    "glue": [
+      "master-glue-kitchen/FIRST_PROMPT_POLISH.md",
+      "master-glue-kitchen/polish-rules.json (40 unprompted rules)",
+      "master-glue-kitchen/recipes/content-rescue/logo-horizontal-lockup",
+      "master-glue-kitchen/recipes/content-rescue/brand-color-extract",
+      "master-glue-kitchen/recipes/layouts/magazine-spread",
+      "master-glue-kitchen/recipes/layouts/hero-video-bg",
+      "master-glue-kitchen/recipes/local-seo/*",
+      "master-glue-kitchen/recipes/social-preview/og-dynamic-generator"
+    ],
+    "fx": [
+      "razzle-fx-kitchen/recipes/media/hero-video-loop",
+      "razzle-fx-kitchen/recipes/media/liquid-mask",
+      "razzle-fx-kitchen/recipes/media/broken-grid-photos",
+      "razzle-fx-kitchen/recipes/backgrounds/topographic-lines",
+      "razzle-fx-kitchen/recipes/backgrounds/granite-flake",
+      "razzle-fx-kitchen/recipes/backgrounds/paper-fiber",
+      "razzle-fx-kitchen/recipes/motion/cascade-cards"
+    ],
+    "superpowers": [
+      "site-superpowers-kitchen/recipes/media/video-hero-loop",
+      "site-superpowers-kitchen/recipes/data/json-export",
+      "site-superpowers-kitchen/recipes/backend/health-check",
+      "site-superpowers-kitchen/recipes/backend/llms-txt"
+    ],
+    "source": "Firecrawl enrichment runs server-side only; static previews never receive API keys."
+  },
+  "spec": {
+    "match": "Richard Diaz Landscape",
+    "theme": "stone",
+    "blueprint": "Stone Material Lab",
+    "display": "Bricolage Grotesque",
+    "body": "Source Sans 3",
+    "bg": "#130f0b",
+    "ink": "#fff0dc",
+    "muted": "#c8ae87",
+    "panel": "#21170f",
+    "accent": "#f6821f",
+    "accent2": "#fbad41",
+    "soft": "#3f2a19",
+    "kicker": "Orange hardscape + masonry",
+    "headline": "Masonry, planting, grading, and outdoor structure.",
+    "subhead": "A rugged but polished web presence for patios, retaining walls, paver repair, planting, cleanup, and hardscape work that needs to feel built, not generic.",
+    "services": [
+      "Masonry",
+      "Paver repair",
+      "Retaining walls",
+      "Patios",
+      "Planting + grading"
+    ],
+    "signature": "A stone material lab with diagonal slabs, masonry texture, source logo recovery, and grounded call-to-estimate rhythm."
+  },
+  "source": {
+    "logoUrl": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png",
+    "imageCount": 9,
+    "recoveredLogoCandidates": 3,
+    "recoveredImageCandidates": 24,
+    "firecrawl": {
+      "configured": true,
+      "search": {
+        "ok": true,
+        "reason": "",
+        "rows": []
+      },
+      "attempts": [
+        {
+          "url": "https://richarddiazlandscaping.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Richard Diaz Landscape Design & Masonry – Orange, CA Experts",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 24,
+          "colorCount": 5
+        }
+      ],
+      "selectedUrl": "https://richarddiazlandscaping.com/"
+    }
+  },
+  "video": {
+    "ready": true,
+    "src": "/assets/hero-video.mp4",
+    "prompt": "Create an 8 second premium local-business website hero loop for Richard Diaz Landscape in Orange, California. Direction: Stone Material Lab; A stone material lab with diagonal slabs, masonry texture, source logo recovery, and grounded call-to-estimate rhythm. Natural light, outdoor craft, real materials, no visible text, no artificial logos, no talking people. Palette cue: #f6821f, #fbad41, #130f0b."
+  }
+}

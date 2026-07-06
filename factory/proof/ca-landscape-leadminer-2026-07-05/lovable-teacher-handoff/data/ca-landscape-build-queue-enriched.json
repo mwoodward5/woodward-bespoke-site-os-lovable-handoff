@@ -1,0 +1,962 @@
+[
+  {
+    "generatedAt": "2026-07-06T02:23:37.498Z",
+    "rank": 1,
+    "business": {
+      "name": "Landscape Connection, Inc.",
+      "slug": "landscape-connection-inc",
+      "city": "Clovis",
+      "address": "8889 N Thompson Ave, Clovis, CA 93619",
+      "phone": "(559) 323-8139",
+      "website": "http://landscapeconnection.org/",
+      "googleMaps": "https://maps.google.com/?cid=16094745245633205864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 4.7,
+      "reviewCount": 49,
+      "hours": [
+        "Monday: 7:00 AM – 4:00 PM",
+        "Tuesday: 7:00 AM – 4:00 PM",
+        "Wednesday: 7:00 AM – 4:00 PM",
+        "Thursday: 7:00 AM – 4:00 PM",
+        "Friday: 7:00 AM – 4:00 PM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 82,
+      "buildabilityScore": 56,
+      "weaknessReasons": [
+        "Website failed to load (403)",
+        "Website listed as non-HTTPS"
+      ],
+      "platformDetected": "Custom static",
+      "sourceConfidence": 52,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "https://landscapeconnection.org/",
+      "title": "Forbidden Access",
+      "description": "",
+      "generator": "",
+      "platform": "Custom static",
+      "responseMs": 172,
+      "status": 403,
+      "brandColors": [
+        "#008000",
+        "#935734",
+        "#87be49",
+        "#6d973b",
+        "#dd9933",
+        "#f5f5f5",
+        "#17a8e3",
+        "#1999cd"
+      ],
+      "logoCandidates": [
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-1024x299.png",
+          "context": "width=\"1020\" height=\"298\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-1024x299.png\" class=\"header_logo header-logo lazy",
+          "source": "logo_img"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-light-1024x299.png",
+          "context": "width=\"1020\" height=\"298\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-light-1024x299.png\" class=\"header-logo-dark lazyl",
+          "source": "logo_img"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-light.png",
+          "context": "width=\"1200\" height=\"350\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-light.png\" class=\"attachment- size- ls-is-cached ",
+          "source": "logo_img"
+        }
+      ],
+      "imageCandidates": [
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-1024x299.png",
+          "context": "width=\"1020\" height=\"298\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-1024x299.png\" class=\"header_logo header-logo lazy",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-light-1024x299.png",
+          "context": "width=\"1020\" height=\"298\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-light-1024x299.png\" class=\"header-logo-dark lazyl",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/custom-7.jpg",
+          "context": "fetchpriority=\"high\" decoding=\"async\" width=\"2200\" height=\"1468\" src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/custom-7.jpg\" class=\"bg attachment-original s",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/custom-6.jpg",
+          "context": "decoding=\"async\" width=\"2500\" height=\"1285\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/custom-6.jpg\" class=\"bg attachment-original size-original laz",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/custom-10.jpg",
+          "context": "decoding=\"async\" width=\"2000\" height=\"1333\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/custom-10.jpg\" class=\"bg attachment-original size-original la",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2025/04/residential-CLOVIS-3b.jpg",
+          "context": "decoding=\"async\" width=\"1619\" height=\"1080\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2025/04/residential-CLOVIS-3b.jpg\" class=\"bg attachment-original size",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2021/03/Picture2.png",
+          "context": "decoding=\"async\" width=\"461\" height=\"216\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2021/03/Picture2.png\" class=\"attachment-large size-large ls-is-cached l",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2021/03/peoples-choice-2021.png",
+          "context": "decoding=\"async\" width=\"342\" height=\"216\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2021/03/peoples-choice-2021.png\" class=\"attachment-large size-large ls-",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-light.png",
+          "context": "width=\"1200\" height=\"350\" data-src=\"https://www.landscapedesignfresno.com/wp-content/uploads/2019/10/landscape-connection-inc-logo-light.png\" class=\"attachment- size- ls-is-cached ",
+          "source": "firecrawl_html"
+        }
+      ],
+      "selectedImages": [
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ],
+      "firecrawlEnrichment": {
+        "configured": true,
+        "search": {
+          "ok": true,
+          "reason": "",
+          "rows": []
+        },
+        "attempts": [
+          {
+            "url": "http://landscapeconnection.org/",
+            "ok": true,
+            "status": 200,
+            "reason": "",
+            "title": "Landscape Connection | Best in Fresno Landscape Design",
+            "hasScreenshot": true,
+            "brandingPresent": true,
+            "logoCount": 3,
+            "imageCount": 9,
+            "colorCount": 5
+          },
+          {
+            "url": "https://landscapeconnection.org/",
+            "ok": true,
+            "status": 200,
+            "reason": "",
+            "title": "Landscape Connection | Best in Fresno Landscape Design",
+            "hasScreenshot": true,
+            "brandingPresent": true,
+            "logoCount": 3,
+            "imageCount": 9,
+            "colorCount": 5
+          }
+        ],
+        "selectedUrl": "http://landscapeconnection.org/"
+      },
+      "renderedScreenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-cde5ec59-45ee-47d8-8b5a-9cd94014570d.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1783927048&Signature=CclRjJ7xyv30UVCVkDLldPv4no4%2Bqarb6XkfyVRQf7ERdEJn0odljgktN4GiEyvhhP78kvLX9nxTOlbeoK2BZjNoFkVsU%2BUCWJOZBosFRNXrv3t33Qp4Cz57oJvlVavVysefzaShwNgxLLd861vyM2dboL92RRJC%2BfZjUhErjhIK2bHwxlADFf%2FBMGkj7Gw9ds%2FktD8RMipyXm8jvzr4OTee%2Fomie%2FviJW27GrktSkvjYgoRF9WwWC8ZF%2B63%2BNkJydaXdacsTxvCRz6BOR8yf8mTgYxCSgljbRYF%2FT1uCvrtuIeGuVFV6G9z8fmf9YkJ17GMSka0g%2F1YYpMarIZMYA%3D%3D"
+    }
+  },
+  {
+    "generatedAt": "2026-07-06T02:23:37.499Z",
+    "rank": 2,
+    "business": {
+      "name": "AJP LANDSCAPE INC",
+      "slug": "ajp-landscape-inc",
+      "city": "Los Angeles",
+      "address": "4828 St Charles Pl, Los Angeles, CA 90019",
+      "phone": "(323) 420-7758",
+      "website": "http://www.ajplandscape.com/",
+      "googleMaps": "https://maps.google.com/?cid=8538532308454017510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 5,
+      "reviewCount": 19,
+      "hours": [
+        "Monday: 8:00 AM – 6:00 PM",
+        "Tuesday: 8:00 AM – 6:00 PM",
+        "Wednesday: 8:00 AM – 6:00 PM",
+        "Thursday: 8:00 AM – 6:00 PM",
+        "Friday: 8:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 4:00 PM",
+        "Sunday: Closed"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 80,
+      "buildabilityScore": 60,
+      "weaknessReasons": [
+        "Website failed to load (404)",
+        "Website listed as non-HTTPS"
+      ],
+      "platformDetected": "Wix",
+      "sourceConfidence": 56,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "https://www.ajplandscape.com/",
+      "title": "",
+      "description": "",
+      "generator": "",
+      "platform": "Wix",
+      "responseMs": 360,
+      "status": 404,
+      "brandColors": [
+        "#fb7d33",
+        "#0000ee"
+      ],
+      "logoCandidates": [
+        {
+          "url": "http://static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png",
+          "context": "class=\"pull-left wix-logo\" ng-src=\"//static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png\" src=\"https://static.parastorage.com/services/wix-public/1.719.0",
+          "source": "logo_img"
+        },
+        {
+          "url": "https://www.wix.com/favicon.ico",
+          "context": "type=\"image/png\" href=\"//www.wix.com/favicon.ico\" rel=\"shortcut icon\""
+        }
+      ],
+      "imageCandidates": [
+        {
+          "url": "http://static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png",
+          "context": "class=\"pull-left wix-logo\" ng-src=\"//static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png\" src=\"https://static.parastorage.com/services/wix-public/1.719.0",
+          "source": "firecrawl_html"
+        }
+      ],
+      "selectedImages": [
+        "https://www.wix.com/favicon.ico",
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ],
+      "firecrawlEnrichment": {
+        "configured": true,
+        "search": {
+          "ok": true,
+          "reason": "",
+          "rows": []
+        },
+        "attempts": [
+          {
+            "url": "http://www.ajplandscape.com/",
+            "ok": true,
+            "status": 200,
+            "reason": "",
+            "title": "Error",
+            "hasScreenshot": true,
+            "brandingPresent": true,
+            "logoCount": 1,
+            "imageCount": 1,
+            "colorCount": 2
+          },
+          {
+            "url": "https://www.ajplandscape.com/",
+            "ok": true,
+            "status": 200,
+            "reason": "",
+            "title": "Error",
+            "hasScreenshot": true,
+            "brandingPresent": true,
+            "logoCount": 1,
+            "imageCount": 1,
+            "colorCount": 2
+          }
+        ],
+        "selectedUrl": "http://www.ajplandscape.com/"
+      },
+      "renderedScreenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-b5fa5bf6-0a35-43d6-b90f-dd3f43bb0617.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1783927070&Signature=PIGmdcLnutOECv7cvx9GinB8MzRMr797eouO5a%2FtZfbmF5aZRafCLsQiL%2BGakcGa92%2FH2BkBVLHrtVKvMdoaejubQbdZQPceS9jLgsxMnsL%2FdzcTq7LDwVa2O6YY9whGBebsWM%2FnBo3RzmEC9X5fOsIs%2F5vrgwnR%2BIX57AKvdWlbf3Z1llo%2FFnSZyy33RSfYSR0ju4IiAOV9eu8hYO3wu6wk%2F4my%2FV0ydgDfhE%2FetjoVXT7K1AQ97%2FHwk5buKq3Jrm28BcjWg%2BWWYXRHd9fO4BIJYSfaubqyB0eoTBB9d%2BxUccUJ7ssFtJC870qQ7CLefDv9IkR%2BTyRw5IC%2BHXNtlw%3D%3D"
+    }
+  },
+  {
+    "generatedAt": "2026-07-06T02:23:37.499Z",
+    "rank": 3,
+    "business": {
+      "name": "Barriga Landscaping",
+      "slug": "barriga-landscaping",
+      "city": "Sacramento",
+      "address": "2805 Wah Ave, Sacramento, CA 95822",
+      "phone": "(916) 926-8639",
+      "website": "",
+      "googleMaps": "https://maps.google.com/?cid=6268209619033116399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 4.8,
+      "reviewCount": 13,
+      "hours": [
+        "Monday: 8:00 AM – 8:00 PM",
+        "Tuesday: 8:00 AM – 8:30 PM",
+        "Wednesday: 8:00 AM – 8:00 PM",
+        "Thursday: 8:00 AM – 8:00 PM",
+        "Friday: 8:00 AM – 8:00 PM",
+        "Saturday: 8:00 AM – 8:00 PM",
+        "Sunday: 8:00 AM – 8:00 PM"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 77,
+      "buildabilityScore": 48,
+      "weaknessReasons": [
+        "No website listed on Google profile"
+      ],
+      "platformDetected": "No website",
+      "sourceConfidence": 46,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "",
+      "title": "",
+      "description": "",
+      "generator": "",
+      "platform": "No website",
+      "responseMs": 0,
+      "status": 0,
+      "brandColors": [],
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "selectedImages": [
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ],
+      "firecrawlEnrichment": {
+        "configured": true,
+        "search": {
+          "ok": true,
+          "reason": "",
+          "rows": []
+        },
+        "attempts": [],
+        "selectedUrl": ""
+      },
+      "renderedScreenshot": ""
+    }
+  },
+  {
+    "generatedAt": "2026-07-06T02:23:37.499Z",
+    "rank": 4,
+    "business": {
+      "name": "Signature Landscape",
+      "slug": "signature-landscape",
+      "city": "Mission Viejo",
+      "address": "25862 Jamon Ln, Mission Viejo, CA 92691",
+      "phone": "(949) 755-8636",
+      "website": "https://www.signaturelandscape.com/",
+      "googleMaps": "https://maps.google.com/?cid=6183614177073414184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 4.8,
+      "reviewCount": 52,
+      "hours": [
+        "Monday: 9:00 AM – 6:00 PM",
+        "Tuesday: 9:00 AM – 6:00 PM",
+        "Wednesday: 9:00 AM – 6:00 PM",
+        "Thursday: 9:00 AM – 6:00 PM",
+        "Friday: 9:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 75,
+      "buildabilityScore": 48,
+      "weaknessReasons": [
+        "Website failed to load (403)"
+      ],
+      "platformDetected": "Custom static",
+      "sourceConfidence": 46,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "https://www.signaturelandscape.com/",
+      "title": "403 Forbidden",
+      "description": "",
+      "generator": "",
+      "platform": "Custom static",
+      "responseMs": 104,
+      "status": 403,
+      "brandColors": [
+        "#5e5e5e",
+        "#0074db",
+        "#002768",
+        "#8c0909",
+        "#f9f9f9"
+      ],
+      "logoCandidates": [
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Logo.webp",
+          "context": "width=\"100\" height=\"114\" id=\"image-11-27\" alt=\"\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Logo.webp\" class=\"ct-image\"",
+          "source": "logo_img"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Yelp-Logo-1.png",
+          "context": "width=\"80\" height=\"41\" id=\"image-1579-60\" alt=\"Yelp Logo\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Yelp-Logo-1.png\" class=\"ct-image reviews-img entere",
+          "source": "logo_img"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/02/Signature-Landscape-Logo.png",
+          "context": "width=\"180\" height=\"205\" id=\"image-224-27\" alt=\"Signature Landscape Logo\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/02/Signature-Landscape-Logo.png\" class",
+          "source": "logo_img"
+        }
+      ],
+      "imageCandidates": [
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Logo.webp",
+          "context": "width=\"100\" height=\"114\" id=\"image-11-27\" alt=\"\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Logo.webp\" class=\"ct-image\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Rosemary-F.jpg",
+          "context": "width=\"60\" height=\"60\" id=\"image-341-60\" alt=\"Rosemary F.\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Rosemary-F.jpg\" class=\"ct-image bt-img\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Hardscaping.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-1175-60\" alt=\"Orange County Signature Landscape Hardscaping\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Landscaping.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-1171-60\" alt=\"Orange County Signature Landscape Landscaping\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-House-Remodeling.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-1243-60\" alt=\"Orange County Signature Landscape House Remodeling\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Outdoor-Kitchen-Island.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-429-60\" alt=\"Orange County Signature Landscape Outdoor Kitchen Island\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mis",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Outdoor-BBQ.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-1560-60\" alt=\"Orange County Signature Landscape Outdoor BBQ\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Stamped-Concrete.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-1249-60\" alt=\"Orange County Signature Landscape Stamped Concrete\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Driveway-Installer.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-1246-60\" alt=\"Orange County Signature Landscape Driveway Installer\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Missio",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Artificial-Grass.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-1532-60\" alt=\"Orange County Signature Landscape Artificial Grass\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Pool-Design.png",
+          "context": "width=\"150\" height=\"136\" id=\"image-1535-60\" alt=\"Orange County Signature Landscape Pool Design\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-7.jpg",
+          "context": "width=\"1366\" height=\"1025\" id=\"image-1221-60\" alt=\"Orange County Signature Landscape Gallery\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-S",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Hardscaping.jpg",
+          "context": "width=\"600\" height=\"600\" id=\"image-1263-60\" alt=\"Signature Landscape Hardscaping\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Hardsca",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Modern-Design-Landscaping-2.jpg",
+          "context": "width=\"500\" height=\"281\" id=\"image-1267-60\" alt=\"Orange County Signature Landscape - Modern Design Landscaping\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-House-Remodeling-1.jpg",
+          "context": "width=\"500\" height=\"281\" id=\"image-1275-60\" alt=\"Signature Landscape House Remodeling\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Ho",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo-Signature-Landscape-Outdoor-Kitchen-12.jpg",
+          "context": "width=\"1200\" height=\"900\" id=\"image-1271-60\" alt=\"Orange County Signature Landscape Outdoor Kitchen\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Outdoor-Kitchen-Island.jpg",
+          "context": "width=\"500\" height=\"375\" id=\"image-1279-60\" alt=\"Signature Landscape Outdoor Kitchen Island\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landsc",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Stamped-Concrete.jpg",
+          "context": "width=\"500\" height=\"281\" id=\"image-1283-60\" alt=\"Signature Landscape Stamped Concrete\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-St",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo-Signature-Landscape-Driveway.jpg",
+          "context": "width=\"1920\" height=\"500\" id=\"image-1549-60\" alt=\"Orange County Signature Landscape - Driveway\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo-Signature-Landscape-Artificial-Grass.jpg",
+          "context": "width=\"1920\" height=\"500\" id=\"image-1553-60\" alt=\"Orange County Signature Landscape - Artificial Grass\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Missi",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo-Signature-Landscape-Pool-Design.jpg",
+          "context": "width=\"1920\" height=\"500\" id=\"image-1557-60\" alt=\"Orange County Signature Landscape - Pool Design\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Vi",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Yelp-Logo-1.png",
+          "context": "width=\"80\" height=\"41\" id=\"image-1579-60\" alt=\"Yelp Logo\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Yelp-Logo-1.png\" class=\"ct-image reviews-img entere",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-1.jpg",
+          "context": "src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-1.jpg\" data-original-src=\"https://27986b7e.delivery.rocketcdn.me/wp",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-2.jpg",
+          "context": "src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-2.jpg\" data-original-src=\"https://27986b7e.delivery.rocketcdn.me/wp",
+          "source": "firecrawl_html"
+        }
+      ],
+      "selectedImages": [
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ],
+      "firecrawlEnrichment": {
+        "configured": true,
+        "search": {
+          "ok": true,
+          "reason": "",
+          "rows": []
+        },
+        "attempts": [
+          {
+            "url": "https://www.signaturelandscape.com/",
+            "ok": true,
+            "status": 200,
+            "reason": "",
+            "title": "Signature Landscape | OC Landscaping & Hardscaping",
+            "hasScreenshot": true,
+            "brandingPresent": true,
+            "logoCount": 3,
+            "imageCount": 24,
+            "colorCount": 5
+          }
+        ],
+        "selectedUrl": "https://www.signaturelandscape.com/"
+      },
+      "renderedScreenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-72186d04-85f1-4405-888b-d967089a8e20.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1783927094&Signature=WT9mbSUlyCX5FTzCa8fAgddTxzwJfBdfLq6uurB3rRPEKMsr%2BR9K3Spxcykemq4ba%2BESf53FX%2Ba%2BBoe037EyKJVAQpVgEH%2FX%2F9VyGQQdfZ5%2BcCI3Os5PaxvSLfUbCwp7oFVVxBO52aK3Rn%2FBVVm0c6Yb1TNzcsG13r4gWqnyYBL8G1JbBGg%2BrrZC9wII2smT4CN74GEJAbZhulrFnlKO7Cq5mck3rYEkdkR%2F1D1ljqbl6MI28yhusN2dXrB6m%2FRb%2B0YW6ADVHR3Ng6qs4U3DwkmP6AKDX%2FyEj9%2FS724FASOpG0mE77Mftxgoc3SSzVDLtA3PIHdarmYIVur%2B%2F7janQ%3D%3D"
+    }
+  },
+  {
+    "generatedAt": "2026-07-06T02:23:37.499Z",
+    "rank": 5,
+    "business": {
+      "name": "Richard Diaz Landscape",
+      "slug": "richard-diaz-landscape",
+      "city": "Orange",
+      "address": "633 N Heatherstone Dr, Orange, CA 92869",
+      "phone": "(714) 673-2643",
+      "website": "https://richarddiazlandscaping.com/",
+      "googleMaps": "https://maps.google.com/?cid=8609298843886787427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 4.9,
+      "reviewCount": 33,
+      "hours": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 75,
+      "buildabilityScore": 48,
+      "weaknessReasons": [
+        "Website failed to load (fetch failed)"
+      ],
+      "platformDetected": "Unknown",
+      "sourceConfidence": 46,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "https://richarddiazlandscaping.com/",
+      "title": "",
+      "description": "",
+      "generator": "",
+      "platform": "Unknown",
+      "responseMs": 146,
+      "status": 0,
+      "brandColors": [
+        "#f6821f",
+        "#fbad41",
+        "#efe2cf",
+        "#e4d3bb",
+        "#2575fc"
+      ],
+      "logoCandidates": [
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.4",
+          "context": "rel=\"stylesheet\" id=\"widget-icon-list-css\" href=\"https://richarddiazlandscaping.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.4\" media=\"all\"",
+          "source": "icon_link"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.1.4",
+          "context": "rel=\"stylesheet\" id=\"widget-social-icons-css\" href=\"https://richarddiazlandscaping.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.1.4\" media=\"all\"",
+          "source": "icon_link"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png",
+          "context": "class=\"hfe-site-logo-img elementor-animation-\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png\" alt=\"IMG_3283 - Richard Diaz\"",
+          "source": "logo_img"
+        }
+      ],
+      "imageCandidates": [
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png",
+          "context": "class=\"hfe-site-logo-img elementor-animation-\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png\" alt=\"IMG_3283 - Richard Diaz\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp",
+          "context": "fetchpriority=\"high\" decoding=\"async\" width=\"480\" height=\"480\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp\" class=\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp",
+          "context": "decoding=\"async\" width=\"1920\" height=\"1100\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp\" class=\"attachment-full si",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s1.webp",
+          "context": "decoding=\"async\" width=\"2048\" height=\"1367\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s1.webp\" class=\"attachment-full size-full wp-image-1595\" alt=\"Retaini",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s2-67f0258ed6d4d.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"2048\" height=\"1152\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s2-67f0258ed6d4d.webp\" class=\"attachment-full size-ful",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s3-67f0256fedb4a.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"1500\" height=\"844\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s3-67f0256fedb4a.webp\" class=\"attachment-full size-full",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s4-67f0258c58c74.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"1500\" height=\"1000\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s4-67f0258c58c74.webp\" class=\"attachment-full size-ful",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s5-67f0258902f73.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"2160\" height=\"1440\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s5-67f0258902f73.webp\" class=\"attachment-full size-ful",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s6.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s6.webp\" class=\"attachment-full size-full wp-image-160",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s7.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"1920\" height=\"1080\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s7.webp\" class=\"attachment-full size-full wp-image-160",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s8-67f025764d091-scaled.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s8-67f025764d091-scaled.webp\" class=\"attachment-full s",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s9-67f02588351c9.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"1688\" height=\"1125\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s9-67f02588351c9.webp\" class=\"attachment-full size-ful",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s10-67f0257f38e7b.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1707\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s10-67f0257f38e7b.webp\" class=\"attachment-full size-fu",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s11-67f02573dbae4.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"2500\" height=\"2500\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s11-67f02573dbae4.webp\" class=\"attachment-full size-fu",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s12-67f025702a5db.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"1920\" height=\"1274\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s12-67f025702a5db.webp\" class=\"attachment-full size-fu",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/1.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/1.webp\" class=\"attachment-full size-full\" alt=\"\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/2.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/2.webp\" class=\"attachment-full size-full\" alt=\"\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/3.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/3.webp\" class=\"attachment-full size-full\" alt=\"\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/4.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/4.webp\" class=\"attachment-full size-full\" alt=\"\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/5.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/5.webp\" class=\"attachment-full size-full\" alt=\"\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/6.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/6.webp\" class=\"attachment-full size-full\" alt=\"\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/7.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/7.webp\" class=\"attachment-full size-full\" alt=\"\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/8.webp",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/8.webp\" class=\"attachment-full size-full\" alt=\"\"",
+          "source": "firecrawl_html"
+        },
+        {
+          "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/02/testimonial-v2-img-bg.png",
+          "context": "loading=\"lazy\" decoding=\"async\" width=\"467\" height=\"602\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/02/testimonial-v2-img-bg.png\" class=\"attachment-full size-f",
+          "source": "firecrawl_html"
+        }
+      ],
+      "selectedImages": [
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ],
+      "firecrawlEnrichment": {
+        "configured": true,
+        "search": {
+          "ok": true,
+          "reason": "",
+          "rows": []
+        },
+        "attempts": [
+          {
+            "url": "https://richarddiazlandscaping.com/",
+            "ok": true,
+            "status": 200,
+            "reason": "",
+            "title": "Richard Diaz Landscape Design & Masonry – Orange, CA Experts",
+            "hasScreenshot": true,
+            "brandingPresent": true,
+            "logoCount": 3,
+            "imageCount": 24,
+            "colorCount": 5
+          }
+        ],
+        "selectedUrl": "https://richarddiazlandscaping.com/"
+      },
+      "renderedScreenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-e26ef29d-49a7-4f33-9698-453c99e298f3.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1783927109&Signature=uggJfZy75GzYi3cK7MCbf9o2iVtEmY%2BfO%2BcCU8BIWJfIv17OA6t1j%2FSar5nu7Trfky1rFqg3rjvfbejkA4WCeIeb4Wg%2FSuZRV69QJcJX%2FPNWWIrTWwS3%2BHrAvxHzdslCfO28G2%2Fri1Rc%2FX35dBmVxbzKBi2aSOzT57jnQuzn%2FQhrGE13DK6EQTjnT2LS7QKfpKyKGrHBhfzB42IEWjuaWwHqVx4j3WTUjyMbC2csEr4kDeehE0hw6m38ciLqHQar4ydBdvRg0RJ0jvF5pZIr0uYGfXUKH2D66wRBKEeZl4GzTEVt7tAjJgX6qvvYM6Rozrl%2BCfqocUDgCnF%2FAnJuFA%3D%3D"
+    }
+  }
+]

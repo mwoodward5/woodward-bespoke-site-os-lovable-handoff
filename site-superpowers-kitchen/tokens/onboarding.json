@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "id": "welcome",
+      "title": "Welcome",
+      "body": "Take a two-minute tour."
+    },
+    {
+      "id": "connect",
+      "title": "Connect your data",
+      "body": "Bring your first document."
+    },
+    {
+      "id": "ask",
+      "title": "Ask the assistant",
+      "body": "Try a real question."
+    },
+    {
+      "id": "invite",
+      "title": "Invite your team",
+      "body": "Collaborators speed everything up."
+    }
+  ]
+}

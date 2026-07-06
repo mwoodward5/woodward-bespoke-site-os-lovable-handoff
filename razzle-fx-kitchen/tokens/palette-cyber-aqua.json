@@ -1,0 +1,12 @@
+{
+  "name": "cyber-aqua",
+  "colors": {
+    "c0": "#001018",
+    "c1": "#00303f",
+    "c2": "#dff8ff",
+    "c3": "#00e0ff",
+    "c4": "#66ff99",
+    "c5": "#5a7c8a"
+  },
+  "css": ":root{--cyber-aqua-c0:#001018;--cyber-aqua-c1:#00303f;--cyber-aqua-c2:#dff8ff;--cyber-aqua-c3:#00e0ff;--cyber-aqua-c4:#66ff99;--cyber-aqua-c5:#5a7c8a}"
+}

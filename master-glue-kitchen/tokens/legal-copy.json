@@ -1,0 +1,13 @@
+{
+  "cookie-banner": "We use cookies to improve your experience. See our Privacy Policy.",
+  "consent-modes": {
+    "ad_storage": "denied",
+    "analytics_storage": "denied",
+    "functionality_storage": "granted",
+    "personalization_storage": "denied",
+    "security_storage": "granted"
+  },
+  "accessibility-statement-stub": "We aim to meet WCAG 2.2 AA. Report issues to <email>.",
+  "security-txt": "Contact: mailto:security@example.com\nExpires: 2027-01-01T00:00:00.000Z\nPreferred-Languages: en\n",
+  "humans-txt": "/* TEAM */\nBuilt with love. Design & dev: Your Name.\n"
+}

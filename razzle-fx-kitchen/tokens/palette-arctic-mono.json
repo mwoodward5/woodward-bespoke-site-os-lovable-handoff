@@ -1,0 +1,12 @@
+{
+  "name": "arctic-mono",
+  "colors": {
+    "c0": "#0b1220",
+    "c1": "#1a2740",
+    "c2": "#e7eef7",
+    "c3": "#6ea8ff",
+    "c4": "#a8c6ff",
+    "c5": "#788699"
+  },
+  "css": ":root{--arctic-mono-c0:#0b1220;--arctic-mono-c1:#1a2740;--arctic-mono-c2:#e7eef7;--arctic-mono-c3:#6ea8ff;--arctic-mono-c4:#a8c6ff;--arctic-mono-c5:#788699}"
+}

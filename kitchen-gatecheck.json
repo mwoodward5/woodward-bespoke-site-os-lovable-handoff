@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-07-06T20:49:00.759Z",
+  "root": "C:\\Users\\Main\\Documents\\New project 2\\woodward-bespoke-site-os-lovable-handoff",
+  "strict": true,
+  "required": [
+    {
+      "path": "CODEX_MASTER_HANDOFF.md",
+      "exists": true
+    },
+    {
+      "path": "razzle-fx-kitchen/START_HERE.md",
+      "exists": true
+    },
+    {
+      "path": "razzle-fx-kitchen/phrases.json",
+      "exists": true
+    },
+    {
+      "path": "site-superpowers-kitchen/START_HERE.md",
+      "exists": true
+    },
+    {
+      "path": "site-superpowers-kitchen/phrases.json",
+      "exists": true
+    },
+    {
+      "path": "master-glue-kitchen/FIRST_PROMPT_POLISH.md",
+      "exists": true
+    },
+    {
+      "path": "master-glue-kitchen/polish-rules.json",
+      "exists": true
+    },
+    {
+      "path": "master-glue-kitchen/phrases.json",
+      "exists": true
+    },
+    {
+      "path": "master-glue-kitchen/tokens/font-pairs.json",
+      "exists": true
+    },
+    {
+      "path": "master-glue-kitchen/tokens/type-scales.json",
+      "exists": true
+    }
+  ],
+  "polishRules": {
+    "version": "1.0.0",
+    "rules": 40,
+    "unprompted": 40
+  },
+  "target": null,
+  "ok": true
+}

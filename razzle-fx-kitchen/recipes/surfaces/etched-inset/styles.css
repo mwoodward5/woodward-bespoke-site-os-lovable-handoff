@@ -1,0 +1,8 @@
+/* etched-inset — surfaces */
+.rfx-etched-inset{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,hsl(302 90% 55%),hsl(122 85% 45%));color:#fff;padding:2rem;border-radius:1rem}
+.rfx-etched-inset::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);mix-blend-mode:overlay;pointer-events:none}
+.rfx-etched-inset__inner{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .rfx-etched-inset{animation:rfx-etched-inset-a 8s ease-in-out infinite alternate}
+}
+@keyframes rfx-etched-inset-a{from{background-position:0 0}to{background-position:100% 100%}}

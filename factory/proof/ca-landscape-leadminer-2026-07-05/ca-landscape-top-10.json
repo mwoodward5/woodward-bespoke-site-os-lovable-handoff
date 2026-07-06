@@ -1,0 +1,622 @@
+[
+  {
+    "id": "ChIJ-1TtIiSu3IARD-ndY_6uJN8",
+    "name": "Gaspar Landscaping & Tree Service",
+    "phone": "",
+    "website": "http://wwwgasparlandscaping.com/",
+    "googleMaps": "https://maps.google.com/?cid=16079168977239927055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "4366 Angelo St, Riverside, CA 92507",
+    "city": "Riverside, CA",
+    "searchQuery": "lawn care landscaping",
+    "rating": 4.3,
+    "reviewCount": 18,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: Open 24 hours",
+      "Tuesday: Open 24 hours",
+      "Wednesday: Open 24 hours",
+      "Thursday: Open 24 hours",
+      "Friday: Open 24 hours",
+      "Saturday: Open 24 hours",
+      "Sunday: Open 24 hours"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 0,
+      "finalUrl": "http://wwwgasparlandscaping.com/",
+      "responseMs": 16,
+      "platform": "Unknown",
+      "meta": {
+        "title": "",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "brandColors": [],
+      "firecrawl": {
+        "configured": false,
+        "ok": false,
+        "reason": "FIRECRAWL_API_KEY missing",
+        "hasScreenshot": false,
+        "hasBranding": false,
+        "linkCount": 0
+      },
+      "htmlSample": "",
+      "error": "fetch failed"
+    },
+    "weaknessReasons": [
+      "Website failed to load (fetch failed)",
+      "Website listed as non-HTTPS"
+    ],
+    "opportunityScore": 96,
+    "buildabilityScore": 38,
+    "sourceConfidence": 34
+  },
+  {
+    "id": "ChIJdwson6BflIARGByOQIAmNCg",
+    "name": "PAVERMEX STONES TILES & LANDSCAPE DESIGN",
+    "phone": "(559) 612-1635",
+    "website": "",
+    "googleMaps": "https://maps.google.com/?cid=2896982792586796056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "4725 E Tyler Ave, Fresno, CA 93702",
+    "city": "Fresno, CA",
+    "searchQuery": "landscape design build",
+    "rating": 5,
+    "reviewCount": 1,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: 8:00 AM – 5:00 PM",
+      "Tuesday: 8:00 AM – 5:00 PM",
+      "Wednesday: 8:00 AM – 5:00 PM",
+      "Thursday: 8:00 AM – 5:00 PM",
+      "Friday: 8:00 AM – 5:00 PM",
+      "Saturday: 8:00 AM – 2:00 PM",
+      "Sunday: Closed"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 0,
+      "finalUrl": "",
+      "responseMs": 0,
+      "platform": "No website",
+      "meta": {
+        "title": "",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "brandColors": [],
+      "htmlSample": "",
+      "error": "no_website"
+    },
+    "weaknessReasons": [
+      "No website listed on Google profile",
+      "Low review count"
+    ],
+    "opportunityScore": 90,
+    "buildabilityScore": 38,
+    "sourceConfidence": 34
+  },
+  {
+    "id": "ChIJyyibph-x3IAR7vC5M-d-0yI",
+    "name": "HS LAWN MAINTENANCE",
+    "phone": "(909) 519-6026",
+    "website": "",
+    "googleMaps": "https://maps.google.com/?cid=2509488948845867246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "3847 Madison St, Riverside, CA 92504",
+    "city": "Riverside, CA",
+    "searchQuery": "lawn care landscaping",
+    "rating": 5,
+    "reviewCount": 4,
+    "category": "Services",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: Open 24 hours",
+      "Tuesday: Open 24 hours",
+      "Wednesday: Open 24 hours",
+      "Thursday: Open 24 hours",
+      "Friday: Open 24 hours",
+      "Saturday: Open 24 hours",
+      "Sunday: Open 24 hours"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 0,
+      "finalUrl": "",
+      "responseMs": 0,
+      "platform": "No website",
+      "meta": {
+        "title": "",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "brandColors": [],
+      "htmlSample": "",
+      "error": "no_website"
+    },
+    "weaknessReasons": [
+      "No website listed on Google profile",
+      "Low review count"
+    ],
+    "opportunityScore": 90,
+    "buildabilityScore": 38,
+    "sourceConfidence": 34
+  },
+  {
+    "id": "ChIJeUkIWzNblIARaNZf_IYFXN8",
+    "name": "Landscape Connection, Inc.",
+    "phone": "(559) 323-8139",
+    "website": "http://landscapeconnection.org/",
+    "googleMaps": "https://maps.google.com/?cid=16094745245633205864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "8889 N Thompson Ave, Clovis, CA 93619",
+    "city": "Fresno, CA",
+    "searchQuery": "landscape design build",
+    "rating": 4.7,
+    "reviewCount": 49,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: 7:00 AM – 4:00 PM",
+      "Tuesday: 7:00 AM – 4:00 PM",
+      "Wednesday: 7:00 AM – 4:00 PM",
+      "Thursday: 7:00 AM – 4:00 PM",
+      "Friday: 7:00 AM – 4:00 PM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 403,
+      "finalUrl": "https://landscapeconnection.org/",
+      "responseMs": 172,
+      "platform": "Custom static",
+      "meta": {
+        "title": "Forbidden Access",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "brandColors": [
+        "#f5f5f5",
+        "#17a8e3",
+        "#1999cd"
+      ],
+      "firecrawl": {
+        "configured": false,
+        "ok": false,
+        "reason": "FIRECRAWL_API_KEY missing",
+        "hasScreenshot": false,
+        "hasBranding": false,
+        "linkCount": 0
+      },
+      "htmlSample": "Forbidden Access Error 403 - Forbidden access. Sorry, you do not have permission to access this resource on the server due to a security restriction. If you are the site owner, please check your site management tools to verify your WAF settings or contact us if the problem persists. nginx",
+      "error": ""
+    },
+    "weaknessReasons": [
+      "Website failed to load (403)",
+      "Website listed as non-HTTPS"
+    ],
+    "opportunityScore": 82,
+    "buildabilityScore": 56,
+    "sourceConfidence": 52
+  },
+  {
+    "id": "ChIJzQBtH_-4woAR5gmZPOX1fnY",
+    "name": "AJP LANDSCAPE INC",
+    "phone": "(323) 420-7758",
+    "website": "http://www.ajplandscape.com/",
+    "googleMaps": "https://maps.google.com/?cid=8538532308454017510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "4828 St Charles Pl, Los Angeles, CA 90019",
+    "city": "Los Angeles, CA",
+    "searchQuery": "landscape contractor",
+    "rating": 5,
+    "reviewCount": 19,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: 8:00 AM – 6:00 PM",
+      "Tuesday: 8:00 AM – 6:00 PM",
+      "Wednesday: 8:00 AM – 6:00 PM",
+      "Thursday: 8:00 AM – 6:00 PM",
+      "Friday: 8:00 AM – 6:00 PM",
+      "Saturday: 9:00 AM – 4:00 PM",
+      "Sunday: Closed"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 404,
+      "finalUrl": "https://www.ajplandscape.com/",
+      "responseMs": 360,
+      "platform": "Wix",
+      "meta": {
+        "title": "",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [
+        {
+          "url": "https://www.wix.com/favicon.ico",
+          "context": "type=\"image/png\" href=\"//www.wix.com/favicon.ico\" rel=\"shortcut icon\""
+        }
+      ],
+      "imageCandidates": [],
+      "brandColors": [],
+      "firecrawl": {
+        "configured": false,
+        "ok": false,
+        "reason": "FIRECRAWL_API_KEY missing",
+        "hasScreenshot": false,
+        "hasBranding": false,
+        "linkCount": 0
+      },
+      "htmlSample": "Error ConnectYourDomain occurred Regardless, we recommend you to update your browser.",
+      "error": ""
+    },
+    "weaknessReasons": [
+      "Website failed to load (404)",
+      "Website listed as non-HTTPS"
+    ],
+    "opportunityScore": 80,
+    "buildabilityScore": 60,
+    "sourceConfidence": 56
+  },
+  {
+    "id": "ChIJz5ncC5ig9C0R784nKHAn_VY",
+    "name": "Barriga Landscaping",
+    "phone": "(916) 926-8639",
+    "website": "",
+    "googleMaps": "https://maps.google.com/?cid=6268209619033116399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "2805 Wah Ave, Sacramento, CA 95822",
+    "city": "Sacramento, CA",
+    "searchQuery": "landscape company",
+    "rating": 4.8,
+    "reviewCount": 13,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: 8:00 AM – 8:00 PM",
+      "Tuesday: 8:00 AM – 8:30 PM",
+      "Wednesday: 8:00 AM – 8:00 PM",
+      "Thursday: 8:00 AM – 8:00 PM",
+      "Friday: 8:00 AM – 8:00 PM",
+      "Saturday: 8:00 AM – 8:00 PM",
+      "Sunday: 8:00 AM – 8:00 PM"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 0,
+      "finalUrl": "",
+      "responseMs": 0,
+      "platform": "No website",
+      "meta": {
+        "title": "",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "brandColors": [],
+      "htmlSample": "",
+      "error": "no_website"
+    },
+    "weaknessReasons": [
+      "No website listed on Google profile"
+    ],
+    "opportunityScore": 77,
+    "buildabilityScore": 48,
+    "sourceConfidence": 46
+  },
+  {
+    "id": "ChIJNwVfd7bu3IARKMCH9FSc0FU",
+    "name": "Signature Landscape",
+    "phone": "(949) 755-8636",
+    "website": "https://www.signaturelandscape.com/",
+    "googleMaps": "https://maps.google.com/?cid=6183614177073414184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "25862 Jamon Ln, Mission Viejo, CA 92691",
+    "city": "Orange County, CA",
+    "searchQuery": "landscape contractor",
+    "rating": 4.8,
+    "reviewCount": 52,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "general_contractor",
+      "service",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: 9:00 AM – 6:00 PM",
+      "Tuesday: 9:00 AM – 6:00 PM",
+      "Wednesday: 9:00 AM – 6:00 PM",
+      "Thursday: 9:00 AM – 6:00 PM",
+      "Friday: 9:00 AM – 6:00 PM",
+      "Saturday: 9:00 AM – 6:00 PM",
+      "Sunday: 9:00 AM – 6:00 PM"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 403,
+      "finalUrl": "https://www.signaturelandscape.com/",
+      "responseMs": 104,
+      "platform": "Custom static",
+      "meta": {
+        "title": "403 Forbidden",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "brandColors": [],
+      "firecrawl": {
+        "configured": false,
+        "ok": false,
+        "reason": "FIRECRAWL_API_KEY missing",
+        "hasScreenshot": false,
+        "hasBranding": false,
+        "linkCount": 0
+      },
+      "htmlSample": "403 Forbidden 403 Forbidden nginx",
+      "error": ""
+    },
+    "weaknessReasons": [
+      "Website failed to load (403)"
+    ],
+    "opportunityScore": 75,
+    "buildabilityScore": 48,
+    "sourceConfidence": 46
+  },
+  {
+    "id": "ChIJK8sV71Lb3IARY5sNO69fenc",
+    "name": "Richard Diaz Landscape",
+    "phone": "(714) 673-2643",
+    "website": "https://richarddiazlandscaping.com/",
+    "googleMaps": "https://maps.google.com/?cid=8609298843886787427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "633 N Heatherstone Dr, Orange, CA 92869",
+    "city": "Orange County, CA",
+    "searchQuery": "landscape contractor",
+    "rating": 4.9,
+    "reviewCount": 33,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "point_of_interest",
+      "general_contractor",
+      "service",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: Open 24 hours",
+      "Tuesday: Open 24 hours",
+      "Wednesday: Open 24 hours",
+      "Thursday: Open 24 hours",
+      "Friday: Open 24 hours",
+      "Saturday: Open 24 hours",
+      "Sunday: Open 24 hours"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 0,
+      "finalUrl": "https://richarddiazlandscaping.com/",
+      "responseMs": 146,
+      "platform": "Unknown",
+      "meta": {
+        "title": "",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "brandColors": [],
+      "firecrawl": {
+        "configured": false,
+        "ok": false,
+        "reason": "FIRECRAWL_API_KEY missing",
+        "hasScreenshot": false,
+        "hasBranding": false,
+        "linkCount": 0
+      },
+      "htmlSample": "",
+      "error": "fetch failed"
+    },
+    "weaknessReasons": [
+      "Website failed to load (fetch failed)"
+    ],
+    "opportunityScore": 75,
+    "buildabilityScore": 48,
+    "sourceConfidence": 46
+  },
+  {
+    "id": "ChIJ6Vq3cdAcxwURjrah3L7xTic",
+    "name": "Uribes Landscaping",
+    "phone": "(916) 807-5612",
+    "website": "http://uribeslandscaping.net/",
+    "googleMaps": "https://maps.google.com/?cid=2832467017710286478&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "5033 Risley Ct, Sacramento, CA 95842",
+    "city": "Sacramento, CA",
+    "searchQuery": "landscape company",
+    "rating": 4.8,
+    "reviewCount": 21,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: 7:00 AM – 8:00 PM",
+      "Tuesday: 7:00 AM – 8:00 PM",
+      "Wednesday: 7:00 AM – 8:00 PM",
+      "Thursday: 7:00 AM – 8:00 PM",
+      "Friday: 7:00 AM – 8:00 PM",
+      "Saturday: 7:00 AM – 8:00 PM",
+      "Sunday: 7:00 AM – 8:00 PM"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://uribeslandscaping.net/",
+      "responseMs": 3853,
+      "platform": "WordPress",
+      "meta": {
+        "title": "Uribes Landscaping",
+        "description": "",
+        "generator": "WordPress 7.0"
+      },
+      "logoCandidates": [],
+      "imageCandidates": [
+        {
+          "url": "https://storage.googleapis.com/production-bluehost-v1-0-4/204/1052204/1l6IOM78/275174317cd74e9abf9616f14a758828",
+          "context": "src=\"https://storage.googleapis.com/production-bluehost-v1-0-4/204/1052204/1l6IOM78/275174317cd74e9abf9616f14a758828\" alt=\"Uribes Landscaping\""
+        },
+        {
+          "url": "https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-bluehost-v1-0-4%2F204%2F1052204%2F1l6IOM78%2F29ad3b5a5c8546f8b416119590c5c0bf&methods=resize%2C1000%2C5000",
+          "context": "decoding=\"async\" class=\"kv-ee-content-image loader\" style=\"width: 100%; height: auto; padding-bottom: 0;background-position: center center;background-repeat: no-repeat;\" data-setti"
+        },
+        {
+          "url": "https://uribeslandscaping.net/a",
+          "context": "css background"
+        }
+      ],
+      "brandColors": [
+        "#0000",
+        "#ac6b3d",
+        "#2c3237",
+        "#cccccc",
+        "#038",
+        "#32373c",
+        "#1a687a",
+        "#313131",
+        "#00d084",
+        "#0693e3"
+      ],
+      "firecrawl": {
+        "configured": false,
+        "ok": false,
+        "reason": "FIRECRAWL_API_KEY missing",
+        "hasScreenshot": false,
+        "hasBranding": false,
+        "linkCount": 0
+      },
+      "htmlSample": "Uribes Landscaping Uribes Landscaping&lt;br&gt;&lt;br&gt; Call Call Welcome to Uribes Landscaping We are experienced landscapers that specialize in custom landscaping including; artificial turf, sod, retaining walls, hardscape, and low voltage lighting systems. Read more Welcome to our website Our high quality synthetic turf creates the illusion of real turf, while providing low maintenance, pet friendly, and water savings. Get a Quote Uribes Landscaping Address 5033 Risley Court Sacramento, CA, 95842, US, 9168075612 About us Licensed, Bonded, and Insured sitemap Follow us",
+      "error": ""
+    },
+    "weaknessReasons": [
+      "Slow first HTML response (3853ms)",
+      "Website listed as non-HTTPS",
+      "Missing meta description",
+      "No obvious logo asset found",
+      "Thin visible media set (3 candidate images)"
+    ],
+    "opportunityScore": 72,
+    "buildabilityScore": 84,
+    "sourceConfidence": 86
+  },
+  {
+    "id": "ChIJ0wUYY_mh3IARA2MMQ3HytDI",
+    "name": "Orozco Landscaping Services",
+    "phone": "(951) 623-9813",
+    "website": "",
+    "googleMaps": "https://maps.google.com/?cid=3653811765974426371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "address": "175 Peppertree Dr, Perris, CA 92571",
+    "city": "Riverside, CA",
+    "searchQuery": "lawn care landscaping",
+    "rating": 4.9,
+    "reviewCount": 97,
+    "category": "General contractor",
+    "businessStatus": "OPERATIONAL",
+    "types": [
+      "general_contractor",
+      "service",
+      "point_of_interest",
+      "establishment"
+    ],
+    "hoursText": [
+      "Monday: 8:00 AM – 5:00 PM",
+      "Tuesday: 8:00 AM – 5:00 PM",
+      "Wednesday: 8:00 AM – 5:00 PM",
+      "Thursday: 8:00 AM – 5:00 PM",
+      "Friday: 8:00 AM – 5:00 PM",
+      "Saturday: 8:00 AM – 2:00 PM",
+      "Sunday: Closed"
+    ],
+    "googlePhotoCount": 0,
+    "websiteAudit": {
+      "ok": false,
+      "status": 0,
+      "finalUrl": "",
+      "responseMs": 0,
+      "platform": "No website",
+      "meta": {
+        "title": "",
+        "description": "",
+        "generator": ""
+      },
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "brandColors": [],
+      "htmlSample": "",
+      "error": "no_website"
+    },
+    "weaknessReasons": [
+      "No website listed on Google profile"
+    ],
+    "opportunityScore": 70,
+    "buildabilityScore": 48,
+    "sourceConfidence": 46
+  }
+]

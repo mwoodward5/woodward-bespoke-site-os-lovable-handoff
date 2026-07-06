@@ -1,0 +1,12 @@
+{
+  "name": "forest-moss",
+  "colors": {
+    "c0": "#0f1a14",
+    "c1": "#1e3226",
+    "c2": "#eef4ea",
+    "c3": "#5aa26a",
+    "c4": "#8bbf6b",
+    "c5": "#6d7d68"
+  },
+  "css": ":root{--forest-moss-c0:#0f1a14;--forest-moss-c1:#1e3226;--forest-moss-c2:#eef4ea;--forest-moss-c3:#5aa26a;--forest-moss-c4:#8bbf6b;--forest-moss-c5:#6d7d68}"
+}

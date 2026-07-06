@@ -1,0 +1,8 @@
+{
+  "warm": "Speak like a helpful friend.",
+  "expert": "Speak like an experienced practitioner.",
+  "concise": "Under 3 sentences. No filler.",
+  "playful": "Light humor, still useful.",
+  "formal": "Business tone. No contractions.",
+  "technical": "Assume the reader knows the domain."
+}

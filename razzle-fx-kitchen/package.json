@@ -1,0 +1,17 @@
+{
+  "name": "razzle-fx-kitchen",
+  "version": "3.0.0-mega",
+  "license": "MIT",
+  "description": "600 UI recipes + 48 tokens + 64 composed heroes + 1000 phrase mappings",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "keywords": [
+    "ui",
+    "effects",
+    "tailwind",
+    "react",
+    "design-system",
+    "kit"
+  ]
+}

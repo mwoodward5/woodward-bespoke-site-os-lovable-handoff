@@ -1,0 +1,27 @@
+[
+  {
+    "project": "wss-ca-landscape-landscape-connection-inc",
+    "deployUrl": "}",
+    "stable": "https://wss-ca-landscape-landscape-connection-inc.vercel.app"
+  },
+  {
+    "project": "wss-ca-landscape-ajp-landscape-inc",
+    "deployUrl": "}",
+    "stable": "https://wss-ca-landscape-ajp-landscape-inc.vercel.app"
+  },
+  {
+    "project": "wss-ca-landscape-barriga-landscaping",
+    "deployUrl": "}",
+    "stable": "https://wss-ca-landscape-barriga-landscaping.vercel.app"
+  },
+  {
+    "project": "wss-ca-landscape-signature-landscape",
+    "deployUrl": "}",
+    "stable": "https://wss-ca-landscape-signature-landscape.vercel.app"
+  },
+  {
+    "project": "wss-ca-landscape-richard-diaz-landscape",
+    "deployUrl": "}",
+    "stable": "https://wss-ca-landscape-richard-diaz-landscape.vercel.app"
+  }
+]

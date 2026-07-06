@@ -1,0 +1,5 @@
+{
+  "SPF": "v=spf1 include:_spf.provider.com ~all",
+  "DKIM": "selector._domainkey TXT v=DKIM1; k=rsa; p=<public-key>",
+  "DMARC": "_dmarc TXT v=DMARC1; p=quarantine; rua=mailto:dmarc@example.com; pct=100"
+}

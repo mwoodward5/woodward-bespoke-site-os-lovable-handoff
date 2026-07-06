@@ -1,0 +1,8 @@
+{
+  "name": "playful",
+  "easings": {
+    "boing": "cubic-bezier(.68,-.55,.27,1.55)",
+    "wobble": "cubic-bezier(.5,1.6,.5,-.6)",
+    "hop": "cubic-bezier(.34,1.56,.64,1)"
+  }
+}

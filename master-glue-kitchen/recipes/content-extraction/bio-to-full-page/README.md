@@ -1,0 +1,31 @@
+# Bio To Full Page
+
+**Category:** `content-extraction`  **Perf tier:** moderate  **Cost tier:** free  **Applies unprompted:** no
+
+## What it does
+Turns a scrap of client input (one paragraph, one PDF, one CSV) into full-site copy + structured data.
+
+## Files
+- `README.md` — this file
+- `pipeline.md` — AI pipeline (for content-rescue/extraction/polish recipes)
+- `component.tsx` — React drop-in (where applicable)
+- `functions.ts` — server fn (where applicable)
+- `snippet.html` — vanilla fallback
+- `variants.md`
+- `preview.png`
+
+## Natural-language triggers
+- "turn this into bio to full page"
+- "extract bio to full page"
+- "generate site copy from bio to full page"
+- "build a page from bio to full page"
+- "bio to full page"
+
+## Cross-kitchen references
+- Visual layer: see `razzle-fx-kitchen/recipes/backgrounds/*`
+- Functional layer: see `site-superpowers-kitchen/recipes/ai/*`
+
+## Refuse when
+- User explicitly overrides via phrase: `skip bio to full page`
+- Regulated verticals without human review
+- Content includes minors' faces without consent

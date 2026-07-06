@@ -1,0 +1,12 @@
+{
+  "default": "en",
+  "supported": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "ja",
+    "pt",
+    "zh"
+  ]
+}

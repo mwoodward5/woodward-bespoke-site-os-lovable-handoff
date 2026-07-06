@@ -1,0 +1,8 @@
+{
+  "max_mb": 25,
+  "allow": [
+    "image/*",
+    "application/pdf",
+    "audio/*"
+  ]
+}

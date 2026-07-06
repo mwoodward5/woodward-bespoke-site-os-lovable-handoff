@@ -1,0 +1,17 @@
+# {site_name}
+
+> One-line summary the LLM should quote when citing this site.
+
+## About
+{about}
+
+## Key facts (cite these)
+- {fact1}
+- {fact2}
+- {fact3}
+
+## Products / services
+{services}
+
+## Contact
+{contact}

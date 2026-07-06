@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2026-07-06T02:23:37.499Z",
+  "rank": 3,
+  "business": {
+    "name": "Barriga Landscaping",
+    "slug": "barriga-landscaping",
+    "city": "Sacramento",
+    "address": "2805 Wah Ave, Sacramento, CA 95822",
+    "phone": "(916) 926-8639",
+    "website": "",
+    "googleMaps": "https://maps.google.com/?cid=6268209619033116399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "reviewCount": 13,
+    "hours": [
+      "Monday: 8:00 AM – 8:00 PM",
+      "Tuesday: 8:00 AM – 8:30 PM",
+      "Wednesday: 8:00 AM – 8:00 PM",
+      "Thursday: 8:00 AM – 8:00 PM",
+      "Friday: 8:00 AM – 8:00 PM",
+      "Saturday: 8:00 AM – 8:00 PM",
+      "Sunday: 8:00 AM – 8:00 PM"
+    ],
+    "category": "General contractor"
+  },
+  "leadMiner": {
+    "opportunityScore": 77,
+    "buildabilityScore": 48,
+    "weaknessReasons": [
+      "No website listed on Google profile"
+    ],
+    "platformDetected": "No website",
+    "sourceConfidence": 46,
+    "sourceDropdownOptions": [
+      "Website scrape",
+      "Google Business Profile",
+      "Logo/header assets",
+      "Existing project photos",
+      "Premium stock fallback",
+      "Owner upload"
+    ],
+    "platformDropdownOptions": [
+      "No website",
+      "WordPress",
+      "Wix",
+      "Squarespace",
+      "Webflow",
+      "Shopify",
+      "GoDaddy Website Builder",
+      "Custom static",
+      "Unknown"
+    ],
+    "packageOptions": [
+      {
+        "id": "no_site_launch",
+        "label": "New site from GBP + source packet",
+        "bestFor": "No website or broken website"
+      },
+      {
+        "id": "media_remaster",
+        "label": "Photo remaster + motion pass",
+        "bestFor": "Businesses with usable but flat images"
+      },
+      {
+        "id": "vercel_rebuild",
+        "label": "Full Vercel rebuild",
+        "bestFor": "Slow, dated, or template-heavy sites"
+      }
+    ]
+  },
+  "source": {
+    "finalUrl": "",
+    "title": "",
+    "description": "",
+    "generator": "",
+    "platform": "No website",
+    "responseMs": 0,
+    "status": 0,
+    "brandColors": [],
+    "logoCandidates": [],
+    "imageCandidates": [],
+    "selectedImages": [
+      "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+    ],
+    "firecrawlEnrichment": {
+      "configured": true,
+      "search": {
+        "ok": true,
+        "reason": "",
+        "rows": []
+      },
+      "attempts": [],
+      "selectedUrl": ""
+    },
+    "renderedScreenshot": ""
+  }
+}

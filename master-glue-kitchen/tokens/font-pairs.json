@@ -1,0 +1,102 @@
+{
+  "editorial-serif": {
+    "heading": "Fraunces",
+    "body": "Inter"
+  },
+  "industrial-mono": {
+    "heading": "Space Grotesk",
+    "body": "JetBrains Mono"
+  },
+  "magazine": {
+    "heading": "Playfair Display",
+    "body": "Source Sans 3"
+  },
+  "brutal-display": {
+    "heading": "Archivo Black",
+    "body": "IBM Plex Sans"
+  },
+  "boutique": {
+    "heading": "Cormorant Garamond",
+    "body": "Inter"
+  },
+  "cyber-mono": {
+    "heading": "JetBrains Mono",
+    "body": "Space Grotesk"
+  },
+  "humanist-warm": {
+    "heading": "Fraunces",
+    "body": "Source Sans 3"
+  },
+  "swiss-grotesk": {
+    "heading": "Neue Haas Grotesk",
+    "body": "Inter"
+  },
+  "humanist-workhorse": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "expressive-display": {
+    "heading": "Bricolage Grotesque",
+    "body": "Inter"
+  },
+  "condensed-news": {
+    "heading": "Oswald",
+    "body": "Merriweather"
+  },
+  "wide-poster": {
+    "heading": "Big Shoulders Display",
+    "body": "Inter"
+  },
+  "mono-serif-hybrid": {
+    "heading": "IBM Plex Mono",
+    "body": "IBM Plex Serif"
+  },
+  "script-plus-neutral": {
+    "heading": "Great Vibes",
+    "body": "Inter"
+  },
+  "hairline-plus-slab": {
+    "heading": "Bodoni Moda",
+    "body": "Roboto Slab"
+  },
+  "variable-weight": {
+    "heading": "Inter Variable",
+    "body": "Inter Variable"
+  },
+  "variable-width": {
+    "heading": "Recursive",
+    "body": "Inter"
+  },
+  "optical-size": {
+    "heading": "Fraunces",
+    "body": "Fraunces"
+  },
+  "all-caps-display": {
+    "heading": "Antonio",
+    "body": "Inter"
+  },
+  "small-caps-editorial": {
+    "heading": "Cormorant SC",
+    "body": "Inter"
+  },
+  "drop-cap-illuminated": {
+    "heading": "UnifrakturCook",
+    "body": "EB Garamond"
+  },
+  "pull-quote-signature": {
+    "heading": "Playfair Display Italic",
+    "body": "Inter"
+  },
+  "cjk-safe": {
+    "heading": "Noto Sans SC",
+    "body": "Noto Sans SC"
+  },
+  "arabic-rtl": {
+    "heading": "Noto Naskh Arabic",
+    "body": "Noto Sans Arabic"
+  },
+  "devanagari": {
+    "heading": "Noto Sans Devanagari",
+    "body": "Noto Sans Devanagari"
+  }
+}

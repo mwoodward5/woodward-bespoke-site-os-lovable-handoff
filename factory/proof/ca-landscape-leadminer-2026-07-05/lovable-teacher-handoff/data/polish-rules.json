@@ -1,0 +1,326 @@
+{
+  "version": "1.0.0",
+  "description": "Rules the agent applies unprompted on every new site. Override each by having the user say the override_phrase.",
+  "rules": [
+    {
+      "id": "never-placeholder-title",
+      "when": "project state matches `never-placeholder-title` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/never-placeholder-title/pipeline.md`",
+      "recipe": "recipes/polish-rules/never-placeholder-title",
+      "unprompted": true,
+      "override_phrase": "skip never placeholder title"
+    },
+    {
+      "id": "always-og-image",
+      "when": "project state matches `always-og-image` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-og-image/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-og-image",
+      "unprompted": true,
+      "override_phrase": "skip always og image"
+    },
+    {
+      "id": "always-favicon-full-set",
+      "when": "project state matches `always-favicon-full-set` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-favicon-full-set/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-favicon-full-set",
+      "unprompted": true,
+      "override_phrase": "skip always favicon full set"
+    },
+    {
+      "id": "always-manifest",
+      "when": "project state matches `always-manifest` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-manifest/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-manifest",
+      "unprompted": true,
+      "override_phrase": "skip always manifest"
+    },
+    {
+      "id": "always-splash-screens",
+      "when": "project state matches `always-splash-screens` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-splash-screens/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-splash-screens",
+      "unprompted": true,
+      "override_phrase": "skip always splash screens"
+    },
+    {
+      "id": "always-sitemap",
+      "when": "project state matches `always-sitemap` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-sitemap/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-sitemap",
+      "unprompted": true,
+      "override_phrase": "skip always sitemap"
+    },
+    {
+      "id": "always-robots",
+      "when": "project state matches `always-robots` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-robots/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-robots",
+      "unprompted": true,
+      "override_phrase": "skip always robots"
+    },
+    {
+      "id": "always-security-txt",
+      "when": "project state matches `always-security-txt` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-security-txt/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-security-txt",
+      "unprompted": true,
+      "override_phrase": "skip always security txt"
+    },
+    {
+      "id": "always-humans-txt",
+      "when": "project state matches `always-humans-txt` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-humans-txt/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-humans-txt",
+      "unprompted": true,
+      "override_phrase": "skip always humans txt"
+    },
+    {
+      "id": "never-broken-image-guard",
+      "when": "project state matches `never-broken-image-guard` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/never-broken-image-guard/pipeline.md`",
+      "recipe": "recipes/polish-rules/never-broken-image-guard",
+      "unprompted": true,
+      "override_phrase": "skip never broken image guard"
+    },
+    {
+      "id": "always-alt-text-ai",
+      "when": "project state matches `always-alt-text-ai` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-alt-text-ai/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-alt-text-ai",
+      "unprompted": true,
+      "override_phrase": "skip always alt text ai"
+    },
+    {
+      "id": "always-contrast-audit",
+      "when": "project state matches `always-contrast-audit` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-contrast-audit/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-contrast-audit",
+      "unprompted": true,
+      "override_phrase": "skip always contrast audit"
+    },
+    {
+      "id": "always-harmonize-gallery",
+      "when": "project state matches `always-harmonize-gallery` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-harmonize-gallery/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-harmonize-gallery",
+      "unprompted": true,
+      "override_phrase": "skip always harmonize gallery"
+    },
+    {
+      "id": "always-dedupe-photos",
+      "when": "project state matches `always-dedupe-photos` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-dedupe-photos/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-dedupe-photos",
+      "unprompted": true,
+      "override_phrase": "skip always dedupe photos"
+    },
+    {
+      "id": "always-bg-remove-logo-if-needed",
+      "when": "project state matches `always-bg-remove-logo-if-needed` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-bg-remove-logo-if-needed/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-bg-remove-logo-if-needed",
+      "unprompted": true,
+      "override_phrase": "skip always bg remove logo if needed"
+    },
+    {
+      "id": "always-reduced-motion",
+      "when": "project state matches `always-reduced-motion` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-reduced-motion/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-reduced-motion",
+      "unprompted": true,
+      "override_phrase": "skip always reduced motion"
+    },
+    {
+      "id": "always-skip-link",
+      "when": "project state matches `always-skip-link` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-skip-link/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-skip-link",
+      "unprompted": true,
+      "override_phrase": "skip always skip link"
+    },
+    {
+      "id": "always-focus-ring",
+      "when": "project state matches `always-focus-ring` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-focus-ring/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-focus-ring",
+      "unprompted": true,
+      "override_phrase": "skip always focus ring"
+    },
+    {
+      "id": "always-404-page",
+      "when": "project state matches `always-404-page` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-404-page/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-404-page",
+      "unprompted": true,
+      "override_phrase": "skip always 404 page"
+    },
+    {
+      "id": "always-offline-shell",
+      "when": "project state matches `always-offline-shell` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-offline-shell/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-offline-shell",
+      "unprompted": true,
+      "override_phrase": "skip always offline shell"
+    },
+    {
+      "id": "always-loading-per-route",
+      "when": "project state matches `always-loading-per-route` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-loading-per-route/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-loading-per-route",
+      "unprompted": true,
+      "override_phrase": "skip always loading per route"
+    },
+    {
+      "id": "always-empty-state",
+      "when": "project state matches `always-empty-state` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-empty-state/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-empty-state",
+      "unprompted": true,
+      "override_phrase": "skip always empty state"
+    },
+    {
+      "id": "always-error-state",
+      "when": "project state matches `always-error-state` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-error-state/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-error-state",
+      "unprompted": true,
+      "override_phrase": "skip always error state"
+    },
+    {
+      "id": "always-print-stylesheet",
+      "when": "project state matches `always-print-stylesheet` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-print-stylesheet/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-print-stylesheet",
+      "unprompted": true,
+      "override_phrase": "skip always print stylesheet"
+    },
+    {
+      "id": "always-app-icons-full",
+      "when": "project state matches `always-app-icons-full` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-app-icons-full/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-app-icons-full",
+      "unprompted": true,
+      "override_phrase": "skip always app icons full"
+    },
+    {
+      "id": "always-cookie-banner",
+      "when": "project state matches `always-cookie-banner` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-cookie-banner/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-cookie-banner",
+      "unprompted": true,
+      "override_phrase": "skip always cookie banner"
+    },
+    {
+      "id": "always-privacy-stub",
+      "when": "project state matches `always-privacy-stub` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-privacy-stub/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-privacy-stub",
+      "unprompted": true,
+      "override_phrase": "skip always privacy stub"
+    },
+    {
+      "id": "always-terms-stub",
+      "when": "project state matches `always-terms-stub` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-terms-stub/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-terms-stub",
+      "unprompted": true,
+      "override_phrase": "skip always terms stub"
+    },
+    {
+      "id": "always-canonical-self",
+      "when": "project state matches `always-canonical-self` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-canonical-self/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-canonical-self",
+      "unprompted": true,
+      "override_phrase": "skip always canonical self"
+    },
+    {
+      "id": "always-og-url-self",
+      "when": "project state matches `always-og-url-self` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-og-url-self/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-og-url-self",
+      "unprompted": true,
+      "override_phrase": "skip always og url self"
+    },
+    {
+      "id": "always-viewport-meta",
+      "when": "project state matches `always-viewport-meta` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-viewport-meta/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-viewport-meta",
+      "unprompted": true,
+      "override_phrase": "skip always viewport meta"
+    },
+    {
+      "id": "always-lang-attr",
+      "when": "project state matches `always-lang-attr` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-lang-attr/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-lang-attr",
+      "unprompted": true,
+      "override_phrase": "skip always lang attr"
+    },
+    {
+      "id": "always-theme-color",
+      "when": "project state matches `always-theme-color` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-theme-color/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-theme-color",
+      "unprompted": true,
+      "override_phrase": "skip always theme color"
+    },
+    {
+      "id": "always-manifest-shortcuts",
+      "when": "project state matches `always-manifest-shortcuts` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-manifest-shortcuts/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-manifest-shortcuts",
+      "unprompted": true,
+      "override_phrase": "skip always manifest shortcuts"
+    },
+    {
+      "id": "always-share-target",
+      "when": "project state matches `always-share-target` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-share-target/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-share-target",
+      "unprompted": true,
+      "override_phrase": "skip always share target"
+    },
+    {
+      "id": "always-web-share-api",
+      "when": "project state matches `always-web-share-api` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-web-share-api/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-web-share-api",
+      "unprompted": true,
+      "override_phrase": "skip always web share api"
+    },
+    {
+      "id": "always-copy-link-fallback",
+      "when": "project state matches `always-copy-link-fallback` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-copy-link-fallback/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-copy-link-fallback",
+      "unprompted": true,
+      "override_phrase": "skip always copy link fallback"
+    },
+    {
+      "id": "always-scroll-restore",
+      "when": "project state matches `always-scroll-restore` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-scroll-restore/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-scroll-restore",
+      "unprompted": true,
+      "override_phrase": "skip always scroll restore"
+    },
+    {
+      "id": "always-focus-first",
+      "when": "project state matches `always-focus-first` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-focus-first/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-focus-first",
+      "unprompted": true,
+      "override_phrase": "skip always focus first"
+    },
+    {
+      "id": "always-tel-mailto-fallback",
+      "when": "project state matches `always-tel-mailto-fallback` condition",
+      "apply": "execute pipeline in `recipes/polish-rules/always-tel-mailto-fallback/pipeline.md`",
+      "recipe": "recipes/polish-rules/always-tel-mailto-fallback",
+      "unprompted": true,
+      "override_phrase": "skip always tel mailto fallback"
+    }
+  ]
+}

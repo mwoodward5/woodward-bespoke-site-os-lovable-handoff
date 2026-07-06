@@ -1,0 +1,9 @@
+{
+  "name": "mesh-sunset",
+  "stops": [
+    "#ff6a95",
+    "#ffd166",
+    "#66d7ee",
+    "#a06bff"
+  ]
+}

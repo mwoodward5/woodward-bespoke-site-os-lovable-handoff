@@ -1,0 +1,6 @@
+{
+  "chat_per_ip_per_minute": 30,
+  "chat_per_user_per_day": 500,
+  "tts_chars_per_user_per_day": 100000,
+  "image_gens_per_user_per_day": 40
+}

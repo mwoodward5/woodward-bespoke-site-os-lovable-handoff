@@ -1,0 +1,31 @@
+# Dropout Logo Float Shader
+
+**Category:** `immersive`  **Perf tier:** expensive  **Cost tier:** cheap  **Applies unprompted:** no
+
+## What it does
+Novel interactive effects: WebGL shaders, view-transitions, gen-art canvases, easter eggs.
+
+## Files
+- `README.md` — this file
+- `pipeline.md` — AI pipeline (for content-rescue/extraction/polish recipes)
+- `component.tsx` — React drop-in (where applicable)
+- `functions.ts` — server fn (where applicable)
+- `snippet.html` — vanilla fallback
+- `variants.md`
+- `preview.png`
+
+## Natural-language triggers
+- "wow me with dropout logo float shader"
+- "immersive: dropout logo float shader"
+- "novel effect: dropout logo float shader"
+- "never-seen-before dropout logo float shader"
+- "dropout logo float shader"
+
+## Cross-kitchen references
+- Visual layer: see `razzle-fx-kitchen/recipes/backgrounds/*`
+- Functional layer: see `site-superpowers-kitchen/recipes/ai/*`
+
+## Refuse when
+- User explicitly overrides via phrase: `skip dropout logo float shader`
+- Regulated verticals without human review
+- Content includes minors' faces without consent

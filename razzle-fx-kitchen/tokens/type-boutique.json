@@ -1,0 +1,7 @@
+{
+  "name": "boutique",
+  "stacks": {
+    "heading": "'Cormorant Garamond', serif",
+    "body": "Inter, system-ui"
+  }
+}

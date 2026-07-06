@@ -1,0 +1,12 @@
+{
+  "name": "wine-cellar",
+  "colors": {
+    "c0": "#180a0f",
+    "c1": "#3a1622",
+    "c2": "#f2e6ea",
+    "c3": "#8a1e3b",
+    "c4": "#c1445c",
+    "c5": "#7a5566"
+  },
+  "css": ":root{--wine-cellar-c0:#180a0f;--wine-cellar-c1:#3a1622;--wine-cellar-c2:#f2e6ea;--wine-cellar-c3:#8a1e3b;--wine-cellar-c4:#c1445c;--wine-cellar-c5:#7a5566}"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mono-newsprint",
+  "colors": {
+    "c0": "#111111",
+    "c1": "#3a3a3a",
+    "c2": "#f4f1ea",
+    "c3": "#8a8a8a",
+    "c4": "#c0bfb8",
+    "c5": "#5a5a5a"
+  },
+  "css": ":root{--mono-newsprint-c0:#111111;--mono-newsprint-c1:#3a3a3a;--mono-newsprint-c2:#f4f1ea;--mono-newsprint-c3:#8a8a8a;--mono-newsprint-c4:#c0bfb8;--mono-newsprint-c5:#5a5a5a}"
+}

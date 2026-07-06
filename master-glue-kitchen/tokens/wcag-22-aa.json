@@ -1,0 +1,12 @@
+{
+  "level": "AA",
+  "version": "2.2",
+  "must_pass": [
+    "contrast-1.4.3",
+    "focus-visible-2.4.7",
+    "target-size-2.5.8",
+    "name-role-value-4.1.2",
+    "reduced-motion-2.3.3",
+    "keyboard-2.1.1"
+  ]
+}

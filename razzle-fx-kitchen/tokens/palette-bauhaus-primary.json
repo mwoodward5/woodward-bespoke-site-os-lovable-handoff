@@ -1,0 +1,12 @@
+{
+  "name": "bauhaus-primary",
+  "colors": {
+    "c0": "#111111",
+    "c1": "#ffffff",
+    "c2": "#e63946",
+    "c3": "#ffd166",
+    "c4": "#118ab2",
+    "c5": "#06d6a0"
+  },
+  "css": ":root{--bauhaus-primary-c0:#111111;--bauhaus-primary-c1:#ffffff;--bauhaus-primary-c2:#e63946;--bauhaus-primary-c3:#ffd166;--bauhaus-primary-c4:#118ab2;--bauhaus-primary-c5:#06d6a0}"
+}

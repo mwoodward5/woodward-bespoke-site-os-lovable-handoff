@@ -1,0 +1,8 @@
+/* registration-marks-v2 — decor */
+.rfx-registration-marks-v2{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,hsl(151 90% 55%),hsl(1 85% 45%));color:#fff;padding:2rem;border-radius:1rem}
+.rfx-registration-marks-v2::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), transparent 60%);mix-blend-mode:overlay;pointer-events:none}
+.rfx-registration-marks-v2__inner{position:relative;z-index:1}
+@media (prefers-reduced-motion:no-preference){
+  .rfx-registration-marks-v2{animation:rfx-registration-marks-v2-a 8s ease-in-out infinite alternate}
+}
+@keyframes rfx-registration-marks-v2-a{from{background-position:0 0}to{background-position:100% 100%}}

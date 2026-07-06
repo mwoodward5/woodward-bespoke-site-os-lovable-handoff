@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://wss-ca-landscape-landscape-connection-inc.vercel.app/#map",
+    "status": 200,
+    "hasMap": true,
+    "hasDirections": true,
+    "hasPins": true
+  },
+  {
+    "url": "https://wss-ca-landscape-ajp-landscape-inc.vercel.app/#map",
+    "status": 200,
+    "hasMap": true,
+    "hasDirections": true,
+    "hasPins": true
+  },
+  {
+    "url": "https://wss-ca-landscape-barriga-landscaping.vercel.app/#map",
+    "status": 200,
+    "hasMap": true,
+    "hasDirections": true,
+    "hasPins": true
+  },
+  {
+    "url": "https://wss-ca-landscape-signature-landscape.vercel.app/service-areas/",
+    "status": 200,
+    "hasMap": true,
+    "hasDirections": true,
+    "hasPins": true
+  },
+  {
+    "url": "https://wss-ca-landscape-richard-diaz-landscape.vercel.app/service-areas/",
+    "status": 200,
+    "hasMap": true,
+    "hasDirections": true,
+    "hasPins": true
+  }
+]

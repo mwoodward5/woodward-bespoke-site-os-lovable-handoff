@@ -1,0 +1,6 @@
+{
+  "rate_limited": "You're going a bit fast \u2014 try again in a moment.",
+  "credits_exhausted": "This assistant is temporarily unavailable. Please try again later.",
+  "unauthorized": "Please sign in to continue.",
+  "server_error": "Something went wrong on our end. We're on it."
+}

@@ -1,0 +1,5 @@
+import { createServerFn } from "@tanstack/react-start";
+/** Server fn for `pay-stripe-metered`. */
+export const pay_stripe_metered_fn = createServerFn({ method: "POST" })
+  .inputValidator((d: unknown) => d as any)
+  .handler(async ({ data }) => ({ ok: true, slug: "pay-stripe-metered" }));

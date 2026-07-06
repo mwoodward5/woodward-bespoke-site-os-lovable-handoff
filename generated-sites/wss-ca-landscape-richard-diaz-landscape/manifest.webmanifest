@@ -1,0 +1,16 @@
+{
+  "name": "Richard Diaz Landscape Preview",
+  "short_name": "Richard Diaz Landscape",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#130f0b",
+  "theme_color": "#130f0b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

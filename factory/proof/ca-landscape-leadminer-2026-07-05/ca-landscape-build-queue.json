@@ -1,0 +1,464 @@
+[
+  {
+    "generatedAt": "2026-07-06T02:23:37.498Z",
+    "rank": 1,
+    "business": {
+      "name": "Landscape Connection, Inc.",
+      "slug": "landscape-connection-inc",
+      "city": "Clovis",
+      "address": "8889 N Thompson Ave, Clovis, CA 93619",
+      "phone": "(559) 323-8139",
+      "website": "http://landscapeconnection.org/",
+      "googleMaps": "https://maps.google.com/?cid=16094745245633205864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 4.7,
+      "reviewCount": 49,
+      "hours": [
+        "Monday: 7:00 AM – 4:00 PM",
+        "Tuesday: 7:00 AM – 4:00 PM",
+        "Wednesday: 7:00 AM – 4:00 PM",
+        "Thursday: 7:00 AM – 4:00 PM",
+        "Friday: 7:00 AM – 4:00 PM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 82,
+      "buildabilityScore": 56,
+      "weaknessReasons": [
+        "Website failed to load (403)",
+        "Website listed as non-HTTPS"
+      ],
+      "platformDetected": "Custom static",
+      "sourceConfidence": 52,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "https://landscapeconnection.org/",
+      "title": "Forbidden Access",
+      "description": "",
+      "generator": "",
+      "platform": "Custom static",
+      "responseMs": 172,
+      "status": 403,
+      "brandColors": [
+        "#f5f5f5",
+        "#17a8e3",
+        "#1999cd"
+      ],
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "selectedImages": [
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ]
+    }
+  },
+  {
+    "generatedAt": "2026-07-06T02:23:37.499Z",
+    "rank": 2,
+    "business": {
+      "name": "AJP LANDSCAPE INC",
+      "slug": "ajp-landscape-inc",
+      "city": "Los Angeles",
+      "address": "4828 St Charles Pl, Los Angeles, CA 90019",
+      "phone": "(323) 420-7758",
+      "website": "http://www.ajplandscape.com/",
+      "googleMaps": "https://maps.google.com/?cid=8538532308454017510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 5,
+      "reviewCount": 19,
+      "hours": [
+        "Monday: 8:00 AM – 6:00 PM",
+        "Tuesday: 8:00 AM – 6:00 PM",
+        "Wednesday: 8:00 AM – 6:00 PM",
+        "Thursday: 8:00 AM – 6:00 PM",
+        "Friday: 8:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 4:00 PM",
+        "Sunday: Closed"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 80,
+      "buildabilityScore": 60,
+      "weaknessReasons": [
+        "Website failed to load (404)",
+        "Website listed as non-HTTPS"
+      ],
+      "platformDetected": "Wix",
+      "sourceConfidence": 56,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "https://www.ajplandscape.com/",
+      "title": "",
+      "description": "",
+      "generator": "",
+      "platform": "Wix",
+      "responseMs": 360,
+      "status": 404,
+      "brandColors": [],
+      "logoCandidates": [
+        {
+          "url": "https://www.wix.com/favicon.ico",
+          "context": "type=\"image/png\" href=\"//www.wix.com/favicon.ico\" rel=\"shortcut icon\""
+        }
+      ],
+      "imageCandidates": [],
+      "selectedImages": [
+        "https://www.wix.com/favicon.ico",
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ]
+    }
+  },
+  {
+    "generatedAt": "2026-07-06T02:23:37.499Z",
+    "rank": 3,
+    "business": {
+      "name": "Barriga Landscaping",
+      "slug": "barriga-landscaping",
+      "city": "Sacramento",
+      "address": "2805 Wah Ave, Sacramento, CA 95822",
+      "phone": "(916) 926-8639",
+      "website": "",
+      "googleMaps": "https://maps.google.com/?cid=6268209619033116399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 4.8,
+      "reviewCount": 13,
+      "hours": [
+        "Monday: 8:00 AM – 8:00 PM",
+        "Tuesday: 8:00 AM – 8:30 PM",
+        "Wednesday: 8:00 AM – 8:00 PM",
+        "Thursday: 8:00 AM – 8:00 PM",
+        "Friday: 8:00 AM – 8:00 PM",
+        "Saturday: 8:00 AM – 8:00 PM",
+        "Sunday: 8:00 AM – 8:00 PM"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 77,
+      "buildabilityScore": 48,
+      "weaknessReasons": [
+        "No website listed on Google profile"
+      ],
+      "platformDetected": "No website",
+      "sourceConfidence": 46,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "",
+      "title": "",
+      "description": "",
+      "generator": "",
+      "platform": "No website",
+      "responseMs": 0,
+      "status": 0,
+      "brandColors": [],
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "selectedImages": [
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ]
+    }
+  },
+  {
+    "generatedAt": "2026-07-06T02:23:37.499Z",
+    "rank": 4,
+    "business": {
+      "name": "Signature Landscape",
+      "slug": "signature-landscape",
+      "city": "Mission Viejo",
+      "address": "25862 Jamon Ln, Mission Viejo, CA 92691",
+      "phone": "(949) 755-8636",
+      "website": "https://www.signaturelandscape.com/",
+      "googleMaps": "https://maps.google.com/?cid=6183614177073414184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 4.8,
+      "reviewCount": 52,
+      "hours": [
+        "Monday: 9:00 AM – 6:00 PM",
+        "Tuesday: 9:00 AM – 6:00 PM",
+        "Wednesday: 9:00 AM – 6:00 PM",
+        "Thursday: 9:00 AM – 6:00 PM",
+        "Friday: 9:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 75,
+      "buildabilityScore": 48,
+      "weaknessReasons": [
+        "Website failed to load (403)"
+      ],
+      "platformDetected": "Custom static",
+      "sourceConfidence": 46,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "https://www.signaturelandscape.com/",
+      "title": "403 Forbidden",
+      "description": "",
+      "generator": "",
+      "platform": "Custom static",
+      "responseMs": 104,
+      "status": 403,
+      "brandColors": [],
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "selectedImages": [
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ]
+    }
+  },
+  {
+    "generatedAt": "2026-07-06T02:23:37.499Z",
+    "rank": 5,
+    "business": {
+      "name": "Richard Diaz Landscape",
+      "slug": "richard-diaz-landscape",
+      "city": "Orange",
+      "address": "633 N Heatherstone Dr, Orange, CA 92869",
+      "phone": "(714) 673-2643",
+      "website": "https://richarddiazlandscaping.com/",
+      "googleMaps": "https://maps.google.com/?cid=8609298843886787427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "rating": 4.9,
+      "reviewCount": 33,
+      "hours": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ],
+      "category": "General contractor"
+    },
+    "leadMiner": {
+      "opportunityScore": 75,
+      "buildabilityScore": 48,
+      "weaknessReasons": [
+        "Website failed to load (fetch failed)"
+      ],
+      "platformDetected": "Unknown",
+      "sourceConfidence": 46,
+      "sourceDropdownOptions": [
+        "Website scrape",
+        "Google Business Profile",
+        "Logo/header assets",
+        "Existing project photos",
+        "Premium stock fallback",
+        "Owner upload"
+      ],
+      "platformDropdownOptions": [
+        "No website",
+        "WordPress",
+        "Wix",
+        "Squarespace",
+        "Webflow",
+        "Shopify",
+        "GoDaddy Website Builder",
+        "Custom static",
+        "Unknown"
+      ],
+      "packageOptions": [
+        {
+          "id": "no_site_launch",
+          "label": "New site from GBP + source packet",
+          "bestFor": "No website or broken website"
+        },
+        {
+          "id": "media_remaster",
+          "label": "Photo remaster + motion pass",
+          "bestFor": "Businesses with usable but flat images"
+        },
+        {
+          "id": "vercel_rebuild",
+          "label": "Full Vercel rebuild",
+          "bestFor": "Slow, dated, or template-heavy sites"
+        }
+      ]
+    },
+    "source": {
+      "finalUrl": "https://richarddiazlandscaping.com/",
+      "title": "",
+      "description": "",
+      "generator": "",
+      "platform": "Unknown",
+      "responseMs": 146,
+      "status": 0,
+      "brandColors": [],
+      "logoCandidates": [],
+      "imageCandidates": [],
+      "selectedImages": [
+        "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+        "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      ]
+    }
+  }
+]

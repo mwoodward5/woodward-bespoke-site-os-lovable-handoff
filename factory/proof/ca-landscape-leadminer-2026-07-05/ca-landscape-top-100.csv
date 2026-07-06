@@ -1,0 +1,101 @@
+rank,opportunityScore,buildabilityScore,name,phone,website,platform,sourceConfidence,rating,reviewCount,address,weaknessReasons
+1,96,38,Gaspar Landscaping & Tree Service,,http://wwwgasparlandscaping.com/,Unknown,34,4.3,18,"4366 Angelo St, Riverside, CA 92507",Website failed to load (fetch failed) | Website listed as non-HTTPS
+2,90,38,PAVERMEX STONES TILES & LANDSCAPE DESIGN,(559) 612-1635,,No website,34,5,1,"4725 E Tyler Ave, Fresno, CA 93702",No website listed on Google profile | Low review count
+3,90,38,HS LAWN MAINTENANCE,(909) 519-6026,,No website,34,5,4,"3847 Madison St, Riverside, CA 92504",No website listed on Google profile | Low review count
+4,82,56,"Landscape Connection, Inc.",(559) 323-8139,http://landscapeconnection.org/,Custom static,52,4.7,49,"8889 N Thompson Ave, Clovis, CA 93619",Website failed to load (403) | Website listed as non-HTTPS
+5,80,60,AJP LANDSCAPE INC,(323) 420-7758,http://www.ajplandscape.com/,Wix,56,5,19,"4828 St Charles Pl, Los Angeles, CA 90019",Website failed to load (404) | Website listed as non-HTTPS
+6,77,48,Barriga Landscaping,(916) 926-8639,,No website,46,4.8,13,"2805 Wah Ave, Sacramento, CA 95822",No website listed on Google profile
+7,75,48,Signature Landscape,(949) 755-8636,https://www.signaturelandscape.com/,Custom static,46,4.8,52,"25862 Jamon Ln, Mission Viejo, CA 92691",Website failed to load (403)
+8,75,48,Richard Diaz Landscape,(714) 673-2643,https://richarddiazlandscaping.com/,Unknown,46,4.9,33,"633 N Heatherstone Dr, Orange, CA 92869",Website failed to load (fetch failed)
+9,72,84,Uribes Landscaping,(916) 807-5612,http://uribeslandscaping.net/,WordPress,86,4.8,21,"5033 Risley Ct, Sacramento, CA 95842",Slow first HTML response (3853ms) | Website listed as non-HTTPS | Missing meta description | No obvious logo asset found | Thin visible media set (3 candidate images)
+10,70,48,Orozco Landscaping Services,(951) 623-9813,,No website,46,4.9,97,"175 Peppertree Dr, Perris, CA 92571",No website listed on Google profile
+11,66,60,John's Lawn & Garden Landscaping,(619) 852-8458,https://www.johnslawngarden.com/,Wix,58,4.6,47,"4223 Genesee Ave, San Diego, CA 92117",Website failed to load (404)
+12,60,62,Landscaping Pro’s of San Jose,(669) 369-3501,https://landscapingprossanjose.com/,Custom static,68,5,4,"186 Park Ave, San Jose, CA 95113",No obvious logo asset found | Thin visible media set (1 candidate images) | Low review count
+13,51,90,Terra Bella Residential Design,(559) 241-0825,https://www.terrabellaco.com/,WordPress,96,5,2,"802 W Pinedale Ave #101, Fresno, CA 93711",Slow first HTML response (3727ms) | Low review count | No hours returned from Places
+14,46,86,Golden Crest Landscaping Irvine,(657) 553-3169,http://goldencrestlandscapes.com/,Custom static,90,5,46,"14861 Franklin Ave, Tustin, CA 92780",Website listed as non-HTTPS | Missing page title | Missing meta description | Thin visible media set (2 candidate images)
+15,41,98,Almaden Valley Landscape Inc.,(844) 256-2336,http://www.almadenvalleylandscape.com/,GoDaddy Website Builder,100,4.9,7,"1177 Branham Ln #326, San Jose, CA 95118",Website listed as non-HTTPS | Missing meta description | Low review count
+16,35,94,The Landscape Company,(858) 275-6300,https://sandiegoswimmingpoolremoval.com/,Squarespace,100,3.7,9,"6755 Mira Mesa Blvd Ste 123-381, San Diego, CA 92121",Low review count | Rating below 4.2
+17,35,84,Nish-Ko Landscape Concepts,(559) 275-6653,http://nish-koinclandscape.com/,Custom static,92,5,3,"713 N Valentine Ave, Fresno, CA 93706",Website listed as non-HTTPS | Low review count
+18,34,98,Vicente Gardening Service,(951) 334-4573,https://vicentegardening.weebly.com/,Weebly,100,5,6,"2742 11th St, Riverside, CA 92507",Missing meta description | Low review count
+19,34,88,Affordable Landscape & Design Inc.,(408) 429-0383,http://www.affordablelandscapeanddesigninc.com/,Squarespace,94,5,4,"88 Tully Rd Ste 106, San Jose, CA 95111",Website listed as non-HTTPS | Missing meta description | Low review count
+20,33,108,OC West Landscape,(949) 939-6639,http://ocwest.com/,WordPress,100,5,34,"8583 Irvine Center Dr Ste 370, Irvine, CA 92618",Slow first HTML response (4056ms) | Website listed as non-HTTPS | Missing meta description
+21,33,100,Aquagreen Pool & Landscape - Orange county,(858) 952-2207,http://www.aquagreenpool.com/,Wix,100,5,37,"930 Roosevelt Ste 109, Irvine, CA 92620",Website listed as non-HTTPS | Missing meta description | No hours returned from Places
+22,32,86,GREENPLACE Inc,,https://greenplaceinc.com/,Custom static,96,5,87,"2151 Pacific Ave A205, Costa Mesa, CA 92627",Thin visible media set (3 candidate images)
+23,32,84,New Image Landscaping,(559) 343-3175,https://newimagelandscapingfresno.com/,Custom static,92,5,38,"3959 N College Ave, Fresno, CA 93704",Missing meta description | Thin visible media set (1 candidate images)
+24,32,82,Summer Sun Landscape,(669) 233-6026,https://summersunlandscape.com/?utm_source=omg-gbp&utm_medium=webclick,Custom static,92,5,22,"88 Pickford Ave, San Jose, CA 95127",Thin visible media set (0 candidate images)
+25,31,96,Kate Anne Designs,(818) 918-5223,http://kateannedesigns.com/,Webflow,100,5,25,"12400 Ventura Blvd #848, Studio City, CA 91604",Website listed as non-HTTPS | Thin visible media set (3 candidate images)
+26,31,96,Robyn's Original Landscapes,(949) 630-3312,http://www.robynsoriginal.com/,WordPress,100,5,19,"30025 Alicia Pkwy #231, Laguna Niguel, CA 92677",Website listed as non-HTTPS | Thin visible media set (3 candidate images)
+27,31,88,Specialty Landscape Inc.,(559) 905-2273,https://www.specialtylandscapeinc.com/,Squarespace,94,4.7,56,"4669 E Hedges Ave A, Fresno, CA 93703",Missing meta description | Thin visible media set (3 candidate images) | Placeholder or parked-site language detected
+28,28,98,San Diego Landscape Remodeling,(619) 613-2511,https://sandiegolandscaperemodeling.com/,Custom static,100,5,5,"9019 Park Plaza Dr Ste h, La Mesa, CA 91942",Low review count
+29,28,98,AR Landscapes | Landscape Design Fresno,(559) 226-1761,https://arlandscapesfresno.com/,Custom static,100,5,4,"4974 N Fresno St, Fresno, CA 93726",Low review count
+30,28,98,Green City Landscape Maintenance,(951) 268-4155,https://greencityca.com/,Custom static,100,5,6,"19925 Paso Robles Dr, Riverside, CA 92508",Low review count
+31,27,98,Diaz Landscaping Services,(323) 683-8082,https://www.diaz-landscaping.com/,Wix,100,5,5,"1865 1/2 W 25th St, Los Angeles, CA 90018",Low review count
+32,27,98,C&C Landscaping Inc,(408) 320-7594,http://candclandscapinginc.com/,WordPress,100,5,9,"181 E Santa Clara St #715, San Jose, CA 95113",Website listed as non-HTTPS | Low review count
+33,27,98,Paramount Landscaping,(408) 385-5609,http://www.paramountlandscaping.com/,WordPress,100,5,8,"2245 Dobern Ave, San Jose, CA 95116",Website listed as non-HTTPS | Low review count
+34,26,108,Artscape Gardens,(323) 510-8305,http://artscapegardens.com/,WordPress,100,5,43,"4654 Carnegie St, Los Angeles, CA 90032",Slow first HTML response (3874ms) | Website listed as non-HTTPS
+35,25,94,Modern Yardz Landscaping San Diego,(619) 775-9554,https://www.modernyardz.com/,Custom static,100,5,104,"8133 Engineer Rd, San Diego, CA 92111",Thin visible media set (2 candidate images)
+36,25,94,Home Energy Construction,(559) 272-9778,https://homeenergyconstruction.com/,Custom static,100,4.8,251,"7194 N Abby St, Fresno, CA 93720",Thin visible media set (2 candidate images)
+37,24,94,Palmers Landscape Installation Inc,(949) 697-2451,http://www.palmerslandscape.com/,WordPress,100,5,32,"25221 Derby Cir, Laguna Hills, CA 92653",Website listed as non-HTTPS | Thin visible media set (2 candidate images)
+38,24,94,Design A Dream Landscaping,(559) 940-5000,http://www.designadreamlandscape.com/,WordPress,100,5,38,"4730 N Arthur Ave, Fresno, CA 93705",Website listed as non-HTTPS | Thin visible media set (2 candidate images)
+39,21,108,Sun Diego Landscape & Design,(619) 779-4884,http://www.sundiegolandscapeanddesign.com/,WordPress,100,5,23,"2358 University Ave, San Diego, CA 92104",Website listed as non-HTTPS | Missing meta description
+40,21,108,AM Landscape Construction Inc.,(858) 444-6964,http://www.landscapingam.com/,Wix,100,5,24,"11862 Semillon Blvd, San Diego, CA 92131",Website listed as non-HTTPS
+41,21,108,San Diego Landscape Solutions,(619) 734-7364,http://sandiegolandscapesolutions.com/,Wix,100,5,19,"826 Orange Ave #546, Coronado, CA 92118",Website listed as non-HTTPS
+42,21,108,Action Landscaping,(916) 413-6599,http://www.actionlandscaping.co/,Wix,100,5,17,"198 Harriet Ave, San Jose, CA 95127",Website listed as non-HTTPS
+43,21,108,1st Fruits Lawn Care,(951) 317-4467,http://www.1stfruitslawncare.com/,Wix,100,5,50,"4290 Gardena Dr, Riverside, CA 92506",Website listed as non-HTTPS | Missing meta description
+44,20,98,"Landscape Development, Inc",(661) 241-5090,https://landscapedevelopment.com/,WordPress,100,4.5,6,"541 N Dewitt Ave, Clovis, CA 93611",Low review count
+45,19,108,"Green Foliage Unlimited, Inc. | Best Landscaper San Jose, San Jose Landscape Designer, Commercial Landscaper",(669) 348-1101,https://greenfoliageunlimitedinc.com/,WordPress,100,4.9,44,"1650 Zanker Rd, San Jose, CA 95112",Slow first HTML response (7131ms)
+46,17,94,ARC Design Landscape,(619) 768-5680,https://arcdesignsd.com/,WordPress,100,4.9,69,"10911 Wheatlands Ave F, Santee, CA 92071",Thin visible media set (2 candidate images)
+47,17,92,Luke's Landscaping,(951) 235-8540,https://www.facebook.com/profile.php?id=61565983345863,Shopify,100,4.7,39,"19069 Van Buren Boulevard Ste E 144 #215, Riverside, CA 92508",Thin visible media set (1 candidate images)
+48,15,108,Drab to Fab,(619) 404-2222,http://www.drabtofab.com/,Custom static,100,5,71,"5745 Kearny Villa Rd #110, San Diego, CA 92123",Website listed as non-HTTPS
+49,15,108,Simple Outdoor Living,(714) 388-5878,http://www.simpleoutdoorliving.com/,Custom static,100,4.9,57,"17875 Von Karman Ave suit 150, Irvine, CA 92614",Website listed as non-HTTPS
+50,15,108,OC Landscaping and Hauling,(949) 344-4490,https://oclandscapingandhauling.com/,Custom static,100,5,12,"19175 Sycamore Glen Dr, Trabuco Canyon, CA 92679",
+51,15,108,LawnStarter Landscaping,(408) 609-3843,https://www.lawnstarter.com/san-jose-ca-landscaping?utm_source=google&utm_medium=GLocal&utm_campaign=SanJoselLocal,Custom static,100,4.8,25,"2919 Vineyard Park Dr, San Jose, CA 95148",
+52,15,108,Lawn Care 4 U & Landscaping,(951) 548-4002,https://lawncare4ulandscaping.jobbersites.com/,Custom static,100,5,25,"Orange St, Riverside, CA 92501",
+53,15,108,Gonzalez Landscape,(951) 405-9545,https://www.gonzalezlandscapingriverside.com/,Custom static,100,4.2,20,"3874 Skofstad St, Riverside, CA 92505",
+54,15,108,Lorenzo's Landscaping,(951) 941-3151,http://lorenzo-landscaping.com/,Custom static,100,5,30,"2310 5th St, Riverside, CA 92507",Website listed as non-HTTPS
+55,15,108,Paz Landscape & Concrete,(951) 785-8274,http://www.pazlandscape.com/,Custom static,100,5,41,"6725 Capistrano Way, Riverside, CA 92504",Website listed as non-HTTPS
+56,14,108,Green Grounds Landscape Services,(323) 452-9945,http://www.greengrounds.com/,Wix,100,4.7,31,"5401 W Adams Blvd, Los Angeles, CA 90016",Website listed as non-HTTPS
+57,14,108,HB Landscape Design LLC,(310) 254-0937,http://www.hblandscapedesign.com/,WordPress,100,4.8,44,"Federal Ave, Los Angeles, CA 90025",Website listed as non-HTTPS | Missing meta description
+58,14,108,Garden Design & Landscapes,(323) 377-3937,http://www.gardendesignandlandscapes.com/,WordPress,100,4.8,20,"3612 Barham Blvd, Los Angeles, CA 90068",Website listed as non-HTTPS
+59,14,108,Dave Suda Landscape,(619) 229-1316,http://davesudalandscape.com/,Duda,100,5,35,"4385 Twain Ave, San Diego, CA 92120",Website listed as non-HTTPS
+60,14,108,"EcoDesignSD, INC",(858) 863-3260,http://www.ecodesignsd.com/,Squarespace,100,5,17,"702-1 Turquoise St, San Diego, CA 92109",Website listed as non-HTTPS
+61,14,108,Caliscapes OC,(714) 348-4808,http://www.caliscapesoc.com/,WordPress,100,5,26,"236 S Thomas St, Orange, CA 92869",Website listed as non-HTTPS
+62,14,108,Western Landscape Inc.,(916) 375-8873,http://www.igowestern.com/,WordPress,100,4.2,13,"2415 Front St, West Sacramento, CA 95691",Website listed as non-HTTPS
+63,14,108,"Lawn & Order, Inc.",(916) 927-5296,http://www.lawnandorder.net/,WordPress,100,4.6,23,"2361 Manning St, Sacramento, CA 95815",Website listed as non-HTTPS
+64,14,108,Water and Earth Landscape Design,(408) 560-6362,http://www.waterandearthld.com/,WordPress,100,4.8,22,"1702-L Meridian Ave #347, San Jose, CA 95125",Website listed as non-HTTPS
+65,14,108,Stangby Designs,(559) 835-5674,http://www.stangbydesigns.com/,Wix,100,4.8,68,"2493 W Shaw Ave, Fresno, CA 93711",Website listed as non-HTTPS
+66,14,108,New Vision Landscape Company,(559) 765-7963,http://fresnolandscaping.net/,WordPress,100,5,31,"4376 N Gregory Ave, Fresno, CA 93722",Website listed as non-HTTPS | Missing meta description
+67,14,108,Picture Perfect Lawn,(559) 974-1703,http://www.fresnolandscapes.net/,GoDaddy Website Builder,100,4.5,54,"4323 N Holt Ave, Fresno, CA 93705",Website listed as non-HTTPS
+68,14,108,1 Neat Landscaping lawn maintenance n tree services,(951) 732-5484,https://1neatlawnandlandscaping.com/,WordPress,100,5,14,"17130 Van Buren Boulevard Unit 820, Riverside, CA 92504",Missing meta description
+69,14,90,All Pro Landscape Construction,(408) 781-6693,https://www.allprolandscapeservices.com/,Squarespace,98,4.9,33,"3063 Silver Estates, San Jose, CA 95135",Missing meta description | Thin visible media set (4 candidate images)
+70,8,108,Flores Artscape,(323) 666-3510,https://www.floresartscape.com/,Custom static,100,4.7,149,"3959 N Eagle Rock Blvd, Los Angeles, CA 90065",
+71,8,108,LawnStarter Lawn Care Service,(951) 543-4285,https://www.lawnstarter.com/riverside-ca-lawn-care?utm_source=google&utm_medium=GLocal&utm_campaign=RiversideLocal,Custom static,100,4.5,117,"4580 Belford Way, Riverside, CA 92507",
+72,8,100,TruGreen Lawn Care,(833) 418-5004,https://www.trugreen.com/local-lawn-care/california/riverside/?utm_source=gmb&utm_channel=organic,Custom static,100,4.5,416,"1130 Palmyrita Ave Ste 300, Riverside, CA 92507",
+73,7,108,Colibri Landscape & Design,(818) 730-7339,https://colibrilandscapingdesign.com/?utm_source=google&utm_medium=business-profile&utm_campaign=local-seo,WordPress,100,5,54,"4949 Tyrone Ave, Sherman Oaks, CA 91423",Missing meta description
+74,7,108,Regal Landscaping and Construction,(818) 446-5479,https://regallandscapingwoodlandhills.com/,WordPress,100,4.9,249,"5371 Topeka Dr, Tarzana, CA 91356",Missing meta description
+75,7,108,"Rosewood Landscape, Inc.",(424) 484-6702,https://www.rosewoodlandscape.com/,WordPress,100,4.6,46,"318 Tejon Pl, Palos Verdes Estates, CA 90274",Missing meta description
+76,7,108,Luna Landscape Co,(626) 862-2110,https://www.lunalandscapeco.com/,WordPress,100,4.9,54,"15407 Garo St, Hacienda Heights, CA 91745",Missing meta description
+77,7,108,Infinite Sky Landscape Design,(619) 327-9217,http://www.infiniteskylandscapedesign.com/,Squarespace,100,5,50,"San Diego, CA 92101",Website listed as non-HTTPS
+78,7,108,San Diego 3D Landscape Design,(619) 560-6556,https://www.sandiego3dinc.com/,WordPress,100,4.5,37,"1244 N Grape St, Escondido, CA 92026",Missing meta description
+79,7,108,California Landscape Development,(858) 354-6742,https://calandscapedevelopment.com/,WordPress,100,4.9,14,"11440 W Bernardo Ct Ste 300, San Diego, CA 92127",
+80,7,108,Cultivate OC- Landscape & Maintenance,(818) 294-2477,https://cultivateworld.com/,WordPress,100,5,13,"620 Newport Center Dr, Newport Beach, CA 92660",
+81,7,108,Landmark Custom Landscape,(714) 669-8882,https://www.landmarkcustomlandscape.com/,WordPress,100,5,13,"45 Shield, Irvine, CA 92618",
+82,7,108,AVR Landscape Inc.,(916) 294-5665,http://www.avrlandscape.com/,WordPress,100,5,42,"5680 Andrea Blvd, Sacramento, CA 95842",Website listed as non-HTTPS
+83,7,108,Awaken Landscapes,(916) 900-1515,https://www.awakenlandscapes.com/,Webflow,100,5,29,"5960 S Land Park Dr #769, Sacramento, CA 95822",
+84,7,108,Roo Landscaping & Garden Care,(916) 397-3697,https://www.roolandscaping.com/,WordPress,100,5,12,"2424 2nd Ave, Sacramento, CA 95818",
+85,7,108,Suncrest Landscape Inc.,(916) 600-1956,https://suncrestlandscapeinc.com/,WordPress,100,5,70,"Riley St, Folsom, CA 95630",Missing meta description
+86,7,108,Southbay Design & Landscaping,(408) 452-1270,https://southbaydesignandlandscaping.com/,Squarespace,100,4.5,24,"1725 Rogers Ave # J, San Jose, CA 95112",
+87,7,108,Westack Landscaping,(408) 581-5555,https://westacklandscaping.com/,WordPress,100,5,29,"221 San Jose Ave, San Jose, CA 95125",
+88,7,108,Guzman Landscaping Maintenance,(408) 506-5817,https://sanjoseca-landscaper.com/,WordPress,100,5,28,"2917 Magliocco Dr #5, San Jose, CA 95128",
+89,7,108,The Landscaping Masters Inc.,(559) 899-9053,https://www.thelandscapingmasters.com/,Duda,100,4.6,56,"4985 E Dakota Ave, Fresno, CA 93727",
+90,7,104,Stepping Stone Landscape Design,(619) 762-8988,https://steppingstonelandscape.com/,WordPress,100,5,27,"1455 Frazee Rd Ste 500, San Diego, CA 92108",
+91,0,108,Socal Landscape & Gardening,(213) 566-7469,https://www.socallg.com/,Webflow,100,5,85,"1245 McClellan Dr, Los Angeles, CA 90025",
+92,0,108,Green Advisor Inc.,(888) 869-0987,https://greenadvisorinc.com/,WordPress,100,4.9,280,"7660 Beverly Blvd, Los Angeles, CA 90036",
+93,0,108,Four Seasons Landscaping,(323) 375-8000,https://www.fourseasonsla.com/,WordPress,100,5,41,"6337 Santa Fe Ave, Huntington Park, CA 90255",
+94,0,108,Green Advisor Inc.,(818) 290-3926,https://greenadvisorinc.com/,WordPress,100,4.9,173,"15928 Ventura Blvd Ste 216, Encino, CA 91436",
+95,0,108,Pacific Outdoor Living,(818) 275-8271,https://pacificoutdoorliving.com/?utm_source=GMB&utm_medium=organic&utm_campaign=sunvalley,WordPress,100,4.8,341,"8309 Tujunga Ave #201, Sun Valley, CA 91352",
+96,0,108,MC Landscaping LLC,(562) 225-9460,https://mclandscapingllc.com/,WordPress,100,4.7,111,"5780 South St, Lakewood, CA 90713",
+97,0,108,INSTALL-IT-DIRECT Landscape Design & Build San Diego,(858) 267-4901,https://www.installitdirect.com/?utm_source=gmb&utm_medium=website&utm_campaign=button,WordPress,100,4.8,245,"1084 N El Camino Real Ste B #156, Encinitas, CA 92024",
+98,0,108,Del Mar Landscapes,(619) 723-0332,https://delmarlandscapes.com/,WordPress,100,4.9,55,"6153 Portobelo Ct, San Diego, CA 92124",
+99,0,108,California Smartscape,(619) 913-2350,https://calsmartscape.com/,WordPress,100,4.8,69,"14290 Danielson St, Poway, CA 92064",
+100,0,108,Goodman's Landscaping LLC - Full Service Landscape Care,(442) 488-6578,https://goodmanslandscaping.com/,Squarespace,100,5,44,"29810 Valley Center Rd, Valley Center, CA 92082",

@@ -1,0 +1,8 @@
+{
+  "name": "expressive",
+  "easings": {
+    "snap": "cubic-bezier(.2,.9,.1,1.2)",
+    "glide": "cubic-bezier(.22,1,.36,1)",
+    "pop": "cubic-bezier(.34,1.56,.64,1)"
+  }
+}

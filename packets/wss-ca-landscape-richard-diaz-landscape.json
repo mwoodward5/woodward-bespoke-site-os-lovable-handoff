@@ -1,0 +1,361 @@
+{
+  "slug": "wss-ca-landscape-richard-diaz-landscape",
+  "prompt": "Create a production-grade cinematic local landscaping website preview for Richard Diaz Landscape in Orange, California. Use saved LeadMiner evidence first. If a logo/photo is missing or clearly a platform error asset, generate a tasteful proposed mark and premium landscape media direction instead of using bad source material.",
+  "business": {
+    "name": "Richard Diaz Landscape",
+    "category": "landscaping",
+    "city": "Orange",
+    "state": "CA",
+    "address": "633 N Heatherstone Dr, Orange, CA 92869",
+    "phone": "(714) 673-2643",
+    "current_website": "https://richarddiazlandscaping.com/",
+    "gbp_url": "https://maps.google.com/?cid=8609298843886787427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "source_platform": "Unknown"
+  },
+  "build_type": "multi-page",
+  "toggles": {
+    "firecrawl": false,
+    "gbp": true,
+    "local_serp": false,
+    "video_prompt": true,
+    "map": true,
+    "ai_chat": false,
+    "payment_cta": false
+  },
+  "source": {
+    "finalUrl": "https://richarddiazlandscaping.com/",
+    "title": "",
+    "description": "",
+    "generator": "",
+    "platform": "Unknown",
+    "responseMs": 146,
+    "status": 0,
+    "brandColors": [
+      "#f6821f",
+      "#fbad41",
+      "#efe2cf",
+      "#e4d3bb",
+      "#2575fc"
+    ],
+    "logoCandidates": [
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.4",
+        "context": "rel=\"stylesheet\" id=\"widget-icon-list-css\" href=\"https://richarddiazlandscaping.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.1.4\" media=\"all\"",
+        "source": "icon_link"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.1.4",
+        "context": "rel=\"stylesheet\" id=\"widget-social-icons-css\" href=\"https://richarddiazlandscaping.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.1.4\" media=\"all\"",
+        "source": "icon_link"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png",
+        "context": "class=\"hfe-site-logo-img elementor-animation-\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png\" alt=\"IMG_3283 - Richard Diaz\"",
+        "source": "logo_img"
+      }
+    ],
+    "imageCandidates": [
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png",
+        "context": "class=\"hfe-site-logo-img elementor-animation-\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png\" alt=\"IMG_3283 - Richard Diaz\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp",
+        "context": "fetchpriority=\"high\" decoding=\"async\" width=\"480\" height=\"480\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp\" class=\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp",
+        "context": "decoding=\"async\" width=\"1920\" height=\"1100\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp\" class=\"attachment-full si",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s1.webp",
+        "context": "decoding=\"async\" width=\"2048\" height=\"1367\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s1.webp\" class=\"attachment-full size-full wp-image-1595\" alt=\"Retaini",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s2-67f0258ed6d4d.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"2048\" height=\"1152\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s2-67f0258ed6d4d.webp\" class=\"attachment-full size-ful",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s3-67f0256fedb4a.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"1500\" height=\"844\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s3-67f0256fedb4a.webp\" class=\"attachment-full size-full",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s4-67f0258c58c74.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"1500\" height=\"1000\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s4-67f0258c58c74.webp\" class=\"attachment-full size-ful",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s5-67f0258902f73.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"2160\" height=\"1440\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s5-67f0258902f73.webp\" class=\"attachment-full size-ful",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s6.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s6.webp\" class=\"attachment-full size-full wp-image-160",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s7.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"1920\" height=\"1080\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s7.webp\" class=\"attachment-full size-full wp-image-160",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s8-67f025764d091-scaled.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s8-67f025764d091-scaled.webp\" class=\"attachment-full s",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s9-67f02588351c9.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"1688\" height=\"1125\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s9-67f02588351c9.webp\" class=\"attachment-full size-ful",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s10-67f0257f38e7b.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1707\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s10-67f0257f38e7b.webp\" class=\"attachment-full size-fu",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s11-67f02573dbae4.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"2500\" height=\"2500\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s11-67f02573dbae4.webp\" class=\"attachment-full size-fu",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s12-67f025702a5db.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"1920\" height=\"1274\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s12-67f025702a5db.webp\" class=\"attachment-full size-fu",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/1.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/1.webp\" class=\"attachment-full size-full\" alt=\"\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/2.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/2.webp\" class=\"attachment-full size-full\" alt=\"\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/3.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/3.webp\" class=\"attachment-full size-full\" alt=\"\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/4.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/4.webp\" class=\"attachment-full size-full\" alt=\"\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/5.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/5.webp\" class=\"attachment-full size-full\" alt=\"\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/6.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/6.webp\" class=\"attachment-full size-full\" alt=\"\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/7.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/7.webp\" class=\"attachment-full size-full\" alt=\"\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/05/8.webp",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"533\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/05/8.webp\" class=\"attachment-full size-full\" alt=\"\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://richarddiazlandscaping.com/wp-content/uploads/2024/02/testimonial-v2-img-bg.png",
+        "context": "loading=\"lazy\" decoding=\"async\" width=\"467\" height=\"602\" src=\"https://richarddiazlandscaping.com/wp-content/uploads/2024/02/testimonial-v2-img-bg.png\" class=\"attachment-full size-f",
+        "source": "firecrawl_html"
+      }
+    ],
+    "selectedImages": [
+      "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+    ],
+    "firecrawlEnrichment": {
+      "configured": true,
+      "search": {
+        "ok": true,
+        "reason": "",
+        "rows": []
+      },
+      "attempts": [
+        {
+          "url": "https://richarddiazlandscaping.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Richard Diaz Landscape Design & Masonry – Orange, CA Experts",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 24,
+          "colorCount": 5
+        }
+      ],
+      "selectedUrl": "https://richarddiazlandscaping.com/"
+    },
+    "renderedScreenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-e26ef29d-49a7-4f33-9698-453c99e298f3.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1783927109&Signature=uggJfZy75GzYi3cK7MCbf9o2iVtEmY%2BfO%2BcCU8BIWJfIv17OA6t1j%2FSar5nu7Trfky1rFqg3rjvfbejkA4WCeIeb4Wg%2FSuZRV69QJcJX%2FPNWWIrTWwS3%2BHrAvxHzdslCfO28G2%2Fri1Rc%2FX35dBmVxbzKBi2aSOzT57jnQuzn%2FQhrGE13DK6EQTjnT2LS7QKfpKyKGrHBhfzB42IEWjuaWwHqVx4j3WTUjyMbC2csEr4kDeehE0hw6m38ciLqHQar4ydBdvRg0RJ0jvF5pZIr0uYGfXUKH2D66wRBKEeZl4GzTEVt7tAjJgX6qvvYM6Rozrl%2BCfqocUDgCnF%2FAnJuFA%3D%3D"
+  },
+  "leadMiner": {
+    "opportunityScore": 75,
+    "buildabilityScore": 48,
+    "weaknessReasons": [
+      "Website failed to load (fetch failed)"
+    ],
+    "platformDetected": "Unknown",
+    "sourceConfidence": 46,
+    "sourceDropdownOptions": [
+      "Website scrape",
+      "Google Business Profile",
+      "Logo/header assets",
+      "Existing project photos",
+      "Premium stock fallback",
+      "Owner upload"
+    ],
+    "platformDropdownOptions": [
+      "No website",
+      "WordPress",
+      "Wix",
+      "Squarespace",
+      "Webflow",
+      "Shopify",
+      "GoDaddy Website Builder",
+      "Custom static",
+      "Unknown"
+    ],
+    "packageOptions": [
+      {
+        "id": "no_site_launch",
+        "label": "New site from GBP + source packet",
+        "bestFor": "No website or broken website"
+      },
+      {
+        "id": "media_remaster",
+        "label": "Photo remaster + motion pass",
+        "bestFor": "Businesses with usable but flat images"
+      },
+      {
+        "id": "vercel_rebuild",
+        "label": "Full Vercel rebuild",
+        "bestFor": "Slow, dated, or template-heavy sites"
+      }
+    ]
+  },
+  "rank": 5,
+  "enrichment_sources": {
+    "logo": {
+      "source": "leadminer-source-packet",
+      "confidence": 0.9,
+      "value": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png"
+    },
+    "colors": {
+      "source": "leadminer-source-packet",
+      "confidence": 0.85,
+      "value": [
+        "#f6821f",
+        "#fbad41",
+        "#efe2cf",
+        "#e4d3bb",
+        "#2575fc"
+      ]
+    },
+    "branding": {
+      "source": "leadminer-source-packet",
+      "confidence": 0.85,
+      "value": {
+        "logo": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png",
+        "colors": {
+          "primary": "#f6821f",
+          "secondary": "#fbad41",
+          "accent": "#efe2cf"
+        },
+        "images": {
+          "image_1": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp",
+          "image_2": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp",
+          "image_3": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s1.webp",
+          "image_4": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s2-67f0258ed6d4d.webp",
+          "image_5": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s3-67f0256fedb4a.webp",
+          "image_6": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s4-67f0258c58c74.webp",
+          "image_7": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s5-67f0258902f73.webp",
+          "image_8": "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s6.webp"
+        }
+      }
+    },
+    "photos": {
+      "source": "leadminer-source-packet",
+      "confidence": 0.82,
+      "value": [
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s1.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s2-67f0258ed6d4d.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s3-67f0256fedb4a.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s4-67f0258c58c74.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s5-67f0258902f73.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s6.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s7.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s8-67f025764d091-scaled.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s9-67f02588351c9.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s10-67f0257f38e7b.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s11-67f02573dbae4.webp",
+        "https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s12-67f025702a5db.webp"
+      ]
+    },
+    "copy": {
+      "source": "leadminer-source-packet",
+      "confidence": 0.7,
+      "value": "- Landscape design and installation in Orange\n- Hardscape, planting, cleanup, refreshes, and outdoor living details\n- Quote path built around fast local trust and clear service fit"
+    },
+    "service_areas": {
+      "source": "google-business-profile",
+      "confidence": 0.8,
+      "value": [
+        "Orange",
+        "nearby California neighborhoods"
+      ]
+    },
+    "hours": {
+      "source": "google-business-profile",
+      "confidence": 0.9,
+      "value": [
+        "Monday: Open 24 hours",
+        "Tuesday: Open 24 hours",
+        "Wednesday: Open 24 hours",
+        "Thursday: Open 24 hours",
+        "Friday: Open 24 hours",
+        "Saturday: Open 24 hours",
+        "Sunday: Open 24 hours"
+      ]
+    },
+    "nap": {
+      "source": "google-business-profile",
+      "confidence": 0.9,
+      "value": {
+        "name": "Richard Diaz Landscape",
+        "address": "633 N Heatherstone Dr, Orange, CA 92869",
+        "phone": "(714) 673-2643"
+      }
+    },
+    "reviews": {
+      "source": "google-business-profile",
+      "confidence": 0.75,
+      "value": {
+        "rating": 4.9,
+        "reviewCount": 33
+      }
+    }
+  }
+}

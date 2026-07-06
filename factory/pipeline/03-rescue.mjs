@@ -21,6 +21,13 @@ export async function rescue(packet, { lovableKey, outDir }) {
       emit("rescue", "logo-error", { message: e.message });
       packet.logo_source = { url: logoUrl, origin: "firecrawl", proposed: false };
     }
+  } else if (logoUrl) {
+    packet.logo_source = {
+      url: logoUrl,
+      origin: src.logo.source === "gbp" ? "gbp" : "firecrawl",
+      proposed: false,
+    };
+    emit("rescue", "logo-source-used", { url: logoUrl });
   } else {
     // No source logo — flag for proposed-mark generation, operator must confirm.
     packet.logo_source = { url: null, origin: "proposed", proposed: true };

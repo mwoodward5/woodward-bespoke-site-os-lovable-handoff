@@ -142,7 +142,17 @@ function sigFromHtml(html) {
   const walk = (node, depth = 0) => {
     if (depth > 4) return "";
     if (node.nodeType !== 1) return "";
-    return `${node.tagName}(${node.children.length})[` +
+    const classes = String(node.getAttribute("class") ?? "")
+      .split(/\s+/)
+      .filter((c) => /hero|widget|motif|signature|grid|rail|diagonal|centerpiece|stack|split/.test(c))
+      .sort()
+      .join(".");
+    const data = [
+      node.getAttribute("data-hero-anatomy"),
+      node.getAttribute("data-layout-signature"),
+      node.getAttribute("data-node"),
+    ].filter(Boolean).join("|");
+    return `${node.tagName}.${classes}{${data}}(${node.children.length})[` +
       Array.from(node.children).map((c) => walk(c, depth + 1)).join(",") + "]";
   };
   return walk(dom.window.document.body);

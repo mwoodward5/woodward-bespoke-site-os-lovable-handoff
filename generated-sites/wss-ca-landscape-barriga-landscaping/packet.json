@@ -1,0 +1,251 @@
+{
+  "slug": "wss-ca-landscape-barriga-landscaping",
+  "prompt": "Create a production-grade cinematic local landscaping website preview for Barriga Landscaping in Sacramento, California. Use saved LeadMiner evidence first. If a logo/photo is missing or clearly a platform error asset, generate a tasteful proposed mark and premium landscape media direction instead of using bad source material.",
+  "business": {
+    "name": "Barriga Landscaping",
+    "category": "landscaping",
+    "city": "Sacramento",
+    "state": "CA",
+    "address": "2805 Wah Ave, Sacramento, CA 95822",
+    "phone": "(916) 926-8639",
+    "current_website": "",
+    "gbp_url": "https://maps.google.com/?cid=6268209619033116399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "source_platform": "No website"
+  },
+  "build_type": "single-page-cinematic",
+  "toggles": {
+    "firecrawl": false,
+    "gbp": true,
+    "local_serp": false,
+    "video_prompt": true,
+    "map": true,
+    "ai_chat": false,
+    "payment_cta": false
+  },
+  "source": {
+    "finalUrl": "",
+    "title": "",
+    "description": "",
+    "generator": "",
+    "platform": "No website",
+    "responseMs": 0,
+    "status": 0,
+    "brandColors": [],
+    "logoCandidates": [],
+    "imageCandidates": [],
+    "selectedImages": [
+      "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+    ],
+    "firecrawlEnrichment": {
+      "configured": true,
+      "search": {
+        "ok": true,
+        "reason": "",
+        "rows": []
+      },
+      "attempts": [],
+      "selectedUrl": ""
+    },
+    "renderedScreenshot": ""
+  },
+  "leadMiner": {
+    "opportunityScore": 77,
+    "buildabilityScore": 48,
+    "weaknessReasons": [
+      "No website listed on Google profile"
+    ],
+    "platformDetected": "No website",
+    "sourceConfidence": 46,
+    "sourceDropdownOptions": [
+      "Website scrape",
+      "Google Business Profile",
+      "Logo/header assets",
+      "Existing project photos",
+      "Premium stock fallback",
+      "Owner upload"
+    ],
+    "platformDropdownOptions": [
+      "No website",
+      "WordPress",
+      "Wix",
+      "Squarespace",
+      "Webflow",
+      "Shopify",
+      "GoDaddy Website Builder",
+      "Custom static",
+      "Unknown"
+    ],
+    "packageOptions": [
+      {
+        "id": "no_site_launch",
+        "label": "New site from GBP + source packet",
+        "bestFor": "No website or broken website"
+      },
+      {
+        "id": "media_remaster",
+        "label": "Photo remaster + motion pass",
+        "bestFor": "Businesses with usable but flat images"
+      },
+      {
+        "id": "vercel_rebuild",
+        "label": "Full Vercel rebuild",
+        "bestFor": "Slow, dated, or template-heavy sites"
+      }
+    ]
+  },
+  "rank": 3,
+  "enrichment_sources": {
+    "logo": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "proposed-mark generation required; operator must confirm before deploy"
+    },
+    "colors": {
+      "source": "firecrawl-branding",
+      "confidence": 0.85,
+      "value": {
+        "primary": null,
+        "secondary": null,
+        "accent": null
+      }
+    },
+    "branding": {
+      "source": "leadminer-source-packet",
+      "confidence": 0.35,
+      "value": {
+        "logo": null,
+        "colors": {
+          "primary": null,
+          "secondary": null,
+          "accent": null
+        },
+        "images": {
+          "image_1": "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+          "image_2": "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+          "image_3": "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+          "image_4": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+          "image_5": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+          "image_6": "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+        }
+      }
+    },
+    "photos": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "use Gemini branded still, never stock Unsplash"
+    },
+    "copy": {
+      "source": "leadminer-source-packet",
+      "confidence": 0.7,
+      "value": "- Landscape design and installation in Sacramento\n- Hardscape, planting, cleanup, refreshes, and outdoor living details\n- Quote path built around fast local trust and clear service fit"
+    },
+    "service_areas": {
+      "source": "firecrawl",
+      "confidence": 0.85,
+      "value": [
+        "Sacramento"
+      ]
+    },
+    "hours": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "omit hours strip; do not invent"
+    },
+    "nap": {
+      "source": "firecrawl",
+      "confidence": 0.85,
+      "value": {
+        "name": "Barriga Landscaping",
+        "address": null,
+        "phone": null
+      }
+    },
+    "reviews": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "swap reviews section for services-process section"
+    },
+    "services": {
+      "source": "firecrawl",
+      "confidence": 0.85,
+      "value": [
+        "Landscape design and installation in Sacramento",
+        "Hardscape, planting, cleanup, refreshes, and outdoor living details",
+        "Quote path built around fast local trust and clear service fit"
+      ]
+    }
+  },
+  "media": {
+    "catalog": [
+      {
+        "kind": "image_1",
+        "url": "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88"
+      },
+      {
+        "kind": "image_2",
+        "url": "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88"
+      },
+      {
+        "kind": "image_3",
+        "url": "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88"
+      },
+      {
+        "kind": "image_4",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88"
+      },
+      {
+        "kind": "image_5",
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88"
+      },
+      {
+        "kind": "image_6",
+        "url": "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+      }
+    ]
+  },
+  "logo_source": {
+    "url": null,
+    "origin": "proposed",
+    "proposed": true
+  },
+  "hero_family": "cinematic-video-parallax",
+  "layout_seed": "-206600903",
+  "motif": "botanical-contour",
+  "section_plan": [
+    "hero",
+    "before-after-slider",
+    "homeowner-configurator",
+    "team-portrait",
+    "service-map",
+    "zigzag-photo-text",
+    "trust-ledger",
+    "faq-speakable",
+    "contact-strip-map"
+  ],
+  "voice_persona": {
+    "owner_name": "Barriga Landscaping",
+    "years_in_biz": null,
+    "first_person_snippets": [],
+    "tone": "confident, specific, local"
+  },
+  "veo_prompt": {
+    "provider": "veo-3",
+    "model": "veo-3-cinematic",
+    "duration_s": 10,
+    "fps": 24,
+    "resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Cinematic 10-second hero video for Barriga Landscaping, a landscaping operator in Sacramento, CA. Beats: (0-3s) tool-in-hand macro; (3-6s) mid-shot of work in progress; (6-10s) finished detail hero reveal. Lighting is golden hour, slight haze, anamorphic 2.39:1 with subtle lens breathing. Palette: warm earth tones. Motif reference: botanical-contour — the composition should echo this without literal overlays. Camera: slow dolly-in at 15mm equivalent, minimal cuts, one held beat at 6s. Grade: teal-shadow / warm-highlight, gentle grain. No text, no logos, no captions. Duration 10s, 24fps, resolution 1920x1080, HDR-ready.",
+    "negative_prompt": "stock footage aesthetic, generic drone shot, watermark, text, logo, cartoon, illustration, oversaturated",
+    "seed_slug": "wss-ca-landscape-barriga-landscaping--206600903"
+  }
+}

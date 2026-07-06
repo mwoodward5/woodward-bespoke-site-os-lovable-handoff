@@ -1,25 +1,239 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AJP LANDSCAPE INC | Los Angeles Landscape Website</title>
-  <meta name="description" content="AJP LANDSCAPE INC premium landscape website preview for Los Angeles, California.">
-  <meta name="robots" content="noindex,nofollow">
-  <link rel="canonical" href="https://wss-ca-landscape-ajp-landscape-inc.vercel.app/">
-  <meta property="og:title" content="AJP LANDSCAPE INC | Los Angeles Landscape Website">
-  <meta property="og:description" content="AJP LANDSCAPE INC premium landscape website preview for Los Angeles, California.">
-  <meta property="og:url" content="https://wss-ca-landscape-ajp-landscape-inc.vercel.app/">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://wss-ca-landscape-ajp-landscape-inc.vercel.app/og.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#eef2e7">
-  <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space%20Grotesk:wght@500;600;700;800&family=IBM%20Plex%20Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
-  <script src="/site.js" defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>AJP LANDSCAPE INC | Los Angeles landscaping</title>
+  <meta name="description" content="A polished local website for AJP LANDSCAPE INC, built around clear services, local trust, and a cleaner estimate path." />
+  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"LocalBusiness","name":"AJP LANDSCAPE INC","address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA"},"areaServed":["Los Angeles"]},{"@context":"https://schema.org","@type":"Service","name":"landscaping services","provider":{"@type":"LocalBusiness","name":"AJP LANDSCAPE INC"},"serviceType":["Landscape refreshes","Outdoor living details","Planting and cleanup","Hardscape repair"]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does the preview choose content?","acceptedAnswer":{"@type":"Answer","text":"It uses source-backed business data first and documented fallbacks when a field is missing."}}]},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://example.com/wss-ca-landscape-ajp-landscape-inc"}]}]</script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=Inter+Tight:wght@500;700;800;900&family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@700;800&family=Space+Grotesk:wght@500;700&display=swap');
+    :root {
+      color-scheme: dark;
+      --ink: #fff7ea;
+      --muted: rgba(255,247,234,.74);
+      --line: rgba(255,247,234,.16);
+      --accent: #fb7d33;
+      --accent-2: #0000ee;
+      --deep: #130f0b;
+      --shadow: #120d09;
+      --panel: rgba(28,21,15,.76);
+      --glass: rgba(255,255,255,.09);
+      --font-display: "Inter Tight", "Space Grotesk", system-ui, sans-serif;
+      --font-body: "Manrope", "DM Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { max-width: 100%; }
+    img, svg, video { max-width: 100%; }
+    body {
+      margin: 0;
+      font-family: var(--font-body);
+      background: radial-gradient(circle at 18% 6%, rgba(255,139,74,.22), transparent 32%),
+        radial-gradient(circle at 82% 12%, rgba(113,224,181,.16), transparent 28%),
+        #130f0b;
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+    a { color: inherit; }
+    .shell { width: min(1180px, calc(100vw - 32px)); margin: 0 auto; }
+    header.site-head {
+      min-height: 96px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      position: relative;
+      z-index: 20;
+    }
+    .brand { display: flex; align-items: center; gap: 16px; text-decoration: none; }
+    .brand img { width: 76px; height: 76px; object-fit: contain; border-radius: 22px; box-shadow: 0 18px 40px rgba(0,0,0,.28); }
+    .brand strong { display: block; font-family: var(--font-display); font-size: clamp(1.2rem, 2vw, 1.65rem); line-height: 1; }
+    .brand span { color: var(--accent); font-weight: 800; font-size: .86rem; }
+    nav { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    nav a, .btn {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.06);
+      border-radius: 999px;
+      padding: 13px 18px;
+      text-decoration: none;
+      font-weight: 800;
+      letter-spacing: 0;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.12);
+    }
+    .btn.primary { background: linear-gradient(135deg, var(--accent), #ffc667); color: #140c07; border: 0; }
+    .hero {
+      position: relative;
+      min-height: 760px;
+      display: grid;
+      align-items: center;
+      padding: 70px 0 96px;
+      isolation: isolate;
+      overflow: hidden;
+    }
+    .hero.hero-diagonal { align-items: start; padding-top: 118px; }
+    .hero.hero-centerpiece { text-align: center; }
+    .hero.hero-side-rail { padding-left: max(0px, calc((100vw - 1180px) / 2)); }
+    .hero.hero-photo-stack { min-height: 820px; }
+    .hero video, .hero .still {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .32;
+      filter: saturate(.9) contrast(1.08);
+      z-index: -6;
+    }
+    .hero .still {
+      background:
+        linear-gradient(125deg, rgba(255,139,74,.22), transparent 44%),
+        linear-gradient(24deg, rgba(113,224,181,.16), transparent 52%),
+        url("https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88") center/cover;
+    }
+    .veil { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(19,15,11,.95), rgba(19,15,11,.58) 46%, rgba(19,15,11,.2)); z-index: -5; }
+    .grain { position: absolute; inset: 0; opacity: .2; z-index: -4; background-image: radial-gradient(rgba(255,255,255,.24) 1px, transparent 1px); background-size: 4px 4px; mix-blend-mode: soft-light; }
+    .motif { position: absolute; inset: 7% 2% auto auto; width: min(46vw, 560px); height: 560px; z-index: -3; opacity: .34; }
+    .motif svg { width: 100%; height: 100%; filter: drop-shadow(0 24px 50px rgba(0,0,0,.32)); }
+    .overlay { position: absolute; inset: auto 0 0; height: 42%; z-index: -2; background: linear-gradient(0deg, #130f0b, transparent); }
+    .signature-node { position: absolute; border: 1px solid rgba(255,255,255,.12); border-radius: 999px; opacity: .28; z-index: -1; pointer-events: none; }
+    .signature-node b { display: block; width: 100%; height: 100%; border-radius: inherit; background: linear-gradient(135deg, rgba(255,255,255,.08), transparent); }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(360px, .72fr);
+      gap: clamp(28px, 5vw, 72px);
+      align-items: center;
+    }
+    .hero-diagonal .hero-grid { grid-template-columns: minmax(0,.74fr) minmax(420px,.92fr); align-items: start; }
+    .hero-centerpiece .hero-grid { grid-template-columns: 1fr; max-width: 960px; text-align: center; }
+    .hero-centerpiece .eyebrow, .hero-centerpiece .actions { justify-content: center; }
+    .hero-centerpiece h1, .hero-centerpiece .lede { margin-left: auto; margin-right: auto; }
+    .hero-side-rail .hero-grid { grid-template-columns: minmax(280px,.48fr) minmax(520px,1fr); }
+    .hero-side-rail .hero-grid > div:first-child { padding-left: 36px; border-left: 1px solid rgba(255,255,255,.18); }
+    .hero-photo-stack .hero-grid { grid-template-columns: minmax(0,.78fr) minmax(460px,.9fr); }
+    .eyebrow { color: var(--accent); font-weight: 900; letter-spacing: .16em; text-transform: uppercase; font-size: .78rem; display: flex; gap: 10px; align-items: center; }
+    .eyebrow::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--accent-2); box-shadow: 0 0 22px var(--accent-2); }
+    h1 { font-family: var(--font-display); font-size: clamp(3.25rem, 6.1vw, 6.8rem); line-height: .92; max-width: 760px; margin: 24px 0 22px; letter-spacing: 0; overflow-wrap: normal; text-wrap: balance; }
+    h1 span { color: var(--accent); }
+    .lede { color: var(--muted); max-width: 640px; font-size: clamp(1.1rem, 1.8vw, 1.45rem); line-height: 1.45; }
+    .actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 34px; }
+    .widget {
+      position: relative;
+      min-height: 560px;
+      border-radius: 44px;
+      padding: 24px;
+      background: linear-gradient(145deg, rgba(255,255,255,.14), rgba(255,255,255,.045));
+      border: 1px solid rgba(255,255,255,.18);
+      box-shadow: 0 34px 90px rgba(0,0,0,.36);
+      overflow: hidden;
+      transform: rotate(1.2deg);
+    }
+    .hero-diagonal .widget { border-radius: 24px 64px 24px 64px; clip-path: polygon(9% 0, 100% 0, 91% 100%, 0 100%); transform: rotate(-2.3deg) translateY(18px); }
+    .hero-centerpiece .widget { width: min(780px, 100%); min-height: 380px; margin: 28px auto 0; border-radius: 999px 999px 44px 44px; transform: none; }
+    .hero-side-rail .widget { border-radius: 18px 120px 18px 46px; transform: rotate(.6deg); }
+    .hero-photo-stack .widget { border-radius: 42px 42px 120px 24px; transform: rotate(2.4deg); }
+    .widget::before {
+      content: "";
+      position: absolute;
+      inset: 24px;
+      border-radius: 36px;
+      background: linear-gradient(180deg, rgba(255,255,255,.13), transparent), url("https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88") center/cover;
+      clip-path: path("M 850.0382675413857 500 C 850.8862183726965 599.4966523453774, 859.3735207869619 734.5043810532278, 801.0338095300642 801.0338095300642 C 742.6940982731666 867.5632380069006, 586.5671096916083 912.9540643460981, 500 899.1765708610183 C 413.43289030839173 885.3990773759384, 347.9147067780912 784.8982770964218, 281.6311513804147 718.3688486195854 C 215.34759598273814 651.839420142749, 118.1727496776226 588.6636982702103, 102.29866761394078 500.00000000000006 C 86.42458555025895 411.3363017297898, 120.10310360064723 254.68876773946613, 186.38665899832375 186.38665899832387 C 252.6702143960003 118.08455025718162, 398.40675907602065 87.24280814323387, 499.99999999999994 90.1873475531466 C 601.5932409239792 93.13188696305932, 737.606393285302 135.75178671665796, 795.9461045421997 204.0538954578002 C 854.2858157990973 272.3560041989424, 849.190316710075 400.50334765462264, 850.0382675413857 500 Z");
+      filter: hue-rotate(-11deg) saturate(1.04);
+    }
+    .hero-diagonal .widget::before { inset: 18px 34px; border-radius: 20px 52px 20px 52px; clip-path: polygon(4% 0, 100% 0, 93% 100%, 0 100%); }
+    .hero-centerpiece .widget::before { inset: 18px; border-radius: 999px 999px 38px 38px; clip-path: ellipse(47% 46% at 50% 50%); }
+    .hero-side-rail .widget::before { inset: 20px; border-radius: 14px 96px 14px 38px; clip-path: polygon(0 0, 86% 0, 100% 18%, 92% 100%, 0 100%); }
+    .hero-photo-stack .widget::before { inset: 18px; border-radius: 34px 34px 96px 20px; clip-path: polygon(0 5%, 74% 0, 100% 20%, 96% 100%, 10% 92%); }
+    .widget-card {
+      position: absolute;
+      left: 34px;
+      right: 34px;
+      bottom: 34px;
+      padding: 22px;
+      border-radius: 26px;
+      background: rgba(18,13,9,.76);
+      border: 1px solid rgba(255,255,255,.15);
+      backdrop-filter: blur(16px);
+    }
+    .countups { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 18px; }
+    .countups b { font-family: var(--font-display); font-size: 1.9rem; color: var(--accent-2); }
+    .marquee { border-block: 1px solid var(--line); color: rgba(255,247,234,.58); padding: 16px 0; overflow: hidden; white-space: nowrap; }
+    .marquee span { display: inline-block; padding-right: 44px; }
+    section.content { padding: 92px 0; border-top: 1px solid var(--line); }
+    .section-grid { display: grid; grid-template-columns: .7fr 1fr; gap: 48px; align-items: start; }
+    h2 { font-family: var(--font-display); font-size: clamp(2.2rem, 4vw, 4.8rem); line-height: .94; margin: 0; }
+    .cards { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
+    .card { border: 1px solid var(--line); background: var(--glass); border-radius: 28px; padding: 24px; min-height: 160px; }
+    .card b { color: var(--accent-2); }
+    footer { padding: 46px 0; color: rgba(255,247,234,.55); border-top: 1px solid var(--line); }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } .widget { transform: none; } }
+    @media (max-width: 820px) {
+      header.site-head { align-items: flex-start; flex-direction: column; }
+      .brand img { width: 72px; height: 72px; }
+      .hero { min-height: auto; padding-top: 34px; }
+      .hero-grid, .hero-diagonal .hero-grid, .hero-centerpiece .hero-grid, .hero-side-rail .hero-grid, .hero-photo-stack .hero-grid, .section-grid, .cards { grid-template-columns: 1fr; }
+      .hero-side-rail .hero-grid > div:first-child { padding-left: 0; border-left: 0; }
+      .widget { min-height: 430px; border-radius: 30px; transform: none; }
+      .widget, .widget-card { max-width: 100%; }
+      .widget-card { left: 18px; right: 18px; bottom: 18px; }
+      h1 { font-size: clamp(3rem, 14vw, 4.9rem); overflow-wrap: anywhere; }
+      nav a { padding: 10px 13px; font-size: .92rem; }
+    }
+  </style>
 </head>
-<body><a class="skip" href="#main">Skip to content</a><div class="texture"></div><div class="site architect" data-v4-build="a-plus-meta" data-lane="single-page-cinematic"><nav class="nav"><div class="shell nav-inner"><a class="brand" href="/" aria-label="AJP LANDSCAPE INC home"><span class="brand-logo proposed"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 12h44v40H10zM22 12v40M42 12v40M10 30h44" fill="none" stroke="currentColor" stroke-width="4"/><path d="m16 47 31-30" stroke="currentColor" stroke-width="3"/></svg></span><span><b>AJP LANDSCAPE</b><em>LA design-build crew</em></span></a><div class="links"><a href="#services">Services</a><a href="#map">Map</a><a href="#quote">Estimate</a><a class="phone" href="tel:3234207758">(323) 420-7758</a></div></div></nav><section class="hero" id="main" data-video-status="veo-ready" data-hero-model="service-map"><div class="hero-video" aria-hidden="true"><video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&amp;fit=crop&amp;w=1800&amp;q=88"><source src="/assets/hero-video.mp4" type="video/mp4"></video></div><div class="hero-noise" aria-hidden="true"></div><div class="shell hero-grid"><div class="hero-copy"><p class="kicker">LA design-build crew</p><h1>Outdoor plans that <span class="wash">look</span> intentional from the street.</h1><p class="lead">A sharper Los Angeles site for planting, hardscape, lighting, and outdoor upgrades, arranged like a plan set instead of a service flyer.</p><div class="hero-instrument architect-instrument" aria-label="Plan takeoff widget"><span>LOT</span><b>Los Angeles</b><i>Design-build</i><i>Hardscape layout</i></div><div class="actions"><a class="btn primary" href="/quote/">Map my yard</a><a class="btn" href="/gallery/">Open the plan board</a></div></div><div class="stage" data-stage="blueprint-stack"><div class="blueprint-grid"></div><div class="frame one"><img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&amp;fit=crop&amp;w=1800&amp;q=88" alt="AJP LANDSCAPE INC landscape project visual"><div class="caption"><b>Los Angeles</b><span>Architect Grid</span></div></div><div class="frame two"><img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&amp;fit=crop&amp;w=1800&amp;q=88" alt="AJP LANDSCAPE INC detail image"></div><div class="measure-rail"><span>LOT<b>01</b></span><span>GRADE<b>02</b></span><span>LIGHT<b>03</b></span></div><div class="badge-row"><span>Design-build</span><span>Hardscape layout</span><span>Lighting upgrades</span><span>Planting plan</span></div></div></div><div class="shell hero-stats architect-stats" aria-label="AJP LANDSCAPE INC quick proof"><span><b>5</b><i>rating</i></span><span><b>19</b><i>reviews</i></span><span><b>5</b><i>nearby areas</i></span></div><div class="hero-marquee architect-marquee" aria-hidden="true"><div><span>Design-build</span><span>Hardscape layout</span><span>Lighting upgrades</span><span>Planting plan</span><span>Outdoor repairs</span><span>Los Angeles</span><span>West Adams</span><span>Mid-City</span><span>Beverly Grove</span><span>Culver City</span><span>Design-build</span><span>Hardscape layout</span><span>Lighting upgrades</span><span>Planting plan</span><span>Outdoor repairs</span><span>Los Angeles</span><span>West Adams</span><span>Mid-City</span><span>Beverly Grove</span><span>Culver City</span></div></div></section><section class="section alt" id="services" data-section-model="zigzag"><div class="shell"><div class="section-head"><h2>A plan-set menu for tight outdoor work.</h2><p>AJP LANDSCAPE INC is organized like a field board: scope, material, lighting, and site constraints placed where a homeowner can understand the work fast.</p></div><div class="services"><article class="service"><i>01</i><h3>Design-build</h3><p>Outdoor ideas become a confident plan view with edges, lighting, materials, and next steps.</p></article><article class="service"><i>02</i><h3>Hardscape layout</h3><p>Patios, walkways, walls, and grade changes are framed as one coordinated project.</p></article><article class="service"><i>03</i><h3>Lighting upgrades</h3><p>Lighting upgrades changes the yard in a visible way: cleaner edges, easier access, and a clearer first walkthrough.</p></article><article class="service"><i>04</i><h3>Planting plan</h3><p>Planting plan changes the yard in a visible way: cleaner edges, easier access, and a clearer first walkthrough.</p></article><article class="service"><i>05</i><h3>Outdoor repairs</h3><p>Outdoor repairs changes the yard in a visible way: cleaner edges, easier access, and a clearer first walkthrough.</p></article></div></div></section><section class="section map-band" id="map"><div class="shell map-grid"><div class="map-copy"><p class="kicker">Satellite map + directions</p><h2>See the service area before you call.</h2><p>AJP LANDSCAPE INC is anchored at 4828 St Charles Pl, Los Angeles, CA 90019. The production version can pair this satellite view with verified service-radius details, neighborhood pages, and route-aware call tracking.</p><div class="pin-list"><span class="pin">Los Angeles</span><span class="pin">West Adams</span><span class="pin">Mid-City</span><span class="pin">Beverly Grove</span><span class="pin">Culver City</span></div></div><div class="map-frame"><iframe title="AJP LANDSCAPE INC satellite map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=4828%20St%20Charles%20Pl%2C%20Los%20Angeles%2C%20CA%2090019&amp;t=k&amp;z=14&amp;output=embed"></iframe><div class="direction-dock"><span>4828 St Charles Pl, Los Angeles, CA 90019</span><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=4828%20St%20Charles%20Pl%2C%20Los%20Angeles%2C%20CA%2090019">Get directions</a></div></div></div></section><section class="section alt"><div class="shell"><div class="section-head"><h2>A cleaner path from curiosity to walkthrough.</h2><p>The scroll is designed to reduce vague calls and help the owner start with a real project shape.</p></div><div class="process-ribbon"><article class="process-step" data-step="01"><b>Share the outdoor area</b><p>Pick the project type and send the first details from a phone.</p></article><article class="process-step" data-step="02"><b>Show the location</b><p>The satellite map and service-area pins make the request feel grounded.</p></article><article class="process-step" data-step="03"><b>Send photos</b><p>Homeowners can show the trouble spot before a walkthrough is scheduled.</p></article><article class="process-step" data-step="04"><b>Confirm the walkthrough</b><p>The call starts with scope, timing, and address context already clear.</p></article></div></div></section><section class="section estimate-zone" id="quote" data-intake-model="service-map"><div class="shell"><div class="section-head"><h2>Turn the yard into a build brief.</h2><p>Pick the site condition, choose the outdoor system, and create a cleaner first conversation around scope and materials.</p></div><div class="estimate-studio"><aside class="studio-card"><div><p class="kicker">Los Angeles Plan intake</p><h2>Shape the job before the call.</h2><p>Fast enough for a phone, polished enough to make the business feel established before the first walkthrough.</p></div><div class="scope-ring" aria-label="Three-step estimate readiness"><span>3<small>steps</small></span></div><div class="studio-metrics"><span><b>5</b>rating cue</span><span><b>19</b>reviews</span><span><b>24h</b>reply goal</span></div></aside><div class="studio-console"><div class="console-top"><div><p class="kicker">Build the request</p><h3>Pick the work. Add photos. Book the walkthrough.</h3><p>Each choice trims the back-and-forth and gives the owner a clearer opening conversation.</p></div><span class="status-pill">Ready path</span></div><div class="choice-row" aria-label="Project size"><button class="choice is-active" type="button" data-choice="Refresh">Refresh</button><button class="choice" type="button" data-choice="Repair">Repair</button><button class="choice" type="button" data-choice="Full yard">Full yard</button><button class="choice" type="button" data-choice="Commercial">Commercial</button></div><div class="chip-cloud" aria-label="Service choices"><button class="material-chip is-active" type="button" data-choice="Design-build">Design-build</button><button class="material-chip is-active" type="button" data-choice="Hardscape layout">Hardscape layout</button><button class="material-chip" type="button" data-choice="Lighting upgrades">Lighting upgrades</button><button class="material-chip" type="button" data-choice="Planting plan">Planting plan</button><button class="material-chip" type="button" data-choice="Outdoor repairs">Outdoor repairs</button></div><div class="meter"><div class="meter-head"><span>Timeline</span><strong data-estimate-summary>This month · photo-ready</strong></div><div class="meter-track" aria-hidden="true"></div><div class="meter-labels"><span>Today</span><span>This week</span><span>This month</span></div></div><div class="flow-steps"><span><b>01 Scope</b>Choose the outdoor work.</span><span><b>02 Photos</b>Send the trouble spots.</span><span><b>03 Walkthrough</b>Confirm timing and price.</span></div><div class="action-dock"><div class="dock-copy"><b>Ready to start?</b><span>Call, text photos, or save this scope for the walkthrough.</span></div><div class="dock-actions"><a class="btn primary" href="tel:3234207758">Call (323) 420-7758</a><a class="btn" href="sms:3234207758">Send photos</a></div></div></div></div><div class="mobile-cta"><span><b>Plan intake</b>Call or send photos</span><a class="btn primary" href="tel:3234207758">Start</a></div></div></section><section class="section" id="work" data-section-model="process-timeline"><div class="shell"><div class="section-head"><h2>A visual takeoff board.</h2><p>Image plates are treated like plan sheets, with hard edges, scale labels, and project proof arranged for fast scanning.</p></div><div class="mosaic"><figure><img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&amp;fit=crop&amp;w=1800&amp;q=88" alt="AJP LANDSCAPE INC Plan view"><figcaption>Plan view</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&amp;fit=crop&amp;w=1800&amp;q=88" alt="AJP LANDSCAPE INC Outdoor edge"><figcaption>Outdoor edge</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&amp;fit=crop&amp;w=1800&amp;q=88" alt="AJP LANDSCAPE INC Build surface"><figcaption>Build surface</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=1800&amp;q=88" alt="AJP LANDSCAPE INC Lighting rhythm"><figcaption>Lighting rhythm</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&amp;fit=crop&amp;w=1800&amp;q=88" alt="AJP LANDSCAPE INC Finished yard"><figcaption>Finished yard</figcaption></figure></div></div></section><section class="section alt"><div class="shell trust"><span><b>Los Angeles</b>Primary market</span><span><b>5</b>Google rating</span><span><b>19</b>Public reviews</span><span><b>Mon 8:00 AM – 6:00 PM</b>Hours cue</span></div></section><section class="section" id="faq"><div class="shell"><div class="section-head"><h2>Questions homeowners ask before they call.</h2><p>Short direct answers support search, AI answers, and a calmer sales conversation.</p></div><div class="faq-list"><details><summary>Does AJP LANDSCAPE INC serve Los Angeles?</summary><p>Yes. The preview is built around Los Angeles and nearby service-area pins so homeowners immediately understand the local footprint.</p></details><details><summary>Can I send photos before a walkthrough?</summary><p>Yes. The estimate path is designed around photos first, then a clearer phone call or walkthrough.</p></details><details><summary>What kind of landscape work is highlighted?</summary><p>Design-build, Hardscape layout, Lighting upgrades, Planting plan and related outdoor improvements are placed into the main service path.</p></details><details><summary>Is the map based on the business address?</summary><p>The map uses the public business address when available: 4828 St Charles Pl, Los Angeles, CA 90019.</p></details></div></div></section><section class="section alt"><div class="shell"><div class="section-head"><h2>Trust signals that do not need a speech.</h2><p>Real public facts are placed close to the decision points, so the page feels useful before anyone gets sold to.</p></div><div class="proof-band"><article class="proof-quote"><p>5 rating</p><span>AJP LANDSCAPE INC carries a public rating signal that should be made visible before the homeowner has to search for it.</span></article><article class="proof-quote"><p>19 public reviews</p><span>The review count gives the page a real trust spine without inventing testimonials.</span></article><article class="proof-quote"><p>Monday 8:00 AM – 6:00 PM</p><span>The opening-hours cue helps Los Angeles homeowners decide when to call.</span></article></div></div></section><footer class="footer"><div class="shell footer-grid"><div><b>AJP LANDSCAPE INC</b><p>Los Angeles landscape services and outdoor project planning.</p></div><div><b>Phone</b><p>(323) 420-7758</p></div><div><b>Website</b><p>http://www.ajplandscape.com/</p></div><div><b>Next step</b><p>Call, send photos, or start a walkthrough request.</p></div></div></footer></div></body></html>
+<body>
+  <header class="site-head shell">
+    <a class="brand" href="#top" aria-label="AJP LANDSCAPE INC home">
+      <img data-role="logo" alt="AJP LANDSCAPE INC logo" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22152%22%20height%3D%22152%22%20viewBox%3D%220%200%20152%20152%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23ff8b4a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2371e0b5%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22152%22%20height%3D%22152%22%20rx%3D%2238%22%20fill%3D%22url(%23g)%22%2F%3E%3Cpath%20d%3D%22M38%20104V48h76v56H38Zm10-10h56V58H48v36Z%22%20fill%3D%22%23160f0a%22%20opacity%3D%22.92%22%2F%3E%3Ctext%20x%3D%2276%22%20y%3D%2286%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22900%22%20fill%3D%22%23160f0a%22%3EAL%3C%2Ftext%3E%3C%2Fsvg%3E" width="76" height="76" />
+      <span><strong>AJP LANDSCAPE INC</strong><span>Los Angeles landscaping</span></span>
+    </a>
+    <nav aria-label="Primary"><a href="#services">Services</a><a href="#work">Work</a><a href="#quote">Estimate</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero hero-side-rail" data-hero-anatomy="side-rail-proof" data-layout-signature="side-rail:left-rule:wide-media:rail-copy">
+      <div class="still" aria-hidden="true"></div>
+      <div class="veil" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+      <div class="motif" aria-hidden="true"><svg viewBox="0 0 1000 1000"><path d="M 850.0382675413857 500 C 850.8862183726965 599.4966523453774, 859.3735207869619 734.5043810532278, 801.0338095300642 801.0338095300642 C 742.6940982731666 867.5632380069006, 586.5671096916083 912.9540643460981, 500 899.1765708610183 C 413.43289030839173 885.3990773759384, 347.9147067780912 784.8982770964218, 281.6311513804147 718.3688486195854 C 215.34759598273814 651.839420142749, 118.1727496776226 588.6636982702103, 102.29866761394078 500.00000000000006 C 86.42458555025895 411.3363017297898, 120.10310360064723 254.68876773946613, 186.38665899832375 186.38665899832387 C 252.6702143960003 118.08455025718162, 398.40675907602065 87.24280814323387, 499.99999999999994 90.1873475531466 C 601.5932409239792 93.13188696305932, 737.606393285302 135.75178671665796, 795.9461045421997 204.0538954578002 C 854.2858157990973 272.3560041989424, 849.190316710075 400.50334765462264, 850.0382675413857 500 Z" fill="none" stroke="rgba(113,224,181,.75)" stroke-width="3"/><path d="M 850.0382675413857 500 C 850.8862183726965 599.4966523453774, 859.3735207869619 734.5043810532278, 801.0338095300642 801.0338095300642 C 742.6940982731666 867.5632380069006, 586.5671096916083 912.9540643460981, 500 899.1765708610183 C 413.43289030839173 885.3990773759384, 347.9147067780912 784.8982770964218, 281.6311513804147 718.3688486195854 C 215.34759598273814 651.839420142749, 118.1727496776226 588.6636982702103, 102.29866761394078 500.00000000000006 C 86.42458555025895 411.3363017297898, 120.10310360064723 254.68876773946613, 186.38665899832375 186.38665899832387 C 252.6702143960003 118.08455025718162, 398.40675907602065 87.24280814323387, 499.99999999999994 90.1873475531466 C 601.5932409239792 93.13188696305932, 737.606393285302 135.75178671665796, 795.9461045421997 204.0538954578002 C 854.2858157990973 272.3560041989424, 849.190316710075 400.50334765462264, 850.0382675413857 500 Z" fill="rgba(255,139,74,.12)"/></svg></div>
+      <div class="overlay" aria-hidden="true"></div>
+      <i class="signature-node side-rail-proof-node-0" aria-hidden="true" data-node="side-rail-proof-0" style="width:140px;height:88px;top:78%;left:64%;transform:rotate(14deg)"><b><b><b></b></b></b></i><i class="signature-node side-rail-proof-node-1" aria-hidden="true" data-node="side-rail-proof-1" style="width:177px;height:107px;top:19%;left:87%;transform:rotate(-11deg)"></i><i class="signature-node side-rail-proof-node-2" aria-hidden="true" data-node="side-rail-proof-2" style="width:214px;height:36px;top:32%;left:22%;transform:rotate(0deg)"><b></b></i><i class="signature-node side-rail-proof-node-3" aria-hidden="true" data-node="side-rail-proof-3" style="width:251px;height:55px;top:45%;left:45%;transform:rotate(11deg)"><b><b></b></b></i><i class="signature-node side-rail-proof-node-4" aria-hidden="true" data-node="side-rail-proof-4" style="width:108px;height:74px;top:58%;left:68%;transform:rotate(-14deg)"><b><b><b></b></b></b></i><i class="signature-node side-rail-proof-node-5" aria-hidden="true" data-node="side-rail-proof-5" style="width:145px;height:93px;top:71%;left:91%;transform:rotate(-3deg)"></i><i class="signature-node side-rail-proof-node-6" aria-hidden="true" data-node="side-rail-proof-6" style="width:182px;height:22px;top:12%;left:26%;transform:rotate(8deg)"><b><b></b></b></i><i class="signature-node side-rail-proof-node-7" aria-hidden="true" data-node="side-rail-proof-7" style="width:219px;height:41px;top:25%;left:49%;transform:rotate(-17deg)"></i><i class="signature-node side-rail-proof-node-8" aria-hidden="true" data-node="side-rail-proof-8" style="width:76px;height:60px;top:38%;left:72%;transform:rotate(-6deg)"><b><b><b></b></b></b></i>
+      <div class="hero-grid shell">
+        <div>
+          <div class="eyebrow">Los Angeles botanical-contour</div>
+          <h1>Trust-ready outdoor work in <span>Los Angeles</span>.</h1>
+          <p class="lede">AJP LANDSCAPE INC gets a more direct presentation: what they do, where they work, and how to start a real project conversation.</p>
+          <div class="actions"><a class="btn primary" href="#quote">Request an estimate</a><a class="btn" href="#work">See the work</a></div>
+        </div>
+        <aside class="widget" aria-label="Preview widget">
+          <div class="widget-card">
+            <b>Los Angeles</b>
+            <p>Clear service areas, visible proof, and a faster estimate path for homeowners who want the outdoor work handled cleanly.</p>
+            <div class="countups"><span><b>4</b><br/>service paths</span><span><b>24h</b><br/>reply goal</span><span><b>CA</b><br/>local proof</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <div class="marquee"><span>Landscape refreshes · Outdoor living details · Planting and cleanup · Hardscape repair</span><span>Landscape refreshes · Outdoor living details · Planting and cleanup · Hardscape repair</span><span>Landscape refreshes · Outdoor living details · Planting and cleanup · Hardscape repair</span></div>
+    <section id="services" class="content shell">
+      <div class="section-grid">
+        <h2>Built around the work homeowners actually call for.</h2>
+        <div class="cards"><article class="card"><b>01</b><h3>Landscape refreshes</h3><p>Plain-language service pages, sharp visuals, and quote-ready calls to action make it easier for local visitors to choose the next step.</p></article><article class="card"><b>02</b><h3>Outdoor living details</h3><p>Plain-language service pages, sharp visuals, and quote-ready calls to action make it easier for local visitors to choose the next step.</p></article><article class="card"><b>03</b><h3>Planting and cleanup</h3><p>Plain-language service pages, sharp visuals, and quote-ready calls to action make it easier for local visitors to choose the next step.</p></article><article class="card"><b>04</b><h3>Hardscape repair</h3><p>Plain-language service pages, sharp visuals, and quote-ready calls to action make it easier for local visitors to choose the next step.</p></article></div>
+      </div>
+    </section>
+    <section id="work" class="content shell">
+      <div class="section-grid">
+        <h2>Real work, framed with more polish.</h2>
+        <p class="lede">Photos, service details, and local trust signals are staged so the business feels established before the visitor ever reaches the quote form.</p>
+      </div>
+    </section>
+    <section id="quote" class="content shell">
+      <div class="section-grid">
+        <h2>Ready when the project is.</h2>
+        <div class="card"><p>Send the job type, neighborhood, timeline, and a few photos. The estimate path stays short, direct, and easy to finish.</p><a class="btn primary" href="tel:">Start quote path</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="shell">A cleaner local estimate experience for homeowners ready to start the next outdoor project.</footer>
+</body>
+</html>

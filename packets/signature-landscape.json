@@ -1,0 +1,32 @@
+{
+  "slug": "signature-landscape",
+  "business": {
+    "name": "Signature Landscape",
+    "category": "landscaping",
+    "city": "Mission Viejo",
+    "state": "CA",
+    "current_website": "https://signaturelandscape.com",
+    "gbp_url": "https://maps.google.com/?q=Signature+Landscape+Mission+Viejo",
+    "source_platform": "wordpress"
+  },
+  "build_type": "multi-page",
+  "toggles": {
+    "firecrawl": true,
+    "gbp": true,
+    "local_serp": true,
+    "video_prompt": true,
+    "map": true,
+    "ai_chat": false,
+    "payment_cta": false
+  },
+  "hero_family": "cinematic-video-parallax",
+  "layout_seed": "",
+  "motif": "botanical-contour",
+  "voice_persona": {
+    "owner_name": "Signature Landscape",
+    "years_in_biz": null,
+    "first_person_snippets": [],
+    "tone": "confident, specific, local"
+  },
+  "enrichment_sources": {}
+}

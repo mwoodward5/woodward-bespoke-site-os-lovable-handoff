@@ -1,0 +1,11 @@
+{
+  "provider": "veo-3",
+  "model": "veo-3-cinematic",
+  "duration_s": 10,
+  "fps": 24,
+  "resolution": "1920x1080",
+  "aspect_ratio": "16:9",
+  "prompt": "Cinematic 10-second hero video for Signature Landscape, a landscaping operator in Mission Viejo, CA. Beats: (0-3s) tool-in-hand macro; (3-6s) mid-shot of work in progress; (6-10s) finished detail hero reveal. Lighting is golden hour, slight haze, anamorphic 2.39:1 with subtle lens breathing. Palette: warm earth tones. Motif reference: botanical-contour — the composition should echo this without literal overlays. Camera: slow dolly-in at 15mm equivalent, minimal cuts, one held beat at 6s. Grade: teal-shadow / warm-highlight, gentle grain. No text, no logos, no captions. Duration 10s, 24fps, resolution 1920x1080, HDR-ready.",
+  "negative_prompt": "stock footage aesthetic, generic drone shot, watermark, text, logo, cartoon, illustration, oversaturated",
+  "seed_slug": "signature-landscape--1405846324"
+}

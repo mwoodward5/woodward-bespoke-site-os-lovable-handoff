@@ -13,7 +13,9 @@
     "build:ca-landscape": "node factory/build-ca-landscape-aplus-sites.mjs",
     "gate:kitchens": "node scripts/three-kitchen-gate.mjs --strict",
     "smoke:ca-landscape": "node factory/smoke-ca-landscape-sites.mjs",
-    "capture:ca-landscape": "node factory/capture-ca-landscape-sites.mjs"
+    "capture:ca-landscape": "node factory/capture-ca-landscape-sites.mjs",
+    "forge": "node scripts/forge.mjs",
+    "forge:intake": "node scripts/forge.mjs --from-intake"
   },
   "dependencies": {
     "jsdom": "^24.0.0",

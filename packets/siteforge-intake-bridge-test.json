@@ -1,0 +1,82 @@
+{
+  "slug": "siteforge-intake-bridge-test",
+  "prompt": "Forged from intake for Barriga Landscaping",
+  "forge": {
+    "version": "1.0.0",
+    "generated_at": "2026-07-07T09:02:48.283Z",
+    "deterministic_seed": "2db4a2503578",
+    "demo": true
+  },
+  "business": {
+    "name": "Barriga Landscaping",
+    "category": "landscaping",
+    "city": "Anaheim",
+    "state": "CA",
+    "phone": "(714) 555-0122",
+    "email": "owner@example.com",
+    "source_platform": "other"
+  },
+  "build_type": "multi-page",
+  "hero_family": "service-map-pins",
+  "layout_seed": "2db4a2503578",
+  "toggles": {
+    "firecrawl": false,
+    "gbp": false,
+    "local_serp": false,
+    "video_prompt": false,
+    "map": true,
+    "ai_chat": false,
+    "payment_cta": false
+  },
+  "enrichment_sources": {
+    "name": {
+      "source": "intake_form",
+      "confidence": 0.95,
+      "value": "Barriga Landscaping"
+    },
+    "category": {
+      "source": "intake_form",
+      "confidence": 0.95,
+      "value": "landscaping"
+    },
+    "city": {
+      "source": "intake_form",
+      "confidence": 0.95,
+      "value": "Anaheim"
+    },
+    "state": {
+      "source": "intake_form",
+      "confidence": 0.95,
+      "value": "CA"
+    },
+    "phone": {
+      "source": "intake_form",
+      "confidence": 0.95,
+      "value": "(714) 555-0122"
+    },
+    "email": {
+      "source": "intake_form",
+      "confidence": 0.95,
+      "value": "owner@example.com"
+    },
+    "services": {
+      "source": "intake_form",
+      "confidence": 0.95,
+      "value": "weekly maintenance, sod installation, sprinkler repair"
+    },
+    "tone": {
+      "source": "intake_form",
+      "confidence": 0.95,
+      "value": "warm, plainspoken, professional"
+    }
+  },
+  "voice_persona": {
+    "owner_name": "Barriga Landscaping team",
+    "tone": "warm, plainspoken, professional"
+  },
+  "services": [
+    "weekly maintenance",
+    "sod installation",
+    "sprinkler repair"
+  ]
+}

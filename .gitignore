@@ -24,3 +24,6 @@ generated-sites/*/media/
 *.pem
 *.p12
 *.pfx
+
+# SiteForge SaaS app runtime data (machine-local)
+app/data/

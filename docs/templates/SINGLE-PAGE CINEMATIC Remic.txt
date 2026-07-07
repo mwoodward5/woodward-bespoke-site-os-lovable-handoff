@@ -1,0 +1,165 @@
+PROMPT A — SINGLE-PAGE CINEMATIC SCROLL (v3 FINAL) Master prompt for a one-page, conversion-tuned local business site. Two-pass contract. Plan-mode first, then Build-mode only after operator approval.
+
+EXECUTION RULES (READ FIRST) DO NOT ASK QUESTIONS. Make every decision from intake + scrape. NO PLACEHOLDERS. No "lorem", no "[client name]", no stock-photo silhouettes. TWO PASS. Pass 1 is Plan mode only: read the intake/compiler packet, identify missing files, request Firecrawl when enrichment is needed, propose the hero fingerprint, widget spec, SEO/schema/forms/map plan, GitHub/Vercel takeover path, blockers, and readiness score. Stop after Plan mode until the operator approves Build. Pass 2 is Build mode: build the full site in one complete pass after approval. SELF-HEAL without lowering quality. If video generation fails → generate an alternate cinematic hero scene, use an approved editorial cinematic still, or block for manual approval; never use Ken Burns. If scrape fails → fallback rules in §1. If a font is unreachable → curated fallback. OUTPUT FORMAT (Plan mode): include plan_summary, packet_manifest, missing_assets, Firecrawl_requests, hero_fingerprint, custom_widget_concept, migration_readiness, blockers, readiness_score, approval_required. OUTPUT FORMAT (final Build reply): 6 lines, nothing else:
+Lane: [chosen lane]
+Palette: [3 OKLCH values + accent, sourced from /brand/profile.json]
+Type: [display / body, sourced]
+Widget: [vertical-specific widget + 1-line description]
+CountUps: [n1] · [n2] · [n3]
+Resonance: [1-sentence rapport line for sales call]
+PHASE 0 — BRAND INTAKE + SCRAPE + RESONANCE (MANDATORY, RUNS FIRST)
+1.1 Required intake fields business_name, city, state, phone, email, website_url?, facebook_url?, instagram_url?, gbp_url?, one_line_description, vertical (1 of 100+).
+
+1.2 Scrape sequence (Firecrawl, in order) Existing website → scrape with formats ['markdown','branding','screenshot','links','summary'] → extract logo, OKLCH-converted palette, fonts, OG image, favicon, copy voice. Search → "{business_name} {city}" limit 5 → harvests GBP, Yelp, BBB, FB. Each social/GBP URL → scrape markdown + screenshot → reviews, owner replies, captions, photo subjects. Reviews bulk-scrape → up to 50 reviews → feed Resonance Profiler (§1.4).
+
+1.3 Fallbacks (proceed, never block) No website → derive palette from logo dominant colors via branding extraction on GBP/FB. No logo anywhere → use vertical-default lane palette + flag brand.verified=false. No reviews → use vertical-typical proof-points pulled from local SERP snippets. All scrape fails → ship neutral defensible palette and write BRAND UNVERIFIED — confirm before launch to the build summary.
+
+1.4 Resonance Profiler (Public Business Resonance Profiler) Runs on all scraped text. Only analyze public business-facing data. Never infer protected traits, medical/mental conditions, politics, religion, sexuality, income, or private life.
+
+Extract: Dominant voice — plainspoken / technical / premium / neighborly / urgent / formal / humorous / protective Emotional temperature — calm / energetic / serious / reassuring / proud / no-nonsense Rapport triggers — words, phrases, proof types, layout patterns the owner will respond to Friction triggers — styles, claims, colors, words, sales tactics the owner will reject Customer emotional purchase — trust / relief / speed / pride / safety / beauty / status / value Copy posture — exact short phrases the site should echo Visual comfort zone — what looks "like them" Visual discomfort zone — what looks "not them" Proof hierarchy — which proof types lead, which support CTA language — words that match owner tone Mirror words (use these) Banned words (do not use these)
+
+NLP evidence table (rule-based, ML-assisted):
+
+Signal | Look for | Site decision Repeated adjectives | honest, clean, fast, professional, beautiful, fair, reliable | Use exact concepts in hero, service cards, proof strips Review emotions | relief, trust, pride, frustration, surprise, gratitude | Match homepage's emotional promise Owner reply style | "Thank you so much" vs "We appreciate your business" vs technical | Match copy formality Sentence length | short/blunt vs long/explanatory | Match copy density Vocabulary | trade terms, luxury words, local slang, family language | Pick copy voice + section names Complaint themes | late, messy, expensive, poor communication | Add trust blocks that neutralize fears Praise themes | clean work, fast response, fair price, detail, professionalism | Lead with proof customers already believe Certainty language | "always", "guaranteed", "licensed", "insured" | Stronger authority tone Humility language | "family-owned", "small local team", "we care", "neighbors" | Warmer community tone Status language | "luxury", "custom", "premium", "estate", "white glove" | More elevated visual system
+
+Tone scoring (Nielsen Norman 4-axis), output /brand/resonance.json:
+
+{
+  "tone_profile": {
+    "formal_casual": 0-100,
+    "serious_funny": 0-100,
+    "respectful_irreverent": 0-100,
+    "matter_of_fact_enthusiastic": 0-100,
+    "confidence": 0-100,
+    "evidence": ["...", "...", "..."]
+  },
+  "mirror_words": [],
+  "banned_words": [],
+  "customer_emotional_purchase": "",
+  "rapport_line": "Based on your public reviews and project photos, we didn't build this to look like a tech template. We built it to feel like the kind of company people already say you are: ___."
+}
+Data weights (do not weight equally): Owner replies → very high Current website → high Google reviews → high Project photos → high FB captions → medium Logo colors → low (often accidental) Stock images → very low Personal breadcrumbs → avoid
+
+Language to never use in the report: "we profiled your subconscious", "we analyzed your psychology", "our AI knows what excites you."
+
+Language to use: "your public footprint points toward…", "your reviews repeatedly emphasize…", "the safest design direction is…".
+
+1.5 Outputs of Phase 0 /brand/profile.json — palette (OKLCH), fonts, logo, geo, NAP, vertical, hours, services. /brand/resonance.json — tone, mirror words, banned words, rapport line. /brand/proof.json — 8+ real review quotes, real stats (years, jobs done, cities served).
+
+All later phases consume these three files. No invented brand data anywhere.
+
+PHASE 1 — FLAGSHIP 3.0 CINEMATIC HERO (VARIABLE FINGERPRINT SPEC)
+8 layers, in z-order, all gated behind prefers-reduced-motion:
+
+Base media — looping muted cinematic video or AI-composed motion scene (vertical-appropriate subject, generated or licensed) with a still fallback only when it is an approved editorial cinematic composition. Never use Ken Burns, image zoom, slow pan, scale drift, or still-image motion as the hero solution. Duotone CSS filter (brightness .55 / contrast 1.08 / saturate .85 / sepia .18) tuned to palette.
+
+Multi-stop palette veil — radial + linear gradient using --bg / --ink from /brand/profile.json for AA-contrast headline.
+
+Grain layer — SVG feTurbulence fractal noise, 0.28 opacity, mix-blend-mode: overlay.
+
+Schematic overlay — parallax SVG specific to the vertical (floor plan for cleaning, circuit traces for electronics, blueprint grid for trades, anatomical lines for medical,
+
+PHASE 1 — FLAGSHIP 3.0 CINEMATIC HERO (VARIABLE FINGERPRINT SPEC)
+8 layers, in z-order, all gated behind prefers-reduced-motion:
+
+Base media — looping muted cinematic video or AI-composed motion scene (vertical-appropriate subject, generated or licensed) with a still fallback only when it is an approved editorial cinematic composition. Never use Ken Burns, image zoom, slow pan, scale drift, or still-image motion as the hero solution. Duotone CSS filter (brightness .55 / contrast 1.08 / saturate .85 / sepia .18) tuned to palette.
+
+Multi-stop palette veil — radial + linear gradient using --bg / --ink from /brand/profile.json for AA-contrast headline.
+
+Grain layer — SVG feTurbulence fractal noise, 0.28 opacity, mix-blend-mode: overlay.
+
+Schematic overlay — parallax SVG specific to the vertical (floor plan for cleaning, circuit traces for electronics, blueprint grid for trades, anatomical lines for medical, road map for transport, etc.). Drifts opposite to scroll.
+
+Eyebrow row — pulsing live dot in accent color + "Now Booking · {Region}" + city + est. year + 1 trust badge. All-caps Inter Tight 11px, letter-spacing 0.28em.
+
+Asymmetric oversized headline — display font from scrape, clamp(2.75rem, 8.5vw, 8.5rem), line-height 0.88, uppercase. One word stroke-outline + italic, one word in accent color. Word-by-word reveal 60ms stagger.
+
+Sub-deck + dual CTA — max-w-xl body copy mirroring owner voice. Primary CTA solid accent. Secondary CTA outline with tel: link.
+
+Bottom marquee — services + city list, hover-pauses, infinite loop.
+
+Right rail (desktop) / below (mobile): signature glassmorphic interactive widget keyed to vertical (see §4).
+
+Ambient motion: scroll parallax (video 0.3x, schematic −0.6x), cursor radial light (desktop only), 3 CountUps tied to /brand/proof.json.
+
+Required assets generated this phase: hero video or approved cinematic scene fallback, branded og.jpg, branded favicon, mobile poster. All four must exist or build fails self-QA. If neither video nor a true cinematic still can be produced, stop and ask for operator approval rather than degrading to Ken Burns.
+
+PHASE 2 — SINGLE-PAGE SCROLL ARCHITECTURE
+Sections in order (one-page, anchor-linked): Flagship 3.0 hero (§2) Trust strip — license #, insurance, years, badges (real only) Services grid — 4–8 cards, copy mirrors owner voice Founder block — photo + 2-line bio + mirror quote Proof band — real review quotes from /brand/proof.json, owner name initials only Process ribbon — numbered 3–5 step visual Geo map band — animated service radius / cities FAQ accordion — 8 Q&A in owner's vocabulary (also feeds FAQPage schema) Floating glassmorphic lead form — fixed bottom-right, expands on scroll past hero. Resend-wired. Footer — full NAP, hours, social, legal
+
+PHASE 3 — WIDGET LIBRARY (100+ VERTICALS)
+Pick at least one signature widget/tool keyed to this specific business and useful for both the site owner and the customer. The vertical list is a fallback only; the primary widget should be custom to the owner story, service friction, intake facts, and conversion path. Examples:
+
+Vertical | Widget Residential cleaning | Sparkle Estimator (sq ft + bedrooms + tier + frequency → price band + next slot) Roofing | Storm-Damage Triage (zip + roof age + last storm → priority bucket) HVAC | Comfort Score (system age + sq ft + bills → seasonal savings estimate) Personal injury law | Case Quick-Check (incident type + state + medical bills → call-back urgency) Dental | Smile Slot Picker (procedure + insurance + availability) Landscaping | Curb-Appeal Quote (lot size + style + features → tier band) Auto repair | Diagnostic Triage (year/make/symptom → time + estimate band) Med spa | Treatment Match Quiz Real estate | Equity Snapshot Restaurant | Reservation + Table Vibe Picker Plumbing | Emergency Severity Slider Electrical | Panel Capacity Check Pest control | Infestation Risk Quiz Childcare | Slot + Age-Band Finder Veterinary | Symptom Triage Gym/Personal training | Goal Path Builder ...and 80+ more — agent picks based on vertical and resonance profile.
+
+Widget rules: glassmorphic card, single column on mobile, ≤4 inputs, instant useful output, lead emails fire on output reveal when appropriate (not only on submit button) to maximize capture. The widget spec must include business problem, input fields, output/action, conversion trigger, and why it helps both the owner and customer.
+
+PHASE 4 — OPTIMIZATION STACK (LEAN 60-POINT, SINGLE-PAGE TIER)
+Categories applied: SEO foundations (15), Local/GEO (10), Schema (8), Core Web Vitals (10), Accessibility (8), Voice/AI-search (5), Conversion (4). All sourced from /brand/profile.json — no placeholders in schema.
+
+Mandatory: <title> ≤ 60 chars with keyword + city meta description ≤ 160 chars, mirrors owner voice single H1, semantic sectioning JSON-LD: LocalBusiness, FAQPage, BreadcrumbList, WebSite w/ SearchAction og:image branded, twitter:card summary_large_image canonical, robots, sitemap.xml, llms.txt alt text on every image (descriptive, not stuffed) lazy load below fold, preload hero only prefers-reduced-motion honored everywhere tel: and mailto: work on mobile tap Speakable schema on FAQ headers (voice search) Real NAP consistency: site, schema, footer, og — all identical
+
+PHASE 5 — INFRASTRUCTURE
+Lovable Cloud enabled leads table: id, created_at, name, email, phone, message, source, widget_payload jsonb, utm jsonb, page_url, referrer RLS: insert open (anon), select admin-only Edge function send-lead → Resend API → from: onboarding@resend.dev until domain verifies → notification email to owner + autoresponder to lead Tracking: page, form open, widget output reveal, CTA click, phone tap
+
+PHASE 6 — SELF-QA CHECKLIST (build fails if any unchecked)
+[ ] /brand/profile.json, /brand/resonance.json, /brand/proof.json all exist and were scrape-sourced [ ] Hero palette matches logo ΔE < 15 OR brand.verified=false flagged [ ] At least 2 real review quotes appear on page [ ] Hero passes 8-layer anatomy check [ ] All 4 hero assets exist (video/poster, og, favicon, mobile poster) [ ] AA contrast everywhere [ ] LCP < 2.0s on 4G throttle [ ] CLS < 0.05 [ ] No build errors, no unused vars, no missing imports [ ] All 11 JSON-LD blocks validate [ ] Resend edge function returns 200 in test [ ] Reduced-motion path tested [ ] Mobile 390px + desktop 1440px screenshots clean
+
+FINAL OUTPUT
+Reply with exactly the 6-line format from §0 after the approved Build pass. Nothing else. Ship it complete. Make it theirs. Do not treat Plan mode as permission to build.
+
+MILLION-DOLLAR CINEMATIC HERO FINGERPRINT CREATOR ADDENDUM
+
+Usage guardrail for client website builds Use this as an internal hero-generation system for the client site. Do not build or display the questionnaire/generator/admin UI unless the user explicitly asks for a fingerprint-generator app. For normal Ricardo/PageHub client builds, silently apply this framework to generate a one-of-one premium hero section for the business.
+
+Core System Architecture Create a dynamic hero fingerprint generator that produces unique, premium website hero sections worth $500K-$1M in perceived value. Each hero must be visually distinct, cinematically stunning, and conversion-optimized while making business owners feel they have received something extraordinary.
+
+Business Fingerprint Questionnaire Internally account for:
+
+Business Essentials Business name & tagline Industry/vertical Service area/location Premium service/offer Annual revenue tier, if known
+
+Brand Identity Owner personality: visionary, technical, creative, traditional, or other Target customer psychographics Brand colors/mood palette Existing logo/visual assets Competitor benchmarks to surpass
+
+Emotional Direction Desired client emotional reaction Hero personality: luxury, aggressive, cinematic, futuristic, editorial, gritty, elegant, high-trust Industry positioning: disruptor, authority, premium, accessible
+
+Hero Fingerprint Generator Engine For each business, generate a completely unique combination:
+
+Visual Concept Architecture One-of-one layout composition not reused from prior builds Custom geometric framework: asymmetrical grids, organic shapes, architectural forms Unique visual hierarchy system Signature design motif specific to the business
+
+Typography DNA Purposeful font pairing matched to the business tone Unique hierarchy system: size ratios, weight distribution, spacing rhythm Text treatment effects where tasteful: gradient fills, outlined text, kinetic typography Display typography with personality matching the business tone
+
+Motion Grammar Signature animation style distinct from previous heroes Custom parallax depth system Scroll-triggered motion sequences Microinteraction personality Entrance/exit animation choreography
+
+Interactive Innovation Custom hero widget/feature when appropriate: calculators, configurators, live data, interactive demos Dynamic content elements Real-time personalization features where appropriate Gamification elements only when they help conversion and fit the industry
+
+Cinematic Production Value Video/motion graphics integration when available Dynamic lighting effects Layered depth with multiple z-index planes Premium material effects: glass, metal, fabric textures, industry materials Atmospheric elements: particles, gradients, geometric overlays
+
+Technical Implementation Specs
+
+Advanced Visual Effects Parallax scrolling with 3-5 depth layers when performance allows CSS transforms and 3D positioning Intersection Observer API for scroll animations WebGL effects only when performance-safe and justified Lottie animations only when useful and lightweight enough
+
+Interactive Elements Real-time hover states with physics-like polish Cursor-following elements on desktop when tasteful Dynamic background responses Scroll-velocity-based animations when performance-safe Touch/gesture interactions for mobile
+
+Performance Optimization Lazy loading for heavy visual elements GPU acceleration for animations Mobile-first responsive design Loading state choreography Keep perceived load fast and avoid unnecessary heavy libraries
+
+Conversion Psychology Integration
+
+Owner Wow Factor Unexpected interactive elements Sophisticated animation timing Premium visual polish details Industry-specific innovation showcases
+
+Client Conversion Logic Clear value proposition hierarchy Trust signals integrated naturally Friction-free CTA placement Social proof visualization Progress indicators for multi-step processes when used
+
+Design System Constraints
+
+Uniqueness Enforcement Ensure no lazy repetition of shapes, font pairings, animation styles, color schemes, or layout rhythms from the immediately previous build Generate alternate options if the hero feels too similar to a generic template Maintain uniqueness across layout, typography, motion, and visual motif
+
+Quality Benchmarks Hero must feel custom-designed, not templated Visual complexity must be appropriate for the industry Loading performance target under 3 seconds Mobile conversion optimization required Accessibility compliance target: WCAG 2.1 AA
+
+Final Lovable Implementation Output Requirement When planning or building, produce a hero direction that includes:
+
+Visual Direction: complete aesthetic description with specific, business-relevant language Layout Structure: specific grid system, proportions, spacing Typography Specifications: font style, hierarchy, treatments Animation Instructions: specific motion descriptions, timing, easing Interactive Elements: widget/feature functionality if appropriate Technical Requirements: libraries only if needed, such as Framer Motion or GSAP Content Architecture: headline structure, supporting copy, CTA placement Visual Effects: specific implementations for depth, lighting, materials Responsive Behavior: mobile-specific adaptations Performance Notes: optimization strategies for smooth operation
+
+Example Output Structure BUSINESS FINGERPRINT: [Company Name] Visual DNA: [Unique shape language + color psychology] Motion Signature: [Custom animation grammar] Interactive Innovation: [Specific widget concept] Conversion Strategy: [Psychology-based user journey]
+
+LOVABLE PROMPT: Create a cinematic hero section with [specific visual direction]. Use [unique layout description] with [typography specifications]. Implement [animation details] and [interactive elements]. Include [technical requirements] for premium finish.
+
+Headline and readability guardrail The hero fingerprint may be cinematic and unusual, but the main headline must still read naturally as a complete selling idea. Do not create awkward fragments, confusing word breaks, orphan phrases such as "built by" without a complete thought, or clever lines that require explanation. If typography splits a phrase across lines, each line break must feel intentional, premium, and easy to understand in three seconds. Conversion clarity beats novelty.

@@ -1,5 +1,5 @@
 {
-  "note": "SiteForge commercial catalog. Prices from docs/SITEFORGE_SAAS_PLAN.md competitive research. stripe_lookup_key maps to Stripe Prices created in TEST MODE by app/scripts/stripe-sync.mjs. No live charges until Mark flips STRIPE_SECRET_KEY to a live key deliberately.",
+  "note": "SiteForge commercial catalog. stripe_price_id values are VERIFIED LIVE Stripe Prices on acct_1QS0oRLEuaGjNcch (Woodward Software LLC), matched by stripe_lookup_key and amount. Checkout prefers stripe_price_id and falls back to inline price_data. Live charging is OFF by default: it requires BOTH a live secret key (STRIPE_SECRET_KEY=sk_live_...) AND the explicit opt-in flag STRIPE_ALLOW_LIVE=1. Without both, the app runs Stripe TEST mode (sk_test_...) or the built-in mock checkout - never a real charge.",
   "plans": [
     {
       "key": "free",
@@ -23,6 +23,7 @@
       "price_cents": 2900,
       "interval": "month",
       "stripe_lookup_key": "siteforge_starter_monthly",
+      "stripe_price_id": "price_1TqWFXLEuaGjNcchH6XeU6yf",
       "limits": { "projects": 1, "generations_per_month": 5, "publish": true, "custom_domain": true, "multipage_export": false, "edit_requests": false, "addons": [] },
       "features": [
         "Publish 1 site to your custom domain",
@@ -38,6 +39,7 @@
       "price_cents": 9900,
       "interval": "month",
       "stripe_lookup_key": "siteforge_pro_monthly",
+      "stripe_price_id": "price_1TqWFvLEuaGjNcchYfKhbpbK",
       "highlight": true,
       "limits": { "projects": 3, "generations_per_month": 20, "publish": true, "custom_domain": true, "multipage_export": true, "edit_requests": true, "addons": ["seo_boost"] },
       "features": [
@@ -55,6 +57,7 @@
       "price_cents": 19900,
       "interval": "month",
       "stripe_lookup_key": "siteforge_agency_monthly",
+      "stripe_price_id": "price_1TqWFxLEuaGjNcch7WVeh08N",
       "limits": { "projects": 10, "generations_per_month": 60, "publish": true, "custom_domain": true, "multipage_export": true, "edit_requests": true, "addons": ["seo_boost", "white_label"] },
       "features": [
         "10 client sites, white-label export",
@@ -71,6 +74,7 @@
       "name": "Done-For-You Build",
       "price_cents": 49500,
       "stripe_lookup_key": "siteforge_dfy_build",
+      "stripe_price_id": "price_1TqWFyLEuaGjNcchwPdj38wP",
       "description": "Our operators run discovery, asset rescue, and the forge for you until it grades A. Includes 1 year of Host & Care."
     },
     {
@@ -78,6 +82,7 @@
       "name": "Done-For-You Build Pro",
       "price_cents": 99500,
       "stripe_lookup_key": "siteforge_dfy_build_pro",
+      "stripe_price_id": "price_1TqWG0LEuaGjNcchXdYMhYXo",
       "description": "Everything in Build plus cinematic video hero, extra pages, priority delivery, and 1 year of Care+."
     }
   ],
@@ -88,6 +93,7 @@
       "price_cents": 7900,
       "interval": "month",
       "stripe_lookup_key": "siteforge_addon_voice_ai",
+      "stripe_price_id": "price_1TqWG1LEuaGjNcchhPBP1r2w",
       "description": "A trained voice agent answers your business line, books jobs, and texts you transcripts. Wired to your site's call CTAs.",
       "requires_plan": ["starter", "pro", "agency"]
     },
@@ -97,6 +103,7 @@
       "price_cents": 4900,
       "interval": "month",
       "stripe_lookup_key": "siteforge_addon_seo_boost",
+      "stripe_price_id": "price_1TqWG2LEuaGjNcchkVGqXmLQ",
       "description": "Monthly local-pack pressure: citation checks, GBP sync, schema refresh, AI-answer-engine (GEO/AEO) tuning, ranking report.",
       "requires_plan": ["starter"]
     },
@@ -106,6 +113,7 @@
       "price_cents": 2900,
       "interval": "month",
       "stripe_lookup_key": "siteforge_addon_concierge",
+      "stripe_price_id": "price_1TqWG4LEuaGjNcchEG5BKZ35",
       "description": "On-site chat trained on your services and reviews. Captures quotes 24/7, hands off to email or the Voice Receptionist.",
       "requires_plan": ["starter", "pro", "agency"]
     }

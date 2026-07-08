@@ -11,10 +11,16 @@ const APP_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 export const CATALOG = readJsonFile(path.join(APP_ROOT, "config", "plans.json"));
 
 const RAW_KEY = process.env.STRIPE_SECRET_KEY || "";
-if (RAW_KEY.startsWith("sk_live_")) {
-  throw new Error("SiteForge refuses live Stripe keys in this build. Use sk_test_… (guard: docs/launch/STRIPE_PLANS.md).");
+const ALLOW_LIVE = process.env.STRIPE_ALLOW_LIVE === "1";
+const IS_TEST_KEY = RAW_KEY.startsWith("sk_test_") || RAW_KEY.startsWith("rk_test_");
+const IS_LIVE_KEY = RAW_KEY.startsWith("sk_live_") || RAW_KEY.startsWith("rk_live_");
+if (IS_LIVE_KEY && !ALLOW_LIVE) {
+  throw new Error("SiteForge sees a LIVE Stripe key but STRIPE_ALLOW_LIVE is not set to 1. Set STRIPE_ALLOW_LIVE=1 to arm live charging deliberately, or use sk_test_… (see docs/launch/GO_LIVE.md).");
 }
-export const STRIPE_LIVE_TEST = RAW_KEY.startsWith("sk_test_") || RAW_KEY.startsWith("rk_test_");
+export const STRIPE_LIVE = IS_LIVE_KEY && ALLOW_LIVE;
+export const STRIPE_LIVE_TEST = IS_TEST_KEY;
+export const STRIPE_ACTIVE = STRIPE_LIVE || STRIPE_LIVE_TEST;
+export const STRIPE_MODE = STRIPE_LIVE ? "stripe-live" : STRIPE_LIVE_TEST ? "stripe-test" : "mock";
 const WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
 
 export const planByKey = (key) => CATALOG.plans.find((p) => p.key === key) ?? null;
@@ -67,6 +73,17 @@ async function stripe(pathname, params) {
   return data;
 }
 
+async function getOrCreateCustomer(user) {
+  const fresh = get("users", user.id) || user;
+  if (fresh.stripe_customer_id) return fresh.stripe_customer_id;
+  const cust = await stripe("customers", {
+    email: user.email,
+    metadata: { user_id: user.id, brand: "siteforge" },
+  });
+  update("users", user.id, { stripe_customer_id: cust.id });
+  return cust.id;
+}
+
 // ---------- checkout ----------
 // kind: plan | addon | one_time
 export async function createCheckout({ user, kind, key, baseUrl, projectId = null }) {
@@ -74,29 +91,41 @@ export async function createCheckout({ user, kind, key, baseUrl, projectId = nul
   if (!item || (kind === "plan" && item.key === "free")) { const e = new Error("Unknown or non-purchasable item."); e.status = 400; throw e; }
   const co = insert("webhook_events", { kind: "checkout_intent", user_id: user.id, item_kind: kind, item_key: key, project_id: projectId, status: "created" });
 
-  if (STRIPE_LIVE_TEST) {
-    const recurring = item.interval ? { recurring: { interval: item.interval } } : {};
+  if (STRIPE_ACTIVE) {
+    const customer = await getOrCreateCustomer(user);
+    const lineItem = item.stripe_price_id
+      ? { "line_items[0][price]": item.stripe_price_id, "line_items[0][quantity]": 1 }
+      : {
+          "line_items[0][quantity]": 1,
+          "line_items[0][price_data][currency]": "usd",
+          "line_items[0][price_data][unit_amount]": item.price_cents,
+          "line_items[0][price_data][product_data][name]": `SiteForge — ${item.name}`,
+          ...(item.interval ? { "line_items[0][price_data][recurring][interval]": item.interval } : {}),
+        };
     const session = await stripe("checkout/sessions", {
       mode: item.interval ? "subscription" : "payment",
       success_url: `${baseUrl}/billing/success?ref=${co.id}&session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${baseUrl}/pricing?canceled=1`,
-      customer_email: user.email,
+      customer,
       client_reference_id: co.id,
+      allow_promotion_codes: true,
       metadata: { user_id: user.id, item_kind: kind, item_key: key, project_id: projectId ?? "" },
-      "line_items[0][quantity]": 1,
-      "line_items[0][price_data]": undefined,
-      "line_items[0][price_data][currency]": "usd",
-      "line_items[0][price_data][unit_amount]": item.price_cents,
-      "line_items[0][price_data][product_data][name]": `SiteForge — ${item.name}`,
-      ...(item.interval ? { "line_items[0][price_data][recurring][interval]": item.interval } : {}),
+      ...lineItem,
     });
-    update("webhook_events", co.id, { stripe_session_id: session.id });
-    return { url: session.url, mode: "stripe-test" };
+    update("webhook_events", co.id, { stripe_session_id: session.id, stripe_mode: STRIPE_MODE });
+    return { url: session.url, mode: STRIPE_MODE };
   }
-  // Built-in mock checkout (no Stripe key configured)
   const t = token(16);
   update("webhook_events", co.id, { mock_token: t });
   return { url: `/billing/mock-checkout?ref=${co.id}&t=${t}`, mode: "mock" };
+}
+
+// ---------- billing portal ----------
+export async function createBillingPortal({ user, baseUrl }) {
+  if (!STRIPE_ACTIVE) return { url: `/account?portal=mock`, mode: "mock" };
+  const customer = await getOrCreateCustomer(user);
+  const session = await stripe("billing_portal/sessions", { customer, return_url: `${baseUrl}/account` });
+  return { url: session.url, mode: STRIPE_MODE };
 }
 
 export function mockCheckoutIntent(ref, t) {
@@ -119,15 +148,15 @@ export function grantPurchase(ref, meta = {}) {
       user_id: userId, plan_key: co.item_key, status: "active",
       stripe_subscription_id: meta.subscription || null, stripe_customer_id: meta.customer || null,
       current_period_end: new Date(Date.now() + 32 * 86400000).toISOString(),
-      mode: meta.mode || (STRIPE_LIVE_TEST ? "stripe-test" : "mock"),
+      mode: meta.mode || STRIPE_MODE,
     });
     update("users", userId, { plan: co.item_key });
   } else {
-    insert("entitlements", { user_id: userId, kind: co.item_kind === "addon" ? "addon" : "one_time", key: co.item_key, active: true, source_ref: ref, mode: meta.mode || (STRIPE_LIVE_TEST ? "stripe-test" : "mock") });
+    insert("entitlements", { user_id: userId, kind: co.item_kind === "addon" ? "addon" : "one_time", key: co.item_key, active: true, source_ref: ref, mode: meta.mode || STRIPE_MODE });
   }
   insert("dev_inbox", {
     to: get("users", userId)?.email, subject: `Receipt — SiteForge ${co.item_key}`,
-    body: `Thanks! Your ${co.item_kind} "${co.item_key}" is active. Ref ${ref}. ${STRIPE_LIVE_TEST ? "(Stripe TEST mode — no real charge)" : "(mock checkout — no charge)"}`,
+    body: `Thanks! Your ${co.item_kind} "${co.item_key}" is active. Ref ${ref}. ${STRIPE_LIVE ? "(Live payment — thank you for your business)" : STRIPE_LIVE_TEST ? "(Stripe TEST mode — no real charge)" : "(mock checkout — no charge)"}`,
   });
   audit(userId, "billing.granted", ref, { item: co.item_key, kind: co.item_kind });
   return update("webhook_events", co.id, { status: "granted", granted_at: nowIso() });
@@ -147,7 +176,7 @@ export function handleStripeEvent(event) {
   if (event.type === "checkout.session.completed") {
     const s = event.data.object;
     const ref = s.client_reference_id;
-    if (ref) return grantPurchase(ref, { subscription: s.subscription, customer: s.customer, mode: "stripe-test" });
+    if (ref) return grantPurchase(ref, { subscription: s.subscription, customer: s.customer, mode: STRIPE_MODE });
   }
   if (event.type === "customer.subscription.deleted") {
     const sub = find("subscriptions", (r) => r.stripe_subscription_id === event.data.object.id);

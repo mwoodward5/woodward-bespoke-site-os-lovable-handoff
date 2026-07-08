@@ -424,6 +424,11 @@ export const handle = async (req, res) => {
       const granted = Billing.grantPurchase(body.ref, { mode: "mock" });
       return send(res, 200, App.billingSuccessPage({ user: u, granted }));
     }
+    if (p === "/billing/portal" && req.method === "GET") {
+      const u = requireUser(req, res); if (!u) return;
+      const { url: portalUrl } = await Billing.createBillingPortal({ user: u, baseUrl });
+      return redirect(res, portalUrl);
+    }
     if (p === "/billing/success" && req.method === "GET") {
       const u = requireUser(req, res); if (!u) return;
       const co = DB.get("webhook_events", url.searchParams.get("ref"));

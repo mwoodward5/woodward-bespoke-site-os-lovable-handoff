@@ -370,7 +370,10 @@ export function accountPage({ user, ent, sub, csrf }) {
             <li class="${ent.can_custom_domain ? "pass" : "fail"}"><span class="mark">${ent.can_custom_domain ? "✓" : "✗"}</span><span class="detail">Custom domain</span></li>
             <li class="${ent.can_edit_requests ? "pass" : "fail"}"><span class="mark">${ent.can_edit_requests ? "✓" : "✗"}</span><span class="detail">Operator edit support</span></li>
           </ul>
-          <a class="btn sm" href="/pricing">Change plan</a>
+          <div class="btn-row">
+            <a class="btn sm" href="/pricing">Change plan</a>
+            ${sub && sub.plan_key !== "free" ? `<a class="btn ghost sm" href="/billing/portal">Manage billing</a>` : ""}
+          </div>
         </div>
         <div class="panel"><h3>Add-ons</h3>
           ${ent.addons.length ? `<div class="btn-row">${ent.addons.map((a) => `<span class="chip ok">${esc(a)}</span>`).join("")}</div>` : `<p class="muted" style="font-size:.9rem">No add-ons yet.</p>`}

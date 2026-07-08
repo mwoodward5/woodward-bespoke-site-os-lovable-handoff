@@ -25,6 +25,12 @@ const envs = [
   ...(process.env.FIRECRAWL_API_KEY ? [["FIRECRAWL_API_KEY", process.env.FIRECRAWL_API_KEY]] : []),
   ["SITEFORGE_VERCEL_TOKEN", TOKEN],
   ["SITEFORGE_VERCEL_TEAM_ID", TEAM],
+  // Stripe (optional): passed through only when present in .env.local so go-live
+  // is one command. Live charging still needs STRIPE_ALLOW_LIVE=1 AND an sk_live_ key.
+  // Note: only sets keys not already present in Vercel (rotate via dashboard).
+  ...(process.env.STRIPE_SECRET_KEY ? [["STRIPE_SECRET_KEY", process.env.STRIPE_SECRET_KEY]] : []),
+  ...(process.env.STRIPE_ALLOW_LIVE ? [["STRIPE_ALLOW_LIVE", process.env.STRIPE_ALLOW_LIVE]] : []),
+  ...(process.env.STRIPE_WEBHOOK_SECRET ? [["STRIPE_WEBHOOK_SECRET", process.env.STRIPE_WEBHOOK_SECRET]] : []),
 ];
 const existing = await (await api(`/v9/projects/${PROJECT}/env`)).json();
 const have = new Set((existing.envs || []).map((e) => e.key));

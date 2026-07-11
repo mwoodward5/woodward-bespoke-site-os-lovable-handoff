@@ -1,0 +1,57 @@
+[
+  {
+    "name": "hero-layer-count",
+    "pass": true,
+    "detail": "count=7 (need ≥ 6)"
+  },
+  {
+    "name": "logo-size",
+    "pass": true,
+    "detail": "height=76px (need 72–80)"
+  },
+  {
+    "name": "copy-ban-list",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "name": "json-ld",
+    "pass": true,
+    "detail": "all present"
+  },
+  {
+    "name": "overflow-320",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "name": "screenshots",
+    "pass": true,
+    "detail": "all present"
+  },
+  {
+    "name": "reduced-motion",
+    "pass": true,
+    "detail": "present"
+  },
+  {
+    "name": "enrichment-completeness",
+    "pass": true,
+    "detail": "all sourced"
+  },
+  {
+    "name": "layout-signature-dedup",
+    "pass": true,
+    "detail": "unique"
+  },
+  {
+    "name": "grammar-dedup",
+    "pass": true,
+    "detail": "batch grammar unique"
+  },
+  {
+    "name": "image-dedup",
+    "pass": true,
+    "detail": "no cross-batch image reuse"
+  }
+]

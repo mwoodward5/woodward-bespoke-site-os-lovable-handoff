@@ -18,8 +18,12 @@ build/
 coverage/
 playwright-report/
 test-results/
+engine/console/.env.local
+generated-sites/*/media/
 *.key
 *.pem
 *.p12
 *.pfx
 
+# SiteForge SaaS app runtime data (machine-local)
+app/data/

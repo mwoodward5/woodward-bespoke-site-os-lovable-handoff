@@ -1,0 +1,163 @@
+{
+  "slug": "wss-roofing-summit-roofing",
+  "prompt": "Build a premium site for Summit Roofing in Plano, TX. Family-owned, 22 years, owner is Dale Summers. Services: storm damage repair, full replacement, metal roofing, gutter systems. Phone (972) 555-0144. \"We treat every roof like it is over our own kids heads.\" No-nonsense hardworking crew.",
+  "forge": {
+    "version": "1.0.0",
+    "generated_at": "2026-07-07T09:02:45.279Z",
+    "deterministic_seed": "b157fb4c1681",
+    "demo": true
+  },
+  "business": {
+    "name": "Summit Roofing",
+    "category": "roofing",
+    "city": "Plano",
+    "state": "TX",
+    "phone": "(972) 555-0144",
+    "source_platform": "other"
+  },
+  "build_type": "multi-page",
+  "hero_family": "atlas-grid-reveal",
+  "layout_seed": "624938791",
+  "toggles": {
+    "firecrawl": false,
+    "gbp": false,
+    "local_serp": false,
+    "video_prompt": false,
+    "map": true,
+    "ai_chat": false,
+    "payment_cta": false
+  },
+  "enrichment_sources": {
+    "name": {
+      "source": "prompt",
+      "confidence": 0.9,
+      "value": "Summit Roofing"
+    },
+    "city": {
+      "source": "prompt",
+      "confidence": 0.9,
+      "value": "Plano"
+    },
+    "state": {
+      "source": "prompt",
+      "confidence": 0.95,
+      "value": "TX"
+    },
+    "category": {
+      "source": "prompt",
+      "confidence": 0.9,
+      "value": "roofing"
+    },
+    "phone": {
+      "source": "prompt",
+      "confidence": 0.95,
+      "value": "(972) 555-0144"
+    },
+    "years": {
+      "source": "prompt",
+      "confidence": 0.85,
+      "value": "22"
+    },
+    "owner_name": {
+      "source": "prompt",
+      "confidence": 0.8,
+      "value": "Dale Summers"
+    },
+    "tone": {
+      "source": "prompt",
+      "confidence": 0.7,
+      "value": "refined, assured",
+      "note": "inferred from prompt wording"
+    },
+    "snippets": {
+      "source": "prompt",
+      "confidence": 0.9,
+      "value": "We treat every roof like it is over our own kids heads."
+    },
+    "services": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "omit section"
+    },
+    "logo": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "proposed-mark generation required; operator must confirm before deploy"
+    },
+    "colors": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "omit section"
+    },
+    "hours": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "omit hours strip; do not invent"
+    },
+    "photos": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "use Gemini branded still, never stock Unsplash"
+    },
+    "reviews": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "swap reviews section for services-process section"
+    },
+    "nap": {
+      "source": "firecrawl",
+      "confidence": 0.85,
+      "value": {
+        "name": "Summit Roofing",
+        "address": null,
+        "phone": null
+      }
+    },
+    "service_areas": {
+      "source": "firecrawl",
+      "confidence": 0.85,
+      "value": [
+        "Plano"
+      ]
+    }
+  },
+  "voice_persona": {
+    "owner_name": "Dale Summers",
+    "tone": "refined, assured",
+    "first_person_snippets": [
+      "We treat every roof like it is over our own kids heads."
+    ]
+  },
+  "services": [
+    "storm damage repair",
+    "full replacement",
+    "metal roofing",
+    "gutter systems"
+  ],
+  "media": {
+    "catalog": []
+  },
+  "logo_source": {
+    "url": null,
+    "origin": "proposed",
+    "proposed": true
+  },
+  "motif": "slope-diagram",
+  "section_plan": [
+    "hero",
+    "before-after-slider",
+    "homeowner-configurator",
+    "journal-excerpt",
+    "material-swatch-lab",
+    "team-portrait",
+    "trust-ledger",
+    "faq-speakable",
+    "contact-strip-map"
+  ]
+}

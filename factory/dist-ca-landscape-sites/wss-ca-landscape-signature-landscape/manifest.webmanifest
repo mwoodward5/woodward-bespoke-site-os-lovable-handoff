@@ -1,0 +1,16 @@
+{
+  "name": "Signature Landscape Preview",
+  "short_name": "Signature Landscape",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#edf8f7",
+  "theme_color": "#edf8f7",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

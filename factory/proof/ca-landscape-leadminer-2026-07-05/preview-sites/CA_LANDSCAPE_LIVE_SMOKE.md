@@ -1,6 +1,6 @@
 # CA Landscape Live Smoke
 
-Generated: 2026-07-06T18:50:11.632Z
+Generated: 2026-07-07T10:53:34.165Z
 
 ## Landscape Connection, Inc.
 - URL: https://wss-ca-landscape-landscape-connection-inc.vercel.app
@@ -9,6 +9,8 @@ Generated: 2026-07-06T18:50:11.632Z
 - Provider video: 200 / video/mp4 / 12881333 bytes
 - Home controls removed: true
 - Home banned copy hits: none
+- Visual gate: v5-organic / three-kitchen-v5 / garden-crest
+- Organic mask/logo mode: true / source
 - Sections/images: 9 / 9
 - Noindex header: noindex, nofollow
 
@@ -19,6 +21,8 @@ Generated: 2026-07-06T18:50:11.632Z
 - Provider video: 200 / video/mp4 / 6266811 bytes
 - Home controls removed: true
 - Home banned copy hits: none
+- Visual gate: v5-organic / three-kitchen-v5 / blueprint-stack
+- Organic mask/logo mode: true / proposed
 - Sections/images: 9 / 7
 - Noindex header: noindex, nofollow
 
@@ -29,6 +33,8 @@ Generated: 2026-07-06T18:50:11.632Z
 - Provider video: 200 / video/mp4 / 11185316 bytes
 - Home controls removed: true
 - Home banned copy hits: none
+- Visual gate: v5-organic / three-kitchen-v5 / sunlit-scrapbook
+- Organic mask/logo mode: true / proposed
 - Sections/images: 9 / 8
 - Noindex header: noindex, nofollow
 
@@ -39,6 +45,8 @@ Generated: 2026-07-06T18:50:11.632Z
 - Provider video: 200 / video/mp4 / 6585905 bytes
 - Home controls removed: true
 - Home banned copy hits: none
+- Visual gate: v5-organic / three-kitchen-v5 / coastal-atlas
+- Organic mask/logo mode: true / source
 - Sections/images: 9 / 8
 - Noindex header: noindex, nofollow
 
@@ -49,5 +57,7 @@ Generated: 2026-07-06T18:50:11.632Z
 - Provider video: 200 / video/mp4 / 4972546 bytes
 - Home controls removed: true
 - Home banned copy hits: none
+- Visual gate: v5-organic / three-kitchen-v5 / material-yard
+- Organic mask/logo mode: true / source
 - Sections/images: 9 / 9
 - Noindex header: noindex, nofollow

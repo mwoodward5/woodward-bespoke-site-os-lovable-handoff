@@ -1,0 +1,2 @@
+Contact: mailto:preview@example.invalid
+Policy: Preview site; no secrets are stored in the browser bundle.

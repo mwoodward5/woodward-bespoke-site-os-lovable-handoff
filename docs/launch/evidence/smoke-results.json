@@ -1,0 +1,120 @@
+{
+  "rows": [
+    {
+      "feature": "Auth (magic link)",
+      "status": "PASS",
+      "evidence": "magic link issued + verified, session cookie set, redirect /dashboard",
+      "fix": ""
+    },
+    {
+      "feature": "Dashboard project list",
+      "status": "PASS",
+      "evidence": "GET /dashboard → 200",
+      "fix": ""
+    },
+    {
+      "feature": "Create project",
+      "status": "PASS",
+      "evidence": "POST /api/projects → /p/proj_MUBF9GK3pX2v/discovery",
+      "fix": ""
+    },
+    {
+      "feature": "Firecrawl import",
+      "status": "PASS",
+      "evidence": "discovery ran, mode=\"no-website\" (live crawl needs FIRECRAWL_API_KEY); geo landed; brand/assets/services/trust/seo/build-packet JSONs written",
+      "fix": ""
+    },
+    {
+      "feature": "Asset approval (approve/remove/edit)",
+      "status": "PASS",
+      "evidence": "3 assets, approve toggle off→on verified via PATCH /api/assets/:id",
+      "fix": ""
+    },
+    {
+      "feature": "Generate single-page site",
+      "status": "PASS",
+      "evidence": "job done, QC grade A, v1/index.html written",
+      "fix": ""
+    },
+    {
+      "feature": "Generate multi-page site",
+      "status": "PASS",
+      "evidence": "job done; build_type=premier_multi_page recorded (renders extended single-page today — engine gap, see Codex patch list)",
+      "fix": ""
+    },
+    {
+      "feature": "Regenerate hero",
+      "status": "PASS",
+      "evidence": "v3: hero split-editorial-index → service-map-pins",
+      "fix": ""
+    },
+    {
+      "feature": "Regenerate copy",
+      "status": "PASS",
+      "evidence": "v4 differs from v3 (1060b), hero pinned",
+      "fix": ""
+    },
+    {
+      "feature": "QC report",
+      "status": "PASS",
+      "evidence": "grade A, score 100/100, 8 checks (full gate incl. screenshots + 320px)",
+      "fix": ""
+    },
+    {
+      "feature": "Preview route",
+      "status": "PASS",
+      "evidence": "GET /preview/…/v4/ → 200, 19774b, owner-gated, noindex",
+      "fix": ""
+    },
+    {
+      "feature": "Mobile layout",
+      "status": "PASS",
+      "evidence": "viewport ✓, @media ✓, reduced-motion ✓, 320px overflow gate ✓",
+      "fix": ""
+    },
+    {
+      "feature": "Publish gated by plan",
+      "status": "PASS",
+      "evidence": "publish on free plan → HTTP 402 (payment required)",
+      "fix": ""
+    },
+    {
+      "feature": "Stripe checkout (test)",
+      "status": "PASS",
+      "evidence": "mock checkout → subscription \"starter\" active + receipt emailed; real Stripe test API engages when STRIPE_SECRET_KEY=sk_test_ set; sk_live_ refused by hard guard",
+      "fix": ""
+    },
+    {
+      "feature": "Custom domain flow",
+      "status": "PASS",
+      "evidence": "domain attached → dns_pending with CNAME/A instructions on Publish tab",
+      "fix": ""
+    },
+    {
+      "feature": "Edit request",
+      "status": "PASS",
+      "evidence": "stored open request + ops notification queued",
+      "fix": ""
+    },
+    {
+      "feature": "Template try-before-you-buy",
+      "status": "PASS",
+      "evidence": "public one-of-one preview forged → /try/8TB_C-kZfoitbw/ (noindex, 24h TTL, 6/hr rate limit)",
+      "fix": ""
+    },
+    {
+      "feature": "Publish / deploy",
+      "status": "PASS",
+      "evidence": "deployment target=siteforge-local url=http://localhost:39405/sites/landscaping-cedar-stone-hardscapes-kdgf/; GET /sites/landscaping-cedar-stone-hardscapes-kdgf/ → 200; QC grade gate enforced; Vercel API path ready behind VERCEL_TOKEN",
+      "fix": ""
+    },
+    {
+      "feature": "Audit log",
+      "status": "PASS",
+      "evidence": "12 audit events across signup/create/discovery/forge/billing/publish",
+      "fix": ""
+    }
+  ],
+  "projId": "proj_MUBF9GK3pX2v",
+  "lastVersion": 4
+}

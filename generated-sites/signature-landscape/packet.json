@@ -1,0 +1,115 @@
+{
+  "slug": "signature-landscape",
+  "business": {
+    "name": "Signature Landscape",
+    "category": "landscaping",
+    "city": "Mission Viejo",
+    "state": "CA",
+    "current_website": "https://signaturelandscape.com",
+    "gbp_url": "https://maps.google.com/?q=Signature+Landscape+Mission+Viejo",
+    "source_platform": "wordpress"
+  },
+  "build_type": "multi-page",
+  "toggles": {
+    "firecrawl": true,
+    "gbp": true,
+    "local_serp": true,
+    "video_prompt": true,
+    "map": true,
+    "ai_chat": false,
+    "payment_cta": false
+  },
+  "hero_family": "magazine-owner-letter",
+  "layout_seed": "-1405846324",
+  "motif": "botanical-contour",
+  "voice_persona": {
+    "owner_name": "Signature Landscape",
+    "years_in_biz": null,
+    "first_person_snippets": [],
+    "tone": "confident, specific, local"
+  },
+  "enrichment_sources": {
+    "logo": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "proposed-mark generation required; operator must confirm before deploy"
+    },
+    "colors": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "omit section"
+    },
+    "services": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "omit section"
+    },
+    "hours": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "omit hours strip; do not invent"
+    },
+    "photos": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "use Gemini branded still, never stock Unsplash"
+    },
+    "reviews": {
+      "source": "manual",
+      "confidence": 0,
+      "value": null,
+      "fallback": "swap reviews section for services-process section"
+    },
+    "nap": {
+      "source": "firecrawl",
+      "confidence": 0.85,
+      "value": {
+        "name": "Signature Landscape",
+        "address": null,
+        "phone": null
+      }
+    },
+    "service_areas": {
+      "source": "firecrawl",
+      "confidence": 0.85,
+      "value": [
+        "Mission Viejo"
+      ]
+    }
+  },
+  "media": {
+    "catalog": []
+  },
+  "logo_source": {
+    "url": null,
+    "origin": "proposed",
+    "proposed": true
+  },
+  "section_plan": [
+    "hero",
+    "before-after-slider",
+    "process-timeline",
+    "zigzag-photo-text",
+    "service-map",
+    "journal-excerpt",
+    "trust-ledger",
+    "faq-speakable",
+    "contact-strip-map"
+  ],
+  "veo_prompt": {
+    "provider": "veo-3",
+    "model": "veo-3-cinematic",
+    "duration_s": 10,
+    "fps": 24,
+    "resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "prompt": "Cinematic 10-second hero video for Signature Landscape, a landscaping operator in Mission Viejo, CA. Beats: (0-3s) tool-in-hand macro; (3-6s) mid-shot of work in progress; (6-10s) finished detail hero reveal. Lighting is golden hour, slight haze, anamorphic 2.39:1 with subtle lens breathing. Palette: warm earth tones. Motif reference: botanical-contour — the composition should echo this without literal overlays. Camera: slow dolly-in at 15mm equivalent, minimal cuts, one held beat at 6s. Grade: teal-shadow / warm-highlight, gentle grain. No text, no logos, no captions. Duration 10s, 24fps, resolution 1920x1080, HDR-ready.",
+    "negative_prompt": "stock footage aesthetic, generic drone shot, watermark, text, logo, cartoon, illustration, oversaturated",
+    "seed_slug": "signature-landscape--1405846324"
+  }
+}

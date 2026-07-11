@@ -1,25 +1,239 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Richard Diaz Landscape | Orange Landscape Website</title>
-  <meta name="description" content="Richard Diaz Landscape premium landscape website preview for Orange, California.">
-  <meta name="robots" content="noindex,nofollow">
-  <link rel="canonical" href="https://wss-ca-landscape-richard-diaz-landscape.vercel.app/">
-  <meta property="og:title" content="Richard Diaz Landscape | Orange Landscape Website">
-  <meta property="og:description" content="Richard Diaz Landscape premium landscape website preview for Orange, California.">
-  <meta property="og:url" content="https://wss-ca-landscape-richard-diaz-landscape.vercel.app/">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://wss-ca-landscape-richard-diaz-landscape.vercel.app/og.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="theme-color" content="#130f0b">
-  <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage%20Grotesque:wght@500;600;700;800&family=Source%20Sans%203:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
-  <script src="/site.js" defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Richard Diaz Landscape | Orange landscaping</title>
+  <meta name="description" content="A polished local website for Richard Diaz Landscape, built around clear services, local trust, and a cleaner estimate path." />
+  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"LocalBusiness","name":"Richard Diaz Landscape","address":{"@type":"PostalAddress","addressLocality":"Orange","addressRegion":"CA"},"areaServed":["Orange"]},{"@context":"https://schema.org","@type":"Service","name":"landscaping services","provider":{"@type":"LocalBusiness","name":"Richard Diaz Landscape"},"serviceType":["Landscape refreshes","Outdoor living details","Planting and cleanup","Hardscape repair"]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How does the preview choose content?","acceptedAnswer":{"@type":"Answer","text":"It uses source-backed business data first and documented fallbacks when a field is missing."}}]},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://example.com/wss-ca-landscape-richard-diaz-landscape"}]}]</script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=Inter+Tight:wght@500;700;800;900&family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@700;800&family=Space+Grotesk:wght@500;700&display=swap');
+    :root {
+      color-scheme: dark;
+      --ink: #fff7ea;
+      --muted: rgba(255,247,234,.74);
+      --line: rgba(255,247,234,.16);
+      --accent: #f6821f;
+      --accent-2: #fbad41;
+      --deep: #130f0b;
+      --shadow: #120d09;
+      --panel: rgba(28,21,15,.76);
+      --glass: rgba(255,255,255,.09);
+      --font-display: "Space Grotesk", "Inter Tight", system-ui, sans-serif;
+      --font-body: "DM Sans", "Manrope", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { max-width: 100%; }
+    img, svg, video { max-width: 100%; }
+    body {
+      margin: 0;
+      font-family: var(--font-body);
+      background: radial-gradient(circle at 18% 6%, rgba(255,139,74,.22), transparent 32%),
+        radial-gradient(circle at 82% 12%, rgba(113,224,181,.16), transparent 28%),
+        #130f0b;
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+    a { color: inherit; }
+    .shell { width: min(1180px, calc(100vw - 32px)); margin: 0 auto; }
+    header.site-head {
+      min-height: 96px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      position: relative;
+      z-index: 20;
+    }
+    .brand { display: flex; align-items: center; gap: 16px; text-decoration: none; }
+    .brand img { width: 76px; height: 76px; object-fit: contain; border-radius: 22px; box-shadow: 0 18px 40px rgba(0,0,0,.28); }
+    .brand strong { display: block; font-family: var(--font-display); font-size: clamp(1.2rem, 2vw, 1.65rem); line-height: 1; }
+    .brand span { color: var(--accent); font-weight: 800; font-size: .86rem; }
+    nav { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    nav a, .btn {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.06);
+      border-radius: 999px;
+      padding: 13px 18px;
+      text-decoration: none;
+      font-weight: 800;
+      letter-spacing: 0;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.12);
+    }
+    .btn.primary { background: linear-gradient(135deg, var(--accent), #ffc667); color: #140c07; border: 0; }
+    .hero {
+      position: relative;
+      min-height: 760px;
+      display: grid;
+      align-items: center;
+      padding: 70px 0 96px;
+      isolation: isolate;
+      overflow: hidden;
+    }
+    .hero.hero-diagonal { align-items: start; padding-top: 118px; }
+    .hero.hero-centerpiece { text-align: center; }
+    .hero.hero-side-rail { padding-left: max(0px, calc((100vw - 1180px) / 2)); }
+    .hero.hero-photo-stack { min-height: 820px; }
+    .hero video, .hero .still {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .32;
+      filter: saturate(.9) contrast(1.08);
+      z-index: -6;
+    }
+    .hero .still {
+      background:
+        linear-gradient(125deg, rgba(255,139,74,.22), transparent 44%),
+        linear-gradient(24deg, rgba(113,224,181,.16), transparent 52%),
+        url("https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp") center/cover;
+    }
+    .veil { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(19,15,11,.95), rgba(19,15,11,.58) 46%, rgba(19,15,11,.2)); z-index: -5; }
+    .grain { position: absolute; inset: 0; opacity: .2; z-index: -4; background-image: radial-gradient(rgba(255,255,255,.24) 1px, transparent 1px); background-size: 4px 4px; mix-blend-mode: soft-light; }
+    .motif { position: absolute; inset: 7% 2% auto auto; width: min(46vw, 560px); height: 560px; z-index: -3; opacity: .34; }
+    .motif svg { width: 100%; height: 100%; filter: drop-shadow(0 24px 50px rgba(0,0,0,.32)); }
+    .overlay { position: absolute; inset: auto 0 0; height: 42%; z-index: -2; background: linear-gradient(0deg, #130f0b, transparent); }
+    .signature-node { position: absolute; border: 1px solid rgba(255,255,255,.12); border-radius: 999px; opacity: .28; z-index: -1; pointer-events: none; }
+    .signature-node b { display: block; width: 100%; height: 100%; border-radius: inherit; background: linear-gradient(135deg, rgba(255,255,255,.08), transparent); }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(360px, .72fr);
+      gap: clamp(28px, 5vw, 72px);
+      align-items: center;
+    }
+    .hero-diagonal .hero-grid { grid-template-columns: minmax(0,.74fr) minmax(420px,.92fr); align-items: start; }
+    .hero-centerpiece .hero-grid { grid-template-columns: 1fr; max-width: 960px; text-align: center; }
+    .hero-centerpiece .eyebrow, .hero-centerpiece .actions { justify-content: center; }
+    .hero-centerpiece h1, .hero-centerpiece .lede { margin-left: auto; margin-right: auto; }
+    .hero-side-rail .hero-grid { grid-template-columns: minmax(280px,.48fr) minmax(520px,1fr); }
+    .hero-side-rail .hero-grid > div:first-child { padding-left: 36px; border-left: 1px solid rgba(255,255,255,.18); }
+    .hero-photo-stack .hero-grid { grid-template-columns: minmax(0,.78fr) minmax(460px,.9fr); }
+    .eyebrow { color: var(--accent); font-weight: 900; letter-spacing: .16em; text-transform: uppercase; font-size: .78rem; display: flex; gap: 10px; align-items: center; }
+    .eyebrow::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--accent-2); box-shadow: 0 0 22px var(--accent-2); }
+    h1 { font-family: var(--font-display); font-size: clamp(3.25rem, 6.1vw, 6.8rem); line-height: .92; max-width: 760px; margin: 24px 0 22px; letter-spacing: 0; overflow-wrap: normal; text-wrap: balance; }
+    h1 span { color: var(--accent); }
+    .lede { color: var(--muted); max-width: 640px; font-size: clamp(1.1rem, 1.8vw, 1.45rem); line-height: 1.45; }
+    .actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 34px; }
+    .widget {
+      position: relative;
+      min-height: 560px;
+      border-radius: 44px;
+      padding: 24px;
+      background: linear-gradient(145deg, rgba(255,255,255,.14), rgba(255,255,255,.045));
+      border: 1px solid rgba(255,255,255,.18);
+      box-shadow: 0 34px 90px rgba(0,0,0,.36);
+      overflow: hidden;
+      transform: rotate(1.2deg);
+    }
+    .hero-diagonal .widget { border-radius: 24px 64px 24px 64px; clip-path: polygon(9% 0, 100% 0, 91% 100%, 0 100%); transform: rotate(-2.3deg) translateY(18px); }
+    .hero-centerpiece .widget { width: min(780px, 100%); min-height: 380px; margin: 28px auto 0; border-radius: 999px 999px 44px 44px; transform: none; }
+    .hero-side-rail .widget { border-radius: 18px 120px 18px 46px; transform: rotate(.6deg); }
+    .hero-photo-stack .widget { border-radius: 42px 42px 120px 24px; transform: rotate(2.4deg); }
+    .widget::before {
+      content: "";
+      position: absolute;
+      inset: 24px;
+      border-radius: 36px;
+      background: linear-gradient(180deg, rgba(255,255,255,.13), transparent), url("https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp") center/cover;
+      clip-path: path("M 846.1591683019651 500 C 848.7672276101816 574.9600437725697, 790.397503959353 668.02795179873, 732.7043092423588 732.7043092423587 C 675.0111145253646 797.3806666859874, 576.6254864491508 889.0007612934079, 500 888.0581446617725 C 423.37451355084914 887.1155280301372, 339.68360987338525 791.724966896175, 272.95139054745374 727.0486094525463 C 206.21917122152223 662.3722520089176, 109.15757064793074 585.2337564210353, 99.60668404441094 500.00000000000006 C 90.05579744089114 414.76624357896486, 148.9138516004034 275.7034087240088, 215.64607092633491 215.64607092633503 C 282.3782902522664 155.5887331286613, 416.43168625554586 128.43964393385673, 499.99999999999994 139.65597321395762 C 583.568313744454 150.87230249405852, 659.3627586760654 222.88670880926665, 717.0559533930596 282.9440466069404 C 774.7491481100537 343.0013844046141, 843.5511089937486 425.03995622743025, 846.1591683019651 500 Z");
+      filter: hue-rotate(-18deg) saturate(1.04);
+    }
+    .hero-diagonal .widget::before { inset: 18px 34px; border-radius: 20px 52px 20px 52px; clip-path: polygon(4% 0, 100% 0, 93% 100%, 0 100%); }
+    .hero-centerpiece .widget::before { inset: 18px; border-radius: 999px 999px 38px 38px; clip-path: ellipse(47% 46% at 50% 50%); }
+    .hero-side-rail .widget::before { inset: 20px; border-radius: 14px 96px 14px 38px; clip-path: polygon(0 0, 86% 0, 100% 18%, 92% 100%, 0 100%); }
+    .hero-photo-stack .widget::before { inset: 18px; border-radius: 34px 34px 96px 20px; clip-path: polygon(0 5%, 74% 0, 100% 20%, 96% 100%, 10% 92%); }
+    .widget-card {
+      position: absolute;
+      left: 34px;
+      right: 34px;
+      bottom: 34px;
+      padding: 22px;
+      border-radius: 26px;
+      background: rgba(18,13,9,.76);
+      border: 1px solid rgba(255,255,255,.15);
+      backdrop-filter: blur(16px);
+    }
+    .countups { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 18px; }
+    .countups b { font-family: var(--font-display); font-size: 1.9rem; color: var(--accent-2); }
+    .marquee { border-block: 1px solid var(--line); color: rgba(255,247,234,.58); padding: 16px 0; overflow: hidden; white-space: nowrap; }
+    .marquee span { display: inline-block; padding-right: 44px; }
+    section.content { padding: 92px 0; border-top: 1px solid var(--line); }
+    .section-grid { display: grid; grid-template-columns: .7fr 1fr; gap: 48px; align-items: start; }
+    h2 { font-family: var(--font-display); font-size: clamp(2.2rem, 4vw, 4.8rem); line-height: .94; margin: 0; }
+    .cards { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
+    .card { border: 1px solid var(--line); background: var(--glass); border-radius: 28px; padding: 24px; min-height: 160px; }
+    .card b { color: var(--accent-2); }
+    footer { padding: 46px 0; color: rgba(255,247,234,.55); border-top: 1px solid var(--line); }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } .widget { transform: none; } }
+    @media (max-width: 820px) {
+      header.site-head { align-items: flex-start; flex-direction: column; }
+      .brand img { width: 72px; height: 72px; }
+      .hero { min-height: auto; padding-top: 34px; }
+      .hero-grid, .hero-diagonal .hero-grid, .hero-centerpiece .hero-grid, .hero-side-rail .hero-grid, .hero-photo-stack .hero-grid, .section-grid, .cards { grid-template-columns: 1fr; }
+      .hero-side-rail .hero-grid > div:first-child { padding-left: 0; border-left: 0; }
+      .widget { min-height: 430px; border-radius: 30px; transform: none; }
+      .widget, .widget-card { max-width: 100%; }
+      .widget-card { left: 18px; right: 18px; bottom: 18px; }
+      h1 { font-size: clamp(3rem, 14vw, 4.9rem); overflow-wrap: anywhere; }
+      nav a { padding: 10px 13px; font-size: .92rem; }
+    }
+  </style>
 </head>
-<body><a class="skip" href="#main">Skip to content</a><div class="texture"></div><div class="site stone" data-v4-build="a-plus-meta" data-lane="premier-multi-page"><nav class="nav"><div class="shell nav-inner"><a class="brand" href="/" aria-label="Richard Diaz Landscape home"><span class="brand-logo sourced"><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png" alt="Richard Diaz Landscape logo"></span><span><b>Richard Diaz Landscape</b><em>Orange hardscape + masonry</em></span></a><div class="links"><a href="/services/">Services</a><a href="/service-areas/">Map</a><a href="/contact/">Contact</a><a class="phone" href="tel:7146732643">(714) 673-2643</a></div></div></nav><section class="hero" id="main" data-video-status="veo-ready" data-hero-model="material-lab"><div class="hero-video" aria-hidden="true"><video autoplay muted loop playsinline poster="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp"><source src="/assets/hero-video.mp4" type="video/mp4"></video></div><div class="hero-noise" aria-hidden="true"></div><div class="shell hero-grid"><div class="hero-copy"><p class="kicker">Orange hardscape + masonry</p><h1>Masonry, <span class="wash">planting</span>, grading, and outdoor structure.</h1><p class="lead">A rugged but polished web presence for patios, retaining walls, paver repair, planting, cleanup, and hardscape work that needs to feel built, not generic.</p><div class="hero-instrument stone-instrument" aria-label="Material calculator widget"><b>Material path</b><span>Masonry</span><span>Paver repair</span><em>4.9 public rating</em></div><div class="actions"><a class="btn primary" href="/quote/">Build my quote</a><a class="btn" href="/gallery/">Inspect the work</a></div></div><div class="stage" data-stage="material-yard"><div class="stone-dust"></div><div class="frame one"><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp" alt="Richard Diaz Landscape landscape project visual"><div class="caption"><b>Orange</b><span>Stone Material Lab</span></div></div><div class="frame two"><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp" alt="Richard Diaz Landscape detail image"></div><div class="slab-label"><span>stone detail</span><span>clean edges</span><span>site-ready</span></div><div class="badge-row"><span>Masonry</span><span>Paver repair</span><span>Retaining walls</span><span>Patios</span></div></div></div><div class="shell hero-stats stone-stats" aria-label="Richard Diaz Landscape quick proof"><span><b>4.9</b><i>rating</i></span><span><b>33</b><i>reviews</i></span><span><b>5</b><i>nearby areas</i></span></div><div class="hero-marquee stone-marquee" aria-hidden="true"><div><span>Masonry</span><span>Paver repair</span><span>Retaining walls</span><span>Patios</span><span>Planting + grading</span><span>Orange</span><span>Anaheim Hills</span><span>Villa Park</span><span>Tustin</span><span>Santa Ana</span><span>Masonry</span><span>Paver repair</span><span>Retaining walls</span><span>Patios</span><span>Planting + grading</span><span>Orange</span><span>Anaheim Hills</span><span>Villa Park</span><span>Tustin</span><span>Santa Ana</span></div></div></section><section class="section alt" id="services" data-section-model="zigzag"><div class="shell"><div class="section-head"><h2>Stone, grade, repair, and planting in one rugged path.</h2><p>Richard Diaz Landscape needs masonry and landscape work shown with material weight, service clarity, and a quote route that feels built.</p></div><div class="services"><article class="service"><i>01</i><h3>Masonry</h3><p>Stone and block work gets a more grounded presentation with material-first visual rhythm.</p></article><article class="service"><i>02</i><h3>Paver repair</h3><p>Repair work is framed with the exact clarity homeowners need before they call.</p></article><article class="service"><i>03</i><h3>Retaining walls</h3><p>Retaining walls changes the yard in a visible way: cleaner edges, easier access, and a clearer first walkthrough.</p></article><article class="service"><i>04</i><h3>Patios</h3><p>Patios changes the yard in a visible way: cleaner edges, easier access, and a clearer first walkthrough.</p></article><article class="service"><i>05</i><h3>Planting + grading</h3><p>Planting + grading changes the yard in a visible way: cleaner edges, easier access, and a clearer first walkthrough.</p></article></div></div></section><section class="section estimate-zone" id="quote" data-intake-model="material-lab"><div class="shell"><div class="section-head"><h2>Size the stone and repair path.</h2><p>Choose the masonry or landscape scope, send the surface photos, and start with material context already in hand.</p></div><div class="estimate-studio"><aside class="studio-card"><div><p class="kicker">Orange Material brief</p><h2>Shape the job before the call.</h2><p>Fast enough for a phone, polished enough to make the business feel established before the first walkthrough.</p></div><div class="scope-ring" aria-label="Three-step estimate readiness"><span>3<small>steps</small></span></div><div class="studio-metrics"><span><b>4.9</b>rating cue</span><span><b>33</b>reviews</span><span><b>24h</b>reply goal</span></div></aside><div class="studio-console"><div class="console-top"><div><p class="kicker">Build the request</p><h3>Pick the work. Add photos. Book the walkthrough.</h3><p>Each choice trims the back-and-forth and gives the owner a clearer opening conversation.</p></div><span class="status-pill">Ready path</span></div><div class="choice-row" aria-label="Project size"><button class="choice is-active" type="button" data-choice="Refresh">Refresh</button><button class="choice" type="button" data-choice="Repair">Repair</button><button class="choice" type="button" data-choice="Full yard">Full yard</button><button class="choice" type="button" data-choice="Commercial">Commercial</button></div><div class="chip-cloud" aria-label="Service choices"><button class="material-chip is-active" type="button" data-choice="Masonry">Masonry</button><button class="material-chip is-active" type="button" data-choice="Paver repair">Paver repair</button><button class="material-chip" type="button" data-choice="Retaining walls">Retaining walls</button><button class="material-chip" type="button" data-choice="Patios">Patios</button><button class="material-chip" type="button" data-choice="Planting + grading">Planting + grading</button></div><div class="meter"><div class="meter-head"><span>Timeline</span><strong data-estimate-summary>This month · photo-ready</strong></div><div class="meter-track" aria-hidden="true"></div><div class="meter-labels"><span>Today</span><span>This week</span><span>This month</span></div></div><div class="flow-steps"><span><b>01 Scope</b>Choose the outdoor work.</span><span><b>02 Photos</b>Send the trouble spots.</span><span><b>03 Walkthrough</b>Confirm timing and price.</span></div><div class="action-dock"><div class="dock-copy"><b>Ready to start?</b><span>Call, text photos, or save this scope for the walkthrough.</span></div><div class="dock-actions"><a class="btn primary" href="tel:7146732643">Call (714) 673-2643</a><a class="btn" href="sms:7146732643">Send photos</a></div></div></div></div><div class="mobile-cta"><span><b>Material brief</b>Call or send photos</span><a class="btn primary" href="tel:7146732643">Start</a></div></div></section><section class="section"><div class="shell founder"><figure class="founder-portrait"><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s1.webp" alt="Richard Diaz Landscape local landscape work"></figure><div class="founder-copy"><p class="kicker">Orange local footprint</p><h2>Built around the way homeowners actually choose a crew.</h2><p>This page does not try to make Richard Diaz Landscape feel like a software product. It puts the work, the map, the service area, the phone path, and the proof signals close together so a homeowner can understand the company quickly.</p><p>The full client-approved version should add owner story, team photos, verified licenses, and real review language after approval.</p></div></div></section><section class="section map-band" id="map"><div class="shell map-grid"><div class="map-copy"><p class="kicker">Satellite map + directions</p><h2>See the service area before you call.</h2><p>Richard Diaz Landscape is anchored at 633 N Heatherstone Dr, Orange, CA 92869. The production version can pair this satellite view with verified service-radius details, neighborhood pages, and route-aware call tracking.</p><div class="pin-list"><span class="pin">Orange</span><span class="pin">Anaheim Hills</span><span class="pin">Villa Park</span><span class="pin">Tustin</span><span class="pin">Santa Ana</span></div></div><div class="map-frame"><iframe title="Richard Diaz Landscape satellite map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=633%20N%20Heatherstone%20Dr%2C%20Orange%2C%20CA%2092869&amp;t=k&amp;z=14&amp;output=embed"></iframe><div class="direction-dock"><span>633 N Heatherstone Dr, Orange, CA 92869</span><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=633%20N%20Heatherstone%20Dr%2C%20Orange%2C%20CA%2092869">Get directions</a></div></div></div></section><section class="section" id="work" data-section-model="contact-strip"><div class="shell"><div class="section-head"><h2>A material wall for hardscape work.</h2><p>Stone, grade, paver, and planting frames get heavier treatment so the craft feels tangible.</p></div><div class="mosaic"><figure><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/masonry-67f02b2002118-e1771881308671.webp" alt="Richard Diaz Landscape Masonry surface"><figcaption>Masonry surface</figcaption></figure><figure><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/custom-landscape-design-67f02b67e57ac.webp" alt="Richard Diaz Landscape Patio structure"><figcaption>Patio structure</figcaption></figure><figure><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s1.webp" alt="Richard Diaz Landscape Retaining detail"><figcaption>Retaining detail</figcaption></figure><figure><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s2-67f0258ed6d4d.webp" alt="Richard Diaz Landscape Grade line"><figcaption>Grade line</figcaption></figure><figure><img src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/s3-67f0256fedb4a.webp" alt="Richard Diaz Landscape Built edge"><figcaption>Built edge</figcaption></figure></div></div></section><section class="section alt"><div class="shell"><div class="section-head"><h2>A cleaner path from curiosity to walkthrough.</h2><p>The scroll is designed to reduce vague calls and help the owner start with a real project shape.</p></div><div class="process-ribbon"><article class="process-step" data-step="01"><b>Share the outdoor area</b><p>Pick the project type and send the first details from a phone.</p></article><article class="process-step" data-step="02"><b>Show the location</b><p>The satellite map and service-area pins make the request feel grounded.</p></article><article class="process-step" data-step="03"><b>Send photos</b><p>Homeowners can show the trouble spot before a walkthrough is scheduled.</p></article><article class="process-step" data-step="04"><b>Confirm the walkthrough</b><p>The call starts with scope, timing, and address context already clear.</p></article></div></div></section><section class="section alt"><div class="shell"><div class="section-head"><h2>Trust signals that do not need a speech.</h2><p>Real public facts are placed close to the decision points, so the page feels useful before anyone gets sold to.</p></div><div class="proof-band"><article class="proof-quote"><p>4.9 rating</p><span>Richard Diaz Landscape carries a public rating signal that should be made visible before the homeowner has to search for it.</span></article><article class="proof-quote"><p>33 public reviews</p><span>The review count gives the page a real trust spine without inventing testimonials.</span></article><article class="proof-quote"><p>Monday Open 24 hours</p><span>The opening-hours cue helps Orange homeowners decide when to call.</span></article></div></div></section><section class="section alt"><div class="shell trust"><span><b>Orange</b>Primary market</span><span><b>4.9</b>Google rating</span><span><b>33</b>Public reviews</span><span><b>Mon Open 24 hours</b>Hours cue</span></div></section><footer class="footer"><div class="shell footer-grid"><div><b>Richard Diaz Landscape</b><p>Orange landscape services and outdoor project planning.</p></div><div><b>Phone</b><p>(714) 673-2643</p></div><div><b>Website</b><p>https://richarddiazlandscaping.com/</p></div><div><b>Next step</b><p>Call, send photos, or start a walkthrough request.</p></div></div></footer></div></body></html>
+<body>
+  <header class="site-head shell">
+    <a class="brand" href="#top" aria-label="Richard Diaz Landscape home">
+      <img data-role="logo" alt="Richard Diaz Landscape logo" src="https://richarddiazlandscaping.com/wp-content/uploads/2025/04/IMG_3283-Richard-Diaz.png" width="76" height="76" />
+      <span><strong>Richard Diaz Landscape</strong><span>Orange landscaping</span></span>
+    </a>
+    <nav aria-label="Primary"><a href="#services">Services</a><a href="#work">Work</a><a href="#quote">Estimate</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero hero-centerpiece" data-hero-anatomy="centerpiece-editorial" data-layout-signature="centerpiece:center-copy:oval-media:wide-stage">
+      <div class="still" aria-hidden="true"></div>
+      <div class="veil" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+      <div class="motif" aria-hidden="true"><svg viewBox="0 0 1000 1000"><path d="M 846.1591683019651 500 C 848.7672276101816 574.9600437725697, 790.397503959353 668.02795179873, 732.7043092423588 732.7043092423587 C 675.0111145253646 797.3806666859874, 576.6254864491508 889.0007612934079, 500 888.0581446617725 C 423.37451355084914 887.1155280301372, 339.68360987338525 791.724966896175, 272.95139054745374 727.0486094525463 C 206.21917122152223 662.3722520089176, 109.15757064793074 585.2337564210353, 99.60668404441094 500.00000000000006 C 90.05579744089114 414.76624357896486, 148.9138516004034 275.7034087240088, 215.64607092633491 215.64607092633503 C 282.3782902522664 155.5887331286613, 416.43168625554586 128.43964393385673, 499.99999999999994 139.65597321395762 C 583.568313744454 150.87230249405852, 659.3627586760654 222.88670880926665, 717.0559533930596 282.9440466069404 C 774.7491481100537 343.0013844046141, 843.5511089937486 425.03995622743025, 846.1591683019651 500 Z" fill="none" stroke="rgba(113,224,181,.75)" stroke-width="3"/><path d="M 846.1591683019651 500 C 848.7672276101816 574.9600437725697, 790.397503959353 668.02795179873, 732.7043092423588 732.7043092423587 C 675.0111145253646 797.3806666859874, 576.6254864491508 889.0007612934079, 500 888.0581446617725 C 423.37451355084914 887.1155280301372, 339.68360987338525 791.724966896175, 272.95139054745374 727.0486094525463 C 206.21917122152223 662.3722520089176, 109.15757064793074 585.2337564210353, 99.60668404441094 500.00000000000006 C 90.05579744089114 414.76624357896486, 148.9138516004034 275.7034087240088, 215.64607092633491 215.64607092633503 C 282.3782902522664 155.5887331286613, 416.43168625554586 128.43964393385673, 499.99999999999994 139.65597321395762 C 583.568313744454 150.87230249405852, 659.3627586760654 222.88670880926665, 717.0559533930596 282.9440466069404 C 774.7491481100537 343.0013844046141, 843.5511089937486 425.03995622743025, 846.1591683019651 500 Z" fill="rgba(255,139,74,.12)"/></svg></div>
+      <div class="overlay" aria-hidden="true"></div>
+      <i class="signature-node centerpiece-editorial-node-0" aria-hidden="true" data-node="centerpiece-editorial-0" style="width:212px;height:70px;top:42%;left:76%;transform:rotate(14deg)"><b><b><b></b></b></b></i><i class="signature-node centerpiece-editorial-node-1" aria-hidden="true" data-node="centerpiece-editorial-1" style="width:249px;height:89px;top:55%;left:11%;transform:rotate(-11deg)"></i><i class="signature-node centerpiece-editorial-node-2" aria-hidden="true" data-node="centerpiece-editorial-2" style="width:106px;height:108px;top:68%;left:34%;transform:rotate(0deg)"><b></b></i><i class="signature-node centerpiece-editorial-node-3" aria-hidden="true" data-node="centerpiece-editorial-3" style="width:143px;height:37px;top:81%;left:57%;transform:rotate(11deg)"><b><b></b></b></i><i class="signature-node centerpiece-editorial-node-4" aria-hidden="true" data-node="centerpiece-editorial-4" style="width:180px;height:56px;top:22%;left:80%;transform:rotate(-14deg)"><b><b><b></b></b></b></i><i class="signature-node centerpiece-editorial-node-5" aria-hidden="true" data-node="centerpiece-editorial-5" style="width:217px;height:75px;top:35%;left:15%;transform:rotate(-3deg)"></i><i class="signature-node centerpiece-editorial-node-6" aria-hidden="true" data-node="centerpiece-editorial-6" style="width:74px;height:94px;top:48%;left:38%;transform:rotate(8deg)"><b><b></b></b></i><i class="signature-node centerpiece-editorial-node-7" aria-hidden="true" data-node="centerpiece-editorial-7" style="width:111px;height:23px;top:61%;left:61%;transform:rotate(-17deg)"></i><i class="signature-node centerpiece-editorial-node-8" aria-hidden="true" data-node="centerpiece-editorial-8" style="width:148px;height:42px;top:74%;left:84%;transform:rotate(-6deg)"><b><b><b></b></b></b></i>
+      <div class="hero-grid shell">
+        <div>
+          <div class="eyebrow">Orange botanical-contour</div>
+          <h1>A calmer landscape path for <span>Orange</span>.</h1>
+          <p class="lede">A softer, clearer site experience for homeowners comparing landscape help, service areas, and the next estimate step.</p>
+          <div class="actions"><a class="btn primary" href="#quote">Request an estimate</a><a class="btn" href="#work">See the work</a></div>
+        </div>
+        <aside class="widget" aria-label="Preview widget">
+          <div class="widget-card">
+            <b>Orange</b>
+            <p>Clear service areas, visible proof, and a faster estimate path for homeowners who want the outdoor work handled cleanly.</p>
+            <div class="countups"><span><b>4</b><br/>service paths</span><span><b>24h</b><br/>reply goal</span><span><b>CA</b><br/>local proof</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <div class="marquee"><span>Landscape refreshes · Outdoor living details · Planting and cleanup · Hardscape repair</span><span>Landscape refreshes · Outdoor living details · Planting and cleanup · Hardscape repair</span><span>Landscape refreshes · Outdoor living details · Planting and cleanup · Hardscape repair</span></div>
+    <section id="services" class="content shell">
+      <div class="section-grid">
+        <h2>Built around the work homeowners actually call for.</h2>
+        <div class="cards"><article class="card"><b>01</b><h3>Landscape refreshes</h3><p>Plain-language service pages, sharp visuals, and quote-ready calls to action make it easier for local visitors to choose the next step.</p></article><article class="card"><b>02</b><h3>Outdoor living details</h3><p>Plain-language service pages, sharp visuals, and quote-ready calls to action make it easier for local visitors to choose the next step.</p></article><article class="card"><b>03</b><h3>Planting and cleanup</h3><p>Plain-language service pages, sharp visuals, and quote-ready calls to action make it easier for local visitors to choose the next step.</p></article><article class="card"><b>04</b><h3>Hardscape repair</h3><p>Plain-language service pages, sharp visuals, and quote-ready calls to action make it easier for local visitors to choose the next step.</p></article></div>
+      </div>
+    </section>
+    <section id="work" class="content shell">
+      <div class="section-grid">
+        <h2>Real work, framed with more polish.</h2>
+        <p class="lede">Photos, service details, and local trust signals are staged so the business feels established before the visitor ever reaches the quote form.</p>
+      </div>
+    </section>
+    <section id="quote" class="content shell">
+      <div class="section-grid">
+        <h2>Ready when the project is.</h2>
+        <div class="card"><p>Send the job type, neighborhood, timeline, and a few photos. The estimate path stays short, direct, and easy to finish.</p><a class="btn primary" href="tel:">Start quote path</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="shell">A cleaner local estimate experience for homeowners ready to start the next outdoor project.</footer>
+</body>
+</html>

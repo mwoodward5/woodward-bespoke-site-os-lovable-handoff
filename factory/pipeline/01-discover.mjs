@@ -17,17 +17,24 @@ export async function discover(packet, { firecrawlKey, gbpEnabled, serpEnabled }
       },
       body: JSON.stringify({
         url: packet.business.current_website,
-        formats: ["markdown", "branding", "links", { type: "summary" }],
-        onlyMainContent: true,
+        // images + full page (not onlyMainContent): galleries, headers, and
+        // trust strips are where the prospect's real photos and logo live.
+        formats: ["markdown", "branding", "links", "images", { type: "summary" }],
+        onlyMainContent: false,
       }),
     });
     if (r.ok) {
-      const data = await r.json();
+      const raw = await r.json();
+      const data = raw.data || raw; // firecrawl v2 may wrap in .data
       sources.branding = { source: "firecrawl-branding", confidence: 0.85, value: data.branding };
       sources.copy = { source: "firecrawl", confidence: 0.9, value: data.markdown };
       if (data.branding?.logo) {
         sources.logo = { source: "firecrawl-branding", confidence: 0.9, value: data.branding.logo };
       }
+      const images = (Array.isArray(data.images) ? data.images : [])
+        .map((item) => (typeof item === "string" ? item : item?.url || item?.src || ""))
+        .filter(Boolean);
+      if (images.length) sources.photos = { source: "firecrawl", confidence: 0.85, value: images };
     } else {
       emit("discover", "firecrawl-error", { status: r.status });
     }

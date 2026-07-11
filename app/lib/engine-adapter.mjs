@@ -338,6 +338,14 @@ export function startTryOn({ family, name, city, state, category, website }) {
       try {
         await discover(packet, { firecrawlKey, gbpEnabled: false, serpEnabled: false });
         await scrape(packet, { firecrawlKey });
+        // E7.1: map scraped assets into the packet the same way startGeneration
+        // does — otherwise their logo/photos never reach the render. rescue()/
+        // mergeEnrichment() rebuild logo fields downstream; v7_logo survives and
+        // wins at build time.
+        const scrapedLogo = packet.enrichment_sources?.logo?.value;
+        if (scrapedLogo) {
+          packet.v7_logo = { url: scrapedLogo, origin: "source-intake", proposed: false, local_path: null };
+        }
       } catch { /* preview still builds from texture + copy */ }
     }
     await rescue(packet, { lovableKey: null, outDir });
@@ -404,3 +412,4 @@ export async function publishToVercel(project, generation) {
   }).catch(() => {});
   return { skipped: false, url: `https://${data.url}`, deployment_id: data.id };
 }
+// E7.1 media-merge fix landed 2026-07-10 (see startTryOn).

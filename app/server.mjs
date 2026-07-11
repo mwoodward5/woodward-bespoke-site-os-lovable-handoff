@@ -391,8 +391,15 @@ export const handle = async (req, res) => {
       return json(res, 200, { id: job.id, status: job.status, result: job.result ?? null, error: job.error ?? null });
     }
     if (p === "/api/templates/try" && req.method === "POST") {
-      const rl = U.rateLimit(`try:${U.ipOf(req)}`, { max: 6, windowMs: 3600_000 });
-      if (!rl.ok) return json(res, 429, { error: "That's plenty of free previews for one hour — sign up to keep forging." });
+      // Internal callers (ghost-agency pipeline) present the build token and
+      // skip the public free-preview rate limit.
+      const internalToken = String(process.env.SITEFORGE_INTERNAL_TOKEN || process.env.SITEFORGE_BUILD_TOKEN || "").trim();
+      const presented = String(req.headers.authorization || "").replace(/^Bearer\s+/i, "").trim();
+      const isInternal = Boolean(internalToken && presented && presented === internalToken);
+      if (!isInternal) {
+        const rl = U.rateLimit(`try:${U.ipOf(req)}`, { max: 6, windowMs: 3600_000 });
+        if (!rl.ok) return json(res, 429, { error: "That's plenty of free previews for one hour — sign up to keep forging." });
+      }
       const body = await U.readJson(req);
       U.need(body, ["family", "name", "city", "state", "category"]);
       if (body.family !== "auto" && !Engine.HERO_FAMILIES.some((f) => f.key === body.family)) return json(res, 400, { error: "unknown family" });

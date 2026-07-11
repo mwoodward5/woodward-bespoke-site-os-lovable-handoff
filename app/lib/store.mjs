@@ -42,6 +42,9 @@ process.on("exit", flush);
 // ---------- serverless (Vercel Blob) persistence ----------
 // hydrate() runs once per cold start BEFORE any request; flushRemote() runs
 // after each mutating request (awaited by the api wrapper).
+// The db lives at IMMUTABLE versioned pathnames (db/<ts>.json): overwriting a
+// fixed path serves stale CDN copies; unique paths are always fresh. The
+// authorized list API finds the newest version.
 export async function hydrate() {
   const { BLOB_ENABLED, blobList } = await import("./blob-store.mjs");
   if (!BLOB_ENABLED()) return false;

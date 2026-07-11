@@ -343,4 +343,42 @@ ${sections}
 </html>`;
 }
 
-// -----------
+// ---------------- stage entry (same contract as v5) ----------------
+export async function build(packet, { outDir }) {
+  emit("build", "start", { slug: packet.slug, renderer: "v6" });
+  mkdirSync(outDir, { recursive: true });
+  mkdirSync(path.join(outDir, "media"), { recursive: true });
+  mkdirSync(path.join(outDir, "screenshots", "desktop"), { recursive: true });
+  mkdirSync(path.join(outDir, "screenshots", "mobile"), { recursive: true });
+  const html = renderSite(packet);
+  writeFileSync(path.join(outDir, "index.html"), html);
+  writeFileSync(path.join(outDir, "packet.json"), JSON.stringify(packet, null, 2));
+  writeFileSync(path.join(outDir, "veo_prompt.json"), JSON.stringify(packet.veo_prompt ?? {}, null, 2));
+  emit("build", "render-hero", { family: packet.hero_family, renderer: "v6" });
+  let screenshots = [];
+  try { screenshots = await captureScreenshots(outDir); }
+  catch (e) { emit("build", "capture-skipped", { reason: e.message.split("\n")[0] }); }
+  emit("build", "done", { screenshots, packet_path: path.join(outDir, "packet.json") });
+  return packet;
+}
+
+async function captureScreenshots(outDir) {
+  const { chromium } = await import("playwright");
+  const browser = await chromium.launch();
+  const shots = [];
+  try {
+    for (const [name, viewport] of Object.entries({ desktop: { width: 1440, height: 1000 }, mobile: { width: 390, height: 844 } })) {
+      const page = await browser.newPage({ viewport });
+      await page.goto(pathToFileURL(path.resolve(outDir, "index.html")).href);
+      for (const [fold, y] of Object.entries({ hero: 0, mid: 820, footer: 1600 })) {
+        await page.evaluate((s) => window.scrollTo(0, s), y);
+        const rel = `screenshots/${name}/${fold}.png`;
+        await page.screenshot({ path: path.join(outDir, rel), fullPage: false });
+        shots.push(rel);
+      }
+      await page.screenshot({ path: path.join(outDir, "screenshots", name, "full.png"), fullPage: true });
+      await page.close();
+    }
+  } finally { await browser.close(); }
+  return shots;
+}

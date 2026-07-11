@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": "2026-07-06T18:48:52.374Z",
+  "generatedAt": "2026-07-07T00:07:35.592Z",
   "build": "A+ production preview rebuild",
-  "queue": "C:\\Users\\Main\\Documents\\New project 2\\bespoke-site-os-factory\\proof\\ca-landscape-leadminer-2026-07-05\\ca-landscape-build-queue-enriched.json",
+  "queue": "C:\\Users\\Main\\Documents\\New project 2\\woodward-bespoke-site-os-lovable-handoff\\factory\\proof\\ca-landscape-leadminer-2026-07-05\\ca-landscape-build-queue-enriched.json",
   "kitchenStack": {
     "handoff": "CODEX_MASTER_HANDOFF.md §4 build loop + §13 signoff",
     "glue": [

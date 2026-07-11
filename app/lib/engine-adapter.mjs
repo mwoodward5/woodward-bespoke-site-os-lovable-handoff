@@ -383,6 +383,7 @@ export async function publishToVercel(project, generation) {
   });
   const data = await r.json();
   if (!r.ok) return { skipped: true, reason: data.error?.message || `Vercel ${r.status}` };
+  // Customer sites must be public: clear team-inherited deployment protection.
   await fetch(`https://api.vercel.com/v9/projects/${`siteforge-${project.slug}`.slice(0, 52)}?teamId=${teamId}`, {
     method: "PATCH", headers: { Authorization: `Bearer ${vtoken}`, "Content-Type": "application/json" },
     body: JSON.stringify({ ssoProtection: null }),

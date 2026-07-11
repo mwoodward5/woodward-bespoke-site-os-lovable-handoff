@@ -61,6 +61,11 @@ async function check(url) {
       images: (html.match(/<img\b/g) || []).length,
       dataMotion: html.match(/data-motion=["']([^"']+)/)?.[1] || "",
       hasV4Build: /data-v4-build=["']a-plus-meta["']/.test(html),
+      visualGrade: html.match(/data-visual-grade=["']([^"']+)/)?.[1] || "",
+      kitchenStack: html.match(/data-kitchen-stack=["']([^"']+)/)?.[1] || "",
+      heroStage: html.match(/data-stage=["']([^"']+)/)?.[1] || "",
+      hasOrganicMask: /--organic-mask:polygon\(/.test(html),
+      logoMode: html.match(/data-logo-mode=["']([^"']+)/)?.[1] || "",
       hasVideo: /<video\b/i.test(html),
       videoReady: /data-video-status=["']veo-ready["']/.test(html),
       videoPending: /data-video-status=["']veo-pending["']/.test(html),
@@ -116,6 +121,8 @@ writeFileSync(path.join(proofRoot, "CA_LANDSCAPE_LIVE_SMOKE.md"), [
     `- Provider video: ${row.heroVideo.status} / ${row.heroVideo.contentType} / ${row.heroVideo.bytes || "streamed"} bytes`,
     `- Home controls removed: ${!row.home.hasPlatformSelect && !row.home.hasSourceSelect && !row.home.hasPackageSelect}`,
     `- Home banned copy hits: ${row.home.bannedHits.length ? row.home.bannedHits.join(", ") : "none"}`,
+    `- Visual gate: ${row.home.visualGrade || "missing"} / ${row.home.kitchenStack || "missing"} / ${row.home.heroStage || "missing"}`,
+    `- Organic mask/logo mode: ${row.home.hasOrganicMask} / ${row.home.logoMode || "missing"}`,
     `- Sections/images: ${row.home.sections} / ${row.home.images}`,
     `- Noindex header: ${row.home.noindexHeader || "missing"}`,
     "",
@@ -130,9 +137,20 @@ const failures = results.flatMap((row) => [
   !row.home.hasPlatformSelect && !row.home.hasSourceSelect && !row.home.hasPackageSelect ? null : `${row.business} homepage still exposes internal controls`,
   row.home.bannedHits.length === 0 ? null : `${row.business} homepage banned copy: ${row.home.bannedHits.join(", ")}`,
   row.home.hasV4Build ? null : `${row.business} missing v4 build marker`,
+  row.home.visualGrade === "v5-organic" ? null : `${row.business} missing v5 organic visual marker`,
+  row.home.kitchenStack === "three-kitchen-v5" ? null : `${row.business} missing three-kitchen v5 marker`,
+  row.home.heroStage ? null : `${row.business} missing seeded hero stage`,
+  row.home.hasOrganicMask ? null : `${row.business} missing organic hero mask`,
+  row.home.logoMode ? null : `${row.business} missing explicit logo mode`,
   row.home.hasVideo ? null : `${row.business} missing provider video tag`,
   row.home.videoReady ? null : `${row.business} provider video is not ready on live page`,
 ]).filter(Boolean);
+
+const heroStages = results.map((row) => row.home.heroStage).filter(Boolean);
+const duplicateHeroStages = heroStages.filter((stage, index) => heroStages.indexOf(stage) !== index);
+if (duplicateHeroStages.length) {
+  failures.push(`Duplicate hero stage signatures: ${[...new Set(duplicateHeroStages)].join(", ")}`);
+}
 
 console.log(JSON.stringify({ ok: failures.length === 0, failures, results }, null, 2));
 if (failures.length) process.exitCode = 1;

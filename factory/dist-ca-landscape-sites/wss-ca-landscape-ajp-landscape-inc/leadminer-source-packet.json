@@ -1,0 +1,147 @@
+{
+  "generatedAt": "2026-07-06T02:23:37.499Z",
+  "rank": 2,
+  "business": {
+    "name": "AJP LANDSCAPE INC",
+    "slug": "ajp-landscape-inc",
+    "city": "Los Angeles",
+    "address": "4828 St Charles Pl, Los Angeles, CA 90019",
+    "phone": "(323) 420-7758",
+    "website": "http://www.ajplandscape.com/",
+    "googleMaps": "https://maps.google.com/?cid=8538532308454017510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "reviewCount": 19,
+    "hours": [
+      "Monday: 8:00 AM – 6:00 PM",
+      "Tuesday: 8:00 AM – 6:00 PM",
+      "Wednesday: 8:00 AM – 6:00 PM",
+      "Thursday: 8:00 AM – 6:00 PM",
+      "Friday: 8:00 AM – 6:00 PM",
+      "Saturday: 9:00 AM – 4:00 PM",
+      "Sunday: Closed"
+    ],
+    "category": "General contractor"
+  },
+  "leadMiner": {
+    "opportunityScore": 80,
+    "buildabilityScore": 60,
+    "weaknessReasons": [
+      "Website failed to load (404)",
+      "Website listed as non-HTTPS"
+    ],
+    "platformDetected": "Wix",
+    "sourceConfidence": 56,
+    "sourceDropdownOptions": [
+      "Website scrape",
+      "Google Business Profile",
+      "Logo/header assets",
+      "Existing project photos",
+      "Premium stock fallback",
+      "Owner upload"
+    ],
+    "platformDropdownOptions": [
+      "No website",
+      "WordPress",
+      "Wix",
+      "Squarespace",
+      "Webflow",
+      "Shopify",
+      "GoDaddy Website Builder",
+      "Custom static",
+      "Unknown"
+    ],
+    "packageOptions": [
+      {
+        "id": "no_site_launch",
+        "label": "New site from GBP + source packet",
+        "bestFor": "No website or broken website"
+      },
+      {
+        "id": "media_remaster",
+        "label": "Photo remaster + motion pass",
+        "bestFor": "Businesses with usable but flat images"
+      },
+      {
+        "id": "vercel_rebuild",
+        "label": "Full Vercel rebuild",
+        "bestFor": "Slow, dated, or template-heavy sites"
+      }
+    ]
+  },
+  "source": {
+    "finalUrl": "https://www.ajplandscape.com/",
+    "title": "",
+    "description": "",
+    "generator": "",
+    "platform": "Wix",
+    "responseMs": 360,
+    "status": 404,
+    "brandColors": [
+      "#fb7d33",
+      "#0000ee"
+    ],
+    "logoCandidates": [
+      {
+        "url": "http://static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png",
+        "context": "class=\"pull-left wix-logo\" ng-src=\"//static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png\" src=\"https://static.parastorage.com/services/wix-public/1.719.0",
+        "source": "logo_img"
+      },
+      {
+        "url": "https://www.wix.com/favicon.ico",
+        "context": "type=\"image/png\" href=\"//www.wix.com/favicon.ico\" rel=\"shortcut icon\""
+      }
+    ],
+    "imageCandidates": [
+      {
+        "url": "http://static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png",
+        "context": "class=\"pull-left wix-logo\" ng-src=\"//static.parastorage.com/services/wix-public/1.719.0/images/error-pages/logo.png\" src=\"https://static.parastorage.com/services/wix-public/1.719.0",
+        "source": "firecrawl_html"
+      }
+    ],
+    "selectedImages": [
+      "https://www.wix.com/favicon.ico",
+      "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+    ],
+    "firecrawlEnrichment": {
+      "configured": true,
+      "search": {
+        "ok": true,
+        "reason": "",
+        "rows": []
+      },
+      "attempts": [
+        {
+          "url": "http://www.ajplandscape.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Error",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 1,
+          "imageCount": 1,
+          "colorCount": 2
+        },
+        {
+          "url": "https://www.ajplandscape.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Error",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 1,
+          "imageCount": 1,
+          "colorCount": 2
+        }
+      ],
+      "selectedUrl": "http://www.ajplandscape.com/"
+    },
+    "renderedScreenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-b5fa5bf6-0a35-43d6-b90f-dd3f43bb0617.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1783927070&Signature=PIGmdcLnutOECv7cvx9GinB8MzRMr797eouO5a%2FtZfbmF5aZRafCLsQiL%2BGakcGa92%2FH2BkBVLHrtVKvMdoaejubQbdZQPceS9jLgsxMnsL%2FdzcTq7LDwVa2O6YY9whGBebsWM%2FnBo3RzmEC9X5fOsIs%2F5vrgwnR%2BIX57AKvdWlbf3Z1llo%2FFnSZyy33RSfYSR0ju4IiAOV9eu8hYO3wu6wk%2F4my%2FV0ydgDfhE%2FetjoVXT7K1AQ97%2FHwk5buKq3Jrm28BcjWg%2BWWYXRHd9fO4BIJYSfaubqyB0eoTBB9d%2BxUccUJ7ssFtJC870qQ7CLefDv9IkR%2BTyRw5IC%2BHXNtlw%3D%3D"
+  }
+}

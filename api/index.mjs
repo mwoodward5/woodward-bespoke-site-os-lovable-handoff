@@ -8,7 +8,10 @@ const store = await import("../app/lib/store.mjs");
 const { handle } = await import("../app/server.mjs");
 
 export default async function handler(req, res) {
+  // Fresh view of the shared Blob db on every request (instances are ephemeral).
   await store.hydrate().catch(() => {});
+  // Defer the final byte until the Blob flush lands — otherwise a client that
+  // follows a redirect instantly can rehydrate pre-flush state on another instance.
   const origEnd = res.end.bind(res);
   let ended = false;
   res.end = (...args) => {

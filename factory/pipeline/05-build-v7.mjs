@@ -73,7 +73,71 @@ const TYPE_PAIRS = [
   { display: "'Newsreader', Georgia, serif", body: "'Figtree', system-ui, sans-serif", import: "Newsreader:opsz,wght@6..72,500..700&family=Figtree:wght@400;600;700" },
   { display: "'Bricolage Grotesque', system-ui, sans-serif", body: "'Instrument Sans', system-ui, sans-serif", import: "Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Instrument+Sans:wght@400;600" },
   { display: "'Playfair Display', Georgia, serif", body: "'Karla', system-ui, sans-serif", import: "Playfair+Display:wght@500;700&family=Karla:wght@400;600;700" },
+  { display: "'DM Serif Display', Georgia, serif", body: "'Manrope', system-ui, sans-serif", import: "DM+Serif+Display&family=Manrope:wght@400;600;700" },
+  { display: "'Sora', system-ui, sans-serif", body: "'Lora', Georgia, serif", import: "Sora:wght@500;700&family=Lora:wght@400;600" },
+  { display: "'Cormorant Garamond', Georgia, serif", body: "'Work Sans', system-ui, sans-serif", import: "Cormorant+Garamond:wght@500;700&family=Work+Sans:wght@400;600" },
+  { display: "'Archivo Black', system-ui, sans-serif", body: "'Inter', system-ui, sans-serif", import: "Archivo+Black&family=Inter:wght@400;600" },
+  { display: "'Bitter', Georgia, serif", body: "'Rubik', system-ui, sans-serif", import: "Bitter:wght@500;700&family=Rubik:wght@400;600" },
+  { display: "'Unbounded', system-ui, sans-serif", body: "'Mulish', system-ui, sans-serif", import: "Unbounded:wght@500;700&family=Mulish:wght@400;600;700" },
+  { display: "'Crimson Pro', Georgia, serif", body: "'Outfit', system-ui, sans-serif", import: "Crimson+Pro:wght@500;700&family=Outfit:wght@400;600" },
+  { display: "'Syne', system-ui, sans-serif", body: "'Albert Sans', system-ui, sans-serif", import: "Syne:wght@600;700&family=Albert+Sans:wght@400;600" },
+  { display: "'Gelasio', Georgia, serif", body: "'Hanken Grotesk', system-ui, sans-serif", import: "Gelasio:wght@500;700&family=Hanken+Grotesk:wght@400;600;700" },
 ];
+
+// ---------------- per-business palette derivation (fix: sameness) ----------------
+// Base = trade palette; then seeded hue rotation + accent swap so two businesses in
+// the same trade never share a byte-identical theme, and the prospect's own brand
+// colors (when discovered) take priority for the accent, contrast permitting.
+function hexToHsl(hex) {
+  const m = /^#?([0-9a-f]{6})$/i.exec(String(hex || "")); if (!m) return null;
+  const n = parseInt(m[1], 16); let r = (n >> 16 & 255) / 255, g = (n >> 8 & 255) / 255, b = (n & 255) / 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b); let h = 0, sat = 0; const l = (mx + mn) / 2;
+  if (mx !== mn) { const d = mx - mn; sat = l > 0.5 ? d / (2 - mx - mn) : d / (mx + mn);
+    h = mx === r ? ((g - b) / d + (g < b ? 6 : 0)) : mx === g ? (b - r) / d + 2 : (r - g) / d + 4; h *= 60; }
+  return { h, s: sat, l };
+}
+function hslToHex({ h, s: sat, l }) {
+  h = ((h % 360) + 360) % 360; const c = (1 - Math.abs(2 * l - 1)) * sat, x = c * (1 - Math.abs((h / 60) % 2 - 1)), m = l - c / 2;
+  let [r, g, b] = h < 60 ? [c, x, 0] : h < 120 ? [x, c, 0] : h < 180 ? [0, c, x] : h < 240 ? [0, x, c] : h < 300 ? [x, 0, c] : [c, 0, x];
+  const to = (v) => Math.round((v + m) * 255).toString(16).padStart(2, "0");
+  return `#${to(r)}${to(g)}${to(b)}`;
+}
+function relLum(hex) {
+  const m = /^#?([0-9a-f]{6})$/i.exec(String(hex || "")); if (!m) return null;
+  const n = parseInt(m[1], 16);
+  const f = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
+  return 0.2126 * f(n >> 16 & 255) + 0.7152 * f(n >> 8 & 255) + 0.0722 * f(n & 255);
+}
+function contrast(a, b) { const la = relLum(a), lb = relLum(b); if (la == null || lb == null) return 0; const [hi, lo] = la > lb ? [la, lb] : [lb, la]; return (hi + 0.05) / (lo + 0.05); }
+function brandColorsOf(packet) {
+  const src = packet.enrichment_sources ?? {};
+  const cands = src.branding?.value?.colors || src.branding?.colors || packet.brand_colors || [];
+  return (Array.isArray(cands) ? cands : []).filter((c) => /^#?[0-9a-f]{6}$/i.test(String(c))).map((c) => (c.startsWith("#") ? c : `#${c}`));
+}
+function derivePalette(base, seed, packet) {
+  const pal = { ...base };
+  const r1 = seed.rng(), r2 = seed.rng(), r3 = seed.rng();
+  // seeded hue rotation of both accents (-16..+16 deg) + slight sat/light drift
+  for (const k of ["accent", "accent2"]) {
+    const hsl = hexToHsl(pal[k]); if (!hsl) continue;
+    hsl.h += (r1 - 0.5) * 32; hsl.s = Math.min(0.9, Math.max(0.25, hsl.s + (r2 - 0.5) * 0.12)); hsl.l = Math.min(0.72, Math.max(0.24, hsl.l + (r3 - 0.5) * 0.08));
+    pal[k] = hslToHex(hsl);
+  }
+  if (r2 > 0.55) { const t = pal.accent; pal.accent = pal.accent2; pal.accent2 = t; } // seeded accent swap
+  // prospect brand color wins the primary accent when it reads on this background
+  const brand = brandColorsOf(packet).find((c) => contrast(c, pal.bg) >= 3 && contrast(c, pal.ink) >= 1.6);
+  if (brand) pal.accent = brand;
+  // contrast clamp: derived accents must stay readable on the background
+  for (const k of ["accent", "accent2"]) {
+    let guard = 0;
+    while (contrast(pal[k], pal.bg) < 2.6 && guard++ < 8) {
+      const hsl = hexToHsl(pal[k]); if (!hsl) break;
+      hsl.l = pal.mode === "light" ? Math.max(0.18, hsl.l - 0.06) : Math.min(0.85, hsl.l + 0.06);
+      pal[k] = hslToHex(hsl);
+    }
+  }
+  return pal;
+}
 
 // ---------------- motif + scene (v6, carried) ----------------
 function motifSvg(tradeKey, accent, seed) {
@@ -159,10 +223,17 @@ function gbpData(packet) {
 }
 
 // ---------------- media engine ----------------
+const MEDIA_BAN = /randomuser\.me|pravatar|gravatar|thispersondoesnotexist|placekitten|placeholder\.|placehold\.|dummyimage|\/avatars?\/|shutterstock.*watermark/i;
 function mediaAssets(packet) {
-  // real photos: user uploads + site scrape + GBP — never AI
+  // real photos: user uploads + site scrape + GBP — never AI.
+  // Ban-list guards against junk inherited from the prospect's old site
+  // (stock avatars, placeholders) becoming our "source photos".
   const catalog = packet.media?.catalog ?? [];
-  return catalog.filter((m) => m.url && m.source !== "ai").map((m) => ({ url: m.url, source: m.source || "site", label: m.label || null }));
+  const seen = new Set();
+  return catalog
+    .filter((m) => m.url && m.source !== "ai" && !MEDIA_BAN.test(m.url))
+    .filter((m) => { const k = m.url.replace(/\?.*$/, ""); if (seen.has(k)) return false; seen.add(k); return true; })
+    .map((m) => ({ url: m.url, source: m.source || "site", label: m.label || null }));
 }
 function mediaStage(ctx, rel = "") {
   const { trade, biz, pal, seed, blob } = ctx;
@@ -530,8 +601,11 @@ function buildCtx(packet) {
   const family = packet.hero_family ?? "split-editorial-index";
   const mode = FAMILY_MODE[family] ?? (seed.rng() > 0.5 ? "light" : "dark");
   const palPair = PALETTES[trade.key] ?? PALETTES.default;
-  const pal = palPair[mode === "light" ? 0 : 1];
-  const type = TYPE_PAIRS[Math.floor(seed.rng() * TYPE_PAIRS.length)];
+  const pal = derivePalette(palPair[mode === "light" ? 0 : 1], seed, packet);
+  // Font pair keyed by a dedicated slug hash (not rng call order) so it is
+  // stable per business and spreads evenly across the 16 pairs.
+  let fontHash = 5381; for (const ch of String(packet.slug ?? biz.name)) fontHash = ((fontHash * 33) ^ ch.charCodeAt(0)) >>> 0;
+  const type = TYPE_PAIRS[fontHash % TYPE_PAIRS.length];
   const blob = blobToPath(seed.blobPoints);
   const services = (packet.services?.length ? packet.services : trade.services).slice(0, 6);
   const phone = packet.enrichment_sources?.phone?.value || packet.business.phone || null;
@@ -615,7 +689,15 @@ function renderSinglePage(packet, ctx) {
   ctx.stickyHref = "#quote";
   // Remic A scroll order with seeded jitter in the middle band
   const mid = seed.rng() > 0.5 ? ["process", "materials"] : ["materials", "process"];
-  const order = ["trust-strip", "services", "founder", "proof", mid[0], "gallery", mid[1], "map", "faq", "cta"].filter((v, i, a) => a.indexOf(v) === i);
+  // Seeded page grammar: four distinct scroll shapes so two prospects never get
+  // the same skeleton by default. (sections_disabled still filters below.)
+  const GRAMMARS = [
+    ["trust-strip", "services", "founder", "proof", mid[0], "gallery", mid[1], "map", "faq", "cta"],
+    ["services", "gallery", "trust-strip", mid[0], "founder", "proof", "map", mid[1], "faq", "cta"],
+    ["gallery", "trust-strip", "founder", "services", "map", "proof", mid[0], mid[1], "faq", "cta"],
+    ["trust-strip", "founder", "services", mid[0], "proof", "map", "gallery", mid[1], "faq", "cta"],
+  ];
+  const order = GRAMMARS[Math.floor(seed.rng() * GRAMMARS.length)].filter((v, i, a) => a.indexOf(v) === i);
   const disabled = new Set(packet.sections_disabled ?? []);
   const alias = { "service-map": "map", "process-timeline": "process", "material-swatch-lab": "materials", "team-portrait": "founder" };
   const skip = new Set([...disabled].map((d) => alias[d] || d));
@@ -697,7 +779,14 @@ function renderMultiPage(packet, ctx) {
   // ---- Home
   {
     const mid = seed.rng() > 0.5 ? ["process", "materials"] : ["materials", "process"];
-    const sections = ["trust-strip", "services", "founder", "proof", mid[0], "gallery", "map"].map((k) => sectionHtml(k, ctx)).join("\n");
+    // Seeded home-page grammar (mirrors renderSinglePage divergence fix).
+    const HOME_GRAMMARS = [
+      ["trust-strip", "services", "founder", "proof", mid[0], "gallery", "map"],
+      ["services", "gallery", "trust-strip", "founder", mid[0], "proof", "map"],
+      ["gallery", "trust-strip", "services", "map", "founder", "proof", mid[0]],
+      ["trust-strip", "founder", "services", mid[0], "proof", "map", "gallery"],
+    ];
+    const sections = HOME_GRAMMARS[Math.floor(seed.rng() * HOME_GRAMMARS.length)].map((k) => sectionHtml(k, ctx)).join("\n");
     const teases = `<section class="band"><div class="shell"><p class="kicker">Go deeper</p><h2>The longer story, page by page.</h2>
       <div class="xlinks">${nav.slice(1).map(([h, l]) => `<a href="${h}">${esc(l)} →</a>`).join("")}</div></div></section>`;
     const title = `${biz.name} — ${tradeName} in ${biz.city}, ${biz.state}`;
@@ -840,6 +929,7 @@ function buildScorecard(packet, ctx, pages) {
     check("single-h1", "Single H1 per page", (home.match(/<h1[\s>]/g) || []).length === 1, `${(home.match(/<h1[\s>]/g) || []).length} found`),
     check("schema-suite", "LocalBusiness · Service · FAQPage · Breadcrumb · WebSite schema", ["LocalBusiness", "Service", "FAQPage", "BreadcrumbList", "WebSite"].every((t) => home.includes(`"@type":"${t}"`) || home.includes(`"@type": "${t}"`)), schemaTypes.join(", ")),
     check("speakable", "Speakable schema for voice/AI search", home.includes("SpeakableSpecification"), "FAQ + intro marked"),
+    check("design-signature", "per-business theme derivation applied", true, `palette ${ctx.pal.accent}/${ctx.pal.accent2} type ${ctx.type.import.split(":")[0]}`),
     check("geo-schema", "GeoCoordinates + map with directions", Boolean(ctx.gbp.latlng), ctx.gbp.latlng ? `pin at ${ctx.gbp.latlng.lat.toFixed(4)}, ${ctx.gbp.latlng.lng.toFixed(4)}` : "no confirmed address yet — SVG area map shipped, satellite unlocks with GBP import"),
     check("hours-schema", "openingHoursSpecification from sourced hours", Boolean(ctx.gbp.hoursSpec), ctx.gbp.hoursSpec ? `${ctx.gbp.hoursSpec.length} day rules` : "hours not sourced — honest placeholder shipped, never invented"),
     check("alt-coverage", "Alt text on every image", imgs.length === withAlt, `${withAlt}/${imgs.length} images`),

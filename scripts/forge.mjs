@@ -181,8 +181,26 @@ try {
     const fp = JSON.parse(readFileSync(args.footprint, "utf8"));
     const map = { name:"name", category:"category", city:"city", state:"state", phone:"phone", address:"address", current_website:"website", gbp_url:"gbp_url" };
     for (const [pk, fk] of Object.entries(map)) {
-      const v = fp.business?.[pk] ?? fp[pk];
+      let v = fp.business?.[pk] ?? fp[pk];
+      // City sanitizer: LeadMiner sometimes leaks the state token into city
+      // ("CA" -> title renders "CA, CA"). Reject 2-letter/state-equal cities and
+      // fall back to parsing the street address.
+      if (pk === "city" && v) {
+        const state = fp.business?.state ?? fp.state ?? parsed.facts.state ?? "";
+        if (/^[A-Z]{2}$/.test(String(v).trim()) || String(v).trim().toLowerCase() === String(state).trim().toLowerCase()) {
+          const addr = String(fp.business?.address ?? fp.address ?? "");
+          const m = addr.match(/,\s*([A-Za-z .'-]{3,40}),\s*[A-Z]{2}\b/);
+          v = m ? m[1].trim() : "";
+        }
+      }
       if (v) { parsed.facts[fk] = v; parsed.src[fk] = { source: "footprint", confidence: 0.98, value: String(v) }; }
+    }
+    // Lat/lng passthrough: LeadMiner/GBP location unlocks the real satellite map
+    // + GeoCoordinates schema (gbpData reads enrichment_sources.latlng.value).
+    const loc = fp.business?.latlng ?? fp.business?.location ?? fp.latlng ?? fp.location;
+    const lat = Number(loc?.lat ?? loc?.latitude), lng = Number(loc?.lng ?? loc?.longitude);
+    if (Number.isFinite(lat) && Number.isFinite(lng)) {
+      parsed.src.latlng = { source: "footprint", confidence: 0.98, value: { lat, lng } };
     }
     if (fp.source) parsed.footprintSource = fp.source;
   }

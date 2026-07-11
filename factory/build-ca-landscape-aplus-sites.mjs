@@ -1,6 +1,7 @@
 import { copyFileSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { seedFrom } from "./lib/hero-seed.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const workspaceRoot = path.resolve(__dirname, "..");
@@ -229,6 +230,29 @@ function specFor(packet, index) {
   return specs.find((spec) => spec.match === packet.business.name) || specs[index % specs.length];
 }
 
+function designSeed(packet, spec) {
+  return seedFrom(projectName(packet), `${spec.theme}:${spec.heroModel}:${spec.blueprint}`);
+}
+
+function polygonFromPoints(points, scale = 1) {
+  return points.map(([x, y]) => {
+    const px = Math.max(0, Math.min(100, 50 + x * 38 * scale));
+    const py = Math.max(0, Math.min(100, 50 + y * 38 * scale));
+    return `${px.toFixed(1)}% ${py.toFixed(1)}%`;
+  }).join(",");
+}
+
+function heroStageVars(packet, spec) {
+  const seed = designSeed(packet, spec);
+  const alt = [...seed.blobPoints].reverse().map(([x, y], index) => [
+    x * (index % 2 ? 0.86 : 1.06),
+    y * (index % 3 ? 1.02 : 0.78),
+  ]);
+  const tilt = ((seed.seed % 13) - 6) / 10;
+  const drift = 8 + (seed.seed % 18);
+  return `style="--organic-mask:polygon(${polygonFromPoints(seed.blobPoints)});--organic-mask-alt:polygon(${polygonFromPoints(alt, 0.92)});--hero-tilt:${tilt}deg;--motif-drift:${drift}px"`;
+}
+
 function laneFor(index) {
   return index < 3 ? "single-page-cinematic" : "premier-multi-page";
 }
@@ -331,7 +355,7 @@ function brand(packet, spec, logoUrl) {
   const lockup = logoUrl
     ? `<span class="brand-logo sourced"><img src="${esc(logoUrl)}" alt="${esc(packet.business.name)} logo"></span>`
     : `<span class="brand-logo proposed">${markSvg(spec)}</span>`;
-  return `<a class="brand" href="/" aria-label="${esc(packet.business.name)} home">${lockup}<span><b>${esc(legalName)}</b><em>${esc(spec.kicker)}</em></span></a>`;
+  return `<a class="brand" href="/" aria-label="${esc(packet.business.name)} home" data-logo-mode="${logoUrl ? "source" : "proposed"}">${lockup}<span><b>${esc(legalName)}</b><em>${esc(spec.kicker)}</em></span></a>`;
 }
 
 function head(packet, spec, routeTitle, description) {
@@ -405,6 +429,18 @@ function v4DivergenceCss() {
 @media(prefers-reduced-motion:reduce){.hero-marquee div{animation:none!important}}`;
 }
 
+function v5OrganicDesignCss() {
+  return `
+.nav-inner{min-height:88px;padding:12px 16px;border-width:1px}.brand-logo{width:76px;height:76px}.brand-logo svg{width:44px;height:44px}.brand-logo.sourced{padding:8px}.brand b{font-size:clamp(24px,2vw,34px);font-weight:650;letter-spacing:0}.brand em{font-weight:720;letter-spacing:.04em}.links a,.btn{font-weight:680;font-size:15px;min-height:48px;padding-inline:20px}.phone{font-weight:720}.kicker{font-weight:720;letter-spacing:.13em}h1{font-weight:640;font-size:clamp(43px,5vw,82px)}.lead{font-weight:460}.hero{padding-top:74px}.stage[data-stage]{transform:rotate(var(--hero-tilt));filter:drop-shadow(0 34px 86px color-mix(in oklab,var(--ink) 16%,transparent))}.stage[data-stage] .frame{border-width:1px}.stage[data-stage] .frame.one{clip-path:var(--organic-mask);border-radius:0!important}.stage[data-stage] .frame.two{clip-path:var(--organic-mask-alt);border-radius:0!important}.caption{border-radius:18px!important}.badge-row span{font-weight:720}.service h3,.section-head h2,.studio-card h2,.console-top h3{font-weight:610}.service i,.status-pill,.meter-head,.hero-stats i{font-weight:720}.hero-stats b{font-weight:620}.route-card b,.trust b,.dock-copy b{font-weight:700}
+.estate .hero{min-height:92svh}.estate .hero-grid{grid-template-columns:.74fr .86fr}.estate .hero-copy{border-left:0;padding:48px 0 40px 0}.estate .hero-copy:before{content:"";display:block;width:112px;height:112px;margin-bottom:22px;background:radial-gradient(circle,var(--accent) 0 18%,transparent 19%),conic-gradient(from 20deg,var(--accent),var(--soft),var(--accent-2),var(--accent));border-radius:64% 36% 58% 42%;filter:drop-shadow(0 18px 44px color-mix(in oklab,var(--accent) 26%,transparent))}.estate .stage[data-stage=garden-crest]{min-height:660px}.estate .stage[data-stage=garden-crest]:before{inset:0 3% 5% 18%;border-radius:999px 999px 60px 160px;background:linear-gradient(135deg,color-mix(in oklab,var(--soft) 58%,transparent),transparent 62%)}.estate .stage[data-stage=garden-crest] .frame.one{inset:0 5% 8% 4%;transform:rotate(-2deg)}.estate .stage[data-stage=garden-crest] .frame.two{right:-2%;bottom:4%;width:38%;height:38%;transform:rotate(8deg)}.estate .micro-card{border-radius:999px 999px 18px 999px}
+.architect .hero{min-height:94svh}.architect .hero-grid{grid-template-columns:.46fr 1fr}.architect .hero-copy{margin-top:190px;padding:28px 18px 28px 0}.architect .stage[data-stage=blueprint-stack]{min-height:680px}.architect .stage[data-stage=blueprint-stack]:before{content:"";position:absolute;left:9%;right:-2%;top:5%;bottom:5%;background:linear-gradient(135deg,rgba(8,14,10,.7),rgba(8,14,10,.18)),repeating-linear-gradient(90deg,rgba(255,255,255,.18) 0 1px,transparent 1px 42px);clip-path:polygon(8% 0,100% 0,90% 100%,0 96%)}.architect .stage[data-stage=blueprint-stack] .frame.one{inset:9% 0 8% 12%;transform:rotate(2.5deg)}.architect .stage[data-stage=blueprint-stack] .frame.two{left:0;top:8%;width:34%;height:34%;transform:rotate(-7deg)}.architect .measure-rail{right:auto;left:4%;bottom:4%;top:auto;display:flex;width:64%}
+.warm .hero{min-height:90svh}.warm .hero-grid{grid-template-columns:.74fr .8fr}.warm .hero-copy{order:2;border:0;background:linear-gradient(145deg,#fff8e8,color-mix(in oklab,var(--panel) 64%,transparent));box-shadow:8px 10px 0 color-mix(in oklab,var(--ink) 10%,transparent),0 30px 90px color-mix(in oklab,var(--ink) 12%,transparent);transform:rotate(-1deg)}.warm .stage[data-stage=sunlit-scrapbook]{min-height:640px;transform:rotate(calc(var(--hero-tilt) - 1deg))}.warm .stage[data-stage=sunlit-scrapbook] .frame.one{inset:4% 2% 18% 0;transform:rotate(3deg)}.warm .stage[data-stage=sunlit-scrapbook] .frame.two{left:7%;right:auto;bottom:0;width:40%;height:34%;transform:rotate(-8deg)}.warm .note-stack{right:1%;top:2%;font-weight:600}
+.coastal .hero{min-height:88svh}.coastal .hero-grid{display:block}.coastal .hero-copy{padding:72px 0 0;width:min(680px,100%)}.coastal .stage[data-stage=coastal-atlas]{margin-left:auto;margin-top:-140px;width:min(760px,68vw);min-height:620px}.coastal .stage[data-stage=coastal-atlas]:before{inset:7% 0 7% 8%;border-radius:120px 0 120px 28px}.coastal .stage[data-stage=coastal-atlas] .frame.one{left:0;right:14%;top:4%;height:390px;transform:rotate(1.5deg)}.coastal .stage[data-stage=coastal-atlas] .frame.two{right:0;top:18%;width:30%;height:68%;transform:rotate(-5deg)}.coastal .hero-stats{margin-top:-90px!important;margin-left:min(46vw,620px)}
+.stone .hero{min-height:92svh}.stone .hero-grid{grid-template-columns:.56fr .95fr}.stone .hero-copy{background:linear-gradient(145deg,rgba(18,11,6,.82),rgba(18,11,6,.45));border-color:color-mix(in oklab,var(--accent) 30%,transparent);border-radius:2px;transform:translateY(46px)}.stone .stage[data-stage=material-yard]{min-height:690px}.stone .stage[data-stage=material-yard]:before{inset:4% -2% 2% 8%;clip-path:polygon(12% 0,100% 4%,86% 100%,0 92%)}.stone .stage[data-stage=material-yard] .frame.one{inset:6% 2% 12% 9%;transform:rotate(-1deg)}.stone .stage[data-stage=material-yard] .frame.two{left:0;bottom:6%;width:36%;height:32%;transform:rotate(-9deg)}.stone .slab-label{right:-1%;top:3%}
+.estimate-zone{padding-top:44px}.estate .estimate-studio{border-radius:80px 80px 22px 80px}.architect .estimate-studio{grid-template-columns:1fr .78fr;clip-path:polygon(0 0,100% 3%,96% 100%,4% 96%)}.warm .estimate-studio{grid-template-columns:1fr;box-shadow:9px 12px 0 color-mix(in oklab,var(--ink) 10%,transparent),0 32px 90px color-mix(in oklab,var(--ink) 12%,transparent)}.coastal .estimate-studio{grid-template-columns:1.1fr .9fr;border-radius:80px 80px 24px 80px}.stone .estimate-studio{grid-template-columns:.86fr 1fr;border-radius:2px;clip-path:polygon(2% 0,100% 0,97% 100%,0 96%)}
+@media(max-width:920px){.nav-inner{min-height:74px}.brand-logo{width:58px;height:58px}.links a:not(.phone){display:none}.hero{min-height:auto;padding-top:36px}.hero-grid{display:grid!important;grid-template-columns:1fr!important}.hero-copy{margin-top:0!important;transform:none!important}.stage[data-stage]{width:100%!important;margin:28px 0 0!important;transform:none!important}.coastal .hero-stats{margin-left:auto!important;margin-top:12px!important}.estimate-studio{grid-template-columns:1fr!important}.route-list,.trust,.services,.mosaic,.footer-grid{grid-template-columns:1fr!important}}`;
+}
+
 function nav(packet, spec, logoUrl, lane = "premier-multi-page") {
   const links = lane === "single-page-cinematic"
     ? `<a href="#services">Services</a><a href="#map">Map</a><a href="#quote">Estimate</a>`
@@ -425,28 +461,29 @@ function heroStage(packet, spec, images) {
   const caption = `<div class="caption"><b>${esc(packet.business.city)}</b><span>${esc(spec.blueprint)}</span></div>`;
   const img1 = `<img src="${image(0)}" alt="${esc(packet.business.name)} landscape project visual">`;
   const img2 = `<img src="${image(1)}" alt="${esc(packet.business.name)} detail image">`;
+  const vars = heroStageVars(packet, spec);
 
   if (spec.theme === "estate") {
-    return `<div class="stage" data-stage="garden-crest"><div class="hero-orbit"></div><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="micro-card"><b>${esc(String(packet.business.rating || "4+"))}</b>public rating cue</div><div class="badge-row">${chips}</div></div>`;
+    return `<div class="stage" data-stage="garden-crest" ${vars}><div class="hero-orbit"></div><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="micro-card"><b>${esc(String(packet.business.rating || "4+"))}</b>public rating cue</div><div class="badge-row">${chips}</div></div>`;
   }
 
   if (spec.theme === "architect") {
     const rails = ["LOT", "GRADE", "LIGHT"].map((label, index) => `<span>${label}<b>0${index + 1}</b></span>`).join("");
-    return `<div class="stage" data-stage="blueprint-stack"><div class="blueprint-grid"></div><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="measure-rail">${rails}</div><div class="badge-row">${chips}</div></div>`;
+    return `<div class="stage" data-stage="blueprint-stack" ${vars}><div class="blueprint-grid"></div><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="measure-rail">${rails}</div><div class="badge-row">${chips}</div></div>`;
   }
 
   if (spec.theme === "warm") {
     const stamps = chipItems.slice(0, 3).map((item) => `<span>${esc(item)}</span>`).join("");
-    return `<div class="stage" data-stage="sunlit-scrapbook"><div class="stamp-strip">${stamps}</div><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="note-stack">Quick yard help, clearly scoped.</div><div class="badge-row">${chips}</div></div>`;
+    return `<div class="stage" data-stage="sunlit-scrapbook" ${vars}><div class="stamp-strip">${stamps}</div><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="note-stack">Quick yard help, clearly scoped.</div><div class="badge-row">${chips}</div></div>`;
   }
 
   if (spec.theme === "coastal") {
     const tags = chipItems.map((item) => `<span>${esc(item)}</span>`).join("");
-    return `<div class="stage" data-stage="coastal-atlas"><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="atlas-line"></div><div class="coast-tags">${tags}</div><div class="badge-row">${chips}</div></div>`;
+    return `<div class="stage" data-stage="coastal-atlas" ${vars}><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="atlas-line"></div><div class="coast-tags">${tags}</div><div class="badge-row">${chips}</div></div>`;
   }
 
   const labels = ["stone detail", "clean edges", "site-ready"].map((item) => `<span>${item}</span>`).join("");
-  return `<div class="stage" data-stage="material-yard"><div class="stone-dust"></div><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="slab-label">${labels}</div><div class="badge-row">${chips}</div></div>`;
+  return `<div class="stage" data-stage="material-yard" ${vars}><div class="stone-dust"></div><div class="frame one">${img1}${caption}</div><div class="frame two">${img2}</div><div class="slab-label">${labels}</div><div class="badge-row">${chips}</div></div>`;
 }
 
 function heroInstrument(packet, spec) {
@@ -651,7 +688,7 @@ function home(packet, spec, images, video, logoUrl, lane) {
   }[spec.theme] || ["hero", "services", "gallery", "map", "quote"];
   const body = `${order.map((key) => blocks[key]()).join("")}${footer(packet)}`;
   return `${head(packet, spec, title, description)}
-<body><a class="skip" href="#main">Skip to content</a><div class="texture"></div><div class="site ${spec.theme}" data-v4-build="a-plus-meta" data-lane="${lane}">${nav(packet, spec, logoUrl, lane)}${body}</div></body></html>`;
+<body><a class="skip" href="#main">Skip to content</a><div class="texture"></div><div class="site ${spec.theme}" data-v4-build="a-plus-meta" data-visual-grade="v5-organic" data-kitchen-stack="three-kitchen-v5" data-lane="${lane}">${nav(packet, spec, logoUrl, lane)}${body}</div></body></html>`;
 }
 
 function quotePage(packet, spec, logoUrl) {
@@ -769,7 +806,7 @@ function writeSite(packet, index) {
   for (const route of ["services", "gallery", "quote", "source", "package", "privacy", "terms", "about", "process", "service-areas", "faq", "contact"]) {
     mkdirSync(path.join(dir, route), { recursive: true });
   }
-  writeFileSync(path.join(dir, "styles.css"), css(spec) + formulaCss() + heroCompositionCss() + v4DivergenceCss());
+  writeFileSync(path.join(dir, "styles.css"), css(spec) + formulaCss() + heroCompositionCss() + v4DivergenceCss() + v5OrganicDesignCss());
   writeFileSync(path.join(dir, "site.js"), `document.documentElement.dataset.ready='true';
 document.querySelectorAll('[data-choice]').forEach((button) => {
   button.addEventListener('click', () => {

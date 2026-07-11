@@ -63,9 +63,12 @@ function normalizeTrade(cat) {
 }
 
 function hashSlug(slug) {
-  let h = 0;
-  for (const ch of slug) h = (h * 31 + ch.charCodeAt(0)) | 0;
-  return Math.abs(h);
+  // djb2-xor with avalanche: near-identical slugs (alpha/beta variants) must
+  // land on different hero families, not neighboring hash values.
+  let h = 5381;
+  for (const ch of String(slug)) h = ((h * 33) ^ ch.charCodeAt(0)) >>> 0;
+  h ^= h >>> 15; h = Math.imul(h, 2246822519) >>> 0; h ^= h >>> 13;
+  return h >>> 0;
 }
 
 // Section plan is at least 8 authored sections, no more than 2 of the same

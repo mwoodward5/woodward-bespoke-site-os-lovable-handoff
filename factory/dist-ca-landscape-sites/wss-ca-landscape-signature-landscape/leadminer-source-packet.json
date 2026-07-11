@@ -1,0 +1,257 @@
+{
+  "generatedAt": "2026-07-06T02:23:37.499Z",
+  "rank": 4,
+  "business": {
+    "name": "Signature Landscape",
+    "slug": "signature-landscape",
+    "city": "Mission Viejo",
+    "address": "25862 Jamon Ln, Mission Viejo, CA 92691",
+    "phone": "(949) 755-8636",
+    "website": "https://www.signaturelandscape.com/",
+    "googleMaps": "https://maps.google.com/?cid=6183614177073414184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "reviewCount": 52,
+    "hours": [
+      "Monday: 9:00 AM – 6:00 PM",
+      "Tuesday: 9:00 AM – 6:00 PM",
+      "Wednesday: 9:00 AM – 6:00 PM",
+      "Thursday: 9:00 AM – 6:00 PM",
+      "Friday: 9:00 AM – 6:00 PM",
+      "Saturday: 9:00 AM – 6:00 PM",
+      "Sunday: 9:00 AM – 6:00 PM"
+    ],
+    "category": "General contractor"
+  },
+  "leadMiner": {
+    "opportunityScore": 75,
+    "buildabilityScore": 48,
+    "weaknessReasons": [
+      "Website failed to load (403)"
+    ],
+    "platformDetected": "Custom static",
+    "sourceConfidence": 46,
+    "sourceDropdownOptions": [
+      "Website scrape",
+      "Google Business Profile",
+      "Logo/header assets",
+      "Existing project photos",
+      "Premium stock fallback",
+      "Owner upload"
+    ],
+    "platformDropdownOptions": [
+      "No website",
+      "WordPress",
+      "Wix",
+      "Squarespace",
+      "Webflow",
+      "Shopify",
+      "GoDaddy Website Builder",
+      "Custom static",
+      "Unknown"
+    ],
+    "packageOptions": [
+      {
+        "id": "no_site_launch",
+        "label": "New site from GBP + source packet",
+        "bestFor": "No website or broken website"
+      },
+      {
+        "id": "media_remaster",
+        "label": "Photo remaster + motion pass",
+        "bestFor": "Businesses with usable but flat images"
+      },
+      {
+        "id": "vercel_rebuild",
+        "label": "Full Vercel rebuild",
+        "bestFor": "Slow, dated, or template-heavy sites"
+      }
+    ]
+  },
+  "source": {
+    "finalUrl": "https://www.signaturelandscape.com/",
+    "title": "403 Forbidden",
+    "description": "",
+    "generator": "",
+    "platform": "Custom static",
+    "responseMs": 104,
+    "status": 403,
+    "brandColors": [
+      "#5e5e5e",
+      "#0074db",
+      "#002768",
+      "#8c0909",
+      "#f9f9f9"
+    ],
+    "logoCandidates": [
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Logo.webp",
+        "context": "width=\"100\" height=\"114\" id=\"image-11-27\" alt=\"\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Logo.webp\" class=\"ct-image\"",
+        "source": "logo_img"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Yelp-Logo-1.png",
+        "context": "width=\"80\" height=\"41\" id=\"image-1579-60\" alt=\"Yelp Logo\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Yelp-Logo-1.png\" class=\"ct-image reviews-img entere",
+        "source": "logo_img"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/02/Signature-Landscape-Logo.png",
+        "context": "width=\"180\" height=\"205\" id=\"image-224-27\" alt=\"Signature Landscape Logo\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/02/Signature-Landscape-Logo.png\" class",
+        "source": "logo_img"
+      }
+    ],
+    "imageCandidates": [
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Logo.webp",
+        "context": "width=\"100\" height=\"114\" id=\"image-11-27\" alt=\"\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Logo.webp\" class=\"ct-image\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Rosemary-F.jpg",
+        "context": "width=\"60\" height=\"60\" id=\"image-341-60\" alt=\"Rosemary F.\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Rosemary-F.jpg\" class=\"ct-image bt-img\"",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Hardscaping.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-1175-60\" alt=\"Orange County Signature Landscape Hardscaping\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Landscaping.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-1171-60\" alt=\"Orange County Signature Landscape Landscaping\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-House-Remodeling.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-1243-60\" alt=\"Orange County Signature Landscape House Remodeling\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Outdoor-Kitchen-Island.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-429-60\" alt=\"Orange County Signature Landscape Outdoor Kitchen Island\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mis",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Outdoor-BBQ.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-1560-60\" alt=\"Orange County Signature Landscape Outdoor BBQ\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Stamped-Concrete.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-1249-60\" alt=\"Orange County Signature Landscape Stamped Concrete\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Driveway-Installer.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-1246-60\" alt=\"Orange County Signature Landscape Driveway Installer\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Missio",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Artificial-Grass.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-1532-60\" alt=\"Orange County Signature Landscape Artificial Grass\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Pool-Design.png",
+        "context": "width=\"150\" height=\"136\" id=\"image-1535-60\" alt=\"Orange County Signature Landscape Pool Design\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-7.jpg",
+        "context": "width=\"1366\" height=\"1025\" id=\"image-1221-60\" alt=\"Orange County Signature Landscape Gallery\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-S",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Hardscaping.jpg",
+        "context": "width=\"600\" height=\"600\" id=\"image-1263-60\" alt=\"Signature Landscape Hardscaping\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Hardsca",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Modern-Design-Landscaping-2.jpg",
+        "context": "width=\"500\" height=\"281\" id=\"image-1267-60\" alt=\"Orange County Signature Landscape - Modern Design Landscaping\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-House-Remodeling-1.jpg",
+        "context": "width=\"500\" height=\"281\" id=\"image-1275-60\" alt=\"Signature Landscape House Remodeling\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Ho",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo-Signature-Landscape-Outdoor-Kitchen-12.jpg",
+        "context": "width=\"1200\" height=\"900\" id=\"image-1271-60\" alt=\"Orange County Signature Landscape Outdoor Kitchen\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Outdoor-Kitchen-Island.jpg",
+        "context": "width=\"500\" height=\"375\" id=\"image-1279-60\" alt=\"Signature Landscape Outdoor Kitchen Island\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landsc",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-Stamped-Concrete.jpg",
+        "context": "width=\"500\" height=\"281\" id=\"image-1283-60\" alt=\"Signature Landscape Stamped Concrete\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Signature-Landscape-St",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo-Signature-Landscape-Driveway.jpg",
+        "context": "width=\"1920\" height=\"500\" id=\"image-1549-60\" alt=\"Orange County Signature Landscape - Driveway\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo-Signature-Landscape-Artificial-Grass.jpg",
+        "context": "width=\"1920\" height=\"500\" id=\"image-1553-60\" alt=\"Orange County Signature Landscape - Artificial Grass\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Missi",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Viejo-Signature-Landscape-Pool-Design.jpg",
+        "context": "width=\"1920\" height=\"500\" id=\"image-1557-60\" alt=\"Orange County Signature Landscape - Pool Design\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Mission-Vi",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Yelp-Logo-1.png",
+        "context": "width=\"80\" height=\"41\" id=\"image-1579-60\" alt=\"Yelp Logo\" src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/03/Yelp-Logo-1.png\" class=\"ct-image reviews-img entere",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-1.jpg",
+        "context": "src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-1.jpg\" data-original-src=\"https://27986b7e.delivery.rocketcdn.me/wp",
+        "source": "firecrawl_html"
+      },
+      {
+        "url": "https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-2.jpg",
+        "context": "src=\"https://27986b7e.delivery.rocketcdn.me/wp-content/uploads/2024/01/Mission-Viejo-Signature-Landscape-Gallery-2.jpg\" data-original-src=\"https://27986b7e.delivery.rocketcdn.me/wp",
+        "source": "firecrawl_html"
+      }
+    ],
+    "selectedImages": [
+      "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1560749003-f4b1e17e2dff?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=88",
+      "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1800&q=88"
+    ],
+    "firecrawlEnrichment": {
+      "configured": true,
+      "search": {
+        "ok": true,
+        "reason": "",
+        "rows": []
+      },
+      "attempts": [
+        {
+          "url": "https://www.signaturelandscape.com/",
+          "ok": true,
+          "status": 200,
+          "reason": "",
+          "title": "Signature Landscape | OC Landscaping & Hardscaping",
+          "hasScreenshot": true,
+          "brandingPresent": true,
+          "logoCount": 3,
+          "imageCount": 24,
+          "colorCount": 5
+        }
+      ],
+      "selectedUrl": "https://www.signaturelandscape.com/"
+    },
+    "renderedScreenshot": "https://storage.googleapis.com/firecrawl-scrape-media/screenshot-72186d04-85f1-4405-888b-d967089a8e20.png?GoogleAccessId=scrape-bucket-accessor%40firecrawl.iam.gserviceaccount.com&Expires=1783927094&Signature=WT9mbSUlyCX5FTzCa8fAgddTxzwJfBdfLq6uurB3rRPEKMsr%2BR9K3Spxcykemq4ba%2BESf53FX%2Ba%2BBoe037EyKJVAQpVgEH%2FX%2F9VyGQQdfZ5%2BcCI3Os5PaxvSLfUbCwp7oFVVxBO52aK3Rn%2FBVVm0c6Yb1TNzcsG13r4gWqnyYBL8G1JbBGg%2BrrZC9wII2smT4CN74GEJAbZhulrFnlKO7Cq5mck3rYEkdkR%2F1D1ljqbl6MI28yhusN2dXrB6m%2FRb%2B0YW6ADVHR3Ng6qs4U3DwkmP6AKDX%2FyEj9%2FS724FASOpG0mE77Mftxgoc3SSzVDLtA3PIHdarmYIVur%2B%2F7janQ%3D%3D"
+  }
+}

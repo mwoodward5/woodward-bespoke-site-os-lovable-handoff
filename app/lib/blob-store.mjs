@@ -43,6 +43,7 @@ export async function blobDelete(pathname) {
   }).catch(() => {});
 }
 
+// List blobs under a prefix via the authorized API (fresh, not CDN-cached).
 export async function blobList(prefix) {
   const r = await fetch(`${API}?prefix=sf/${encodeURIComponent(prefix)}&limit=1000`, { headers: { authorization: `Bearer ${TOKEN()}`, "x-api-version": "7" } });
   if (!r.ok) return [];

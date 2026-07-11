@@ -33,6 +33,8 @@ const registry = existsSync(demosJson) ? JSON.parse(readFileSync(demosJson, "utf
 for (const d of DEMOS) {
   if (only && d.family !== only) continue;
   const slug = d.slug || `demo-${d.family}`;
+  // If a batch collision is ever caught by qc-audit's layout-signature gate,
+  // give the offender a salted slug (new deterministic seed) and reseed.
   const outDir = path.join(outBase, slug);
   if (existsSync(path.join(outDir, "index.html"))) { console.log(`· ${d.family} exists, skipping`); continue; }
   console.log(`⚒ forging demo: ${d.family}`);

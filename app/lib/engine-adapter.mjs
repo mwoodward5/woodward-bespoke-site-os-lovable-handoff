@@ -331,7 +331,9 @@ export function startTryOn({ family, name, city, state, category }) {
     await rescue(packet, { lovableKey: null, outDir });
     mergeEnrichment(packet);
     design(packet);
-    packet.hero_family = family;
+    // "auto" (or empty) keeps the seeded family from design() — every run gets
+    // fresh layout DNA. An explicit family (user template pick) still wins.
+    if (family && family !== "auto") packet.hero_family = family;
     try { await build(packet, { outDir }); } catch (err) { if (!existsSync(path.join(outDir, "index.html"))) throw err; }
     // demo guard: noindex + banner marker
     const idx = path.join(outDir, "index.html");

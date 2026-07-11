@@ -395,7 +395,7 @@ export const handle = async (req, res) => {
       if (!rl.ok) return json(res, 429, { error: "That's plenty of free previews for one hour — sign up to keep forging." });
       const body = await U.readJson(req);
       U.need(body, ["family", "name", "city", "state", "category"]);
-      if (!Engine.HERO_FAMILIES.some((f) => f.key === body.family)) return json(res, 400, { error: "unknown family" });
+      if (body.family !== "auto" && !Engine.HERO_FAMILIES.some((f) => f.key === body.family)) return json(res, 400, { error: "unknown family" });
       const { job, done } = Engine.startTryOn({ family: body.family, name: U.clampStr(body.name, 60), city: U.clampStr(body.city, 40), state: U.clampStr(body.state, 2).toUpperCase(), category: U.clampStr(body.category, 30) });
       if (Engine.SERVERLESS) await done;
       return json(res, 202, { job_id: job.id });

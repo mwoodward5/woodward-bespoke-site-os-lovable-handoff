@@ -403,7 +403,7 @@ export const handle = async (req, res) => {
       const body = await U.readJson(req);
       U.need(body, ["family", "name", "city", "state", "category"]);
       if (body.family !== "auto" && !Engine.HERO_FAMILIES.some((f) => f.key === body.family)) return json(res, 400, { error: "unknown family" });
-      const { job, done } = Engine.startTryOn({ family: body.family, name: U.clampStr(body.name, 60), city: U.clampStr(body.city, 40), state: U.clampStr(body.state, 2).toUpperCase(), category: U.clampStr(body.category, 30) });
+      const { job, done } = Engine.startTryOn({ family: body.family, name: U.clampStr(body.name, 60), city: U.clampStr(body.city, 40), state: U.clampStr(body.state, 2).toUpperCase(), category: U.clampStr(body.category, 30), website: body.website ? U.clampStr(body.website, 300) : "" });
       if (Engine.SERVERLESS) await done;
       return json(res, 202, { job_id: job.id });
     }

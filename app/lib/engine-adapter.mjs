@@ -318,7 +318,7 @@ export function startGeneration({ user, project, profile, assets, options }) {
 }
 
 // ---------- template try-on (public, rate-limited upstream) ----------
-export function startTryOn({ family, name, city, state, category }) {
+export function startTryOn({ family, name, city, state, category, website }) {
   const tok = token(10);
   const slug = `try-${kebab(name)}-${tok.slice(0, 6).toLowerCase()}`.replace(/[^a-z0-9-]/g, "");
   const job = createJob("try", { family, name });
@@ -328,6 +328,18 @@ export function startTryOn({ family, name, city, state, category }) {
     packet.section_plan = null; // let design plan sections
     const outDir = path.join(TRY_DIR, tok);
     mkdirSync(outDir, { recursive: true });
+    // Real assets first: when the business has a website and Firecrawl is
+    // configured, pull their logo, photos, and brand colors so the preview is
+    // unmistakably THEIRS - this is the difference between "template" and "built for me".
+    const firecrawlKey = process.env.FIRECRAWL_API_KEY;
+    if (website && firecrawlKey) {
+      packet.business.current_website = website;
+      packet.toggles.firecrawl = true;
+      try {
+        await discover(packet, { firecrawlKey, gbpEnabled: false, serpEnabled: false });
+        await scrape(packet, { firecrawlKey });
+      } catch { /* preview still builds from texture + copy */ }
+    }
     await rescue(packet, { lovableKey: null, outDir });
     mergeEnrichment(packet);
     design(packet);

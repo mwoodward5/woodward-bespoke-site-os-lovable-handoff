@@ -295,7 +295,13 @@ function hoursStrip(gbp, { compact = false } = {}) {
   if (!gbp.hours) {
     return `<div class="hours placeholder" data-hours="placeholder"><b>Hours</b><span>Call to confirm today's schedule — hours import automatically once your Google Business Profile is connected.</span></div>`;
   }
-  const rows = gbp.hours.map((h) => `<div class="hrow"><span>${esc(h.day.slice(0, 3))}</span><b>${esc(h.hours)}</b></div>`).join("");
+  // Defensive: hours arrive as [{day,hours}] from GBP import but as plain
+  // strings ("Monday: 7 AM - 4 PM") from LeadMiner packets.
+  const rows = (Array.isArray(gbp.hours) ? gbp.hours : []).map((h) => {
+    const day = typeof h === "string" ? h.split(":")[0] : h?.day ?? "";
+    const hrs = typeof h === "string" ? h.slice(h.indexOf(":") + 1).trim() : h?.hours ?? "";
+    return `<div class="hrow"><span>${esc(String(day).slice(0, 3))}</span><b>${esc(String(hrs))}</b></div>`;
+  }).join("");
   return `<div class="hours sourced" data-hours="sourced" ${compact ? 'data-compact="1"' : ""}><b>Hours</b><div class="hgrid">${rows}</div><span class="src-chip">from Google Business Profile</span></div>`;
 }
 
@@ -597,14 +603,14 @@ const STICKY_CTA = (ctx) => `<div class="sticky-cta" data-sticky-cta>
 function buildCtx(packet) {
   const biz = { name: packet.business?.name ?? "Local Business", category: packet.business?.category ?? "service", city: packet.business?.city ?? "your city", state: packet.business?.state ?? "" };
   const trade = tradeOf(biz.category);
-  const seed = seedFrom(packet.slug ?? biz.name, trade.key);
+  const seed = seedFrom(`${packet.slug ?? biz.name}:${packet.layout_seed ?? ""}`, trade.key);
   const family = packet.hero_family ?? "split-editorial-index";
   const mode = FAMILY_MODE[family] ?? (seed.rng() > 0.5 ? "light" : "dark");
   const palPair = PALETTES[trade.key] ?? PALETTES.default;
   const pal = derivePalette(palPair[mode === "light" ? 0 : 1], seed, packet);
   // Font pair keyed by a dedicated slug hash (not rng call order) so it is
   // stable per business and spreads evenly across the 16 pairs.
-  let fontHash = 5381; for (const ch of String(packet.slug ?? biz.name)) fontHash = ((fontHash * 33) ^ ch.charCodeAt(0)) >>> 0;
+  let fontHash = 5381; for (const ch of `${packet.slug ?? biz.name}:${packet.layout_seed ?? ""}`) fontHash = ((fontHash * 33) ^ ch.charCodeAt(0)) >>> 0;
   const type = TYPE_PAIRS[fontHash % TYPE_PAIRS.length];
   const blob = blobToPath(seed.blobPoints);
   const services = (packet.services?.length ? packet.services : trade.services).slice(0, 6);

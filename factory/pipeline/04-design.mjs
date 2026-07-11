@@ -29,8 +29,13 @@ export function design(packet, { batchIndex = 0 } = {}) {
   emit("design", "start", { slug: packet.slug });
 
   const trade = normalizeTrade(packet.business.category);
-  const family = FAMILY_ROTATION[(batchIndex + hashSlug(packet.slug)) % FAMILY_ROTATION.length];
-  const seed = seedFrom(packet.slug, trade);
+  // layout_seed carries per-run entropy (fresh each forge run unless pinned),
+  // so the same business re-generated gets a genuinely different design.
+  const dna = `${packet.slug}:${packet.layout_seed ?? ""}`;
+  const family = packet.hero_family && packet.hero_family_locked
+    ? packet.hero_family
+    : FAMILY_ROTATION[(batchIndex + hashSlug(dna)) % FAMILY_ROTATION.length];
+  const seed = seedFrom(dna, trade);
 
   packet.hero_family = family;
   packet.layout_seed = String(seed.seed);

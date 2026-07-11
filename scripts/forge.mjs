@@ -109,7 +109,10 @@ function buildPacket({ facts, src }, opts) {
   if (missing.length) throw new Error(`Cannot forge packet — missing required business facts: ${missing.join(", ")}. Add them to the prompt (e.g. 'for Summit Roofing in Plano, TX').`);
 
   const slug = opts.slug || `wss-${kebab(facts.category)}-${kebab(facts.name)}`;
-  const seed = sha(slug).slice(0, 12); // deterministic: same slug => same layout DNA
+  // Every run gets fresh layout DNA (same prompt -> different site every time,
+  // like lovable). Pass --seed <value> to pin a build for reproduction.
+  const nonce = opts.seed ? String(opts.seed) : `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 8)}`;
+  const seed = sha(`${slug}:${nonce}`).slice(0, 12);
   const hero = opts.hero && HERO_FAMILIES.includes(opts.hero) ? opts.hero : HERO_FAMILIES[parseInt(sha(slug).slice(0, 8), 16) % HERO_FAMILIES.length];
 
   const enrichment = {};

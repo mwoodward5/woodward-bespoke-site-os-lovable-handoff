@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "buildCommand": "node -e \"throw new Error('ARCHIVED DEPLOY PATH: use the canonical siteforge repository')\"",
   "functions": {
     "api/index.mjs": {
       "maxDuration": 60,

@@ -5,6 +5,7 @@
 // (Firecrawl, session secret, publish token) idempotently, uploads the curated
 // file set, creates a production deployment, and prints the live URL.
 import "../lib/env.mjs";
+throw new Error("ARCHIVED DEPLOY PATH: this renderer checkout may build generated sites, but only C:\\Users\\Main\\Documents\\New project 2\\siteforge may deploy the SiteForge SaaS app.");
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
